@@ -1,45 +1,139 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Live 2026 Midterm Results · Record of Law</title>
+<meta name="description" content="Live 2026 U.S. midterm results from official state election offices: Senate and House balance of power, governors, ballot measures, race calls with named sources.">
 <style>
-:root{--d:#3b82f6;--r:#ef4444;--o:#a3a3a3}
-body{margin:0;color:#e6edf7;font:15px/1.4 system-ui,sans-serif;background:#02050b url(/sky/milkyway.webp) center top/cover fixed;min-height:100vh}
-body:before{content:"";position:fixed;inset:0;background:linear-gradient(180deg,rgba(2,5,11,.55),rgba(2,8,20,.85) 70%,#02101e);z-index:-1}
-header{padding:24px 20px 8px;max-width:1200px;margin:auto}h1{margin:0;font-weight:600;letter-spacing:.5px}a{color:#9cc3ff}
-.note{color:#9fb0c8;font-size:13px}.live{display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:6px;animation:p 1.5s infinite}@keyframes p{50%{opacity:.3}}
-main{max-width:1200px;margin:auto;padding:0 20px 40px}h2{margin:28px 0 8px;font-weight:500}
-.tally{display:flex;gap:12px;flex-wrap:wrap;font-size:14px}.pill{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:6px 12px;backdrop-filter:blur(6px)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px;margin-top:10px}
-.card{background:rgba(10,20,40,.55);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:12px;backdrop-filter:blur(8px)}
-.card h3{margin:0 0 6px;font-size:15px;display:flex;justify-content:space-between}.rep{color:#9fb0c8;font-weight:400;font-size:12px}
-.c{display:grid;grid-template-columns:1fr auto auto;gap:8px;font-size:13px;padding:3px 0;border-top:1px solid rgba(255,255,255,.06)}
-.bar{height:4px;border-radius:2px;margin:2px 0 4px;grid-column:1/-1;background:rgba(255,255,255,.08)}.bar i{display:block;height:100%;border-radius:2px}
-.D{color:#8ab4ff}.R{color:#ff8a8a}.st{font-size:11px;color:#9fb0c8}
+:root{--d:#3b82f6;--dl:rgba(59,130,246,.45);--r:#ef4444;--rl:rgba(239,68,68,.45);--o:#a3a3a3;--line:rgba(255,255,255,.12);--mut:#9fb0c8;--card:rgba(10,20,40,.6)}
+*{box-sizing:border-box}body{margin:0;color:#e6edf7;font:15px/1.4 system-ui,sans-serif;background:#02050b url(/sky/milkyway.webp) center top/cover fixed;min-height:100vh}
+body:before{content:"";position:fixed;inset:0;background:linear-gradient(180deg,rgba(2,5,11,.6),rgba(2,8,20,.9) 70%,#02101e);z-index:-1}
+a{color:#9cc3ff}header,main{max-width:1240px;margin:auto;padding:0 16px}header{padding-top:20px}
+h1{margin:0;font-weight:600;letter-spacing:.4px;font-size:clamp(22px,4vw,32px)}h2{margin:26px 0 10px;font-weight:500;font-size:20px}
+.note{color:var(--mut);font-size:13px}.dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:6px;animation:p 1.5s infinite}.dot.stale{background:#f59e0b}.dot.down{background:#ef4444;animation:none}@keyframes p{50%{opacity:.3}}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;backdrop-filter:blur(8px)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:820px){.two{grid-template-columns:1fr}}
+.bop h3{margin:0 0 6px;font-size:15px;display:flex;justify-content:space-between;font-weight:600}.bopbar{position:relative;display:flex;height:26px;border-radius:6px;overflow:hidden;background:rgba(255,255,255,.06)}
+.bopbar i{display:block;height:100%;transition:width .6s}.bopbar .mid{position:absolute;left:50%;top:-3px;bottom:-3px;border-left:2px dashed #fff;opacity:.8}
+.leg{display:flex;justify-content:space-between;font-size:13px;margin-top:6px;gap:8px;flex-wrap:wrap}.big{font-size:22px;font-weight:700}
+.D{color:#8ab4ff}.R{color:#ff8a8a}.st{font-size:12px;color:var(--mut)}.called{color:#fde68a;font-weight:600}
+#ticker{display:flex;gap:18px;overflow-x:auto;white-space:nowrap;font-size:13px;padding:8px 12px;scrollbar-width:thin}#ticker b{color:#fde68a}
+.map{display:grid;grid-template-columns:repeat(12,1fr);gap:3px;max-width:620px}.map div{aspect-ratio:1;border-radius:4px;font-size:clamp(8px,1.4vw,12px);display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.04);color:#5b6b82;cursor:pointer;border:1px solid transparent}
+.map .nf{background:rgba(255,255,255,.14);color:#cbd5e1}.map .lD{background:var(--dl);color:#fff}.map .lR{background:var(--rl);color:#fff}.map .lO{background:rgba(163,163,163,.5);color:#fff}.map .cD{background:var(--d);color:#fff;font-weight:700}.map .cR{background:var(--r);color:#fff;font-weight:700}.map .z{background:rgba(255,255,255,.1);color:#e6edf7}.map .sel{border-color:#fde68a}
+.tabs button,.ctl select,.ctl input{background:rgba(255,255,255,.07);color:#e6edf7;border:1px solid var(--line);border-radius:8px;padding:6px 10px;font:inherit;font-size:13px}.tabs button.on{background:#1e3a8a;border-color:#3b82f6}
+.ctl{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.ctl input{flex:1;min-width:160px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;backdrop-filter:blur(8px)}.card.isc{border-color:rgba(253,230,138,.5)}
+.card h3{margin:0 0 4px;font-size:15px;display:flex;justify-content:space-between;gap:6px}.badge{font-size:11px;padding:1px 7px;border-radius:9px;border:1px solid var(--line);color:var(--mut);white-space:nowrap}.badge.c{background:#854d0e;color:#fde68a;border-color:#a16207}
+.c{display:grid;grid-template-columns:1fr auto 52px;gap:8px;font-size:13px;padding:3px 0;border-top:1px solid rgba(255,255,255,.06)}.c span:nth-child(2){font-variant-numeric:tabular-nums}
+.bar{height:4px;border-radius:2px;margin:2px 0 3px;grid-column:1/-1;background:rgba(255,255,255,.08)}.bar i{display:block;height:100%;border-radius:2px;transition:width .6s}
+.rp{height:3px;background:rgba(255,255,255,.08);border-radius:2px;margin:6px 0 4px}.rp i{display:block;height:100%;background:#22c55e;border-radius:2px}
+table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:5px 6px;border-top:1px solid rgba(255,255,255,.07);text-align:left}th{color:var(--mut);font-weight:500}
+.src td:first-child{white-space:nowrap}.ok{color:#4ade80}.warn{color:#fbbf24}.bad{color:#f87171}
+.flash{animation:fl 1.2s}@keyframes fl{0%{background:rgba(253,230,138,.25)}100%{background:transparent}}
 </style></head><body>
 <header><h1>2026 Midterms — Live Results</h1>
-<div class="note"><span class="live"></span>Auto-updating every 5 s · <span id="upd">loading…</span></div>
-<p class="note">Vote counts are the official state election offices' own unofficial counts, relayed by the free public <a href="https://openamerica.io/elections/api/">Open America results feed</a>. Only states whose official feed is machine-readable are included (absent ≠ zero). California comes directly from the <a href="https://api.sos.ca.gov/returns/governor">CA Secretary of State API</a> (polls close 11 PM ET). A race shows CALLED only when <a href="https://thepeoplestally.com/open-data/">The People&#39;s Tally open data</a> (CC BY 4.0) lists a winner with a named calling source (AP or certification); otherwise "not called". "Leading" is never a call. Numbers are unofficial until certified. <a href="/">← Record of Law</a></p></header>
-<main id="m"></main>
+<div class="note"><span class="dot" id="dot"></span><span id="upd">loading…</span> · <a href="/">← Record of Law</a> · <a href="#sources">Sources &amp; coverage</a></div></header>
+<main>
+<div class="panel" id="ticker" style="margin-top:12px"><span class="st">Just called: waiting for race calls with a named calling source…</span></div>
+<div class="two" style="margin-top:12px"><div class="panel bop" id="bopS"></div><div class="panel bop" id="bopH"></div></div>
+<div class="two" style="margin-top:12px"><div class="panel bop" id="bopG"></div><div class="panel"><div class="tabs" id="mtabs"></div><div class="map" id="map" style="margin-top:8px"></div>
+<div class="st" style="margin-top:6px">Solid = called (named source) · tint = leading in counted votes · light grey = race this year but no machine-readable official feed · dark = no race. Tap a state to filter.</div></div></div>
+<h2>Key races</h2><div class="grid" id="key"></div>
+<h2>All races</h2>
+<div class="ctl"><input id="q" placeholder="Search candidate, state or district (e.g. GA, Cotton, TX-28)"><select id="fo"><option value="">All offices</option><option>Senate</option><option>Governor</option><option>House</option><option value="Measure">Ballot measures</option></select><select id="fs"><option value="">All states</option></select><select id="fc"><option value="">Any status</option><option value="called">Called</option><option value="counting">Counting, not called</option><option value="close">Close (&lt;5 pts)</option></select></div>
+<div class="st" id="cnt"></div><div class="grid" id="all" style="margin-top:8px"></div>
+<h2 id="sources">Sources &amp; coverage</h2>
+<div class="panel"><table class="src"><thead><tr><th>Source</th><th>Covers</th><th>Status</th><th>Data as of</th></tr></thead><tbody id="srcs"></tbody></table>
+<p class="note">Vote counts are the official state election offices' own unofficial counts. Open America relays machine-readable state feeds; California is read directly from the Secretary of State API. A race is marked CALLED only when a source names who called it (AP, a state certification, etc.) — via <a href="https://thepeoplestally.com/open-data/">The People&#39;s Tally open data</a> (CC BY 4.0) or the Open America feed. Leading is never a call. States absent from the feed are <b>not covered</b>, not zero. Balance-of-power baselines (seats not up in 2026: Senate 31 R / 34 D incl. independents caucusing with Democrats) are from the current Congress; House majority is 218. Numbers are unofficial until certified.</p></div>
+<p class="note" style="margin:20px 0 40px">Record of Law · no invented numbers · updates in place without reloading.</p>
+</main>
 <script>
-const OFF=["Senate","Governor","House"],LBL={Senate:"U.S. Senate",Governor:"Governors",House:"U.S. House"},F="https://openamerica.io/elections/results.json?year=2026&office=";
-const S={},CA={},CALLS={};const PTY={Dem:"D",Rep:"R",Grn:"G",Lib:"L",NPP:"I"};
-const OASRC='<a href="https://openamerica.io/elections/api/">Open America</a> (official state counts)',CASRC='<a href="https://api.sos.ca.gov/returns/governor">California Secretary of State API</a> (official)';
-function caRace(x){const m=(x.Reporting||"").match(/^([\d.]+)%/);const cands=(x.candidates||[]).map(c=>({n:c.Name,p:PTY[c.Party]||c.Party,v:+String(c.Votes).replace(/,/g,""),pct:+c.Percent,inc:!!c.incumbent}));const t=cands.reduce((a,c)=>a+c.v,0);
-cands.forEach(c=>{if(!t)c.pct=null});const top=[...cands].sort((a,b)=>b.v-a.v)[0];return{leader:t&&top?top.p:"",called:false,pct_in:m?+m[1]:0,total:t,cands,src:CASRC,asof:x.ReportingTime+" PT"}}
-async function pollCA(){try{const[g,h]=await Promise.all(["governor","us-rep/district/all"].map(u=>fetch("https://api.sos.ca.gov/returns/"+u,{cache:"no-cache"}).then(r=>r.json())));
-CA.Governor={CA:caRace(g)};CA.House={};for(const x of h){const m=x.raceTitle.match(/District (\d+)/);if(m)CA.House["CA-"+m[1].padStart(2,"0")]=caRace(x)}render()}catch(e){}}
-async function pollCalls(){try{const d=await(await fetch("https://thepeoplestally.com/data/results.json",{cache:"no-cache"})).json();for(const k in CALLS)delete CALLS[k];
-for(const[id,r]of Object.entries(d.races||{})){if(!r.winner_name||!r.called_by)continue;const p=id.split("-");const o={S:"Senate",G:"Governor",H:"House"}[p[0]];if(!o||p[2]=="sp")continue;CALLS[o+"|"+(p[0]=="H"?p[1]+"-"+p[2]:p[1])]={w:r.winner_name,by:r.called_by}}render()}catch(e){}}const fmt=n=>n==null?"–":n.toLocaleString("en-US");
-const col=p=>p=="D"?"var(--d)":p=="R"?"var(--r)":"var(--o)";
-function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
-function render(){let h="";for(const o of OFF){const d=S[o];if(!d)continue;const rs=Object.entries({...(d.races||{}),...(CA[o]||{})}).sort();
-let lead={D:0,R:0,O:0},rep=0;for(const[,r]of rs){if(r.total>0){rep++;lead[r.leader=="D"?"D":r.leader=="R"?"R":"O"]++}}
-h+=`<h2>${LBL[o]}</h2><div class="tally"><span class="pill">${rs.length} races in feed</span><span class="pill">${rep} with votes counted</span><span class="pill"><span class=D>D leading ${lead.D}</span> · <span class=R>R leading ${lead.R}</span>${lead.O?` · other ${lead.O}`:""}</span><span class="pill">Called: ${rs.filter(([k])=>CALLS[o+"|"+k]).length}</span><span class="pill st">feed as of ${d.as_of?new Date(d.as_of).toLocaleTimeString("en-US",{timeZone:"America/New_York"})+" ET":"–"}</span></div><div class="grid">`;
-for(const[k,r]of rs){const cs=[...(r.cands||[])].sort((a,b)=>(b.v||0)-(a.v||0));
-h+=`<div class="card"><h3>${esc(k)}<span class="rep">${r.uncontested?"uncontested · ":""}${(r.pct_in??0).toFixed(1)}% reporting · ${CALLS[o+"|"+k]?"CALLED":"not called"}</span></h3>`;const cl=CALLS[o+"|"+k];
-for(const c of cs){h+=`<div class="c"><span>${esc(c.n)} <span class=st>(${esc(c.p)})${c.inc?" inc.":""}</span></span><span>${fmt(c.v)}</span><b>${c.pct==null?"–":c.pct.toFixed(1)+"%"}</b><div class="bar"><i style="width:${c.pct||0}%;background:${col(c.p)}"></i></div></div>`}
-h+=`${cl?`<div class=st style="color:#fde68a">Called for ${esc(cl.w)} by ${esc(cl.by)} (via The People&#39;s Tally)</div>`:""}<div class=st>Total ${fmt(r.total)} · Source: ${r.src||OASRC}${r.asof?" · as of "+esc(r.asof):""}</div></div>`}h+="</div>"}
-document.getElementById("m").innerHTML=h||'<p class=note>Waiting for feed…</p>'}
-async function poll(o){try{const r=await fetch(F+o,{cache:"no-cache"});if(r.ok){S[o]=await r.json();render();
-document.getElementById("upd").textContent="last checked "+new Date().toLocaleTimeString("en-US",{timeZone:"America/New_York"})+" ET"}}catch(e){document.getElementById("upd").textContent="feed unreachable, retrying…"}}
-let n=0;function tick(){OFF.forEach(poll);if(n%3==0)pollCA();if(n%6==0)pollCalls();n++}tick();setInterval(tick,5000);
+"use strict";
+const $=id=>document.getElementById(id),fmt=n=>n==null?"–":Number(n).toLocaleString("en-US"),ET=d=>d?new Date(d).toLocaleTimeString("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"2-digit",second:"2-digit"})+" ET":"–";
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const SEN_UP="AL AK AR CO DE FL GA ID IL IA KS KY LA ME MA MI MN MS MT NE NH NJ NM NC OH OK OR RI SC SD TN TX VA WV WY".split(" ");
+const GOV_UP="AL AK AZ AR CA CO CT FL GA HI ID IL IA KS ME MD MA MI MN NE NV NH NM NY OH OK OR PA RI SC SD TN TX VT WI WY".split(" ");
+const KEY=["Senate|GA","Senate|NC","Senate|MI","Senate|ME","Senate|NH","Senate|OH","Senate|TX","Senate|IA","Senate|AK","Senate|MN","Governor|GA","Governor|AZ","Governor|MI","Governor|WI","Governor|PA","Governor|NV","Governor|CA","Governor|FL","Governor|NY"];
+const TILE={AK:[0,0],ME:[0,11],VT:[1,10],NH:[1,11],WA:[2,1],ID:[2,2],MT:[2,3],ND:[2,4],MN:[2,5],IL:[2,6],WI:[2,7],MI:[2,8],NY:[2,9],RI:[2,10],MA:[2,11],OR:[3,1],NV:[3,2],WY:[3,3],SD:[3,4],IA:[3,5],IN:[3,6],OH:[3,7],PA:[3,8],NJ:[3,9],CT:[3,10],CA:[4,1],UT:[4,2],CO:[4,3],NE:[4,4],MO:[4,5],KY:[4,6],WV:[4,7],VA:[4,8],MD:[4,9],DE:[4,10],AZ:[5,2],NM:[5,3],KS:[5,4],AR:[5,5],TN:[5,6],NC:[5,7],SC:[5,8],DC:[5,9],OK:[6,4],LA:[6,5],MS:[6,6],AL:[6,7],GA:[6,8],HI:[7,0],TX:[7,4],FL:[7,8]};
+const SRC={oa:{name:'<a href="https://openamerica.io/elections/api/">Open America</a> (official state feeds)',covers:"",ok:null,asof:null,err:0,last:null},
+ca:{name:'<a href="https://api.sos.ca.gov/returns/governor">California Secretary of State API</a>',covers:"CA: Governor, 52 House, statewide ballot measures",ok:null,asof:null,err:0,last:null},
+pt:{name:'<a href="https://thepeoplestally.com/open-data/">The People&#39;s Tally</a> open data',covers:"Race calls with named calling source",ok:null,asof:null,err:0,last:null}};
+const OA={},CA={},PTC={},CALLT=JSON.parse(sessionStorage.rolCalls||"{}");let mapOff="Senate",selSt="";
+const PTY={Dem:"D",Rep:"R",Grn:"G",Lib:"L",NPP:"I",AI:"AI",PF:"PF"};
+function caRace(x){const m=(x.Reporting||"").match(/^([\d.]+)%/);const cands=(x.candidates||[]).map(c=>({n:c.Name,p:PTY[c.Party]||c.Party,v:+String(c.Votes).replace(/,/g,""),pct:+c.Percent,inc:!!c.incumbent}));
+const t=cands.reduce((a,c)=>a+c.v,0);const top=[...cands].sort((a,b)=>b.v-a.v)[0];return{leader:t&&top?top.p:"",pct_in:m?+m[1]:0,total:t,cands,src:"ca",asof:x.ReportingTime+" PT"}}
+/* ---------- fetching: staggered, per-source backoff ---------- */
+async function getJ(u){const c=new AbortController(),t=setTimeout(()=>c.abort(),12000);try{const r=await fetch(u,{cache:"no-cache",signal:c.signal});if(!r.ok)throw Error(r.status);return await r.json()}finally{clearTimeout(t)}}
+const jobs={
+ oa:async()=>{const F="https://openamerica.io/elections/results.json?year=2026&office=";const rs=await Promise.all(["Senate","House","Governor"].map(o=>getJ(F+o)));
+  rs.forEach(d=>{OA[d.office]=d});SRC.oa.asof=rs.map(d=>d.as_of).sort()[0];SRC.oa.stale=rs.some(d=>d.stale)},
+ ca:async()=>{const[g,h,m]=await Promise.all(["governor","us-rep/district/all","ballot-measures"].map(u=>getJ("https://api.sos.ca.gov/returns/"+u)));
+  CA.Governor={CA:caRace(g)};CA.House={};for(const x of h){const k=x.raceTitle.match(/District (\d+)/);if(k)CA.House["CA-"+k[1].padStart(2,"0")]=caRace(x)}
+  CA.Measure={};const pm=(m.Reporting||"").match(/^([\d.]+)%/);for(const b of m["ballot-measures"]||[]){const y=+String(b.yesVotes).replace(/,/g,""),n=+String(b.noVotes).replace(/,/g,""),t=y+n;
+  CA.Measure["CA Prop "+b.Number]={title:b.Name,leader:t?(y>=n?"Yes":"No"):"",pct_in:pm?+pm[1]:0,total:t,cands:[{n:"Yes",p:"Y",v:y,pct:t?y/t*100:null},{n:"No",p:"N",v:n,pct:t?n/t*100:null}],src:"ca",asof:m.ReportingTime+" PT"}}
+  SRC.ca.asof=g.ReportingTime+" PT"},
+ pt:async()=>{const d=await getJ("https://thepeoplestally.com/data/results.json");for(const k in PTC)delete PTC[k];
+  for(const[id,r]of Object.entries(d.races||{})){if(!r.winner_name||!r.called_by)continue;const p=id.split("-");const o={S:"Senate",G:"Governor",H:"House"}[p[0]];if(!o||p[2]=="sp")continue;
+  PTC[o+"|"+(p[0]=="H"?p[1]+"-"+p[2]:p[1])]={w:r.winner_name,by:r.called_by,p:r.winner_party||""}}SRC.pt.asof=d.generated_at||null}};
+const BASE={oa:15000,ca:30000,pt:30000};
+function schedule(k,delay){setTimeout(async()=>{if(document.hidden){schedule(k,BASE[k]);return}
+ try{await jobs[k]();SRC[k].ok=true;SRC[k].err=0;SRC[k].last=Date.now();render()}catch(e){SRC[k].ok=false;SRC[k].err++;renderStatus()}
+ const back=SRC[k].err?Math.min(BASE[k]*2**SRC[k].err,300000):BASE[k];schedule(k,back+Math.random()*2000)},delay)}
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)renderStatus()});
+/* ---------- model ---------- */
+function races(){const out=[];for(const o of["Senate","Governor","House"]){const m={...((OA[o]||{}).races||{}),...(CA[o]||{})};
+ for(const[k,r]of Object.entries(m))out.push(norm(o,k,r))}for(const[k,r]of Object.entries(CA.Measure||{}))out.push(norm("Measure",k,r));return out}
+function norm(o,k,r){const id=o+"|"+k,cs=[...(r.cands||[])].sort((a,b)=>(b.v||0)-(a.v||0));let call=null;
+ const pc=PTC[id];if(pc)call={w:pc.w,by:pc.by,via:"The People's Tally",p:pc.p||(cs.find(c=>c.n==pc.w)||{}).p};
+ if(!call){const w=cs.find(c=>c.w&&c.b);if(w)call={w:w.n,by:w.b,via:"Open America",p:w.p}}
+ const t=cs.reduce((a,c)=>a+(c.v||0),0),mg=t&&cs.length>1?((cs[0].v-cs[1].v)/t*100):null;
+ return{id,o,k,st:k.slice(0,2),r,cs,call,total:t,margin:mg,leader:t?cs[0].p:"",pct:r.pct_in??0,src:r.src||"oa"}}
+function party(p){return p=="D"||p=="Dem"?"D":p=="R"||p=="Rep"?"R":"O"}
+/* ---------- render (diffed) ---------- */
+const prev={};function put(id,h){if(prev[id]!==h){prev[id]=h;$(id).innerHTML=h}}
+function card(x){const p=party(x.leader);let h=`<div class="card${x.call?" isc":""}" data-id="${esc(x.id)}"><h3><span>${esc(x.o=="Measure"?x.k:x.k+" · "+(x.o=="House"?"House":x.o))}</span><span class="badge${x.call?" c":""}">${x.call?"CALLED":x.total?"not called":"no votes yet"}</span></h3>`;
+ if(x.r.title)h+=`<div class=st>${esc(x.r.title)}</div>`;
+ for(const c of x.cs.slice(0,5)){const cp=x.o=="Measure"?(c.p=="Y"?"#22c55e":"#f87171"):c.p=="D"?"var(--d)":c.p=="R"?"var(--r)":"var(--o)";
+  h+=`<div class="c"><span>${x.call&&x.call.w==c.n?"✔ ":""}${esc(c.n)} ${x.o!="Measure"?`<span class=st>(${esc(c.p)})${c.inc?" inc.":""}</span>`:""}</span><span>${fmt(c.v)}</span><b>${c.pct==null||!x.total?"–":(+c.pct).toFixed(1)+"%"}</b><div class="bar"><i style="width:${x.total?c.pct||0:0}%;background:${cp}"></i></div></div>`}
+ h+=`<div class="rp" title="expected vote / precincts reporting"><i style="width:${Math.min(100,x.pct)}%"></i></div><div class=st>${(+x.pct).toFixed(1)}% reporting · total ${fmt(x.total)}${x.margin!=null?` · margin ${x.margin.toFixed(1)} pts`:""}</div>`;
+ if(x.call)h+=`<div class="st called">Called for ${esc(x.call.w)} by ${esc(x.call.by)} (via ${esc(x.call.via)})</div>`;
+ h+=`<div class=st>Source: ${x.src=="ca"?"CA Secretary of State":"Open America / state office"}${x.r.asof?" · as of "+esc(x.r.asof):""}</div></div>`;return h}
+function bop(el,title,list,baseD,baseR,total,need,up){let cD=0,cR=0,cO=0,lD=0,lR=0,lO=0;for(const x of list){const p=party(x.call?x.call.p:x.leader);if(x.call)p=="D"?cD++:p=="R"?cR++:cO++;else if(x.total)p=="D"?lD++:p=="R"?lR++:lO++}
+ const D=baseD+cD,R=baseR+cR,w=n=>(n/total*100).toFixed(2)+"%";
+ put(el,`<h3><span>${title}</span><span class=st>${need}${/seats/.test(need)?"":" for majority"}</span></h3><div class="leg"><span class="D"><span class="big">${D}</span> D${baseD?` <span class=st>(${baseD} not up + ${cD} called)</span>`:` called`}</span><span class="R"><span class=st>${baseR?`(${baseR} not up + ${cR} called)`:"called"}</span> R <span class="big">${R}</span></span></div>
+ <div class="bopbar"><i style="width:${w(D)};background:var(--d)"></i><i style="width:${w(lD)};background:var(--dl)"></i><i style="flex:1"></i><i style="width:${w(lR)};background:var(--rl)"></i><i style="width:${w(R)};background:var(--r)"></i><span class="mid"></span></div>
+ <div class="leg st"><span>D leading ${lD}</span><span>${up} up · ${list.length} in official feeds · ${cO?cO+" other called · ":""}${lO?lO+" other leading · ":""}${up-list.length} not covered</span><span>R leading ${lR}</span></div>`)}
+let allR=[];
+function render(){allR=races();const by=o=>allR.filter(x=>x.o==o);
+ bop("bopS","U.S. Senate",by("Senate"),34,31,100,"51 (50 + VP for R)",35);bop("bopH","U.S. House",by("House"),0,0,435,"218",435);bop("bopG","Governors (36 races)",by("Governor"),0,0,36,"called / leading in 2026 races",36);
+ // ticker
+ const now=Date.now();let ch=false;for(const x of allR)if(x.call&&!CALLT[x.id]){CALLT[x.id]=now;ch=true}if(ch)sessionStorage.rolCalls=JSON.stringify(CALLT);
+ const calls=allR.filter(x=>x.call).sort((a,b)=>CALLT[b.id]-CALLT[a.id]);
+ put("ticker",calls.length?calls.slice(0,25).map(x=>`<span><b>${esc(x.k)} ${esc(x.o)}</b>: ${esc(x.call.w)} <span class="${party(x.call.p)}">(${esc(x.call.p||"")})</span> <span class=st>· ${esc(x.call.by)} · seen ${ET(CALLT[x.id])}</span></span>`).join(""):`<span class=st>Just called: no race has a call with a named calling source yet. Leading ≠ called.</span>`);
+ // map
+ put("mtabs",["Senate","Governor","House"].map(o=>`<button class="${o==mapOff?"on":""}" data-o="${o}">${o}</button>`).join(" "));
+ const up=mapOff=="Senate"?SEN_UP:mapOff=="Governor"?GOV_UP:Object.keys(TILE).filter(s=>s!="DC");let mh="";
+ for(const[s,[r,c]]of Object.entries(TILE)){let cls="";const L=allR.filter(x=>x.o==mapOff&&x.st==s);
+  if(L.length){if(mapOff=="House"){let d=0,rr=0,cd=0;for(const x of L){const p=party(x.call?x.call.p:x.leader);if(x.total||x.call){p=="D"?d++:p=="R"?rr++:0}if(x.call)cd++}cls=d>rr?(cd==L.length?"cD":"lD"):rr>d?(cd==L.length?"cR":"lR"):"z"}
+  else{const x=L[0];const p=party(x.call?x.call.p:x.leader);cls=x.call?"c"+(p=="O"?"D":p):x.total?"l"+p:"z"}}else if(up.includes(s))cls="nf";
+  mh+=`<div class="${cls}${s==selSt?" sel":""}" style="grid-row:${r+1};grid-column:${c+1}" data-s="${s}" title="${s}">${s}</div>`}
+ put("map",mh);
+ // key
+ put("key",KEY.map(id=>{const x=allR.find(y=>y.id==id);if(x)return card(x);const[o,s]=id.split("|");return`<div class="card"><h3><span>${s} · ${o}</span><span class="badge">not covered</span></h3><div class=st>No free, machine-readable, browser-accessible official feed for ${s} is available to this page. Check the state election office.</div></div>`}).join(""));
+ // filters
+ const sts=[...new Set(allR.map(x=>x.st))].sort();const so=`<option value="">All states</option>`+sts.map(s=>`<option${s==$("fs").value?" selected":""}>${s}</option>`).join("");if(prev.fs!==sts.join()){prev.fs=sts.join();$("fs").innerHTML=so}
+ renderAll();renderStatus()}
+function renderAll(){const q=$("q").value.trim().toLowerCase(),fo=$("fo").value,fs=$("fs").value,fc=$("fc").value;
+ const L=allR.filter(x=>(!fo||x.o==fo)&&(!fs||x.st==fs)&&(!fc||(fc=="called"?x.call:fc=="counting"?!x.call&&x.total:x.margin!=null&&x.margin<5&&!x.call))&&(!q||(x.k+" "+x.o+" "+x.cs.map(c=>c.n).join(" ")+" "+(x.r.title||"")).toLowerCase().includes(q)))
+  .sort((a,b)=>["Senate","Governor","House","Measure"].indexOf(a.o)-["Senate","Governor","House","Measure"].indexOf(b.o)||a.k.localeCompare(b.k));
+ put("cnt",`${L.length} of ${allR.length} races shown`);put("all",L.slice(0,400).map(card).join("")||'<p class=note>No races match.</p>')}
+function renderStatus(){const age=k=>SRC[k].last?Math.round((Date.now()-SRC[k].last)/1000):null;
+ SRC.oa.covers="States: "+[...new Set(Object.values(OA).flatMap(d=>Object.keys(d.races||{}).map(k=>k.slice(0,2))))].sort().join(", ");
+ put("srcs",Object.entries(SRC).map(([k,s])=>{const a=age(k);const cls=s.ok==null?"warn":!s.ok?"bad":a>120||s.stale?"warn":"ok";
+  return`<tr><td>${s.name}</td><td>${esc(s.covers)}</td><td class="${cls}">${s.ok==null?"connecting…":!s.ok?`unreachable, retry with backoff (${s.err})`:s.stale?"source reports stale":`checked ${a}s ago`}</td><td>${s.asof?(/PT$/.test(s.asof)?esc(s.asof):ET(s.asof)):"–"}</td></tr>`}).join(""));
+ const bad=Object.values(SRC).some(s=>s.ok===false),stale=Object.values(SRC).some(s=>s.last&&Date.now()-s.last>120000||s.stale);
+ $("dot").className="dot"+(bad?" down":stale?" stale":"");$("upd").textContent=(bad?"some sources unreachable · ":stale?"data may be stale · ":"live · ")+"last checked "+ET(Math.max(...Object.values(SRC).map(s=>s.last||0))||null)}
+setInterval(renderStatus,5000);
+$("mtabs").onclick=e=>{const o=e.target.dataset.o;if(o){mapOff=o;render()}};
+$("map").onclick=e=>{const s=e.target.dataset.s;if(!s)return;selSt=selSt==s?"":s;$("fs").value=selSt;$("fo").value=mapOff;render();$("all").scrollIntoView({behavior:"smooth"})};
+["q","fo","fs","fc"].forEach(i=>$(i).addEventListener("input",renderAll));
+schedule("oa",0);schedule("ca",700);schedule("pt",1400);
 </script></body></html>
