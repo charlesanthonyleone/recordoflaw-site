@@ -1,0 +1,5498 @@
+{
+"source": "IRS Form 990 filings via ProPublica Nonprofit Explorer",
+"url": "https://projects.propublica.org/nonprofits/",
+"asOf": "2026-11-02",
+"method": "Each association resolved to its 501(c)(6) EIN by name; officers = Key Employees and Officers from the most recent extracted Form 990 (filing period shown). Roles are as of that tax year, not today.",
+"associations": [
+{
+"id": "assoc-chamber-of-commerce-of-the-united-states",
+"name": "Chamber of Commerce of the United States",
+"irsName": "Chamber Of Commerce Of The United States Of America",
+"ein": 530045720,
+"sector": "cross-industry",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Suzanne Clark",
+"title": "President & Ceo/director"
+},
+{
+"name": "Elizabeth Keffer",
+"title": "Evp & Chief Relationship Officer"
+},
+{
+"name": "Justin Waller",
+"title": "Evp, Coo"
+},
+{
+"name": "David Hirschmann",
+"title": "Evp, New Strategic Initiatives"
+},
+{
+"name": "Neil Bradley",
+"title": "Evp, Chief Policy Officer"
+},
+{
+"name": "Harold Kim",
+"title": "Evp"
+},
+{
+"name": "Michelle Russo",
+"title": "Chief Comms Officer"
+},
+{
+"name": "Martin Durbin",
+"title": "Pres, Gei & Svp, Policy"
+},
+{
+"name": "Agnes Warfield-blanc",
+"title": "Evp"
+},
+{
+"name": "David Detweiler",
+"title": "General Counsel & Secretary"
+},
+{
+"name": "Christine Kanuch",
+"title": "Cfo"
+},
+{
+"name": "Stefan Freiberg",
+"title": "Cfo"
+},
+{
+"name": "Myron Brilliant",
+"title": "Evp, Head Intl"
+},
+{
+"name": "Kevin Garvey",
+"title": "Asst Gnl Cnsl & Asst Secretary"
+},
+{
+"name": "Robert Agbede",
+"title": "Director"
+},
+{
+"name": "Mark Allen",
+"title": "Director"
+},
+{
+"name": "Vanessa Allen Sutherland",
+"title": "Director"
+},
+{
+"name": "Michael Andrew",
+"title": "Director"
+},
+{
+"name": "Richard Bagger",
+"title": "Director"
+},
+{
+"name": "Roger Batkin",
+"title": "Director"
+},
+{
+"name": "Brian Bernasek",
+"title": "Director"
+},
+{
+"name": "Richard Bielen",
+"title": "Director"
+},
+{
+"name": "Fritz Bittenbender",
+"title": "Director"
+},
+{
+"name": "Phil Boudreau",
+"title": "Director"
+},
+{
+"name": "Michelle Browdy",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/530045720",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-business-roundtable",
+"name": "Business Roundtable",
+"irsName": "Business Roundtable Inc",
+"ein": 237236607,
+"sector": "cross-industry",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Joshua Bolten",
+"title": "Ceo"
+},
+{
+"name": "Kristen Silverberg",
+"title": "President & Coo"
+},
+{
+"name": "Michael Steel",
+"title": "Senior Vice President"
+},
+{
+"name": "Matthew Miller",
+"title": "Senior Vice President"
+},
+{
+"name": "Michael Andrews",
+"title": "Treasurer"
+},
+{
+"name": "Elizabeth Dougherty",
+"title": "Secretary"
+},
+{
+"name": "Rebecca Hampson",
+"title": "Chief Of Staff"
+},
+{
+"name": "Dane Linn",
+"title": "Senior Vice President"
+},
+{
+"name": "Chuck Robbins",
+"title": "Chairman"
+},
+{
+"name": "Stephen J Squeri",
+"title": "Chair, Corporate Governance"
+},
+{
+"name": "Scott Kirby",
+"title": "Chair, Education & Workforce"
+},
+{
+"name": "Jennifer Rumsey",
+"title": "Chair, Energy & Environment"
+},
+{
+"name": "Blake Moret",
+"title": "Chair, Health & Retirement"
+},
+{
+"name": "Tim Cook",
+"title": "Chair, Immigration"
+},
+{
+"name": "Raj Subramaniam",
+"title": "Chair, Infrastructure"
+},
+{
+"name": "Lynn J Good",
+"title": "Chair, Smart Regulation"
+},
+{
+"name": "Jon R Moeller",
+"title": "Chair, Tax & Fiscal Policy"
+},
+{
+"name": "Adena Friedman",
+"title": "Chair, Technology"
+},
+{
+"name": "Judy Marks",
+"title": "Chair, Trade & International"
+},
+{
+"name": "Mary T Barra",
+"title": "Chair, Nominating & Memshp"
+},
+{
+"name": "Brendan P Bechtel",
+"title": "At Large Board Member"
+},
+{
+"name": "Thasunda Brown Duckett",
+"title": "At Large Board Member"
+},
+{
+"name": "Jamie Dimon",
+"title": "At Large Board Member"
+},
+{
+"name": "Beth Ford",
+"title": "At Large Board Member"
+},
+{
+"name": "Jane Fraser",
+"title": "At Large Board Member"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/237236607",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-national-association-of-manufacturers",
+"name": "National Association of Manufacturers",
+"irsName": "National Association Of Manufacturers Of The Usa",
+"ein": 131084330,
+"sector": "manufacturing",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2025",
+"officers": [
+{
+"name": "Jay Timmons",
+"title": "President & Ceo"
+},
+{
+"name": "Erin Streeter",
+"title": "Executive Vp"
+},
+{
+"name": "Jeff Pierce",
+"title": "Svp, Strategic Development"
+},
+{
+"name": "Linda Kelly",
+"title": "Corporate Secretary"
+},
+{
+"name": "Todd Boppell",
+"title": "Coo & Treasurer"
+},
+{
+"name": "Alyssa Shooshan",
+"title": "Svp, Membership"
+},
+{
+"name": "Adria Brockman",
+"title": "Vp, Member/board Relations"
+},
+{
+"name": "Carrie Mackman",
+"title": "Highest Compensated Employee"
+},
+{
+"name": "Stephanie Webb",
+"title": "Highest Compensated Employee"
+},
+{
+"name": "Chrys Kefalas",
+"title": "Mvp, Brand Strategy"
+},
+{
+"name": "James Hennigan",
+"title": "Mvp, Comms & Public Affairs"
+},
+{
+"name": "Nancy Riegle",
+"title": "Former Svp"
+},
+{
+"name": "Kathryn E Wengel",
+"title": "Board Chair"
+},
+{
+"name": "Blake D Moret",
+"title": "Board Vice Chair"
+},
+{
+"name": "Neil A Chapman",
+"title": "International Policy Vice Chair"
+},
+{
+"name": "Jillian C Evanko",
+"title": "Energy & Resources Policy Vice Chair"
+},
+{
+"name": "Denise C Johnson",
+"title": "Health Care Policy Vice Chair"
+},
+{
+"name": "Chris Nielsen",
+"title": "Technology Policy Vice Chair"
+},
+{
+"name": "Nicholas T Pinchuk",
+"title": "Tax & Finance Policy Vice Chair"
+},
+{
+"name": "Karl Hutter",
+"title": "Smm Chair"
+},
+{
+"name": "Austin Ramirez",
+"title": "Smm Vice Chair"
+},
+{
+"name": "Dev Ahuja",
+"title": "Executive Committee"
+},
+{
+"name": "Daniel Dwight",
+"title": "Executive Committee"
+},
+{
+"name": "James Fitterling",
+"title": "Executive Committee"
+},
+{
+"name": "Michael J Happe",
+"title": "Executive Committee"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/131084330",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-national-retail-federation",
+"name": "National Retail Federation",
+"irsName": "National Retail Federation Inc",
+"ein": 135582627,
+"sector": "retail",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Feb. 2026",
+"officers": [
+{
+"name": "Matthew R Shay",
+"title": "President And Ceo"
+},
+{
+"name": "David French",
+"title": "Svp, Government Relations"
+},
+{
+"name": "Stephanie Martz",
+"title": "Secretary And General Counsel"
+},
+{
+"name": "William Thorne",
+"title": "Svp, Public Relations/ed"
+},
+{
+"name": "Susan Newman",
+"title": "Svp, Conferences"
+},
+{
+"name": "Artemis Sakell",
+"title": "Senior Director, Exhibits"
+},
+{
+"name": "Jill Dvorak",
+"title": "Svp, Content-education"
+},
+{
+"name": "Robert Eddy",
+"title": "Chair"
+},
+{
+"name": "Mike George",
+"title": "Immediate Past Chair"
+},
+{
+"name": "John Furner",
+"title": "First Vice Chair & Immediate Past Chair"
+},
+{
+"name": "Anish Melwani",
+"title": "Second Vice Chair"
+},
+{
+"name": "Beth Aberg",
+"title": "Director"
+},
+{
+"name": "Marguerite Adzick",
+"title": "Director"
+},
+{
+"name": "Christopher Baldwin",
+"title": "Director"
+},
+{
+"name": "Horacio Barbeito",
+"title": "Director"
+},
+{
+"name": "Shelley Bransten",
+"title": "Director"
+},
+{
+"name": "Brian Cornell",
+"title": "Director (thru 01/26"
+},
+{
+"name": "Joseph Dittmar",
+"title": "Director"
+},
+{
+"name": "Michael Fiddelke",
+"title": "Director (as Of 01/26"
+},
+{
+"name": "Harley Finkelstein",
+"title": "Director"
+},
+{
+"name": "Michelle Gass",
+"title": "Director"
+},
+{
+"name": "Doug Herrington",
+"title": "Director"
+},
+{
+"name": "Anthony Hucker",
+"title": "Director"
+},
+{
+"name": "Ian Kahn",
+"title": "Director"
+},
+{
+"name": "Hal Lawton",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/135582627",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-american-bankers-association",
+"name": "American Bankers Association",
+"irsName": "American Bankers Association",
+"ein": 521001304,
+"sector": "banking",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Aug. 2025",
+"officers": [
+{
+"name": "Robert S Nichols",
+"title": "President And Ceo"
+},
+{
+"name": "Naomi Camper",
+"title": "Chief Policy Officer"
+},
+{
+"name": "Jess Sharp",
+"title": "Executive Vice President"
+},
+{
+"name": "Peter C Cook",
+"title": "Chief Communication Officer"
+},
+{
+"name": "Karin Petersen Flynn",
+"title": "Cheif Finance & Admin Officer"
+},
+{
+"name": "Thomas Pinder",
+"title": "General Counsel & Corp. Secretary"
+},
+{
+"name": "Virginia O'neill",
+"title": "Evp, Regulatory Compliance"
+},
+{
+"name": "Russell Davis",
+"title": "Evp, Member Experience"
+},
+{
+"name": "Alethia Baggett",
+"title": "Chief Hr Officer"
+},
+{
+"name": "Kirsten Sutton",
+"title": "Evp, Congressional Relation"
+},
+{
+"name": "Sayee Srinivasan",
+"title": "Chief Economist"
+},
+{
+"name": "Joanna Shapiro",
+"title": "Cmeo Until August 2025"
+},
+{
+"name": "Laena F Pomeroy",
+"title": "Chief Of Staff"
+},
+{
+"name": "John C Asbury",
+"title": "Chair"
+},
+{
+"name": "Catherine Owen",
+"title": "Vice Chair"
+},
+{
+"name": "Kenneth Kelly",
+"title": "Chair Elect"
+},
+{
+"name": "K Wayne Wicker",
+"title": "Treasurer"
+},
+{
+"name": "Julieann M Thurlow",
+"title": "Chair, Nominating Committe"
+},
+{
+"name": "Rick Clayburgh",
+"title": "Chair, Aba/state Associatiation Alliance"
+},
+{
+"name": "Michael Adelman",
+"title": "Vice Chair, Aba/state Association Alliance"
+},
+{
+"name": "Kenneth W Clayton",
+"title": "Chair, Government Relations Council"
+},
+{
+"name": "Mary Kay Bates",
+"title": "Director"
+},
+{
+"name": "Brent Beardall",
+"title": "Director"
+},
+{
+"name": "Cheryl D Bowers",
+"title": "Director"
+},
+{
+"name": "John R Ciulla",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/521001304",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-pharmaceutical-research-and-manufacturers-of-america",
+"name": "Pharmaceutical Research and Manufacturers of America",
+"irsName": "Pharmaceutical Research And Manufacturers Of America",
+"ein": 530241211,
+"sector": "pharmaceuticals",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Stephen J Ubl",
+"title": "President & Ceo"
+},
+{
+"name": "Lori Reilly",
+"title": "Coo"
+},
+{
+"name": "Anne Pritchett",
+"title": "Svp, Policy/research"
+},
+{
+"name": "Jennifer Bryant",
+"title": "Evp, Policy/research"
+},
+{
+"name": "James C Stansel",
+"title": "General Counsel & Evp Law, Secretary"
+},
+{
+"name": "Tracey Merchant",
+"title": "Cfo & Evp, Administration"
+},
+{
+"name": "Scott Laganga",
+"title": "Evp, State Advocacy"
+},
+{
+"name": "Robert Zirkelbach Ii",
+"title": "Evp, Public Affairs"
+},
+{
+"name": "Michael Woody",
+"title": "Svp, Federal Advocacy"
+},
+{
+"name": "Shannon Monsif",
+"title": "Evp, Alliance"
+},
+{
+"name": "Elizabeth Carpenter",
+"title": "Evp, Policy/research"
+},
+{
+"name": "Jay Taylor",
+"title": "Evp, International"
+},
+{
+"name": "Kenneth K Mckay Iv",
+"title": "Svp, State Advocacy"
+},
+{
+"name": "Steven Tilton",
+"title": "Evp, Federal Advocacy"
+},
+{
+"name": "Renuka Iyer",
+"title": "Evp, Human Resources"
+},
+{
+"name": "Albert Bourla Phd",
+"title": "Vice Chair"
+},
+{
+"name": "Daniel O' Day",
+"title": "Chair"
+},
+{
+"name": "Paul Hudson",
+"title": "Treasurer"
+},
+{
+"name": "Alexander Hardy",
+"title": "Director"
+},
+{
+"name": "Anthony Mancini",
+"title": "Director (thru 08/24"
+},
+{
+"name": "Ashley Magargee",
+"title": "Director"
+},
+{
+"name": "Barry Greene",
+"title": "Director"
+},
+{
+"name": "Bob Lojewski",
+"title": "Director"
+},
+{
+"name": "Brad Bailey",
+"title": "Director (as Of 08/24"
+},
+{
+"name": "Chris Boerner Phd",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/530241211",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-american-petroleum-institute",
+"name": "American Petroleum Institute",
+"irsName": "American Petroleum Institute",
+"ein": 130433430,
+"sector": "oil and gas",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Michael J Sommers",
+"title": "President And Ceo"
+},
+{
+"name": "Amanda E Eversole",
+"title": "Executive Vp & Chief Advocacy Offr"
+},
+{
+"name": "Shannon Dibari",
+"title": "Senior Vice President And Coo"
+},
+{
+"name": "Anchal S Liddar",
+"title": "Senior Vp, Global Industry Services"
+},
+{
+"name": "John P Wagner",
+"title": "Vp, Deputy General Counsel"
+},
+{
+"name": "Ryan P Meyers",
+"title": "Sr. Vp, General Counsel, Corp Secy"
+},
+{
+"name": "Rolf W Hanson",
+"title": "Vp, State Government Relations"
+},
+{
+"name": "Dustin Meyer",
+"title": "Sr Vp, Policy, Economics & Reg Affrs"
+},
+{
+"name": "Stephen Comstock",
+"title": "Vp & Sr. Counselor (until 10/2024"
+},
+{
+"name": "Kristin Westmoreland",
+"title": "Vp And Chief Of Staff"
+},
+{
+"name": "Robin Rorick",
+"title": "Vp, Midstream Policy"
+},
+{
+"name": "Amy Kriz",
+"title": "Vp And Chief Financial Officer"
+},
+{
+"name": "Megan B Bloomgren",
+"title": "Sr Vp Communications (until 6/2024"
+},
+{
+"name": "Kevin Slagle",
+"title": "Senior Vp, Communications"
+},
+{
+"name": "John B Hess",
+"title": "Chairman Of The Board"
+},
+{
+"name": "Gretchen H Watkins",
+"title": "Board Member & Chair Fin Cmte"
+},
+{
+"name": "Orlando Alvarez",
+"title": "Board Member"
+},
+{
+"name": "Alan S Armstrong",
+"title": "Board Member"
+},
+{
+"name": "Willie Chiang",
+"title": "Board Member"
+},
+{
+"name": "John J Christmann",
+"title": "Board Member"
+},
+{
+"name": "Gregory L Ebel",
+"title": "Board Member"
+},
+{
+"name": "Sandy Esslemont",
+"title": "Board Member"
+},
+{
+"name": "W Randall Fowler",
+"title": "Board Member"
+},
+{
+"name": "Ann G Fox",
+"title": "Board Member"
+},
+{
+"name": "Jack A Fusco",
+"title": "Board Member"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/130433430",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-securities-industry-and-financial-markets-association",
+"name": "Securities Industry and Financial Markets Association",
+"irsName": "Securities Industry And Financial Markets Association Inc",
+"ein": 320178959,
+"sector": "securities",
+"subsection": "501(c)(6)",
+"state": "NY",
+"filing": "Oct. 2025",
+"officers": [
+{
+"name": "Kenneth E Bentsen Jr",
+"title": "President & Ceo"
+},
+{
+"name": "Joseph Seidel",
+"title": "Coo"
+},
+{
+"name": "Saima Ahmed",
+"title": "Evp & General Counsel"
+},
+{
+"name": "Josh Wilsusen",
+"title": "Executive Vice President"
+},
+{
+"name": "David B Krasner",
+"title": "Cfo & Cao"
+},
+{
+"name": "Cheryl L Crispen",
+"title": "Executive Vice President"
+},
+{
+"name": "Lindsey Keljo",
+"title": "Managing Director"
+},
+{
+"name": "Robert Toomey",
+"title": "Managing Director"
+},
+{
+"name": "Kevin Carroll",
+"title": "Managing Director"
+},
+{
+"name": "Carter K Mcdowell",
+"title": "Managing Director"
+},
+{
+"name": "Lisa Bleier",
+"title": "Managing Director"
+},
+{
+"name": "Salvatore Chiarelli",
+"title": "Executive Vice President"
+},
+{
+"name": "Laura Chepucavage",
+"title": "Chair"
+},
+{
+"name": "Ronald Kruszewski",
+"title": "Chair-elect"
+},
+{
+"name": "Kenneth Cella",
+"title": "Chair-emeritus"
+},
+{
+"name": "David Lefkowitz",
+"title": "Vice-chair"
+},
+{
+"name": "Lisa Kidd Hunt",
+"title": "Treasurer"
+},
+{
+"name": "Kevin Bailey",
+"title": "Director (thru 04/2025"
+},
+{
+"name": "Matt Benchener",
+"title": "Director"
+},
+{
+"name": "Althea Brown",
+"title": "Director (thru 06/2025"
+},
+{
+"name": "Libby Cantrill",
+"title": "Director"
+},
+{
+"name": "Jon Cherry",
+"title": "Director (as Of 10/2024"
+},
+{
+"name": "Samara Cohen",
+"title": "Director"
+},
+{
+"name": "Jim Deutsch",
+"title": "Director (as Of 10/2024"
+},
+{
+"name": "Michael Durbin",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/320178959",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-america-s-health-insurance-plans",
+"name": "America's Health Insurance Plans",
+"irsName": "Americas Health Insurance Plans Inc",
+"ein": 362087641,
+"sector": "health insurance",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "tax year 2024",
+"officers": [
+{
+"name": "Mike Tuffin",
+"title": "President & Ceo"
+},
+{
+"name": "Julie Miller",
+"title": "Chief Legal, Admin Officer/secretary"
+},
+{
+"name": "John Mathewson",
+"title": "Coo (outgoing May 2024"
+},
+{
+"name": "Jeanette Thornton",
+"title": "Executive Vp"
+},
+{
+"name": "Sohini Gupta",
+"title": "Executive Vp"
+},
+{
+"name": "Robert Traynham",
+"title": "Executive Vp"
+},
+{
+"name": "Thomas Amontree",
+"title": "Executive Vp"
+},
+{
+"name": "Dawn Eshelman",
+"title": "Cfo (outgoing May 2024"
+},
+{
+"name": "Mark Hamelburg",
+"title": "Senior Vp"
+},
+{
+"name": "Lashawn Mciver",
+"title": "Senior Vp"
+},
+{
+"name": "Aron Griffin",
+"title": "Senior Vp"
+},
+{
+"name": "Sean Dickson",
+"title": "Senior Vp"
+},
+{
+"name": "Contina Djaouga",
+"title": "Cfo (incoming July 2024"
+},
+{
+"name": "Gregory Adams",
+"title": "Board Member"
+},
+{
+"name": "Eileen Auen",
+"title": "Board Member"
+},
+{
+"name": "John Baackes",
+"title": "Board Member"
+},
+{
+"name": "Gail Boudreaux",
+"title": "Board Member"
+},
+{
+"name": "William Cameron",
+"title": "Board Member"
+},
+{
+"name": "David Cordani",
+"title": "Board Member"
+},
+{
+"name": "Michael Cropp",
+"title": "Board Member"
+},
+{
+"name": "Gregory Deavens",
+"title": "Board Member"
+},
+{
+"name": "Patrick Geraghty",
+"title": "Board Chair"
+},
+{
+"name": "Jd Hickey",
+"title": "Board Member"
+},
+{
+"name": "Gary St Hilaire",
+"title": "Board Member"
+},
+{
+"name": "Diane Holder",
+"title": "Board Member"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/362087641",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-national-federation-of-independent-business",
+"name": "National Federation of Independent Business",
+"irsName": "National Federation Of Independent Business Inc",
+"ein": 940707299,
+"sector": "small business",
+"subsection": "501(c)(6)",
+"state": "TN",
+"filing": "tax year 2025",
+"officers": [
+{
+"name": "Brad Close",
+"title": "President"
+},
+{
+"name": "David Addington",
+"title": "Evp/secretary/parliamentarian"
+},
+{
+"name": "John Casella",
+"title": "Svp"
+},
+{
+"name": "Adam Temple",
+"title": "Svp"
+},
+{
+"name": "Jeff Smith",
+"title": "Svp/cfo"
+},
+{
+"name": "Robert Johnson",
+"title": "Field Sales Rep"
+},
+{
+"name": "Chris Pitts",
+"title": "Svp/asst Secretary"
+},
+{
+"name": "Michael Maloney",
+"title": "Vp"
+},
+{
+"name": "Tim Franke",
+"title": "Vp"
+},
+{
+"name": "Tim Goodrich",
+"title": "Vp"
+},
+{
+"name": "Mindy Kubrin",
+"title": "Field Sales Rep"
+},
+{
+"name": "Gina Bruce",
+"title": "Vp"
+},
+{
+"name": "Michael Morris",
+"title": "Region Sales Director"
+},
+{
+"name": "Allan Sunberg",
+"title": "Vp"
+},
+{
+"name": "Lyle Payne",
+"title": "Field Sales Rep"
+},
+{
+"name": "Jamie Bokelmann",
+"title": "Field Sales Rep"
+},
+{
+"name": "Dawn Simpson",
+"title": "Vp/treasurer"
+},
+{
+"name": "Brianna Erickson",
+"title": "Vp"
+},
+{
+"name": "Jeff Brabant",
+"title": "Vp"
+},
+{
+"name": "Janet Connor",
+"title": "Vp"
+},
+{
+"name": "Nevin Groce",
+"title": "Chairman"
+},
+{
+"name": "Steve Schramm",
+"title": "Director"
+},
+{
+"name": "Jeff Ready",
+"title": "Director"
+},
+{
+"name": "Jose Villa",
+"title": "Director"
+},
+{
+"name": "Patti Mellard",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/940707299",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-national-association-of-realtors",
+"name": "National Association of Realtors",
+"irsName": "National Association Of Realtors",
+"ein": 361520690,
+"sector": "real estate",
+"subsection": "501(c)(6)",
+"state": "IL",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Nykia Wright",
+"title": "Ceo"
+},
+{
+"name": "Mark Birschbach",
+"title": "Svp, Strategic Business Innovation And Technology"
+},
+{
+"name": "Shannon Mcgahn",
+"title": "Chief Advocacy Officer"
+},
+{
+"name": "Katie Johnson",
+"title": "General Counsel And Chief Member Experience Officer (thru 10/04/2024"
+},
+{
+"name": "Lawrence Yun",
+"title": "Chief Economist"
+},
+{
+"name": "John Pierpoint",
+"title": "Chief Financial Officer"
+},
+{
+"name": "Suzanne Bouhia",
+"title": "Chief Marketing And Communications Officer"
+},
+{
+"name": "Marc Gould",
+"title": "Svp, Member Development"
+},
+{
+"name": "Beth Brittingham",
+"title": "Svp, Leadership Resources (beg 3/01/2024"
+},
+{
+"name": "Kevin Sears",
+"title": "Nar President (beg 1/08/2024"
+},
+{
+"name": "Kevin C Brown",
+"title": "First Vice President"
+},
+{
+"name": "Gregory Hrabcak",
+"title": "Nar Treasurer"
+},
+{
+"name": "Sharon White",
+"title": "Chief Human Resources Officer (beg 11/04/2024"
+},
+{
+"name": "Tracy Kasper",
+"title": "Nar President (thru 1/08/2024"
+},
+{
+"name": "Nate Johnson",
+"title": "Vice President"
+},
+{
+"name": "Eric Sain",
+"title": "Vice President"
+},
+{
+"name": "Jennifer Branchini",
+"title": "Vice President - Elect"
+},
+{
+"name": "Sara Lipnitz",
+"title": "Vice President - Elect"
+},
+{
+"name": "Craig Sanford",
+"title": "Treasurer-elect ( Beg December 2024"
+},
+{
+"name": "Leslie Rouda-smith",
+"title": "Past President Twice-removed"
+},
+{
+"name": "A Denise Franklin",
+"title": "Large Association Representative"
+},
+{
+"name": "Aaron Luttrull",
+"title": "State Allocated Director"
+},
+{
+"name": "Aaron Nelson",
+"title": "State Allocated Director"
+},
+{
+"name": "Abby Hauke",
+"title": "Large Association Representative (beg 12/01/2024"
+},
+{
+"name": "Abderrahim Aitboukil",
+"title": "Large Association Representative (thru 11/30/2024"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/361520690",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-american-hospital-association",
+"name": "American Hospital Association",
+"irsName": "American Hospital Association Inc",
+"ein": 360726140,
+"sector": "hospitals",
+"subsection": "501(c)(6)",
+"state": "IL",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Richard J Pollack",
+"title": "President & Ceo"
+},
+{
+"name": "M Michelle Hood",
+"title": "Evp Coo, Pres Hf"
+},
+{
+"name": "Stacey L Hughes",
+"title": "Evp Gov Rel & Public Pol"
+},
+{
+"name": "Chad I Golder",
+"title": "Svp General Counsel Secretary (beg 1/2024"
+},
+{
+"name": "Ashley B Thompson",
+"title": "Svp Public Policy"
+},
+{
+"name": "Christopher M Derienzo",
+"title": "Svp Cpe, President Hret"
+},
+{
+"name": "Douglas C Shaw",
+"title": "Svp Business Development (end 11/2024"
+},
+{
+"name": "Susan Gergely",
+"title": "Aha Svp Chief People Officer"
+},
+{
+"name": "Lisa Hrobsky",
+"title": "Gvp Fed Rel-adv Pol Affrs"
+},
+{
+"name": "Alicia N Mitchell",
+"title": "Svp Communications"
+},
+{
+"name": "James E Tyler Jr",
+"title": "Svp Assoc Svcs, Cfo, Treasurer"
+},
+{
+"name": "Jeanette Porter",
+"title": "Aha Svp Field Engagement"
+},
+{
+"name": "Joy Lewis",
+"title": "Svp Health Eqty Ed Ifdhe"
+},
+{
+"name": "John L Riggi",
+"title": "Sr Advr Cybersecurity-risk"
+},
+{
+"name": "Susan M Solomon",
+"title": "Group Vp Dep Gen Counsel"
+},
+{
+"name": "Molly Smith",
+"title": "Gvp, Public Policy"
+},
+{
+"name": "Peter Markos",
+"title": "Gvp & Cio"
+},
+{
+"name": "Melinda R Hatton",
+"title": "General Counsel, Secretary (end 12/2023"
+},
+{
+"name": "Joanne M Conroy",
+"title": "Chair"
+},
+{
+"name": "John M Haupert",
+"title": "Past Chair"
+},
+{
+"name": "Marc L Boom",
+"title": "Trustee"
+},
+{
+"name": "Heidi Duncan",
+"title": "Trustee"
+},
+{
+"name": "Michael Abrams",
+"title": "Trustee"
+},
+{
+"name": "Russell R Gronewold",
+"title": "Trustee"
+},
+{
+"name": "John Lynch Iii",
+"title": "Trustee"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/360726140",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-american-medical-association",
+"name": "American Medical Association",
+"irsName": "American Medical Association",
+"ein": 360727175,
+"sector": "medicine",
+"subsection": "501(c)(6)",
+"state": "IL",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "James L Madara Md",
+"title": "Evp & Ceo"
+},
+{
+"name": "Kenneth J Sharigian",
+"title": "Svp & Chief Strategy Officer"
+},
+{
+"name": "Jon L Giacomin",
+"title": "Svp & Chief Operating Officer"
+},
+{
+"name": "Thomas J Easley",
+"title": "Svp & Chief Mission Officer"
+},
+{
+"name": "Denise M Hagerty",
+"title": "Svp & Chief Financial Officer"
+},
+{
+"name": "Todd D Unger",
+"title": "Svp & Chief Experience Officer"
+},
+{
+"name": "Kirsten Bibbins-domingo Md",
+"title": "Svp & Editor In Chief, Jama Nw"
+},
+{
+"name": "Andra Heller",
+"title": "Svp & General Counsel"
+},
+{
+"name": "Lori A Prestesater",
+"title": "Svp Health Solutions"
+},
+{
+"name": "Karen A Maybank Md",
+"title": "Svp & Chief Hlth Equity Officer"
+},
+{
+"name": "Howard C Bauchner Md",
+"title": "Former Svp/editor In Chief, Jama Nw"
+},
+{
+"name": "Jesse M Ehrenfeld Md",
+"title": "President/past President"
+},
+{
+"name": "Bruce A Scott Md",
+"title": "President-elect/president"
+},
+{
+"name": "Michael Suk Md",
+"title": "Chair-elect/chair"
+},
+{
+"name": "Willie Underwood Iii Md",
+"title": "Chair/past Chair"
+},
+{
+"name": "Bobby Mukkamala Md",
+"title": "Trustee/president-elect"
+},
+{
+"name": "Jack Resneck Jr Md",
+"title": "Past President (thru June 2024"
+},
+{
+"name": "David H Aizuss Md",
+"title": "Trustee/chair-elect"
+},
+{
+"name": "Sandra Adamson Fryhofer Md",
+"title": "Past Chair/trustee"
+},
+{
+"name": "Lisa Bohman Egbert Md",
+"title": "Hod Speaker"
+},
+{
+"name": "Aliya Siddiqui",
+"title": "Student Trustee"
+},
+{
+"name": "Alexander Ding Md",
+"title": "Trustee"
+},
+{
+"name": "Madelyn E Butler Md",
+"title": "Trustee"
+},
+{
+"name": "Ilse R Levin Do",
+"title": "Trustee"
+},
+{
+"name": "Marilyn J Heine Md",
+"title": "Trustee"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/360727175",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-edison-electric-institute",
+"name": "Edison Electric Institute",
+"irsName": "Edison Electric Institute",
+"ein": 130659550,
+"sector": "electric utilities",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Thomas Kuhn",
+"title": "Former President And Ceo Until 12/23"
+},
+{
+"name": "Danny Brouillette",
+"title": "President/ceo Until 10/24, Snr Advisor As Of 10/24"
+},
+{
+"name": "John Schlenker",
+"title": "Former Cfo & Treasurer Until 12/23"
+},
+{
+"name": "Brian Wolff",
+"title": "Cso&evp,pub Pol/ext Affrs Until 9/24"
+},
+{
+"name": "Philip Moeller",
+"title": "Evp, Business Ops & Reg Affairs"
+},
+{
+"name": "Lisa Wood",
+"title": "Former Vice President Until 3/23"
+},
+{
+"name": "Courtney Peterson",
+"title": "Svp, Chro & Cdo Until 9/24"
+},
+{
+"name": "Emily Fisher",
+"title": "Evp, Clean Enrg/gen Couns Until 7/24"
+},
+{
+"name": "Richard Mcmahon",
+"title": "Svp, Enrg Sply/fin & Esg Until 7/24"
+},
+{
+"name": "Scott Aaronson",
+"title": "Svp, Security & Preparedness"
+},
+{
+"name": "Stephanie Voyda",
+"title": "Svp, Comms & Member Engagement"
+},
+{
+"name": "Philip Dion",
+"title": "Svp, Customer Solutions"
+},
+{
+"name": "Lawrence Jones",
+"title": "Svp, International Programs"
+},
+{
+"name": "Eric Grey",
+"title": "Vp, Government Relations"
+},
+{
+"name": "Alexander Bond",
+"title": "Executive Dir, Clean Energy & Environ."
+},
+{
+"name": "Kristine Telford",
+"title": "Executive Dir, External Affairs"
+},
+{
+"name": "Robert Michel",
+"title": "Managing Dir, Employment Testing"
+},
+{
+"name": "Andrea Koch",
+"title": "Senior Director, Reliability Policy"
+},
+{
+"name": "Victoria Calderon",
+"title": "Corp Secretary/deputy General Couns"
+},
+{
+"name": "David Batz",
+"title": "Managing Dir, Cyber & Infrastructure Security"
+},
+{
+"name": "Brian Reil",
+"title": "Managing Dir, External Comms"
+},
+{
+"name": "Eric Holdsworth",
+"title": "Managing Dir, Clean Energy & Environ."
+},
+{
+"name": "Louis Becka",
+"title": "Chief Acctg Officer/treas Until 5/24"
+},
+{
+"name": "Shelby Linton-keddie",
+"title": "Former Executive Dir Until 10/23"
+},
+{
+"name": "Teresa Boness",
+"title": "Chief Financial Officer As Of 9/24"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/130659550",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-alliance-for-automotive-innovation",
+"name": "Alliance for Automotive Innovation",
+"irsName": "Alliance For Automotive Innovation",
+"ein": 522143968,
+"sector": "automotive",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2025",
+"officers": [
+{
+"name": "John Bozzella",
+"title": "President/ceo"
+},
+{
+"name": "Hilary Cain",
+"title": "Executive Vice President, Policy"
+},
+{
+"name": "Steve Sisneros",
+"title": "Chief External Affairs Officer"
+},
+{
+"name": "Angel Punzalan",
+"title": "Chief Finance Officer"
+},
+{
+"name": "Charles Haake",
+"title": "Chief Legal Officer"
+},
+{
+"name": "Brian Weiss",
+"title": "Svp, Communications"
+},
+{
+"name": "Wayne Weikel",
+"title": "Vp, State Affairs"
+},
+{
+"name": "Dan Bowerson",
+"title": "Vp, E&e Policy"
+},
+{
+"name": "Sarah Puro",
+"title": "Vp, Safety And Technology"
+},
+{
+"name": "Jessica Simmons",
+"title": "Assistant General Counsel"
+},
+{
+"name": "Megan Ekstrom",
+"title": "Vp, Federal Affairs"
+},
+{
+"name": "Judy Mulcahy",
+"title": "Chief Operating Officer (to 5/25"
+},
+{
+"name": "Dave Schwietert",
+"title": "Chief Govt Affairs Officer (to 1/25"
+},
+{
+"name": "Jeremie Papin",
+"title": "Board Chair (to 1/2025"
+},
+{
+"name": "Jeff Walters",
+"title": "Vice Chair"
+},
+{
+"name": "Duncan Aldred",
+"title": "Director"
+},
+{
+"name": "Nicole Barranco",
+"title": "Director"
+},
+{
+"name": "Steven Center",
+"title": "Director"
+},
+{
+"name": "Adam Chamberlain",
+"title": "Director"
+},
+{
+"name": "Mark Chaffin",
+"title": "Director"
+},
+{
+"name": "Stephen Ciccone",
+"title": "Director"
+},
+{
+"name": "Michael Cottone",
+"title": "Director"
+},
+{
+"name": "Mamadou Diallo",
+"title": "Director"
+},
+{
+"name": "Tom Donnelly",
+"title": "Director"
+},
+{
+"name": "Joachim Joe Eberhardt",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/522143968",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-air-transport-association-of-america",
+"name": "Air Transport Association of America",
+"irsName": "Air Transport Association Of America Inc",
+"ein": 522113962,
+"sector": "airlines",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Nicholas Calio",
+"title": "President & Ceo"
+},
+{
+"name": "Sharon Pinkerton",
+"title": "Svp, Leg & Reg Policy"
+},
+{
+"name": "Christine Burgeson",
+"title": "Svp, Global Gov't Affairs"
+},
+{
+"name": "Paul Archambeault",
+"title": "Svp, Cfo & Coo & Treasurer"
+},
+{
+"name": "Patrica Vercelli",
+"title": "Svp, Clo & Secretary"
+},
+{
+"name": "Keith Glatz",
+"title": "Svp, Int'l Affairs"
+},
+{
+"name": "Shelley Rubino",
+"title": "Vp, Global Gov't Affairs"
+},
+{
+"name": "Joshua Saltzman",
+"title": "Vp, Global Gov't Affairs"
+},
+{
+"name": "Rebecca Spicer",
+"title": "Svp, Communications"
+},
+{
+"name": "Kristine O'brien",
+"title": "Vp, Global Gov't Affairs"
+},
+{
+"name": "Jarrod Thompson",
+"title": "Vp, Leg & Reg Policy"
+},
+{
+"name": "Sean Williams",
+"title": "Vp, State Gov't Affairs"
+},
+{
+"name": "Scott Kirby",
+"title": "Chairman"
+},
+{
+"name": "Robert Isom",
+"title": "Vice Chairman"
+},
+{
+"name": "Ed Bastian",
+"title": "Director"
+},
+{
+"name": "Nando Cesarone",
+"title": "Director"
+},
+{
+"name": "Michael Steen",
+"title": "Director"
+},
+{
+"name": "Robin Hayes",
+"title": "Director"
+},
+{
+"name": "Bob Jordan",
+"title": "Director"
+},
+{
+"name": "Richard Smith",
+"title": "Director"
+},
+{
+"name": "Ben Minicucci",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/522113962",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-aerospace-industries-association",
+"name": "Aerospace Industries Association",
+"irsName": "Aerospace Industries Association Of America Inc",
+"ein": 530023710,
+"sector": "aerospace and defense",
+"subsection": "501(c)(6)",
+"state": "VA",
+"filing": "tax year 2024",
+"officers": [
+{
+"name": "Eric Fanning",
+"title": "President & Ceo"
+},
+{
+"name": "Peter Prowitt",
+"title": "Coo"
+},
+{
+"name": "Alison Lynn",
+"title": "Vp, Communications"
+},
+{
+"name": "Saravanan Shanmuganathan",
+"title": "Svp, Policy; Secretary"
+},
+{
+"name": "Benjamin Stone",
+"title": "Svp, Operations"
+},
+{
+"name": "Katherine Nettrour Vp",
+"title": "Finance & Treasurer"
+},
+{
+"name": "Timothy White",
+"title": "Vp, Technology"
+},
+{
+"name": "Derek Hardwick",
+"title": "Vp, International Affairs"
+},
+{
+"name": "Dorothy Reimold",
+"title": "Vp, Civil Aviation"
+},
+{
+"name": "Nora Khalil",
+"title": "Vp, Legislative Affairs"
+},
+{
+"name": "Steve Tomaszewski",
+"title": "Vp, Space Systems"
+},
+{
+"name": "Theodore Colbert Iii",
+"title": "Board Of Governors Chair"
+},
+{
+"name": "Christopher Kubasik",
+"title": "Board Of Governors Vice Chair"
+},
+{
+"name": "Richard Addi",
+"title": "Board Member"
+},
+{
+"name": "Florian Aigrain",
+"title": "Board Member"
+},
+{
+"name": "Lee Annecchino",
+"title": "Board Member"
+},
+{
+"name": "Thomas Arseneault",
+"title": "Board Member"
+},
+{
+"name": "Mark Aslett",
+"title": "Board Member Until May 2024"
+},
+{
+"name": "Derek Baggerly",
+"title": "Board Member Until Feb 2024"
+},
+{
+"name": "Thomas Bell",
+"title": "Board Member"
+},
+{
+"name": "Lindsey Berckman",
+"title": "Board Member"
+},
+{
+"name": "Jennifer Bisceglie",
+"title": "Board Member Until Dec 2024"
+},
+{
+"name": "Shawn Black",
+"title": "Board Member"
+},
+{
+"name": "Chip Blankenship",
+"title": "Board Member"
+},
+{
+"name": "Michael Boland",
+"title": "Board Member Until May 2024"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/530023710",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-biotechnology-innovation-organization",
+"name": "Biotechnology Innovation Organization",
+"irsName": "Biotechnology Innovation Organization",
+"ein": 521224577,
+"sector": "biotechnology",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "John F Crowley",
+"title": "President And Ceo"
+},
+{
+"name": "Rachel K King",
+"title": "Interim President And Ceo"
+},
+{
+"name": "Elizabeth Cartier Esham",
+"title": "Chief Science Officer"
+},
+{
+"name": "Stephen Jasko",
+"title": "Chief Business And Financial Officer"
+},
+{
+"name": "Richard Masters",
+"title": "Chief Public Affairs & Marketing Off"
+},
+{
+"name": "Peter Mchugh",
+"title": "Chief Legal Officer"
+},
+{
+"name": "Letonia D Fykes",
+"title": "Chief Events & Industry Programs Officer"
+},
+{
+"name": "John Murphy",
+"title": "Chief Policy Officer"
+},
+{
+"name": "Michelle Mcmurry-heath",
+"title": "Former President And Ceo"
+},
+{
+"name": "Fritz Bittenbender",
+"title": "Board & Health Section Vice Chair"
+},
+{
+"name": "Grace E Colon",
+"title": "Emerging Companies Section V Chair"
+},
+{
+"name": "Paul J Hastings",
+"title": "Immediate Past Chair"
+},
+{
+"name": "Elizabeth Lewis Until 32024",
+"title": "Associate Vice Chair & Secretary"
+},
+{
+"name": "Ted W Love",
+"title": "Board & Health Section Chair"
+},
+{
+"name": "William J Newell",
+"title": "Associate Vice Chair & Secretary"
+},
+{
+"name": "Anna Rath Until 32024",
+"title": "Agriculture & Env Section Chair"
+},
+{
+"name": "Duane J Simpson",
+"title": "Agriculture & Env Section Vice Chair"
+},
+{
+"name": "Erika Smith",
+"title": "Emerging Companies Section Chair"
+},
+{
+"name": "Tad Sonstegard",
+"title": "Agriculture & Env Section Vice Chair"
+},
+{
+"name": "Bradford A Zakes",
+"title": "Treasurer"
+},
+{
+"name": "Angela Carisa Ailloni",
+"title": "Director (until December 2024"
+},
+{
+"name": "Steve Albers",
+"title": "Director"
+},
+{
+"name": "Stuart A Arbuckle",
+"title": "Director"
+},
+{
+"name": "Martin Babler",
+"title": "Director"
+},
+{
+"name": "Marianne De Backer",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/521224577",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-consumer-technology-association",
+"name": "Consumer Technology Association",
+"irsName": "Consumer Technology Association",
+"ein": 541963355,
+"sector": "consumer electronics",
+"subsection": "501(c)(6)",
+"state": "VA",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Gary Shapiro",
+"title": "Ceo"
+},
+{
+"name": "Glenda Macmullin",
+"title": "Treasurer"
+},
+{
+"name": "Michael Petricone",
+"title": "Sr. Vp, Government Affairs"
+},
+{
+"name": "Brian Markwalter",
+"title": "Sr. Vp, Research & Standards"
+},
+{
+"name": "Tiffany Moore",
+"title": "Sr. Vp, Political And Industry Affairs"
+},
+{
+"name": "Kinsey Fabrizio",
+"title": "President"
+},
+{
+"name": "Rene Quashie",
+"title": "Staff Vp, Regulatory Affairs"
+},
+{
+"name": "Joel David Grossman",
+"title": "Staff Vp, Regulatory Affairs"
+},
+{
+"name": "Suzanna Kang",
+"title": "Secretary"
+},
+{
+"name": "Tira Baror",
+"title": "Director, National Accounts"
+},
+{
+"name": "Kailey Adametz",
+"title": "Assistant Secretary"
+},
+{
+"name": "Steve Ewell",
+"title": "Executive Director"
+},
+{
+"name": "Alicia Abella",
+"title": "At-large Member"
+},
+{
+"name": "Daniel Pidgeon",
+"title": "At-large Member"
+},
+{
+"name": "Debbie Taylor Moore",
+"title": "At-large Member"
+},
+{
+"name": "Denna Ghazarian",
+"title": "Chair"
+},
+{
+"name": "Dr Carmichael Roberts",
+"title": "Immediate Past Chair"
+},
+{
+"name": "Dr James Mault",
+"title": "At-large Member"
+},
+{
+"name": "Dr Ximena Gates",
+"title": "Division Representative"
+},
+{
+"name": "Drew Schiller",
+"title": "2024 Deb Chair"
+},
+{
+"name": "Luke Motschenbacher",
+"title": "Deb Vice Chair"
+},
+{
+"name": "Megan Myungwon Lee",
+"title": "At-large Member"
+},
+{
+"name": "Melissa Andresko",
+"title": "Deb Chair"
+},
+{
+"name": "Michael Wise",
+"title": "At-large Member"
+},
+{
+"name": "Neal Manowitz",
+"title": "At-large Member"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/541963355",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-information-technology-industry-council",
+"name": "Information Technology Industry Council",
+"irsName": "Information Technology Industry Council Ltd",
+"ein": 131954338,
+"sector": "technology",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "tax year 2024",
+"officers": [
+{
+"name": "Jason Oxman",
+"title": "President & Ceo"
+},
+{
+"name": "Ashley Berrang",
+"title": "Evp, Public Affairs"
+},
+{
+"name": "Robert Strayer",
+"title": "Evp, Policy"
+},
+{
+"name": "Andrew Halataei",
+"title": "Former Evp, Gov't Affairs"
+},
+{
+"name": "Gordon Bitko",
+"title": "Evp, Policy"
+},
+{
+"name": "Teresa O'brien",
+"title": "Cfo & Svp, Administration"
+},
+{
+"name": "John Miller",
+"title": "Svp, Policy, Tdt & Gc"
+},
+{
+"name": "Cisco Minthorn",
+"title": "Vp, Gov't Affairs"
+},
+{
+"name": "Jennie Courts",
+"title": "Svp, Communications"
+},
+{
+"name": "Naomi Wilson",
+"title": "Vp, Policy"
+},
+{
+"name": "Margaret Mccarthy",
+"title": "Sr. Dir., Gov't Affairs"
+},
+{
+"name": "David Bain",
+"title": "Former Evp, Incits"
+},
+{
+"name": "Allen Thompson",
+"title": "Director - Until 09/24, Chair"
+},
+{
+"name": "Barbara Baffer",
+"title": "Chair - Until 09/24"
+},
+{
+"name": "Michael Kennedy",
+"title": "Vice Chair"
+},
+{
+"name": "James Hayes",
+"title": "Immediate Past Chair"
+},
+{
+"name": "Hayden Allan",
+"title": "Director"
+},
+{
+"name": "Kim Allman",
+"title": "Director"
+},
+{
+"name": "Emma Ascroft",
+"title": "Director"
+},
+{
+"name": "Drew Bagley",
+"title": "Director"
+},
+{
+"name": "Neil Bjorkman",
+"title": "Director"
+},
+{
+"name": "Stephen Bonner",
+"title": "Director"
+},
+{
+"name": "April Boyd",
+"title": "Director"
+},
+{
+"name": "Paul Brownell",
+"title": "Director"
+},
+{
+"name": "Cheryl Bruner",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/131954338",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-semiconductor-industry-association",
+"name": "Semiconductor Industry Association",
+"irsName": "Semiconductor Industry Association",
+"ein": 942437024,
+"sector": "semiconductors",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "tax year 2025",
+"officers": [
+{
+"name": "John Neuffer",
+"title": "President And Ceo"
+},
+{
+"name": "David Isaacs",
+"title": "Vp, Government Affairs"
+},
+{
+"name": "Mary Thornton",
+"title": "Vp, Global Policy"
+},
+{
+"name": "Dan Rosso",
+"title": "Vp, Communications"
+},
+{
+"name": "Molly O'leary",
+"title": "Director, Government Affairs"
+},
+{
+"name": "Erik Hadland",
+"title": "Director, Technology Policy"
+},
+{
+"name": "Aaron Woolf",
+"title": "Director, Global Policy"
+},
+{
+"name": "Zach Isakowitz",
+"title": "Director, Government Affairs"
+},
+{
+"name": "David Goeckeler",
+"title": "Chair"
+},
+{
+"name": "Lisa Su",
+"title": "Vice Chair"
+},
+{
+"name": "Vincent Roche",
+"title": "Director"
+},
+{
+"name": "Mark Brazeal",
+"title": "Director"
+},
+{
+"name": "John Forsyth",
+"title": "Director"
+},
+{
+"name": "Thomas Caulfield",
+"title": "Director"
+},
+{
+"name": "Jay Gambetta",
+"title": "Director"
+},
+{
+"name": "Lip-bu Tan",
+"title": "Director"
+},
+{
+"name": "Ford Tamer",
+"title": "Director"
+},
+{
+"name": "Matt Murphy",
+"title": "Director"
+},
+{
+"name": "Steve Sanghi",
+"title": "Director"
+},
+{
+"name": "Sanjay Mehrotra",
+"title": "Director"
+},
+{
+"name": "Tim Teter",
+"title": "Director"
+},
+{
+"name": "Hassane El-khoury",
+"title": "Director"
+},
+{
+"name": "Robert Bruggeworth",
+"title": "Director"
+},
+{
+"name": "Cristiano Amon",
+"title": "Director"
+},
+{
+"name": "Matt Johnson",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/942437024",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-national-association-of-home-builders",
+"name": "National Association of Home Builders",
+"irsName": "National Association Of Home Builders Of The United States",
+"ein": 880359303,
+"sector": "homebuilding",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "James Tobin",
+"title": "President & Ceo"
+},
+{
+"name": "James Rizzo",
+"title": "Former Evp-chief Legal Officer"
+},
+{
+"name": "Deborah Malone",
+"title": "Chief Operating Officer (thru 03/2024"
+},
+{
+"name": "Robert Dietz",
+"title": "Svp-chief Economist"
+},
+{
+"name": "Geoffrey Cassidy",
+"title": "Chief Revenue Officer"
+},
+{
+"name": "Eileen Ramage",
+"title": "Evp, Treasurer And Cfo"
+},
+{
+"name": "Melissa Voorhees",
+"title": "Chief Federation/expriance Officer"
+},
+{
+"name": "Paul Lopez",
+"title": "Chief Operating Officer"
+},
+{
+"name": "Lake Coulson",
+"title": "Vp-government Affairs"
+},
+{
+"name": "Meghan Everngam",
+"title": "Chief Of Staff"
+},
+{
+"name": "John Mcgeary",
+"title": "Svp Business Dev & Brand"
+},
+{
+"name": "Susan Asmus",
+"title": "Svp-regulatory Affairs"
+},
+{
+"name": "Michael Currier",
+"title": "Vp-exposition Sales"
+},
+{
+"name": "Karl Eckhart",
+"title": "Vp-intergovernmental Affairs"
+},
+{
+"name": "Stacey Harris",
+"title": "Chief Human Resources Officer"
+},
+{
+"name": "Abagail Adams",
+"title": "Vp General Counsel"
+},
+{
+"name": "Alicia Huey",
+"title": "Immediate Past Chair"
+},
+{
+"name": "Carl Harris",
+"title": "Chair Of The Board"
+},
+{
+"name": "Bob Peterson",
+"title": "Third Vice Chair"
+},
+{
+"name": "William Owens",
+"title": "Second Vice Chair"
+},
+{
+"name": "Willard Hughes",
+"title": "First Vice Chair"
+},
+{
+"name": "Jerry Konter",
+"title": "Director"
+},
+{
+"name": "Tag Gilkeson",
+"title": "Director"
+},
+{
+"name": "Garrett Anderson",
+"title": "Director"
+},
+{
+"name": "Marvin Bart Bartlett Jr",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/880359303",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-american-chemistry-council",
+"name": "American Chemistry Council",
+"irsName": "American Chemistry Council",
+"ein": 530104410,
+"sector": "chemicals",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Christopher L Jahn",
+"title": "President And Ceo"
+},
+{
+"name": "Ross E Eisenberg",
+"title": "Vp, Plastics"
+},
+{
+"name": "Ryan Jackson",
+"title": "Vp, Federal Government Affairs"
+},
+{
+"name": "Raymond O'bryan",
+"title": "Former Cfo"
+},
+{
+"name": "Kimberly Wise White",
+"title": "Vp, Reg And Scientific Affairs"
+},
+{
+"name": "Robert J Simon Jr",
+"title": "Vp, Chemical Products & Technology"
+},
+{
+"name": "Nacole B Hinton",
+"title": "Vp, Hr & Administration"
+},
+{
+"name": "Joseph Yates Parker",
+"title": "Cfo, Cao, Treasurer"
+},
+{
+"name": "Mitchell Toomey",
+"title": "Vp, Sustainability & Responsibility"
+},
+{
+"name": "Sarah Scruggs Brandt",
+"title": "Evp, Communications"
+},
+{
+"name": "Rebecca Mcphail",
+"title": "Vp, State Affairs"
+},
+{
+"name": "Andrew Lavanway",
+"title": "Chief Executive, Chemtrec"
+},
+{
+"name": "Allison W Starmann",
+"title": "Gen. Coun., Secretary (thru 7/31/24"
+},
+{
+"name": "Erin Kane",
+"title": "Chair Of The Board"
+},
+{
+"name": "Lori Ryerkerk",
+"title": "Vice Chair Of The Board"
+},
+{
+"name": "Karen Mckee",
+"title": "Immediate Past Chair Of The Board"
+},
+{
+"name": "Michael Graff",
+"title": "Executive Committee Chair"
+},
+{
+"name": "Scott Behrens",
+"title": "Board Member"
+},
+{
+"name": "Cindy Boiter",
+"title": "Board Member"
+},
+{
+"name": "Lucia Boldea",
+"title": "Board Member"
+},
+{
+"name": "Frank Bozich",
+"title": "Board Member"
+},
+{
+"name": "Darrell Brown",
+"title": "Board Member"
+},
+{
+"name": "Phil Brown",
+"title": "Board Member"
+},
+{
+"name": "Inga Carus",
+"title": "Board Member"
+},
+{
+"name": "Dean Cordle",
+"title": "Board Member"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/530104410",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-investment-company-institute",
+"name": "Investment Company Institute",
+"irsName": "Investment Company Institute",
+"ein": 135266605,
+"sector": "asset management",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "tax year 2025",
+"officers": [
+{
+"name": "Eric J Pan",
+"title": "President & Ceo"
+},
+{
+"name": "Donald C Auerbach",
+"title": "Chief Operating Officer"
+},
+{
+"name": "John G Emling",
+"title": "Chief Govt. Affairs Officer"
+},
+{
+"name": "Michael N Pedroni",
+"title": "Chief Global Affairs Officer"
+},
+{
+"name": "Susan M Olson",
+"title": "Former General Counsel"
+},
+{
+"name": "Dorothy M Donohue",
+"title": "Deputy General Counsel"
+},
+{
+"name": "Erica E Richardson",
+"title": "Chief Strategic Comm. Officer"
+},
+{
+"name": "Sean S Collins",
+"title": "Chief Economist Thru 09/24"
+},
+{
+"name": "Thomas T Kim",
+"title": "Managing Director - Idc"
+},
+{
+"name": "Paul Cellupica",
+"title": "General Counsel"
+},
+{
+"name": "Rochelle L Antoniewicz",
+"title": "Chief Economist As Of 10/24"
+},
+{
+"name": "Rachel H Graham",
+"title": "Secretary"
+},
+{
+"name": "Mark A Delcoco",
+"title": "Cfo/treasurer"
+},
+{
+"name": "George H Walker",
+"title": "Chair"
+},
+{
+"name": "Yie-hsin Hung",
+"title": "Vice-chair"
+},
+{
+"name": "Omar Aguilar",
+"title": "Member"
+},
+{
+"name": "Andrew G Arnott",
+"title": "Member"
+},
+{
+"name": "George Aylward",
+"title": "Member"
+},
+{
+"name": "Kathleen T Barr",
+"title": "Member"
+},
+{
+"name": "Seth P Bernstein",
+"title": "Member"
+},
+{
+"name": "Kamal Bhatia",
+"title": "Member"
+},
+{
+"name": "Stephanie G Braming",
+"title": "Member"
+},
+{
+"name": "Heather E Brilliant",
+"title": "Member"
+},
+{
+"name": "Pamela Carlton",
+"title": "Member"
+},
+{
+"name": "Jane K Carten",
+"title": "Member"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/135266605",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-financial-services-forum",
+"name": "Financial Services Forum",
+"irsName": "Financial Services Forum",
+"ein": 522241644,
+"sector": "banking",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "tax year 2024",
+"officers": [
+{
+"name": "Kevin Fromer",
+"title": "President & Ceo"
+},
+{
+"name": "Sean Campbell",
+"title": "Exec Vp, Dir Of Policy & Research"
+},
+{
+"name": "Tiffany Haas",
+"title": "Vp, Gov't & Industry Relations"
+},
+{
+"name": "Barbara Hagenbaugh",
+"title": "Exec Vp, Head Of Communications"
+},
+{
+"name": "Chip Bartlett",
+"title": "Vp, Gov't Affairs"
+},
+{
+"name": "Kaitlyn Brooke",
+"title": "Secretary And Treasurer"
+},
+{
+"name": "Spencer Katterhagen",
+"title": "Manager, Gov Affairs"
+},
+{
+"name": "Brigid Richelieu",
+"title": "Sr. Manager, Communications"
+},
+{
+"name": "Brian Moynihan",
+"title": "Member"
+},
+{
+"name": "Charlie Scharf",
+"title": "Member"
+},
+{
+"name": "David Solomon",
+"title": "Member"
+},
+{
+"name": "Jamie Dimon",
+"title": "Member"
+},
+{
+"name": "Jane Fraser",
+"title": "Member/vice Chair"
+},
+{
+"name": "Robin Vince",
+"title": "Member"
+},
+{
+"name": "Ronald O'hanley",
+"title": "Member/chairman"
+},
+{
+"name": "Ted Pick",
+"title": "Member"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/522241644",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-american-council-of-life-insurers",
+"name": "American Council of Life Insurers",
+"irsName": "American Council Of Life Insurers Inc",
+"ein": 521044350,
+"sector": "life insurance",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Susan Neely",
+"title": "President & Ceo"
+},
+{
+"name": "David C Chavern",
+"title": "President & Ceo"
+},
+{
+"name": "David C Turner",
+"title": "Coo & Corporate Secretary"
+},
+{
+"name": "Jill A Kozeny",
+"title": "Evp, Chief Advocacy Officer"
+},
+{
+"name": "Jillian E Froment",
+"title": "Evp & General Counsel"
+},
+{
+"name": "Regina Y Rose",
+"title": "Svp, Tax Policy"
+},
+{
+"name": "Joyce Y Meyer",
+"title": "Evp, Government Relations"
+},
+{
+"name": "Leah J Walters",
+"title": "Svp, State Relations"
+},
+{
+"name": "Donald L Walker",
+"title": "Svp, Administration & Cfo"
+},
+{
+"name": "Kathleen A Coulombe",
+"title": "Svp, Federal Relations"
+},
+{
+"name": "Mariana E Gomez",
+"title": "Svp, Policy Development"
+},
+{
+"name": "Scott Dixon",
+"title": "Svp, Chief Financial Officer"
+},
+{
+"name": "Howard M Bard",
+"title": "Svp, Principal Dep Gen Counsel"
+},
+{
+"name": "Cynthia L Goff",
+"title": "Vp, Supplemental Products & Group Insurance"
+},
+{
+"name": "Jessica B Mancari",
+"title": "Svp, Public Affairs"
+},
+{
+"name": "Nancy B Moon",
+"title": "Svp, Member Relations & Dep Corp Secretary"
+},
+{
+"name": "Rich Bielen",
+"title": "Chair"
+},
+{
+"name": "Teresa Rasmussen",
+"title": "Chair-elect"
+},
+{
+"name": "Andrew Mcmahon",
+"title": "Chair-elect Designate"
+},
+{
+"name": "Paul Quaranto Jr",
+"title": "Immediate Past Chair"
+},
+{
+"name": "Allan Levine",
+"title": "Director"
+},
+{
+"name": "Brooks Tingle",
+"title": "Director"
+},
+{
+"name": "Caroline Feeney",
+"title": "Director"
+},
+{
+"name": "Craig Desanto",
+"title": "Director"
+},
+{
+"name": "Dan Houston",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/521044350",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-american-farm-bureau-federation",
+"name": "American Farm Bureau Federation",
+"irsName": "American Farm Bureau Federation",
+"ein": 360725160,
+"sector": "agriculture",
+"subsection": "501(c)(5)",
+"state": "DC",
+"filing": "tax year 2025",
+"officers": [
+{
+"name": "Vincent Duvall",
+"title": "President"
+},
+{
+"name": "Joby Young",
+"title": "Executive Vp"
+},
+{
+"name": "Ellen Steen Greer",
+"title": "General Counsel & Secretary"
+},
+{
+"name": "Kathleen J Cullins",
+"title": "Cfo & Treasurer"
+},
+{
+"name": "Terri Moore",
+"title": "Vp, Communications"
+},
+{
+"name": "Margaret Wolff",
+"title": "Vp, Lead, Educ And Engage"
+},
+{
+"name": "Samuel Kieffer",
+"title": "Vp, Public Policy (thru 10/25"
+},
+{
+"name": "Travis Cushman",
+"title": "Dpty Gen Couns, Lit & Publ"
+},
+{
+"name": "Brian Anderson",
+"title": "Ed, Technology (thru 05/25"
+},
+{
+"name": "Melissa Sanders Carroll",
+"title": "Executive Director, Ideag"
+},
+{
+"name": "Scott Vanderwal",
+"title": "Vice President"
+},
+{
+"name": "Shawn Harding",
+"title": "Director"
+},
+{
+"name": "Isabella Chism",
+"title": "Director"
+},
+{
+"name": "Eric Mayberry",
+"title": "Director"
+},
+{
+"name": "Jeb Smith",
+"title": "Director"
+},
+{
+"name": "Rodd Moesel",
+"title": "Director (thru 11/25"
+},
+{
+"name": "Eddie Melton",
+"title": "Director"
+},
+{
+"name": "Mark Mchargue",
+"title": "Director"
+},
+{
+"name": "Wayne Pryor",
+"title": "Director (thru 12/24"
+},
+{
+"name": "Russell Boening",
+"title": "Director"
+},
+{
+"name": "Kevin Lussier",
+"title": "Director (thru 01/25"
+},
+{
+"name": "Harry Ott",
+"title": "Director"
+},
+{
+"name": "Carlyle Currier",
+"title": "Director"
+},
+{
+"name": "Tom Mccall",
+"title": "Director"
+},
+{
+"name": "David Fisher",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/360725160",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-national-mining-association",
+"name": "National Mining Association",
+"irsName": "National Mining Association",
+"ein": 521916480,
+"sector": "mining",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "tax year 2024",
+"officers": [
+{
+"name": "Rich Nolan",
+"title": "President & Ceo"
+},
+{
+"name": "Katie Sweeney",
+"title": "Executive Vp Legal Affairs"
+},
+{
+"name": "Ashley Burke",
+"title": "Svp, Communications"
+},
+{
+"name": "Richard Russell",
+"title": "Svp, Government Affairs"
+},
+{
+"name": "Tawny Bridgeford",
+"title": "Deputy General Counsel, Vp"
+},
+{
+"name": "Jerry Mullins",
+"title": "Svp, Government Affairs"
+},
+{
+"name": "Roger Roberts",
+"title": "Svp, Finance & Administration"
+},
+{
+"name": "Veronika Shime",
+"title": "Vp International Policy"
+},
+{
+"name": "Walter Scheller",
+"title": "Vice Chairman"
+},
+{
+"name": "Jim Grech",
+"title": "Vice Chairman"
+},
+{
+"name": "Christina Erling",
+"title": "Vice Chairman"
+},
+{
+"name": "Michael Kendrick",
+"title": "Vice Chairman"
+},
+{
+"name": "Paul Lang",
+"title": "Chairman"
+},
+{
+"name": "Ryan Schierman",
+"title": "Director"
+},
+{
+"name": "Scott Melbye",
+"title": "Director"
+},
+{
+"name": "Sean Mclanahan",
+"title": "Director"
+},
+{
+"name": "Shane Kuhlmey",
+"title": "Director"
+},
+{
+"name": "Tacy Gillespie",
+"title": "Director"
+},
+{
+"name": "Tony Calandra",
+"title": "Director"
+},
+{
+"name": "Tim Gitzel",
+"title": "Director"
+},
+{
+"name": "Tim Viskocil",
+"title": "Director"
+},
+{
+"name": "Todd Clewett",
+"title": "Director"
+},
+{
+"name": "Robert Stenger",
+"title": "Director"
+},
+{
+"name": "Randy Vranes",
+"title": "Director"
+},
+{
+"name": "Victoria Tapia",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/521916480",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-american-trucking-associations",
+"name": "American Trucking Associations",
+"irsName": "American Trucking Associations Inc",
+"ein": 530026970,
+"sector": "trucking",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Christopher Spear",
+"title": "President And Ceo"
+},
+{
+"name": "Sarah Rajtik",
+"title": "Chief Operating Officer"
+},
+{
+"name": "Richard Pianka Chief Legal",
+"title": "Officer & General Counsel"
+},
+{
+"name": "Ed Gilroy",
+"title": "Senior Vice President"
+},
+{
+"name": "Rebecca Brewster",
+"title": "Senior Vice President"
+},
+{
+"name": "Megan Masitto",
+"title": "Chief Financial Officer"
+},
+{
+"name": "Robert Costello Chief",
+"title": "Economist & Senior Vice President"
+},
+{
+"name": "John Lynch",
+"title": "Senior Vice President"
+},
+{
+"name": "Michael Doran Senior",
+"title": "Vp Of Membership"
+},
+{
+"name": "Andrew T Boyle",
+"title": "Chairman Until 10/2024"
+},
+{
+"name": "Randall J Clifford",
+"title": "Vice Chairman"
+},
+{
+"name": "Paul Dennis Dellinger",
+"title": "Chairman As Of 10/2024"
+},
+{
+"name": "Daniel L Van Alstine",
+"title": "Past Chairman"
+},
+{
+"name": "John M Smith",
+"title": "Secretary"
+},
+{
+"name": "John A Smith",
+"title": "Treasurer"
+},
+{
+"name": "Mr Harold Sumerford Jr",
+"title": "Second Immediate Past Chairman"
+},
+{
+"name": "Ryan Frederiksen",
+"title": "Committee Chair Until 08/2024"
+},
+{
+"name": "Scott George",
+"title": "Committee Chair"
+},
+{
+"name": "Michael S Card",
+"title": "Committee Chair"
+},
+{
+"name": "William Hill",
+"title": "Small Carrier Committee Chair"
+},
+{
+"name": "Derek J Leathers",
+"title": "Atri Chairman"
+},
+{
+"name": "Greg R Hodgen",
+"title": "First Vice Chairman"
+},
+{
+"name": "Greg Venable",
+"title": "State Vice President"
+},
+{
+"name": "Travis Nekota",
+"title": "State Vice President"
+},
+{
+"name": "Richard Hepler",
+"title": "State Vice President Until 07/2024"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/530026970",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-association-of-american-railroads",
+"name": "Association of American Railroads",
+"irsName": "Association Of American Railroads",
+"ein": 536000125,
+"sector": "railroads",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "tax year 2024",
+"officers": [
+{
+"name": "Ian N Jefferies",
+"title": "President, Ceo"
+},
+{
+"name": "Kathryn D Kirmayer",
+"title": "Svp-law & General Counsel"
+},
+{
+"name": "Adrian Arnakis",
+"title": "Svp-government Affairs"
+},
+{
+"name": "Paul R Hedrick",
+"title": "Svp-fin, Admin & Cfo"
+},
+{
+"name": "Michael J Rush",
+"title": "Svp-safety & Operations"
+},
+{
+"name": "Kristin A Smith",
+"title": "Svp-communications"
+},
+{
+"name": "Rand Ghayad",
+"title": "Svp-policy & Economics"
+},
+{
+"name": "William C Thompson",
+"title": "Program Manager"
+},
+{
+"name": "John Miller",
+"title": "Associate General Counsel"
+},
+{
+"name": "Stephen Gordon",
+"title": "Associate General Counsel"
+},
+{
+"name": "Edward A Kendall Jr",
+"title": "Corporate Secretary"
+},
+{
+"name": "Keith Creel",
+"title": "Director"
+},
+{
+"name": "Kathryn M Farmer",
+"title": "Director"
+},
+{
+"name": "Joe Hinrichs",
+"title": "Director"
+},
+{
+"name": "Tracy Robinson",
+"title": "Director"
+},
+{
+"name": "Alan Shaw",
+"title": "Director (until 9/15/2024"
+},
+{
+"name": "Michael Miller",
+"title": "Director"
+},
+{
+"name": "Jim Vena",
+"title": "Director"
+},
+{
+"name": "William O'leary",
+"title": "Director"
+},
+{
+"name": "Mark George",
+"title": "Director"
+},
+{
+"name": "Dan Smith",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/536000125",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-national-association-of-broadcasters",
+"name": "National Association of Broadcasters",
+"irsName": "National Association Of Broadcasters",
+"ein": 530114600,
+"sector": "broadcasting",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Curtis Legeyt",
+"title": "President & Chief Executive Officer"
+},
+{
+"name": "Richard Kaplan",
+"title": "Clo & Evp, Legal & Reg. Affairs"
+},
+{
+"name": "Cara Michelle Semone Lehman",
+"title": "Chief Of Staff & Evp, Public Affairs"
+},
+{
+"name": "Shawn R Donilon",
+"title": "Evp, Gov. Relations"
+},
+{
+"name": "Karen Chupka",
+"title": "Man. Dir. & Evp, Global Connections"
+},
+{
+"name": "Robert Matheny",
+"title": "Cto & Evp, Technology"
+},
+{
+"name": "April Carty-sipp",
+"title": "Evp, Industry Affairs"
+},
+{
+"name": "Tea Gennaro",
+"title": "Cfo & Evp Of Operations"
+},
+{
+"name": "John P Smedile",
+"title": "Svp, Gov. Relations"
+},
+{
+"name": "Lynn D Claudy",
+"title": "Svp, Technology"
+},
+{
+"name": "Christopher A Brown",
+"title": "Man. Dir. & Evp (to 3/31/24"
+},
+{
+"name": "Ireta Duke",
+"title": "Chief Impact Officer"
+},
+{
+"name": "Perry Sook",
+"title": "Board Chairman"
+},
+{
+"name": "Alfred Liggins",
+"title": "Board Member (to 5/31/24"
+},
+{
+"name": "Allen Power",
+"title": "Board Member"
+},
+{
+"name": "Amy Liz Pittenger",
+"title": "Board Member"
+},
+{
+"name": "Andrew Sutor",
+"title": "Board Member"
+},
+{
+"name": "Andy Alford",
+"title": "Board Member (to 7/18/24"
+},
+{
+"name": "Ben Downs",
+"title": "Board Member"
+},
+{
+"name": "Bert Medina",
+"title": "Board Member (to 5/31/24"
+},
+{
+"name": "Bill Wilson",
+"title": "Board Member (to 5/31/24"
+},
+{
+"name": "Bob Proffitt",
+"title": "Board Member"
+},
+{
+"name": "Byron Allen",
+"title": "Board Member"
+},
+{
+"name": "Catherine Badalamente",
+"title": "Board Member"
+},
+{
+"name": "Chris Cornelius",
+"title": "Board Member"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/530114600",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-motion-picture-association",
+"name": "Motion Picture Association",
+"irsName": "Motion Picture Association Inc",
+"ein": 131068220,
+"sector": "film",
+"subsection": "501(c)(6)",
+"state": "CA",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Charles Rivkin",
+"title": "Chairman & Ceo"
+},
+{
+"name": "Gail Mackinnon",
+"title": "Sevp, Globl Policy & Govt Aff"
+},
+{
+"name": "Karyn Temple",
+"title": "Sevp & Global General Counsel"
+},
+{
+"name": "Urmila Venugopalan",
+"title": "Evp, Strategy & Global Ops"
+},
+{
+"name": "Hunter Paletsas",
+"title": "Evp, Global Cfo"
+},
+{
+"name": "Patrick Kilcur",
+"title": "Evp, Gov't Affairs"
+},
+{
+"name": "Stanford Mccoy",
+"title": "Managing Director, Mpa Emea"
+},
+{
+"name": "Terri Davies",
+"title": "Svp & Managing Director, Tpn"
+},
+{
+"name": "Kathy Banuelos",
+"title": "Svp, State Government Affairs"
+},
+{
+"name": "Benjamin Sheffner",
+"title": "Svp, Associate General Counsel"
+},
+{
+"name": "Jan Van Voorn",
+"title": "Evp & Chief Of Global Content - Through March"
+},
+{
+"name": "David F England",
+"title": "Former Evp & Cfo"
+},
+{
+"name": "Larissa Knapp",
+"title": "Evp, Chief Global Content Protection - June Forward"
+},
+{
+"name": "Vans Stevenson",
+"title": "Former Svp, State Government Affairs"
+},
+{
+"name": "Alan Bergman",
+"title": "Director"
+},
+{
+"name": "Anthony Vinciquerra",
+"title": "Director"
+},
+{
+"name": "Bela Bajaria",
+"title": "Director - September Forward"
+},
+{
+"name": "Brian Robbins",
+"title": "Director"
+},
+{
+"name": "Cathleen Taff",
+"title": "Director"
+},
+{
+"name": "Chris Miller",
+"title": "Director"
+},
+{
+"name": "Courtenay Valenti",
+"title": "Director - December Forward"
+},
+{
+"name": "Courtney Armstrong",
+"title": "Director"
+},
+{
+"name": "David Hyman",
+"title": "Director"
+},
+{
+"name": "Dede Lea",
+"title": "Director"
+},
+{
+"name": "Donna Langley",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/131068220",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-ctia",
+"name": "CTIA",
+"irsName": "Ctia-the Wireless Association",
+"ein": 521347628,
+"sector": "wireless",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Meredith A Baker",
+"title": "President & Ceo"
+},
+{
+"name": "Bradley Gillen",
+"title": "Executive Vice President"
+},
+{
+"name": "Rocco Carlitti",
+"title": "Svp, Cfo"
+},
+{
+"name": "Thomas Power",
+"title": "Senior Counsel (as Of 06/2024"
+},
+{
+"name": "Jamie Hastings",
+"title": "Svp, External & State Affairs"
+},
+{
+"name": "Kelly Cole",
+"title": "Svp, Gov't Affairs"
+},
+{
+"name": "Scott Bergmann",
+"title": "Svp, Reg Affairs"
+},
+{
+"name": "Thomas Sawanobori",
+"title": "Svp, Cto"
+},
+{
+"name": "Umair Javed",
+"title": "Svp, Gen Counsel (as Of 06/24"
+},
+{
+"name": "John Marinho",
+"title": "Vp, Cybersecurity"
+},
+{
+"name": "Nicholas Ludlum",
+"title": "Svp, Cco"
+},
+{
+"name": "Robert Roche",
+"title": "Vp, Research"
+},
+{
+"name": "Michelle James",
+"title": "Vp, Strategic Industry Program"
+},
+{
+"name": "James Schuler",
+"title": "Vp, External & State Affairs"
+},
+{
+"name": "Doug Hyslop",
+"title": "Vp, Technology"
+},
+{
+"name": "James Cathey",
+"title": "Director (until 02/2024"
+},
+{
+"name": "Allison Dinardo",
+"title": "Director"
+},
+{
+"name": "Jeff Unterreiner",
+"title": "Director"
+},
+{
+"name": "Mike Finley",
+"title": "Director"
+},
+{
+"name": "Niklas Heuveldop",
+"title": "Secretary (until 01/2024"
+},
+{
+"name": "Judd Hinkle",
+"title": "Director"
+},
+{
+"name": "Laurent Therivel",
+"title": "Vice Chairman"
+},
+{
+"name": "William Mounger",
+"title": "Director"
+},
+{
+"name": "Brighid Riordan",
+"title": "Director (as Of 01/2024"
+},
+{
+"name": "Slayton Stewart",
+"title": "Chairman"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/521347628",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-ncta-the-internet-television-association",
+"name": "NCTA The Internet & Television Association",
+"irsName": "Ncta-the Internet & Television Association",
+"ein": 530222396,
+"sector": "cable",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Michael Powell",
+"title": "President & Ceo"
+},
+{
+"name": "James Assey Jr",
+"title": "Executive Vp."
+},
+{
+"name": "Rick Chessen",
+"title": "Sr. Vp., Legal & Reg. Affairs & Clo"
+},
+{
+"name": "Clifford Riccio Jr",
+"title": "Sr. Vp., Chief, Government Relations"
+},
+{
+"name": "Brian Dietz",
+"title": "Sr. Vp., Strategic Comm."
+},
+{
+"name": "Kyle Dixon",
+"title": "Vp & Deputy General Counsel"
+},
+{
+"name": "Nilda Gumbs",
+"title": "Chief Of Staff"
+},
+{
+"name": "Rikin N Thakker",
+"title": "Sr. Vp., Chief Tech. Officer"
+},
+{
+"name": "Mark A Bell",
+"title": "Sr. Vp., Creative Services"
+},
+{
+"name": "Loretta P Polk",
+"title": "Vp. & Deputy General Counsel"
+},
+{
+"name": "Mark Kulish",
+"title": "Outgoing Chief Admin. & Fin. Officer"
+},
+{
+"name": "Mary Beth Murphy",
+"title": "Vp & Deputy General Counsel"
+},
+{
+"name": "Lee Sfriedman",
+"title": "Vp & Deputy Chief, Fed Leg Affairs"
+},
+{
+"name": "Shannon Scott",
+"title": "Incoming Svp And Cfo"
+},
+{
+"name": "Mark Greatrex",
+"title": "Chairman"
+},
+{
+"name": "Pat Mcadaragh",
+"title": "Immediate Past Chairman"
+},
+{
+"name": "Chris Winfrey",
+"title": "Vice-chairman"
+},
+{
+"name": "Dave Watson",
+"title": "Treasurer"
+},
+{
+"name": "Kristin Dolan",
+"title": "Secretary"
+},
+{
+"name": "Alfred Liggins Iii",
+"title": "Director"
+},
+{
+"name": "Bob Bakish",
+"title": "Outgoing Director"
+},
+{
+"name": "Chris Mccarthy",
+"title": "Incoming Director"
+},
+{
+"name": "Chuck Treadway",
+"title": "Director"
+},
+{
+"name": "Jimmy Pitaro",
+"title": "Director"
+},
+{
+"name": "John Evans",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/530222396",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-credit-union-national-association",
+"name": "Credit Union National Association",
+"irsName": "Credit Union National Association Inc",
+"ein": 237065623,
+"sector": "credit unions",
+"subsection": "501(c)(6)",
+"state": "WI",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "James Nussle",
+"title": "President/ceo"
+},
+{
+"name": "B Dan Berger",
+"title": "Ceo (term 01/2024"
+},
+{
+"name": "Randal Salser",
+"title": "Pres Nafcu Serv Corp (term 04/2024"
+},
+{
+"name": "Anthony Demangone",
+"title": "Chief Memb. & Engage. Officer"
+},
+{
+"name": "Jill Tomalin",
+"title": "Exec. Vp & Chief Of Staff"
+},
+{
+"name": "Todd Spiczenski",
+"title": "Chief Assoc. Services Officer"
+},
+{
+"name": "Gregory Mesack",
+"title": "Sr. Vp Of Advocacy"
+},
+{
+"name": "Meghan Small",
+"title": "Chief Comm. & Marketing Officer"
+},
+{
+"name": "Carrie Hunt",
+"title": "Chief Advocacy Officer"
+},
+{
+"name": "Eddie Rivera",
+"title": "Cfo & Coo"
+},
+{
+"name": "Richard Gose",
+"title": "Advocacy Consultant (term 06/2024"
+},
+{
+"name": "Ann Petros",
+"title": "Vp Of Policy Engage, & Cu Op."
+},
+{
+"name": "Susan Parisi",
+"title": "Chief Corporate Counsel Officer"
+},
+{
+"name": "Catherine Porterfield",
+"title": "Vice President Member Engagement & Service"
+},
+{
+"name": "Pat Pierce",
+"title": "Chair"
+},
+{
+"name": "Karen Harbin",
+"title": "Vice Chair"
+},
+{
+"name": "Jim Morrell",
+"title": "Treasurer"
+},
+{
+"name": "Keith Sultemeier",
+"title": "Secretary"
+},
+{
+"name": "Brian Schools",
+"title": "Director & Imm Past Chair"
+},
+{
+"name": "Amy Sink",
+"title": "Director"
+},
+{
+"name": "Day Matthews",
+"title": "Director"
+},
+{
+"name": "Fred Robinson",
+"title": "Director"
+},
+{
+"name": "Gary Grinnell",
+"title": "Director"
+},
+{
+"name": "Jeff Olson",
+"title": "Director"
+},
+{
+"name": "Lisa Ginter",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/237065623",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-independent-community-bankers-of-america",
+"name": "Independent Community Bankers of America",
+"irsName": "Independent Community Bankers Of America",
+"ein": 410327400,
+"sector": "banking",
+"subsection": "501(c)(6)",
+"state": "MN",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Rebeca Romero Rainey",
+"title": "President/ceo"
+},
+{
+"name": "Anne Balcer",
+"title": "Sevp Chief Government Relations & Public Policy"
+},
+{
+"name": "Alex Galeano",
+"title": "Sevp Chief Finance And Administrative Officer"
+},
+{
+"name": "Kevin Tweddle",
+"title": "Sevp Innovation"
+},
+{
+"name": "Paul Merski",
+"title": "Evp Congressional Relations"
+},
+{
+"name": "Lindsay Lanore",
+"title": "Sevp Chief Learning & Experience Officer"
+},
+{
+"name": "Prabhash Shrestha",
+"title": "Evp Chief Digital Strategy Officer"
+},
+{
+"name": "Valerie Utsey",
+"title": "Evp Chief People Officer"
+},
+{
+"name": "Lilliane Thomas",
+"title": "Evp Regulatory Relations"
+},
+{
+"name": "Robert Birgfeld",
+"title": "Evp Chief Marketing Officer"
+},
+{
+"name": "Charles Potts",
+"title": "Evp Innovation"
+},
+{
+"name": "Christopher Cole",
+"title": "Evp Senior Regulatory Counsel"
+},
+{
+"name": "William Pusey",
+"title": "Evp Member Relations"
+},
+{
+"name": "Camden Fine",
+"title": "Former President/ceo"
+},
+{
+"name": "Terry Jorde",
+"title": "Former Sevp Chief Of Staff"
+},
+{
+"name": "Jack Hopkins",
+"title": "Chairman Elect"
+},
+{
+"name": "Lucas White",
+"title": "Chairman"
+},
+{
+"name": "Brad Bolton",
+"title": "Past Chairman"
+},
+{
+"name": "Derek Williams",
+"title": "Immediate Past Chairman"
+},
+{
+"name": "Alice Frazier",
+"title": "Vice Chairman"
+},
+{
+"name": "Robert Fisher",
+"title": "Past Chairman"
+},
+{
+"name": "Noah Wilcox",
+"title": "Past Chairman"
+},
+{
+"name": "Sarah Getzlaff",
+"title": "Director"
+},
+{
+"name": "Verlin Barker",
+"title": "Director"
+},
+{
+"name": "James Sills Iii",
+"title": "Secretary"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/410327400",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-mortgage-bankers-association",
+"name": "Mortgage Bankers Association",
+"irsName": "Mortgage Bankers Association Of America",
+"ein": 361505650,
+"sector": "mortgage",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Sept. 2025",
+"officers": [
+{
+"name": "Robert D Broeksmit",
+"title": "President & Ceo"
+},
+{
+"name": "Marcia M Davies",
+"title": "Svp And Chief Operating Officer"
+},
+{
+"name": "Gordon R Mills",
+"title": "Svp, Residential Policy & Strategic Industry Engag"
+},
+{
+"name": "William P Killmer",
+"title": "Svp, Legislative & Political Affairs"
+},
+{
+"name": "Michael P Flood",
+"title": "Svp, Comm. & Multifamily (until 9/24"
+},
+{
+"name": "Michael C Fratantoni",
+"title": "Chief Economist & Svp, Research & Industry Tech."
+},
+{
+"name": "Peter J Grace",
+"title": "Svp, Membership, Ed., Tech, & Strategy"
+},
+{
+"name": "Michael W Briggs",
+"title": "Svp, General Counsel"
+},
+{
+"name": "Lisa J Haynes",
+"title": "Svp, Cfo & Div. Off. (until 09/2024"
+},
+{
+"name": "Stephen O'connor",
+"title": "Svp, Affordable Housing (until 9/24"
+},
+{
+"name": "James Woodwell",
+"title": "Vp, Commercial Real Estate, Research"
+},
+{
+"name": "Elaine Howard Harrington",
+"title": "Vp, Meetings"
+},
+{
+"name": "Marina Walsh",
+"title": "Vp, Industry Analysis"
+},
+{
+"name": "John Mechem",
+"title": "Vp, Public Affairs"
+},
+{
+"name": "Freddy Feliz",
+"title": "Cio & Vp, Information Technology"
+},
+{
+"name": "Astrid D Vermeer",
+"title": "Svp & Chief Financial Officer"
+},
+{
+"name": "Laura Escobar",
+"title": "Chair"
+},
+{
+"name": "Christine R Chandler",
+"title": "Chair-elect"
+},
+{
+"name": "Owen V Lee",
+"title": "Vice-chair"
+},
+{
+"name": "Daniel Sugg",
+"title": "Board Member"
+},
+{
+"name": "Debra Still",
+"title": "Board Member"
+},
+{
+"name": "Susan Stewart",
+"title": "Board Member"
+},
+{
+"name": "David Smith",
+"title": "Board Member"
+},
+{
+"name": "Hillary Provinse",
+"title": "Board Member"
+},
+{
+"name": "Robert Slatt",
+"title": "Board Member"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/361505650",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-national-restaurant-association",
+"name": "National Restaurant Association",
+"irsName": "National Restaurant Association",
+"ein": 361525480,
+"sector": "restaurants",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Michelle L Korsmo",
+"title": "President & Ceo"
+},
+{
+"name": "Sean Kennedy",
+"title": "Evp, Policy & Government Affairs"
+},
+{
+"name": "Marvin F Irby",
+"title": "Cao (until 6/15/24"
+},
+{
+"name": "Sherman L Brown",
+"title": "Evp, Business Services"
+},
+{
+"name": "Chris Rodgers",
+"title": "Evp, General Counsel & Corp. Sec."
+},
+{
+"name": "Kevin A Steele",
+"title": "Chief Info. Officer (until 9/21/24"
+},
+{
+"name": "Tia E Mattson",
+"title": "Evp, Enterprise Mktg. (until 9/21/24"
+},
+{
+"name": "Eric Ellis",
+"title": "Cfo"
+},
+{
+"name": "Dionne Harris",
+"title": "Svp, People & Culture"
+},
+{
+"name": "Ngocdung Vu",
+"title": "Svp, Mmbr./strat. Dev. (until 3/9/24"
+},
+{
+"name": "Hudson Riehle",
+"title": "Svp, Research & Knowledge"
+},
+{
+"name": "Angelo Amador",
+"title": "Svp, Legal Advocacy & Reg. Counsel"
+},
+{
+"name": "Daniel Roehl",
+"title": "Vp, Federal Government Affairs"
+},
+{
+"name": "Matthew Walker",
+"title": "Vp, Government Affairs"
+},
+{
+"name": "Jeffrey Lobdell",
+"title": "Chair"
+},
+{
+"name": "Richard Schneider",
+"title": "Vice Chair"
+},
+{
+"name": "Michael Axiotis",
+"title": "Treasurer"
+},
+{
+"name": "Scott Redler",
+"title": "Immediate Past Chair"
+},
+{
+"name": "Madelyn Alfano",
+"title": "Director"
+},
+{
+"name": "Anthony Anton",
+"title": "Director"
+},
+{
+"name": "Theodore J Balestreri",
+"title": "Director"
+},
+{
+"name": "Theodore Balestreri Ii",
+"title": "Director"
+},
+{
+"name": "Shaun Beard",
+"title": "Director, Ex-officio"
+},
+{
+"name": "Archna Malhotra Becker",
+"title": "Director"
+},
+{
+"name": "Dagmar Boggs",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/361525480",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-retail-industry-leaders-association",
+"name": "Retail Industry Leaders Association",
+"irsName": "Retail Industry Leaders Association Inc",
+"ein": 42395151,
+"sector": "retail",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "tax year 2024",
+"officers": [
+{
+"name": "Brian Dodge",
+"title": "President & Ceo"
+},
+{
+"name": "Gilbert Taylor",
+"title": "Svp, Business Development"
+},
+{
+"name": "Richard Hanson",
+"title": "Sevp, Public Policy"
+},
+{
+"name": "Deborah White",
+"title": "Sevp & General Counsel"
+},
+{
+"name": "Lisa Labruno",
+"title": "Sevp, Retail Operations"
+},
+{
+"name": "Jason Brewer",
+"title": "Sevp, Communications & Marketing"
+},
+{
+"name": "Breana Murphy",
+"title": "Sevp, Partnerships & Events"
+},
+{
+"name": "Austen Jensen",
+"title": "Evp Government Affairs"
+},
+{
+"name": "Kathleen Mcguigan",
+"title": "Evp & Deputy General Counsel"
+},
+{
+"name": "Nicholas Ahrens",
+"title": "Svp Strategy, Innovation & Content"
+},
+{
+"name": "Evan Armstrong",
+"title": "Vp, Workforce"
+},
+{
+"name": "Corie Barry",
+"title": "Chair"
+},
+{
+"name": "Richard Keyes",
+"title": "Treasurer"
+},
+{
+"name": "William Rhodes",
+"title": "Executive Committee Member"
+},
+{
+"name": "Jk Symancyk",
+"title": "Executive Committee Member"
+},
+{
+"name": "David Kimbell",
+"title": "Executive Committee Member"
+},
+{
+"name": "Tracey Brown",
+"title": "Executive Committee Member"
+},
+{
+"name": "Todd Vasos",
+"title": "Executive Committee Member"
+},
+{
+"name": "Brian Cornell",
+"title": "Director"
+},
+{
+"name": "Jill Standish",
+"title": "Director"
+},
+{
+"name": "Mark Breitbard",
+"title": "Director"
+},
+{
+"name": "Shelley Bransten",
+"title": "Director"
+},
+{
+"name": "Mark Lavigne",
+"title": "Director"
+},
+{
+"name": "Erik Nordstrom",
+"title": "Director"
+},
+{
+"name": "Rodney Mcmullen",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/42395151",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-advamed-advanced-medical-technology-association",
+"name": "AdvaMed Advanced Medical Technology Association",
+"irsName": "Advanced Medical Technology Association",
+"ein": 521006053,
+"sector": "medical devices",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Scott Whitaker",
+"title": "President & Chief Executive Officer"
+},
+{
+"name": "Christopher L White",
+"title": "General Counsel & Chief Policy Off."
+},
+{
+"name": "Greg Crist",
+"title": "Chief Advocacy Off. And Head Of Ext. Affair"
+},
+{
+"name": "Janet Trunzo",
+"title": "Sr Advisor To The Pres. & Sr Exec."
+},
+{
+"name": "Jennifer Brearey",
+"title": "Chief Financial & Operating Officer"
+},
+{
+"name": "Raymond Briscuso Jr",
+"title": "Executive Vp, Conferences & Events"
+},
+{
+"name": "Kimberly Zimmerman",
+"title": "Senior Vp, Head Of Federal Gov."
+},
+{
+"name": "Ashley Miller",
+"title": "Evp, Global Strategy & Analys"
+},
+{
+"name": "Zachary Rothstein",
+"title": "Executive Director, Advameddx"
+},
+{
+"name": "Peter Arduini",
+"title": "Chair"
+},
+{
+"name": "Lisa Earnhardt",
+"title": "Secretary"
+},
+{
+"name": "Geoff Martha",
+"title": "Treasurer"
+},
+{
+"name": "Andre-michel Ballester",
+"title": "Director"
+},
+{
+"name": "Antoinette Gawin",
+"title": "Director"
+},
+{
+"name": "Brady Shirley",
+"title": "Director"
+},
+{
+"name": "Brian Blaser",
+"title": "Director"
+},
+{
+"name": "Brian Miller",
+"title": "Director"
+},
+{
+"name": "Carlton St Bernard",
+"title": "Director"
+},
+{
+"name": "Christopher Simon",
+"title": "Director"
+},
+{
+"name": "Dan Carestio",
+"title": "Director"
+},
+{
+"name": "David Endicott",
+"title": "Director"
+},
+{
+"name": "David Ferguson",
+"title": "Director (until 11/2024"
+},
+{
+"name": "David Pacitti",
+"title": "Director"
+},
+{
+"name": "Deepak Nath",
+"title": "Director"
+},
+{
+"name": "Devdatt Kurdikar",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/521006053",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-consumer-brands-association",
+"name": "Consumer Brands Association",
+"irsName": "Consumer Brands Association",
+"ein": 530114930,
+"sector": "consumer goods",
+"subsection": "501(c)(6)",
+"state": "VA",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "David Chavern",
+"title": "President & Ceo (end 08/24"
+},
+{
+"name": "Stacy Papadopoulos",
+"title": "Chief Operating Officer & General Counsel"
+},
+{
+"name": "Rhonda Bentz",
+"title": "Executive Vice President, Public Affairs"
+},
+{
+"name": "Genevieve Gent",
+"title": "Executive Vice President, Industry Engagement"
+},
+{
+"name": "John Hewitt",
+"title": "Svp Of Packaging And Sustainability And State Affairs Head"
+},
+{
+"name": "Sarah Gallo",
+"title": "Svp Of Product Policy And Federal Affairs"
+},
+{
+"name": "Jocelyn Kelly",
+"title": "Vice President, Communications"
+},
+{
+"name": "Thomas Madrecki",
+"title": "Vice President, Campaigns & Special Projects"
+},
+{
+"name": "Kristen Hewlett",
+"title": "Vice President, Operations"
+},
+{
+"name": "Joseph Aquilina",
+"title": "Vice President & Deputy General Counsel"
+},
+{
+"name": "Linda Rendle",
+"title": "The Clorox Company; Chair"
+},
+{
+"name": "Mark Smucker",
+"title": "The J. M. Smucker Company; Vice Chair"
+},
+{
+"name": "Al Williams",
+"title": "Bush Brothers & Company; Director"
+},
+{
+"name": "Billy Cyr",
+"title": "Freshpet, Inc.; Director"
+},
+{
+"name": "Brendan Foley",
+"title": "Mccormick & Company, Inc.; Director"
+},
+{
+"name": "Brian Huff",
+"title": "Nissin Foods Usa; Director"
+},
+{
+"name": "Brian Schiegg",
+"title": "Schwan's Company; Director"
+},
+{
+"name": "Casey Keller",
+"title": "B&g Foods, Inc.; Director"
+},
+{
+"name": "Chris Calamari",
+"title": "Abbott Nutrition; Director"
+},
+{
+"name": "Dale Clemiss",
+"title": "Idahoan Foods, Llc; Director"
+},
+{
+"name": "Dan Fachner",
+"title": "J&j Snack Foods; Director"
+},
+{
+"name": "Darcy Davenport",
+"title": "Bellring Brands, Inc.; Director"
+},
+{
+"name": "David Booth",
+"title": "Tillamook County Creamery Association; Director"
+},
+{
+"name": "Gary Pilnick",
+"title": "Wk Kellogg Co; Director"
+},
+{
+"name": "Gavin Hattersley",
+"title": "Molson Coors Beverage Company; Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/530114930",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-associated-general-contractors-of-america",
+"name": "Associated General Contractors of America",
+"irsName": "Associated General Contractors Of America",
+"ein": 530029260,
+"sector": "construction",
+"subsection": "501(c)(6)",
+"state": "VA",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Jeffrey Shoaf",
+"title": "Ceo (as Of 4/24"
+},
+{
+"name": "Jimmy Christianson",
+"title": "Coo (as Of 4/24"
+},
+{
+"name": "Brian Turmail",
+"title": "Vice President"
+},
+{
+"name": "Stephen E Sandherr",
+"title": "Ceo (thru 3/24"
+},
+{
+"name": "Jeffrey Wilson",
+"title": "Vice President"
+},
+{
+"name": "Christine Souders",
+"title": "Cfo"
+},
+{
+"name": "Leah Pilconis",
+"title": "General Counsel"
+},
+{
+"name": "Carolyn J Mcfadden",
+"title": "Board Secretary"
+},
+{
+"name": "Christi Beatty",
+"title": "Vice President"
+},
+{
+"name": "Kenneth Simonson",
+"title": "Chief Economist"
+},
+{
+"name": "Ken Kubacki",
+"title": "Treasurer"
+},
+{
+"name": "Rick Andritsch",
+"title": "Vice President"
+},
+{
+"name": "Thomas L Brown",
+"title": "President"
+},
+{
+"name": "Todd Roberts",
+"title": "Sr Vice President"
+},
+{
+"name": "Allie Jorgensen",
+"title": "Director (as Of 3/24"
+},
+{
+"name": "Amy Hall",
+"title": "Director"
+},
+{
+"name": "Ashley Phelps",
+"title": "Director (as Of 3/24"
+},
+{
+"name": "Dan K Fordice Iii",
+"title": "Director"
+},
+{
+"name": "Dave Simpson",
+"title": "Director"
+},
+{
+"name": "Doug Petty",
+"title": "Director (as Of 3/24"
+},
+{
+"name": "Greg Ford",
+"title": "Director"
+},
+{
+"name": "Jeff Firth",
+"title": "Director"
+},
+{
+"name": "Jeff Forbes",
+"title": "Director"
+},
+{
+"name": "Jeff Montgomery",
+"title": "Director (as Of 3/24"
+},
+{
+"name": "Kari Karst",
+"title": "Director (as Of 3/24"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/530029260",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-american-gas-association",
+"name": "American Gas Association",
+"irsName": "American Gas Association",
+"ein": 130431590,
+"sector": "natural gas",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "tax year 2024",
+"officers": [
+{
+"name": "Karen Harbert",
+"title": "President & Ceo"
+},
+{
+"name": "Michael Murray",
+"title": "General Counsel"
+},
+{
+"name": "Terri Oliva",
+"title": "Chief Financial Officer"
+},
+{
+"name": "George Lowe",
+"title": "Vp, Government Relations"
+},
+{
+"name": "Edith Naegele",
+"title": "Vp & Corporate Secretary"
+},
+{
+"name": "Christina Sames",
+"title": "Former Svp, Safety, Ops, Eng & Security"
+},
+{
+"name": "Lori Traweek",
+"title": "Former Chief Operating Officer"
+},
+{
+"name": "Jennifer O'shea",
+"title": "Vp, Communications"
+},
+{
+"name": "Richard Meyer",
+"title": "Vp, Energy Markets, Analysis, & Standards"
+},
+{
+"name": "Susan Forrester",
+"title": "Vp, Advocacy & Outreach"
+},
+{
+"name": "Andrew Lu",
+"title": "Vp, Safety, Ops, & Engineering"
+},
+{
+"name": "Kurt Adams",
+"title": "Director"
+},
+{
+"name": "Kevin Akers",
+"title": "Director"
+},
+{
+"name": "David H Anderson",
+"title": "Director"
+},
+{
+"name": "David P Bauer",
+"title": "Director"
+},
+{
+"name": "Robert F Beard",
+"title": "Director"
+},
+{
+"name": "Lonnie Bellar",
+"title": "Former Director"
+},
+{
+"name": "Tonya Berry",
+"title": "Director"
+},
+{
+"name": "Dave Bonenberger",
+"title": "Director"
+},
+{
+"name": "Kelcey A Brown",
+"title": "Director"
+},
+{
+"name": "Darin Carroll",
+"title": "Former Director"
+},
+{
+"name": "Timothy P Cawley",
+"title": "Director"
+},
+{
+"name": "Scott D Drury",
+"title": "Director"
+},
+{
+"name": "Linden Evans",
+"title": "Director"
+},
+{
+"name": "Joseph A Forline",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/130431590",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-nuclear-energy-institute",
+"name": "Nuclear Energy Institute",
+"irsName": "Nuclear Energy Institute Inc",
+"ein": 521209124,
+"sector": "nuclear power",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "tax year 2024",
+"officers": [
+{
+"name": "Korsnick Maria G",
+"title": "President & Ceo"
+},
+{
+"name": "True Douglas",
+"title": "Svp & Chief Nuclear Office"
+},
+{
+"name": "Ginsberg Ellen",
+"title": "Svp & Secretary"
+},
+{
+"name": "Kotek John F",
+"title": "Senior Vice President"
+},
+{
+"name": "Wentzel John",
+"title": "Vice President"
+},
+{
+"name": "Hultman Erin",
+"title": "Vp, Cfo & Treasurer"
+},
+{
+"name": "Flannigan Michael",
+"title": "Vice President"
+},
+{
+"name": "Uhle Jennifer",
+"title": "Vice President"
+},
+{
+"name": "Berrigan Carol",
+"title": "Executive Director"
+},
+{
+"name": "Bonanno Jerry",
+"title": "Deputy General Counsel"
+},
+{
+"name": "Rund Jonathan",
+"title": "Deputy General Counsel And"
+},
+{
+"name": "Mcintire John D",
+"title": "Executive Director & Cio"
+},
+{
+"name": "Powers Robert",
+"title": "Sr. Dir. Fed Prog"
+},
+{
+"name": "Blue Robert",
+"title": "Chair"
+},
+{
+"name": "Marsh Drew",
+"title": "Vice Chair"
+},
+{
+"name": "Baker Mason",
+"title": "Director"
+},
+{
+"name": "Burke James",
+"title": "Director"
+},
+{
+"name": "Chassard Eric",
+"title": "Director"
+},
+{
+"name": "Cooper Kenneth",
+"title": "Director"
+},
+{
+"name": "Coward Robert",
+"title": "Director"
+},
+{
+"name": "Critchley Malcolm",
+"title": "Director"
+},
+{
+"name": "D'agostino Thomas",
+"title": "Director"
+},
+{
+"name": "Dewitte Jacob",
+"title": "Director"
+},
+{
+"name": "Dominguez Joseph",
+"title": "Director"
+},
+{
+"name": "Edlow Jack",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/521209124",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-american-clean-power-association",
+"name": "American Clean Power Association",
+"irsName": "American Clean Power Association",
+"ein": 853015279,
+"sector": "renewable energy",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "Dec. 2024",
+"officers": [
+{
+"name": "Jason Grumet",
+"title": "Ceo"
+},
+{
+"name": "James C Sandberg",
+"title": "Chief Advocacy Officer"
+},
+{
+"name": "Jason Clark",
+"title": "Chief Strategy Officer Until 03/24"
+},
+{
+"name": "Rosanna Maietta Chief Comm",
+"title": "Officer & Sr. Counsel Until 11/24"
+},
+{
+"name": "Frank Macchiarola",
+"title": "Chief Policy Officer"
+},
+{
+"name": "Kelly Veney Darnell",
+"title": "Chief Operating Officer"
+},
+{
+"name": "Gene Grace",
+"title": "Svp, General Counsel"
+},
+{
+"name": "Laura Wilson Phelan Svp",
+"title": "Svp Strategy"
+},
+{
+"name": "Sarah Beerbower",
+"title": "Svp, Member Relations"
+},
+{
+"name": "Carrie Zalewski",
+"title": "Vp, Markets & Transmission"
+},
+{
+"name": "John Hensley",
+"title": "Svp, Markets & Policy Analysis"
+},
+{
+"name": "Brent Panzenhagen",
+"title": "Svp, Finance & Cfo"
+},
+{
+"name": "Susan D Nickey",
+"title": "Chair"
+},
+{
+"name": "Laura Beane",
+"title": "Chair-elect"
+},
+{
+"name": "Brian Van Abel",
+"title": "Treasurer"
+},
+{
+"name": "David Hardy",
+"title": "Secretary"
+},
+{
+"name": "Jason Allen",
+"title": "Director"
+},
+{
+"name": "Hunter Armistead",
+"title": "Director"
+},
+{
+"name": "Michael Arndt",
+"title": "Director Until 01/2024"
+},
+{
+"name": "Ted Brandt",
+"title": "Director"
+},
+{
+"name": "David Carroll",
+"title": "Director"
+},
+{
+"name": "Kleber Costa",
+"title": "Director"
+},
+{
+"name": "Ben Catt",
+"title": "Director"
+},
+{
+"name": "Craig Cornelius",
+"title": "Director"
+},
+{
+"name": "Amanda Dasch",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/853015279",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-interstate-natural-gas-association-of-america",
+"name": "Interstate Natural Gas Association of America",
+"irsName": "Interstate Natural Gas Association Of America",
+"ein": 730529079,
+"sector": "pipelines",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "tax year 2024",
+"officers": [
+{
+"name": "Amy Andryszak Campbell",
+"title": "President & Ceo"
+},
+{
+"name": "Joan D Jackson",
+"title": "Svp, Secretary & General Counsel"
+},
+{
+"name": "Robert J Mosher",
+"title": "Vp, Government Affairs"
+},
+{
+"name": "Scott J Yager",
+"title": "Vp, Environment"
+},
+{
+"name": "Christopher B Smith",
+"title": "Regulatory Counsel"
+},
+{
+"name": "Benjamin D Kochman",
+"title": "Director Of Pipeline Safety"
+},
+{
+"name": "Michael R Istre",
+"title": "Director, Research & Project Management"
+},
+{
+"name": "Maggie K O'connell",
+"title": "Director Of Security, Reliability, & Resilience"
+},
+{
+"name": "Toya D Williamson",
+"title": "Director, Admin & Finance"
+},
+{
+"name": "Jeffrey Bruner",
+"title": "Board Member"
+},
+{
+"name": "James G Holodak Jr",
+"title": "Board Member"
+},
+{
+"name": "Tina Faraca",
+"title": "Board Member"
+},
+{
+"name": "Roger G Thorpe",
+"title": "Board Member"
+},
+{
+"name": "Chris Redd",
+"title": "Board Member"
+},
+{
+"name": "Christopher A Schindler",
+"title": "Board Member"
+},
+{
+"name": "Cynthia Hansen",
+"title": "Board Member"
+},
+{
+"name": "David Slater",
+"title": "Board Member"
+},
+{
+"name": "Georgia B Carter",
+"title": "Board Member"
+},
+{
+"name": "Henry J Decker",
+"title": "Board Member"
+},
+{
+"name": "Jay Sutton",
+"title": "Board Member"
+},
+{
+"name": "Joseph Hartz",
+"title": "Board Member"
+},
+{
+"name": "Joseph N Del Vecchio",
+"title": "Board Member"
+},
+{
+"name": "Michael E Mcmahon",
+"title": "Board Member"
+},
+{
+"name": "Paul E Ruppert",
+"title": "Board Member"
+},
+{
+"name": "Rob Johnson",
+"title": "Board Member"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/730529079",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-steel-manufacturers-association",
+"name": "Steel Manufacturers Association",
+"irsName": "Steel Manufacturers Association",
+"ein": 521600093,
+"sector": "steel",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "tax year 2025",
+"officers": [
+{
+"name": "Philip K Bell",
+"title": "President"
+},
+{
+"name": "Eric J Stuart",
+"title": "Vp, Energy & Environment"
+},
+{
+"name": "William Farris",
+"title": "Vice President"
+},
+{
+"name": "Patrick Cavanaugh",
+"title": "Director Of Government Affairs"
+},
+{
+"name": "Gregg Walker",
+"title": "Director Of Communication"
+},
+{
+"name": "Ed Goettl",
+"title": "Treasurer"
+},
+{
+"name": "Mark Millett",
+"title": "Immediate Past Chair"
+},
+{
+"name": "Matt Ruckwardt",
+"title": "First Vice Chair"
+},
+{
+"name": "Ty Garrison",
+"title": "Chair"
+},
+{
+"name": "Barry Schneider",
+"title": "Director"
+},
+{
+"name": "Ben Pickett",
+"title": "Director"
+},
+{
+"name": "Brad Corral",
+"title": "Director"
+},
+{
+"name": "Chia Yuan Wang",
+"title": "Director"
+},
+{
+"name": "Chris Ervin",
+"title": "Director"
+},
+{
+"name": "Conrad Winkler",
+"title": "Director"
+},
+{
+"name": "Craig Moore",
+"title": "Director"
+},
+{
+"name": "David Schultz",
+"title": "Director"
+},
+{
+"name": "Gary Hauck",
+"title": "Director"
+},
+{
+"name": "Guillermo Moreno",
+"title": "Director"
+},
+{
+"name": "Hiroyuki Kado",
+"title": "Director"
+},
+{
+"name": "Jim Grasso",
+"title": "Director"
+},
+{
+"name": "Jonas Allen",
+"title": "Director"
+},
+{
+"name": "Kevin Mullen",
+"title": "Director"
+},
+{
+"name": "Lenore Trammell",
+"title": "Director"
+},
+{
+"name": "Luis Barrenechea",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/521600093",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-real-estate-roundtable",
+"name": "Real Estate Roundtable",
+"irsName": "Real Estate Roundtable Inc",
+"ein": 521128863,
+"sector": "real estate",
+"subsection": "501(c)(6)",
+"state": "DC",
+"filing": "tax year 2025",
+"officers": [
+{
+"name": "Jeffrey D Deboer",
+"title": "President And Ceo"
+},
+{
+"name": "Duane J Desiderio",
+"title": "Senior Vice President & Counsel"
+},
+{
+"name": "Ryan P Mccormick",
+"title": "Senior Vice President & Counsel"
+},
+{
+"name": "Clifton E Rodgers Jr",
+"title": "Senior Vice President"
+},
+{
+"name": "Michelle Reid",
+"title": "Chief Of Staff"
+},
+{
+"name": "Elizabeth Hoopes",
+"title": "Director Of Information Systems"
+},
+{
+"name": "Barry Sternlicht",
+"title": "Director"
+},
+{
+"name": "Rob Speyer",
+"title": "Director"
+},
+{
+"name": "Matt Rocco",
+"title": "Director"
+},
+{
+"name": "Scott Rechler",
+"title": "Director"
+},
+{
+"name": "Andrew P Power",
+"title": "Director"
+},
+{
+"name": "Ross Perot Jr",
+"title": "Director"
+},
+{
+"name": "Mark J Parrell",
+"title": "Director"
+},
+{
+"name": "Kara Mcshane",
+"title": "Director"
+},
+{
+"name": "Michael H Lowe",
+"title": "Director"
+},
+{
+"name": "Roy Hilton March",
+"title": "Director"
+},
+{
+"name": "Anthony E Malkin",
+"title": "Director"
+},
+{
+"name": "Brian Kingston",
+"title": "Director"
+},
+{
+"name": "Geordy Johnson",
+"title": "Director"
+},
+{
+"name": "Diane Hoskins",
+"title": "Director"
+},
+{
+"name": "Michelle Herrick",
+"title": "Director"
+},
+{
+"name": "Leslie D Hale",
+"title": "Director"
+},
+{
+"name": "Conor Flynn",
+"title": "Director"
+},
+{
+"name": "Michael A Covarrubias",
+"title": "Director"
+},
+{
+"name": "Jeff T Blau",
+"title": "Director"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/521128863",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+},
+{
+"id": "assoc-national-cattlemens-beef-association",
+"name": "National Cattlemens Beef Association",
+"irsName": "National Cattlemens Beef Association Inc",
+"ein": 840738973,
+"sector": "agriculture",
+"subsection": "501(c)(6)",
+"state": "CO",
+"filing": "tax year 2025",
+"officers": [
+{
+"name": "Colin Woodall",
+"title": "Ceo"
+},
+{
+"name": "Doug Evans",
+"title": "Cfo"
+},
+{
+"name": "Jennifer Nealson",
+"title": "Sr Vp, Global Marketing & Research"
+},
+{
+"name": "Todd Johnson",
+"title": "Sr Vp, Federation Services"
+},
+{
+"name": "Ethan Lane",
+"title": "Sr Vp, Government Affairs"
+},
+{
+"name": "John Robinson",
+"title": "Sr Vp, Membership & Comm"
+},
+{
+"name": "Mandy Carr",
+"title": "Sr Ed, Scientific Affairs"
+},
+{
+"name": "Michael Petersen",
+"title": "Controller"
+},
+{
+"name": "Eliseo Tapia",
+"title": "Sr Ed, Information Technology"
+},
+{
+"name": "Shalene Mcneill",
+"title": "Ed Nutr. Sci., Health & Wellness"
+},
+{
+"name": "Buck Wehrbein",
+"title": "President"
+},
+{
+"name": "Gene Copenhaver",
+"title": "President Elect"
+},
+{
+"name": "Kim Brackett",
+"title": "Vice President"
+},
+{
+"name": "Skye Krebs",
+"title": "Chair Policy"
+},
+{
+"name": "Kenny Rogers",
+"title": "Vice Chair Policy"
+},
+{
+"name": "Nancy Jackson",
+"title": "Chair Federation"
+},
+{
+"name": "Travis Maddock",
+"title": "Vice Chair Federation"
+},
+{
+"name": "Brad Hastings",
+"title": "Treasurer"
+}
+],
+"src": "https://projects.propublica.org/nonprofits/organizations/840738973",
+"srcNote": "IRS Form 990 Part VII as extracted by ProPublica Nonprofit Explorer; titles as filed (IRS casing)."
+}
+]
+}

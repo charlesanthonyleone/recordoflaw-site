@@ -1,0 +1,1 @@
+[{"id":"fdic-35206","kind":"body","title":"Fidelity Personal Trust Company, FSB","place":"Merrimack, NH","src":"https://api.fdic.gov/banks/docs/","tags":["Primary federal regulator: OCC (FDIC BankFind REGAGNT)"],"finance":[{"metric":"Total assets","value":74632000,"unit":"USD","asOf":"2026-06-30","src":"https://api.fdic.gov/banks/docs/"}],"parent":"reg-occ~nh"}]

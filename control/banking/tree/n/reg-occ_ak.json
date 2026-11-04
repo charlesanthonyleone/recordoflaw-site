@@ -1,0 +1,1 @@
+[{"id":"fdic-16130","kind":"body","title":"First National Bank Alaska","place":"Anchorage, AK","src":"https://api.fdic.gov/banks/docs/","tags":["Primary federal regulator: OCC (FDIC BankFind REGAGNT)"],"finance":[{"metric":"Total assets","value":5123849000,"unit":"USD","asOf":"2026-06-30","src":"https://api.fdic.gov/banks/docs/"}],"parent":"reg-occ~ak"}]

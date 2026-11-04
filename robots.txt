@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /report-error
+Sitemap: https://recordoflaw.com/sitemap.xml

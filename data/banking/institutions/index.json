@@ -1,0 +1,8085 @@
+{
+ "generated": "2026-11-02",
+ "generator": "scripts/banking/ingest_institutions.py",
+ "sources": {
+  "fdic": {
+   "label": "FDIC BankFind Suite API, institutions (index institutions_20261030090007)",
+   "url": "https://api.fdic.gov/banks/docs/",
+   "accessed": "2026-11-02"
+  },
+  "ncua": {
+   "label": "NCUA 5300 Call Report quarterly data, 2026-06",
+   "url": "https://ncua.gov/files/publications/analysis/call-report-data-2026-06.zip",
+   "accessed": "2026-11-02"
+  },
+  "ncua-history": {
+   "label": "NCUA 5300 Call Report quarterly data, year-end 1994\u20132025 (2010: Sept.) and 2026-03; pre-2015 files are the QCRYYYYMM.zip archives (closed credit unions = filers absent from the current quarter)",
+   "url": "https://ncua.gov/analysis/credit-union-corporate-call-report-data/quarterly-data",
+   "archive": "https://ncua.gov/files/publications/data-apps/QCR199412.zip",
+   "accessed": "2026-11-02"
+  }
+ },
+ "notes": [
+  "assets and deposits in US dollars as last reported (FDIC repdte / NCUA cycle date); FDIC values converted from $ thousands",
+  "parentRssd/parentName: regulatory high holder (RSSDHCR/NAMEHCR) as published in FDIC BankFind, derived from FFIEC NIC structure data",
+  "historical: FDIC institutions no longer active (merged, failed, closed); assets are the last value FDIC carries",
+  "credit unions: federally insured credit unions filing the 5300 call report for the current quarter",
+  "historical credit unions: filed a year-end 5300 call report 2015\u20132025 (or 2026-03) but not the current quarter (merged, liquidated or converted); repdte = last filing, ended unknown (null)"
+ ],
+ "tiers": [
+  {
+   "id": "mega",
+   "label": "$250B+",
+   "minAssets": 250000000000.0,
+   "n": 18
+  },
+  {
+   "id": "large",
+   "label": "$100B\u2013$250B",
+   "minAssets": 100000000000.0,
+   "n": 15
+  },
+  {
+   "id": "regional",
+   "label": "$10B\u2013$100B",
+   "minAssets": 10000000000.0,
+   "n": 152
+  },
+  {
+   "id": "mid",
+   "label": "$1B\u2013$10B",
+   "minAssets": 1000000000.0,
+   "n": 1338
+  },
+  {
+   "id": "community",
+   "label": "$100M\u2013$1B",
+   "minAssets": 100000000.0,
+   "n": 3973
+  },
+  {
+   "id": "small",
+   "label": "Under $100M",
+   "minAssets": 0,
+   "n": 3016
+  }
+ ],
+ "counts": {
+  "activeBanks": 4213,
+  "creditUnions": 4299,
+  "historicalBanks": 23622,
+  "historicalCreditUnions": 9006
+ },
+ "chunks": [
+  {
+   "file": "mega-001.json",
+   "tier": "mega",
+   "n": 18,
+   "rankFrom": 1,
+   "rankTo": 18,
+   "assetsFrom": 4091315000000,
+   "assetsTo": 250425000000
+  },
+  {
+   "file": "large-001.json",
+   "tier": "large",
+   "n": 15,
+   "rankFrom": 19,
+   "rankTo": 33,
+   "assetsFrom": 236317000000,
+   "assetsTo": 103964782000
+  },
+  {
+   "file": "regional-001.json",
+   "tier": "regional",
+   "n": 152,
+   "rankFrom": 34,
+   "rankTo": 185,
+   "assetsFrom": 99102519000,
+   "assetsTo": 10171443341
+  },
+  {
+   "file": "mid-001.json",
+   "tier": "mid",
+   "n": 500,
+   "rankFrom": 186,
+   "rankTo": 685,
+   "assetsFrom": 9935678000,
+   "assetsTo": 2624925709
+  },
+  {
+   "file": "mid-002.json",
+   "tier": "mid",
+   "n": 500,
+   "rankFrom": 686,
+   "rankTo": 1185,
+   "assetsFrom": 2611110000,
+   "assetsTo": 1353120000
+  },
+  {
+   "file": "mid-003.json",
+   "tier": "mid",
+   "n": 338,
+   "rankFrom": 1186,
+   "rankTo": 1523,
+   "assetsFrom": 1352864000,
+   "assetsTo": 1000102000
+  },
+  {
+   "file": "community-001.json",
+   "tier": "community",
+   "n": 500,
+   "rankFrom": 1524,
+   "rankTo": 2023,
+   "assetsFrom": 999611000,
+   "assetsTo": 688077000
+  },
+  {
+   "file": "community-002.json",
+   "tier": "community",
+   "n": 500,
+   "rankFrom": 2024,
+   "rankTo": 2523,
+   "assetsFrom": 687604000,
+   "assetsTo": 506317895
+  },
+  {
+   "file": "community-003.json",
+   "tier": "community",
+   "n": 500,
+   "rankFrom": 2524,
+   "rankTo": 3023,
+   "assetsFrom": 505974000,
+   "assetsTo": 384486000
+  },
+  {
+   "file": "community-004.json",
+   "tier": "community",
+   "n": 500,
+   "rankFrom": 3024,
+   "rankTo": 3523,
+   "assetsFrom": 384449000,
+   "assetsTo": 298951000
+  },
+  {
+   "file": "community-005.json",
+   "tier": "community",
+   "n": 500,
+   "rankFrom": 3524,
+   "rankTo": 4023,
+   "assetsFrom": 298566000,
+   "assetsTo": 228579000
+  },
+  {
+   "file": "community-006.json",
+   "tier": "community",
+   "n": 500,
+   "rankFrom": 4024,
+   "rankTo": 4523,
+   "assetsFrom": 228559000,
+   "assetsTo": 175707000
+  },
+  {
+   "file": "community-007.json",
+   "tier": "community",
+   "n": 500,
+   "rankFrom": 4524,
+   "rankTo": 5023,
+   "assetsFrom": 175700663,
+   "assetsTo": 134205593
+  },
+  {
+   "file": "community-008.json",
+   "tier": "community",
+   "n": 473,
+   "rankFrom": 5024,
+   "rankTo": 5496,
+   "assetsFrom": 134175000,
+   "assetsTo": 100019000
+  },
+  {
+   "file": "small-001.json",
+   "tier": "small",
+   "n": 500,
+   "rankFrom": 5497,
+   "rankTo": 5996,
+   "assetsFrom": 99997000,
+   "assetsTo": 72346968
+  },
+  {
+   "file": "small-002.json",
+   "tier": "small",
+   "n": 500,
+   "rankFrom": 5997,
+   "rankTo": 6496,
+   "assetsFrom": 72198000,
+   "assetsTo": 47021000
+  },
+  {
+   "file": "small-003.json",
+   "tier": "small",
+   "n": 500,
+   "rankFrom": 6497,
+   "rankTo": 6996,
+   "assetsFrom": 46999000,
+   "assetsTo": 29617380
+  },
+  {
+   "file": "small-004.json",
+   "tier": "small",
+   "n": 500,
+   "rankFrom": 6997,
+   "rankTo": 7496,
+   "assetsFrom": 29605578,
+   "assetsTo": 14864069
+  },
+  {
+   "file": "small-005.json",
+   "tier": "small",
+   "n": 500,
+   "rankFrom": 7497,
+   "rankTo": 7996,
+   "assetsFrom": 14832512,
+   "assetsTo": 5549326
+  },
+  {
+   "file": "small-006.json",
+   "tier": "small",
+   "n": 500,
+   "rankFrom": 7997,
+   "rankTo": 8496,
+   "assetsFrom": 5540724,
+   "assetsTo": 140145
+  },
+  {
+   "file": "small-007.json",
+   "tier": "small",
+   "n": 16,
+   "rankFrom": 8497,
+   "rankTo": 8512,
+   "assetsFrom": 129351,
+   "assetsTo": null
+  }
+ ],
+ "historical": [
+  {
+   "file": "historical-001.json",
+   "n": 2000,
+   "type": "bank",
+   "endedFrom": "2026-10-10",
+   "endedTo": "2016-04-01"
+  },
+  {
+   "file": "historical-002.json",
+   "n": 2000,
+   "type": "bank",
+   "endedFrom": "2016-04-01",
+   "endedTo": "2009-10-02"
+  },
+  {
+   "file": "historical-003.json",
+   "n": 2000,
+   "type": "bank",
+   "endedFrom": "2009-10-02",
+   "endedTo": "2003-10-18"
+  },
+  {
+   "file": "historical-004.json",
+   "n": 2000,
+   "type": "bank",
+   "endedFrom": "2003-10-17",
+   "endedTo": "1999-03-06"
+  },
+  {
+   "file": "historical-005.json",
+   "n": 2000,
+   "type": "bank",
+   "endedFrom": "1999-03-06",
+   "endedTo": "1996-05-01"
+  },
+  {
+   "file": "historical-006.json",
+   "n": 2000,
+   "type": "bank",
+   "endedFrom": "1996-05-01",
+   "endedTo": "1993-08-11"
+  },
+  {
+   "file": "historical-007.json",
+   "n": 2000,
+   "type": "bank",
+   "endedFrom": "1993-08-10",
+   "endedTo": "1991-04-01"
+  },
+  {
+   "file": "historical-008.json",
+   "n": 2000,
+   "type": "bank",
+   "endedFrom": "1991-04-01",
+   "endedTo": "1989-04-01"
+  },
+  {
+   "file": "historical-009.json",
+   "n": 2000,
+   "type": "bank",
+   "endedFrom": "1989-04-01",
+   "endedTo": "1987-03-19"
+  },
+  {
+   "file": "historical-010.json",
+   "n": 2000,
+   "type": "bank",
+   "endedFrom": "1987-03-17",
+   "endedTo": "1983-09-17"
+  },
+  {
+   "file": "historical-011.json",
+   "n": 2000,
+   "type": "bank",
+   "endedFrom": "1983-09-17",
+   "endedTo": "1979-12-01"
+  },
+  {
+   "file": "historical-012.json",
+   "n": 2000,
+   "type": "bank",
+   "endedFrom": "1979-12-01",
+   "endedTo": null
+  },
+  {
+   "file": "historical-013.json",
+   "n": 2000,
+   "type": "credit-union",
+   "endedFrom": null,
+   "endedTo": null
+  },
+  {
+   "file": "historical-014.json",
+   "n": 2000,
+   "type": "credit-union",
+   "endedFrom": null,
+   "endedTo": null
+  },
+  {
+   "file": "historical-015.json",
+   "n": 2000,
+   "type": "credit-union",
+   "endedFrom": null,
+   "endedTo": null
+  },
+  {
+   "file": "historical-016.json",
+   "n": 2000,
+   "type": "credit-union",
+   "endedFrom": null,
+   "endedTo": null
+  },
+  {
+   "file": "historical-017.json",
+   "n": 628,
+   "type": "credit-union",
+   "endedFrom": null,
+   "endedTo": null
+  }
+ ],
+ "top": [
+  {
+   "id": "fdic-628",
+   "rank": 1,
+   "name": "JPMorgan Chase Bank, National Association",
+   "type": "bank",
+   "city": "Columbus",
+   "state": "OH",
+   "assets": 4091315000000,
+   "deposits": 2820284000000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "1039502",
+   "parentName": "JPMORGAN CHASE&CO",
+   "rssd": "852218",
+   "established": "1824-01-01",
+   "insured": "1934-01-01",
+   "ended": null,
+   "offices": 5413,
+   "web": "www.jpmorganchase.com",
+   "members": null
+  },
+  {
+   "id": "fdic-3510",
+   "rank": 2,
+   "name": "Bank of America, National Association",
+   "type": "bank",
+   "city": "Charlotte",
+   "state": "NC",
+   "assets": 2654645000000,
+   "deposits": 2121804000000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "1073757",
+   "parentName": "BANK OF AMERICA CORP",
+   "rssd": "480228",
+   "established": "1904-10-17",
+   "insured": "1934-01-01",
+   "ended": null,
+   "offices": 3829,
+   "web": "www.bankofamerica.com",
+   "members": null
+  },
+  {
+   "id": "fdic-7213",
+   "rank": 3,
+   "name": "Citibank, National Association",
+   "type": "bank",
+   "city": "Sioux Falls",
+   "state": "SD",
+   "assets": 1976180000000,
+   "deposits": 1547586000000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "1951350",
+   "parentName": "CITIGROUP INC",
+   "rssd": "476810",
+   "established": "1812-06-16",
+   "insured": "1934-01-01",
+   "ended": null,
+   "offices": 955,
+   "web": "www.citibank.com",
+   "members": null
+  },
+  {
+   "id": "fdic-3511",
+   "rank": 4,
+   "name": "Wells Fargo Bank, National Association",
+   "type": "bank",
+   "city": "Sioux Falls",
+   "state": "SD",
+   "assets": 1907928000000,
+   "deposits": 1563534000000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "1120754",
+   "parentName": "WELLS FARGO&COMPANY",
+   "rssd": "451965",
+   "established": "1870-01-01",
+   "insured": "1934-01-01",
+   "ended": null,
+   "offices": 4159,
+   "web": "www.wellsfargo.com",
+   "members": null
+  },
+  {
+   "id": "fdic-33124",
+   "rank": 5,
+   "name": "Goldman Sachs Bank USA",
+   "type": "bank",
+   "city": "New York",
+   "state": "NY",
+   "assets": 758788000000,
+   "deposits": 498804000000,
+   "repdte": "2026-06-30",
+   "regulator": "FED",
+   "charter": "SM",
+   "parentRssd": "2380443",
+   "parentName": "GOLDMAN SACHS GROUP INC THE",
+   "rssd": "2182786",
+   "established": "1990-08-30",
+   "insured": "2008-11-28",
+   "ended": null,
+   "offices": 5,
+   "web": "www.marcus.com",
+   "members": null
+  },
+  {
+   "id": "fdic-6548",
+   "rank": 6,
+   "name": "U.S. Bank National Association",
+   "type": "bank",
+   "city": "Cincinnati",
+   "state": "OH",
+   "assets": 705554946000,
+   "deposits": 541886374000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "1119794",
+   "parentName": "U S BCORP",
+   "rssd": "504713",
+   "established": "1863-07-13",
+   "insured": "1934-01-01",
+   "ended": null,
+   "offices": 2095,
+   "web": "www.usbank.com",
+   "members": null
+  },
+  {
+   "id": "fdic-4297",
+   "rank": 7,
+   "name": "Capital One, National Association",
+   "type": "bank",
+   "city": "Mclean",
+   "state": "VA",
+   "assets": 662157000000,
+   "deposits": 512600000000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "2277860",
+   "parentName": "CAPITAL ONE FINANCIAL CORP",
+   "rssd": "112837",
+   "established": "1933-05-22",
+   "insured": "1934-01-01",
+   "ended": null,
+   "offices": 251,
+   "web": "www.capitalone.com",
+   "members": null
+  },
+  {
+   "id": "fdic-6384",
+   "rank": 8,
+   "name": "PNC Bank, National Association",
+   "type": "bank",
+   "city": "Wilmington",
+   "state": "DE",
+   "assets": 609771726000,
+   "deposits": 457798362000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "1069778",
+   "parentName": "PNC FINL SERVICES GROUP INC",
+   "rssd": "817824",
+   "established": "1804-01-01",
+   "insured": "1934-01-01",
+   "ended": null,
+   "offices": 2417,
+   "web": "www.pnc.com",
+   "members": null
+  },
+  {
+   "id": "fdic-9846",
+   "rank": 9,
+   "name": "Truist Bank",
+   "type": "bank",
+   "city": "Charlotte",
+   "state": "NC",
+   "assets": 548346000000,
+   "deposits": 419212000000,
+   "repdte": "2026-06-30",
+   "regulator": "FDIC",
+   "charter": "NM",
+   "parentRssd": "1074156",
+   "parentName": "TRUIST FINANCIAL CORP",
+   "rssd": "852320",
+   "established": "1872-01-01",
+   "insured": "1934-01-01",
+   "ended": null,
+   "offices": 1931,
+   "web": "www.Truist.com",
+   "members": null
+  },
+  {
+   "id": "fdic-639",
+   "rank": 10,
+   "name": "The Bank of New York Mellon",
+   "type": "bank",
+   "city": "New York",
+   "state": "NY",
+   "assets": 425115000000,
+   "deposits": 372562000000,
+   "repdte": "2026-06-30",
+   "regulator": "FED",
+   "charter": "SM",
+   "parentRssd": "3587146",
+   "parentName": "BANK OF NY MELLON CORP THE",
+   "rssd": "541101",
+   "established": "1851-01-01",
+   "insured": "1934-01-01",
+   "ended": null,
+   "offices": 26,
+   "web": "www.bny.com",
+   "members": null
+  },
+  {
+   "id": "fdic-32992",
+   "rank": 11,
+   "name": "Morgan Stanley Bank, National Association",
+   "type": "bank",
+   "city": "Salt Lake City",
+   "state": "UT",
+   "assets": 419318000000,
+   "deposits": 278937000000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "2162966",
+   "parentName": "MORGAN STANLEY",
+   "rssd": "1456501",
+   "established": "1990-05-25",
+   "insured": "1990-05-25",
+   "ended": null,
+   "offices": 1,
+   "web": null,
+   "members": null
+  },
+  {
+   "id": "fdic-14",
+   "rank": 12,
+   "name": "State Street Bank and Trust Company",
+   "type": "bank",
+   "city": "Boston",
+   "state": "MA",
+   "assets": 412620000000,
+   "deposits": 326247000000,
+   "repdte": "2026-06-30",
+   "regulator": "FED",
+   "charter": "SM",
+   "parentRssd": "1111435",
+   "parentName": "STATE STREET CORP",
+   "rssd": "35301",
+   "established": "1792-01-01",
+   "insured": "1934-01-01",
+   "ended": null,
+   "offices": 3,
+   "web": "www.statestreet.com",
+   "members": null
+  },
+  {
+   "id": "fdic-18409",
+   "rank": 13,
+   "name": "TD Bank, National Association",
+   "type": "bank",
+   "city": "Wilmington",
+   "state": "DE",
+   "assets": 342803746000,
+   "deposits": 277668163000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "1238565",
+   "parentName": "TORONTO-DOMINION BANK THE",
+   "rssd": "497404",
+   "established": "1852-01-01",
+   "insured": "1961-07-01",
+   "ended": null,
+   "offices": 1051,
+   "web": "www.td.com/us/en/personal-banking/",
+   "members": null
+  },
+  {
+   "id": "fdic-6672",
+   "rank": 14,
+   "name": "Fifth Third Bank, National Association",
+   "type": "bank",
+   "city": "Cincinnati",
+   "state": "OH",
+   "assets": 299177000000,
+   "deposits": 240928000000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "1070345",
+   "parentName": "FIFTH THIRD BCORP",
+   "rssd": "723112",
+   "established": "1865-01-01",
+   "insured": "1934-01-01",
+   "ended": null,
+   "offices": 1466,
+   "web": "www.53.com",
+   "members": null
+  },
+  {
+   "id": "fdic-6560",
+   "rank": 15,
+   "name": "The Huntington National Bank",
+   "type": "bank",
+   "city": "Columbus",
+   "state": "OH",
+   "assets": 283073605000,
+   "deposits": 227123103000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "1068191",
+   "parentName": "HUNTINGTON BANCSHARES INC",
+   "rssd": "12311",
+   "established": "1866-01-06",
+   "insured": "1934-01-01",
+   "ended": null,
+   "offices": 1591,
+   "web": "www.huntington.com",
+   "members": null
+  },
+  {
+   "id": "fdic-16571",
+   "rank": 16,
+   "name": "BMO Bank National Association",
+   "type": "bank",
+   "city": "Chicago",
+   "state": "IL",
+   "assets": 254972746000,
+   "deposits": 194140429000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "1231333",
+   "parentName": "BANK OF MONTREAL",
+   "rssd": "75633",
+   "established": "1947-05-17",
+   "insured": "1947-05-17",
+   "ended": null,
+   "offices": 849,
+   "web": "www.bmo.com",
+   "members": null
+  },
+  {
+   "id": "fdic-57450",
+   "rank": 17,
+   "name": "Charles Schwab Bank, SSB",
+   "type": "bank",
+   "city": "Westlake",
+   "state": "TX",
+   "assets": 250828000000,
+   "deposits": 225247000000,
+   "repdte": "2026-06-30",
+   "regulator": "FED",
+   "charter": "SM",
+   "parentRssd": "1026632",
+   "parentName": "CHARLES SCHWAB CORP THE",
+   "rssd": "3150447",
+   "established": "2003-04-28",
+   "insured": "2003-04-28",
+   "ended": null,
+   "offices": 1,
+   "web": "www.schwabbank.com",
+   "members": null
+  },
+  {
+   "id": "fdic-34221",
+   "rank": 18,
+   "name": "Morgan Stanley Private Bank, National Association",
+   "type": "bank",
+   "city": "Purchase",
+   "state": "NY",
+   "assets": 250425000000,
+   "deposits": 211668000000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "2162966",
+   "parentName": "MORGAN STANLEY",
+   "rssd": "2489805",
+   "established": "1996-08-12",
+   "insured": "1996-08-12",
+   "ended": null,
+   "offices": 1,
+   "web": "www.etrade.com",
+   "members": null
+  },
+  {
+   "id": "fdic-11063",
+   "rank": 19,
+   "name": "First-Citizens Bank & Trust Company",
+   "type": "bank",
+   "city": "Raleigh",
+   "state": "NC",
+   "assets": 236317000000,
+   "deposits": 173952000000,
+   "repdte": "2026-06-30",
+   "regulator": "FDIC",
+   "charter": "NM",
+   "parentRssd": "1075612",
+   "parentName": "FIRST CITIZENS BANCSHARES INC",
+   "rssd": "491224",
+   "established": "1898-01-01",
+   "insured": "1934-01-01",
+   "ended": null,
+   "offices": 655,
+   "web": "www.firstcitizens.com",
+   "members": null
+  },
+  {
+   "id": "fdic-57957",
+   "rank": 20,
+   "name": "Citizens Bank, National Association",
+   "type": "bank",
+   "city": "Providence",
+   "state": "RI",
+   "assets": 232517438000,
+   "deposits": 188731766000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "1132449",
+   "parentName": "CITIZENS FINANCIAL GROUP INC",
+   "rssd": "3303298",
+   "established": "2005-05-13",
+   "insured": "2005-05-13",
+   "ended": null,
+   "offices": 981,
+   "web": "www.citizensbank.com",
+   "members": null
+  },
+  {
+   "id": "fdic-588",
+   "rank": 21,
+   "name": "Manufacturers and Traders Trust Company",
+   "type": "bank",
+   "city": "Buffalo",
+   "state": "NY",
+   "assets": 218788000000,
+   "deposits": 172325000000,
+   "repdte": "2026-06-30",
+   "regulator": "FED",
+   "charter": "SM",
+   "parentRssd": "1037003",
+   "parentName": "M&T BANK CORP",
+   "rssd": "501105",
+   "established": "1856-01-01",
+   "insured": "1934-01-01",
+   "ended": null,
+   "offices": 960,
+   "web": "www.mtb.com",
+   "members": null
+  },
+  {
+   "id": "fdic-27471",
+   "rank": 22,
+   "name": "American Express National  Bank",
+   "type": "bank",
+   "city": "Sandy",
+   "state": "UT",
+   "assets": 213946192000,
+   "deposits": 171554868000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "1275216",
+   "parentName": "AMERICAN EXPRESS CO",
+   "rssd": "1394676",
+   "established": "1989-03-20",
+   "insured": "1989-03-20",
+   "ended": null,
+   "offices": 1,
+   "web": "www.americanexpress.com",
+   "members": null
+  },
+  {
+   "id": "ncua-5536",
+   "rank": 23,
+   "name": "NAVY FEDERAL CREDIT UNION",
+   "type": "credit-union",
+   "city": "Vienna",
+   "state": "VA",
+   "assets": 204364276193,
+   "deposits": 173361392069,
+   "repdte": "2026-06-30",
+   "regulator": "NCUA",
+   "charter": "FCU",
+   "parentRssd": null,
+   "parentName": null,
+   "rssd": "617677",
+   "established": "1947",
+   "insured": "1971-01-04",
+   "ended": null,
+   "offices": null,
+   "web": null,
+   "members": 15517448
+  },
+  {
+   "id": "fdic-17534",
+   "rank": 24,
+   "name": "KeyBank National Association",
+   "type": "bank",
+   "city": "Cleveland",
+   "state": "OH",
+   "assets": 188555486000,
+   "deposits": 158480379000,
+   "repdte": "2026-06-30",
+   "regulator": "OCC",
+   "charter": "N",
+   "parentRssd": "1068025",
+   "parentName": "KEYCORP",
+   "rssd": "280110",
+   "established": "1849-01-01",
+   "insured": "1956-01-16",
+   "ended": null,
+   "offices": 948,
+   "web": "www.key.com",
+   "members": null
+  },
+  {
+   "id": "fdic-57803",
+   "rank": 25,
+   "name": "Ally Bank",
+   "type": "bank",
+   "city": "Sandy",
+   "state": "UT",
+   "assets": 188184000000,
+   "deposits": 156614000000,
+   "repdte": "2026-06-30",
+   "regulator": "FED",
+   "charter": "SM",
+   "parentRssd": "1562859",
+   "parentName": "ALLY FINANCIAL INC",
+   "rssd": "3284070",
+   "established": "2004-08-02",
+   "insured": "2004-08-02",
+   "ended": null,
+   "offices": 1,
+   "web": "www.ally.com",
+   "members": null
+  }
+ ],
+ "details": [
+  {
+   "id": "fdic-628",
+   "file": "detail/fdic-628.json",
+   "branches": 5413,
+   "lineage": 832
+  },
+  {
+   "id": "fdic-3510",
+   "file": "detail/fdic-3510.json",
+   "branches": 3829,
+   "lineage": 1666,
+   "failed": "2009-01-16"
+  },
+  {
+   "id": "fdic-7213",
+   "file": "detail/fdic-7213.json",
+   "branches": 955,
+   "lineage": 108,
+   "failed": "2008-11-23"
+  },
+  {
+   "id": "fdic-3511",
+   "file": "detail/fdic-3511.json",
+   "branches": 4159,
+   "lineage": 1877
+  },
+  {
+   "id": "fdic-33124",
+   "file": "detail/fdic-33124.json",
+   "branches": 5,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-6548",
+   "file": "detail/fdic-6548.json",
+   "branches": 2095,
+   "lineage": 896
+  },
+  {
+   "id": "fdic-4297",
+   "file": "detail/fdic-4297.json",
+   "branches": 251,
+   "lineage": 116
+  },
+  {
+   "id": "fdic-6384",
+   "file": "detail/fdic-6384.json",
+   "branches": 2417,
+   "lineage": 952
+  },
+  {
+   "id": "fdic-9846",
+   "file": "detail/fdic-9846.json",
+   "branches": 1931,
+   "lineage": 827
+  },
+  {
+   "id": "fdic-639",
+   "file": "detail/fdic-639.json",
+   "branches": 26,
+   "lineage": 34
+  },
+  {
+   "id": "fdic-32992",
+   "file": "detail/fdic-32992.json",
+   "branches": 1,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-14",
+   "file": "detail/fdic-14.json",
+   "branches": 3,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-18409",
+   "file": "detail/fdic-18409.json",
+   "branches": 1051,
+   "lineage": 186
+  },
+  {
+   "id": "fdic-6672",
+   "file": "detail/fdic-6672.json",
+   "branches": 1466,
+   "lineage": 460
+  },
+  {
+   "id": "fdic-6560",
+   "file": "detail/fdic-6560.json",
+   "branches": 1591,
+   "lineage": 569
+  },
+  {
+   "id": "fdic-16571",
+   "file": "detail/fdic-16571.json",
+   "branches": 849,
+   "lineage": 507
+  },
+  {
+   "id": "fdic-57450",
+   "file": "detail/fdic-57450.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-34221",
+   "file": "detail/fdic-34221.json",
+   "branches": 1,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-11063",
+   "file": "detail/fdic-11063.json",
+   "branches": 655,
+   "lineage": 125
+  },
+  {
+   "id": "fdic-57957",
+   "file": "detail/fdic-57957.json",
+   "branches": 981,
+   "lineage": 179
+  },
+  {
+   "id": "fdic-588",
+   "file": "detail/fdic-588.json",
+   "branches": 960,
+   "lineage": 229
+  },
+  {
+   "id": "fdic-27471",
+   "file": "detail/fdic-27471.json",
+   "branches": 1,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-17534",
+   "file": "detail/fdic-17534.json",
+   "branches": 948,
+   "lineage": 321
+  },
+  {
+   "id": "fdic-57803",
+   "file": "detail/fdic-57803.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-913",
+   "file": "detail/fdic-913.json",
+   "branches": 67,
+   "lineage": 24
+  },
+  {
+   "id": "fdic-57890",
+   "file": "detail/fdic-57890.json",
+   "branches": 41,
+   "lineage": 53
+  },
+  {
+   "id": "fdic-12368",
+   "file": "detail/fdic-12368.json",
+   "branches": 1259,
+   "lineage": 680
+  },
+  {
+   "id": "fdic-35583",
+   "file": "detail/fdic-35583.json",
+   "branches": 427,
+   "lineage": 131
+  },
+  {
+   "id": "fdic-57565",
+   "file": "detail/fdic-57565.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-27314",
+   "file": "detail/fdic-27314.json",
+   "branches": 2,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-32188",
+   "file": "detail/fdic-32188.json",
+   "branches": 5,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-29950",
+   "file": "detail/fdic-29950.json",
+   "branches": 558,
+   "lineage": 151
+  },
+  {
+   "id": "fdic-17281",
+   "file": "detail/fdic-17281.json",
+   "branches": 71,
+   "lineage": 29
+  },
+  {
+   "id": "fdic-57512",
+   "file": "detail/fdic-57512.json",
+   "branches": 38,
+   "lineage": 11
+  },
+  {
+   "id": "fdic-2270",
+   "file": "detail/fdic-2270.json",
+   "branches": 413,
+   "lineage": 144
+  },
+  {
+   "id": "fdic-32541",
+   "file": "detail/fdic-32541.json",
+   "branches": 345,
+   "lineage": 24
+  },
+  {
+   "id": "fdic-31628",
+   "file": "detail/fdic-31628.json",
+   "branches": 98,
+   "lineage": 34
+  },
+  {
+   "id": "fdic-4977",
+   "file": "detail/fdic-4977.json",
+   "branches": 417,
+   "lineage": 129
+  },
+  {
+   "id": "fdic-3832",
+   "file": "detail/fdic-3832.json",
+   "branches": 360,
+   "lineage": 272
+  },
+  {
+   "id": "fdic-8273",
+   "file": "detail/fdic-8273.json",
+   "branches": 209,
+   "lineage": 141
+  },
+  {
+   "id": "fdic-33555",
+   "file": "detail/fdic-33555.json",
+   "branches": 373,
+   "lineage": 147
+  },
+  {
+   "id": "fdic-33306",
+   "file": "detail/fdic-33306.json",
+   "branches": 8,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-9396",
+   "file": "detail/fdic-9396.json",
+   "branches": 232,
+   "lineage": 66
+  },
+  {
+   "id": "fdic-17266",
+   "file": "detail/fdic-17266.json",
+   "branches": 369,
+   "lineage": 131
+  },
+  {
+   "id": "fdic-34968",
+   "file": "detail/fdic-34968.json",
+   "branches": 164,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-26881",
+   "file": "detail/fdic-26881.json",
+   "branches": 4,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-5510",
+   "file": "detail/fdic-5510.json",
+   "branches": 224,
+   "lineage": 60
+  },
+  {
+   "id": "fdic-4214",
+   "file": "detail/fdic-4214.json",
+   "branches": 116,
+   "lineage": 50
+  },
+  {
+   "id": "fdic-5296",
+   "file": "detail/fdic-5296.json",
+   "branches": 218,
+   "lineage": 123
+  },
+  {
+   "id": "fdic-7888",
+   "file": "detail/fdic-7888.json",
+   "branches": 366,
+   "lineage": 103
+  },
+  {
+   "id": "fdic-33653",
+   "file": "detail/fdic-33653.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-34775",
+   "file": "detail/fdic-34775.json",
+   "branches": 43,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-33893",
+   "file": "detail/fdic-33893.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-16835",
+   "file": "detail/fdic-16835.json",
+   "branches": 406,
+   "lineage": 128
+  },
+  {
+   "id": "fdic-57203",
+   "file": "detail/fdic-57203.json",
+   "branches": 1,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-4063",
+   "file": "detail/fdic-4063.json",
+   "branches": 94,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-110",
+   "file": "detail/fdic-110.json",
+   "branches": 273,
+   "lineage": 59
+  },
+  {
+   "id": "fdic-623",
+   "file": "detail/fdic-623.json",
+   "branches": 1,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-34589",
+   "file": "detail/fdic-34589.json",
+   "branches": 187,
+   "lineage": 48
+  },
+  {
+   "id": "fdic-12441",
+   "file": "detail/fdic-12441.json",
+   "branches": 194,
+   "lineage": 91
+  },
+  {
+   "id": "fdic-24998",
+   "file": "detail/fdic-24998.json",
+   "branches": 153,
+   "lineage": 89
+  },
+  {
+   "id": "fdic-24045",
+   "file": "detail/fdic-24045.json",
+   "branches": 84,
+   "lineage": 49
+  },
+  {
+   "id": "fdic-58979",
+   "file": "detail/fdic-58979.json",
+   "branches": 57,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-5452",
+   "file": "detail/fdic-5452.json",
+   "branches": 147,
+   "lineage": 54
+  },
+  {
+   "id": "fdic-22858",
+   "file": "detail/fdic-22858.json",
+   "branches": 237,
+   "lineage": 74
+  },
+  {
+   "id": "fdic-34383",
+   "file": "detail/fdic-34383.json",
+   "branches": 10,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-7551",
+   "file": "detail/fdic-7551.json",
+   "branches": 229,
+   "lineage": 47
+  },
+  {
+   "id": "fdic-33947",
+   "file": "detail/fdic-33947.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-30788",
+   "file": "detail/fdic-30788.json",
+   "branches": 261,
+   "lineage": 78
+  },
+  {
+   "id": "fdic-32773",
+   "file": "detail/fdic-32773.json",
+   "branches": 129,
+   "lineage": 31
+  },
+  {
+   "id": "fdic-7946",
+   "file": "detail/fdic-7946.json",
+   "branches": 31,
+   "lineage": 33
+  },
+  {
+   "id": "fdic-20234",
+   "file": "detail/fdic-20234.json",
+   "branches": 30,
+   "lineage": 10
+  },
+  {
+   "id": "fdic-16889",
+   "file": "detail/fdic-16889.json",
+   "branches": 192,
+   "lineage": 42
+  },
+  {
+   "id": "fdic-35546",
+   "file": "detail/fdic-35546.json",
+   "branches": 3,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-58177",
+   "file": "detail/fdic-58177.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-20504",
+   "file": "detail/fdic-20504.json",
+   "branches": 176,
+   "lineage": 48
+  },
+  {
+   "id": "fdic-8728",
+   "file": "detail/fdic-8728.json",
+   "branches": 229,
+   "lineage": 62
+  },
+  {
+   "id": "fdic-803",
+   "file": "detail/fdic-803.json",
+   "branches": 219,
+   "lineage": 108
+  },
+  {
+   "id": "fdic-28088",
+   "file": "detail/fdic-28088.json",
+   "branches": 213,
+   "lineage": 20
+  },
+  {
+   "id": "fdic-12437",
+   "file": "detail/fdic-12437.json",
+   "branches": 266,
+   "lineage": 64
+  },
+  {
+   "id": "fdic-33497",
+   "file": "detail/fdic-33497.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-34444",
+   "file": "detail/fdic-34444.json",
+   "branches": 10,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-1105",
+   "file": "detail/fdic-1105.json",
+   "branches": 274,
+   "lineage": 119
+  },
+  {
+   "id": "fdic-12010",
+   "file": "detail/fdic-12010.json",
+   "branches": 139,
+   "lineage": 31
+  },
+  {
+   "id": "fdic-58303",
+   "file": "detail/fdic-58303.json",
+   "branches": 2,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-9712",
+   "file": "detail/fdic-9712.json",
+   "branches": 151,
+   "lineage": 23
+  },
+  {
+   "id": "fdic-3890",
+   "file": "detail/fdic-3890.json",
+   "branches": 229,
+   "lineage": 73
+  },
+  {
+   "id": "fdic-18503",
+   "file": "detail/fdic-18503.json",
+   "branches": 66,
+   "lineage": 11
+  },
+  {
+   "id": "fdic-11241",
+   "file": "detail/fdic-11241.json",
+   "branches": 239,
+   "lineage": 55
+  },
+  {
+   "id": "fdic-58457",
+   "file": "detail/fdic-58457.json",
+   "branches": 2,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-18053",
+   "file": "detail/fdic-18053.json",
+   "branches": 52,
+   "lineage": 19
+  },
+  {
+   "id": "fdic-17985",
+   "file": "detail/fdic-17985.json",
+   "branches": 49,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-28359",
+   "file": "detail/fdic-28359.json",
+   "branches": 74,
+   "lineage": 28
+  },
+  {
+   "id": "fdic-35095",
+   "file": "detail/fdic-35095.json",
+   "branches": 81,
+   "lineage": 14
+  },
+  {
+   "id": "fdic-17838",
+   "file": "detail/fdic-17838.json",
+   "branches": 95,
+   "lineage": 30
+  },
+  {
+   "id": "fdic-33682",
+   "file": "detail/fdic-33682.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-6600",
+   "file": "detail/fdic-6600.json",
+   "branches": 166,
+   "lineage": 86
+  },
+  {
+   "id": "fdic-17798",
+   "file": "detail/fdic-17798.json",
+   "branches": 151,
+   "lineage": 35
+  },
+  {
+   "id": "fdic-57408",
+   "file": "detail/fdic-57408.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-131",
+   "file": "detail/fdic-131.json",
+   "branches": 118,
+   "lineage": 32
+  },
+  {
+   "id": "fdic-4365",
+   "file": "detail/fdic-4365.json",
+   "branches": 135,
+   "lineage": 48
+  },
+  {
+   "id": "fdic-1768",
+   "file": "detail/fdic-1768.json",
+   "branches": 169,
+   "lineage": 27
+  },
+  {
+   "id": "fdic-21716",
+   "file": "detail/fdic-21716.json",
+   "branches": 87,
+   "lineage": 40
+  },
+  {
+   "id": "fdic-8056",
+   "file": "detail/fdic-8056.json",
+   "branches": 8,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-12633",
+   "file": "detail/fdic-12633.json",
+   "branches": 166,
+   "lineage": 57
+  },
+  {
+   "id": "fdic-16068",
+   "file": "detail/fdic-16068.json",
+   "branches": 79,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-57311",
+   "file": "detail/fdic-57311.json",
+   "branches": 2,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-30387",
+   "file": "detail/fdic-30387.json",
+   "branches": 74,
+   "lineage": 11,
+   "failed": "1981-11-20"
+  },
+  {
+   "id": "fdic-4988",
+   "file": "detail/fdic-4988.json",
+   "branches": 181,
+   "lineage": 49
+  },
+  {
+   "id": "fdic-26610",
+   "file": "detail/fdic-26610.json",
+   "branches": 75,
+   "lineage": 18
+  },
+  {
+   "id": "fdic-57993",
+   "file": "detail/fdic-57993.json",
+   "branches": 34,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-16450",
+   "file": "detail/fdic-16450.json",
+   "branches": 81,
+   "lineage": 44
+  },
+  {
+   "id": "fdic-30012",
+   "file": "detail/fdic-30012.json",
+   "branches": 35,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-6989",
+   "file": "detail/fdic-6989.json",
+   "branches": 214,
+   "lineage": 45
+  },
+  {
+   "id": "fdic-27237",
+   "file": "detail/fdic-27237.json",
+   "branches": 56,
+   "lineage": 16
+  },
+  {
+   "id": "fdic-28178",
+   "file": "detail/fdic-28178.json",
+   "branches": 165,
+   "lineage": 33
+  },
+  {
+   "id": "fdic-57542",
+   "file": "detail/fdic-57542.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-8663",
+   "file": "detail/fdic-8663.json",
+   "branches": 132,
+   "lineage": 22
+  },
+  {
+   "id": "fdic-4239",
+   "file": "detail/fdic-4239.json",
+   "branches": 80,
+   "lineage": 28
+  },
+  {
+   "id": "fdic-28489",
+   "file": "detail/fdic-28489.json",
+   "branches": 167,
+   "lineage": 50
+  },
+  {
+   "id": "fdic-33681",
+   "file": "detail/fdic-33681.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-7230",
+   "file": "detail/fdic-7230.json",
+   "branches": 176,
+   "lineage": 29
+  },
+  {
+   "id": "fdic-58665",
+   "file": "detail/fdic-58665.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-26876",
+   "file": "detail/fdic-26876.json",
+   "branches": 7,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-4767",
+   "file": "detail/fdic-4767.json",
+   "branches": 103,
+   "lineage": 39
+  },
+  {
+   "id": "fdic-57038",
+   "file": "detail/fdic-57038.json",
+   "branches": 117,
+   "lineage": 59
+  },
+  {
+   "id": "fdic-3066",
+   "file": "detail/fdic-3066.json",
+   "branches": 84,
+   "lineage": 30
+  },
+  {
+   "id": "fdic-19581",
+   "file": "detail/fdic-19581.json",
+   "branches": 34,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-6976",
+   "file": "detail/fdic-6976.json",
+   "branches": 64,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-34967",
+   "file": "detail/fdic-34967.json",
+   "branches": 36,
+   "lineage": 25
+  },
+  {
+   "id": "fdic-25178",
+   "file": "detail/fdic-25178.json",
+   "branches": 1,
+   "lineage": 2,
+   "failed": "2009-01-16"
+  },
+  {
+   "id": "fdic-57358",
+   "file": "detail/fdic-57358.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-57919",
+   "file": "detail/fdic-57919.json",
+   "branches": 57,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-19977",
+   "file": "detail/fdic-19977.json",
+   "branches": 8,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-29209",
+   "file": "detail/fdic-29209.json",
+   "branches": 2,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-57570",
+   "file": "detail/fdic-57570.json",
+   "branches": 2,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-35141",
+   "file": "detail/fdic-35141.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-15019",
+   "file": "detail/fdic-15019.json",
+   "branches": 116,
+   "lineage": 19
+  },
+  {
+   "id": "fdic-27476",
+   "file": "detail/fdic-27476.json",
+   "branches": 120,
+   "lineage": 68
+  },
+  {
+   "id": "fdic-32245",
+   "file": "detail/fdic-32245.json",
+   "branches": 91,
+   "lineage": 10
+  },
+  {
+   "id": "fdic-17491",
+   "file": "detail/fdic-17491.json",
+   "branches": 57,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-6653",
+   "file": "detail/fdic-6653.json",
+   "branches": 112,
+   "lineage": 34
+  },
+  {
+   "id": "fdic-59052",
+   "file": "detail/fdic-59052.json",
+   "branches": 97,
+   "lineage": 40
+  },
+  {
+   "id": "fdic-32551",
+   "file": "detail/fdic-32551.json",
+   "branches": 2,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-7468",
+   "file": "detail/fdic-7468.json",
+   "branches": 129,
+   "lineage": 36
+  },
+  {
+   "id": "fdic-28834",
+   "file": "detail/fdic-28834.json",
+   "branches": 107,
+   "lineage": 14
+  },
+  {
+   "id": "fdic-31469",
+   "file": "detail/fdic-31469.json",
+   "branches": 45,
+   "lineage": 14
+  },
+  {
+   "id": "fdic-1225",
+   "file": "detail/fdic-1225.json",
+   "branches": 27,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-57833",
+   "file": "detail/fdic-57833.json",
+   "branches": 10,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-33686",
+   "file": "detail/fdic-33686.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-11578",
+   "file": "detail/fdic-11578.json",
+   "branches": 106,
+   "lineage": 21
+  },
+  {
+   "id": "fdic-34697",
+   "file": "detail/fdic-34697.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-1281",
+   "file": "detail/fdic-1281.json",
+   "branches": 45,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-59108",
+   "file": "detail/fdic-59108.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-12854",
+   "file": "detail/fdic-12854.json",
+   "branches": 63,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-14531",
+   "file": "detail/fdic-14531.json",
+   "branches": 35,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-258",
+   "file": "detail/fdic-258.json",
+   "branches": 87,
+   "lineage": 17
+  },
+  {
+   "id": "fdic-22953",
+   "file": "detail/fdic-22953.json",
+   "branches": 24,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-19629",
+   "file": "detail/fdic-19629.json",
+   "branches": 80,
+   "lineage": 38
+  },
+  {
+   "id": "fdic-12614",
+   "file": "detail/fdic-12614.json",
+   "branches": 59,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-11124",
+   "file": "detail/fdic-11124.json",
+   "branches": 76,
+   "lineage": 18
+  },
+  {
+   "id": "fdic-21943",
+   "file": "detail/fdic-21943.json",
+   "branches": 77,
+   "lineage": 14
+  },
+  {
+   "id": "fdic-20624",
+   "file": "detail/fdic-20624.json",
+   "branches": 54,
+   "lineage": 23
+  },
+  {
+   "id": "fdic-34507",
+   "file": "detail/fdic-34507.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-27981",
+   "file": "detail/fdic-27981.json",
+   "branches": 45,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-34742",
+   "file": "detail/fdic-34742.json",
+   "branches": 14,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-26342",
+   "file": "detail/fdic-26342.json",
+   "branches": 1,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-33935",
+   "file": "detail/fdic-33935.json",
+   "branches": 37,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-6544",
+   "file": "detail/fdic-6544.json",
+   "branches": 135,
+   "lineage": 58
+  },
+  {
+   "id": "fdic-622",
+   "file": "detail/fdic-622.json",
+   "branches": 6,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-17943",
+   "file": "detail/fdic-17943.json",
+   "branches": 51,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-9087",
+   "file": "detail/fdic-9087.json",
+   "branches": 81,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-27589",
+   "file": "detail/fdic-27589.json",
+   "branches": 10,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-13421",
+   "file": "detail/fdic-13421.json",
+   "branches": 37,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-26312",
+   "file": "detail/fdic-26312.json",
+   "branches": 11,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-35444",
+   "file": "detail/fdic-35444.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-10634",
+   "file": "detail/fdic-10634.json",
+   "branches": 72,
+   "lineage": 42
+  },
+  {
+   "id": "fdic-3705",
+   "file": "detail/fdic-3705.json",
+   "branches": 87,
+   "lineage": 41
+  },
+  {
+   "id": "fdic-34519",
+   "file": "detail/fdic-34519.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-32526",
+   "file": "detail/fdic-32526.json",
+   "branches": 35,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-23220",
+   "file": "detail/fdic-23220.json",
+   "branches": 741,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-58228",
+   "file": "detail/fdic-58228.json",
+   "branches": 59,
+   "lineage": 13
+  },
+  {
+   "id": "fdic-34699",
+   "file": "detail/fdic-34699.json",
+   "branches": 11,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-23296",
+   "file": "detail/fdic-23296.json",
+   "branches": 34,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-609",
+   "file": "detail/fdic-609.json",
+   "branches": 59,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-27389",
+   "file": "detail/fdic-27389.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-18297",
+   "file": "detail/fdic-18297.json",
+   "branches": 58,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-3657",
+   "file": "detail/fdic-3657.json",
+   "branches": 58,
+   "lineage": 13
+  },
+  {
+   "id": "fdic-5633",
+   "file": "detail/fdic-5633.json",
+   "branches": 81,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-58410",
+   "file": "detail/fdic-58410.json",
+   "branches": 2,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-57614",
+   "file": "detail/fdic-57614.json",
+   "branches": 4,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-17393",
+   "file": "detail/fdic-17393.json",
+   "branches": 96,
+   "lineage": 35
+  },
+  {
+   "id": "fdic-29012",
+   "file": "detail/fdic-29012.json",
+   "branches": 68,
+   "lineage": 22
+  },
+  {
+   "id": "fdic-13876",
+   "file": "detail/fdic-13876.json",
+   "branches": 82,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-5903",
+   "file": "detail/fdic-5903.json",
+   "branches": 74,
+   "lineage": 19
+  },
+  {
+   "id": "fdic-57903",
+   "file": "detail/fdic-57903.json",
+   "branches": 45,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-7759",
+   "file": "detail/fdic-7759.json",
+   "branches": 51,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-11035",
+   "file": "detail/fdic-11035.json",
+   "branches": 19,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-24170",
+   "file": "detail/fdic-24170.json",
+   "branches": 34,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-953",
+   "file": "detail/fdic-953.json",
+   "branches": 22,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-16191",
+   "file": "detail/fdic-16191.json",
+   "branches": 48,
+   "lineage": 11
+  },
+  {
+   "id": "fdic-18408",
+   "file": "detail/fdic-18408.json",
+   "branches": 73,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-33539",
+   "file": "detail/fdic-33539.json",
+   "branches": 17,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-25858",
+   "file": "detail/fdic-25858.json",
+   "branches": 82,
+   "lineage": 41
+  },
+  {
+   "id": "fdic-28765",
+   "file": "detail/fdic-28765.json",
+   "branches": 40,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-24156",
+   "file": "detail/fdic-24156.json",
+   "branches": 25,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-16980",
+   "file": "detail/fdic-16980.json",
+   "branches": 60,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-16026",
+   "file": "detail/fdic-16026.json",
+   "branches": 38,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-34953",
+   "file": "detail/fdic-34953.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-17308",
+   "file": "detail/fdic-17308.json",
+   "branches": 27,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-26483",
+   "file": "detail/fdic-26483.json",
+   "branches": 22,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-33648",
+   "file": "detail/fdic-33648.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-23498",
+   "file": "detail/fdic-23498.json",
+   "branches": 62,
+   "lineage": 32
+  },
+  {
+   "id": "fdic-33661",
+   "file": "detail/fdic-33661.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-30776",
+   "file": "detail/fdic-30776.json",
+   "branches": 1,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-13102",
+   "file": "detail/fdic-13102.json",
+   "branches": 58,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-6540",
+   "file": "detail/fdic-6540.json",
+   "branches": 83,
+   "lineage": 19
+  },
+  {
+   "id": "fdic-20296",
+   "file": "detail/fdic-20296.json",
+   "branches": 32,
+   "lineage": 12
+  },
+  {
+   "id": "fdic-23627",
+   "file": "detail/fdic-23627.json",
+   "branches": 48,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-9889",
+   "file": "detail/fdic-9889.json",
+   "branches": 68,
+   "lineage": 23
+  },
+  {
+   "id": "fdic-17870",
+   "file": "detail/fdic-17870.json",
+   "branches": 26,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-2720",
+   "file": "detail/fdic-2720.json",
+   "branches": 78,
+   "lineage": 19
+  },
+  {
+   "id": "fdic-4255",
+   "file": "detail/fdic-4255.json",
+   "branches": 74,
+   "lineage": 19
+  },
+  {
+   "id": "fdic-3603",
+   "file": "detail/fdic-3603.json",
+   "branches": 57,
+   "lineage": 16
+  },
+  {
+   "id": "fdic-17438",
+   "file": "detail/fdic-17438.json",
+   "branches": 3,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-33849",
+   "file": "detail/fdic-33849.json",
+   "branches": 17,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-4799",
+   "file": "detail/fdic-4799.json",
+   "branches": 40,
+   "lineage": 16
+  },
+  {
+   "id": "fdic-17735",
+   "file": "detail/fdic-17735.json",
+   "branches": 97,
+   "lineage": 45
+  },
+  {
+   "id": "fdic-58716",
+   "file": "detail/fdic-58716.json",
+   "branches": 22,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-20369",
+   "file": "detail/fdic-20369.json",
+   "branches": 87,
+   "lineage": 46
+  },
+  {
+   "id": "fdic-23091",
+   "file": "detail/fdic-23091.json",
+   "branches": 47,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-1040",
+   "file": "detail/fdic-1040.json",
+   "branches": 60,
+   "lineage": 45
+  },
+  {
+   "id": "fdic-12229",
+   "file": "detail/fdic-12229.json",
+   "branches": 75,
+   "lineage": 108
+  },
+  {
+   "id": "fdic-18618",
+   "file": "detail/fdic-18618.json",
+   "branches": 7,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-23623",
+   "file": "detail/fdic-23623.json",
+   "branches": 30,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-4360",
+   "file": "detail/fdic-4360.json",
+   "branches": 80,
+   "lineage": 21
+  },
+  {
+   "id": "fdic-31945",
+   "file": "detail/fdic-31945.json",
+   "branches": 134,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-29566",
+   "file": "detail/fdic-29566.json",
+   "branches": 22,
+   "lineage": 12
+  },
+  {
+   "id": "fdic-9423",
+   "file": "detail/fdic-9423.json",
+   "branches": 18,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-57082",
+   "file": "detail/fdic-57082.json",
+   "branches": 7,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-659",
+   "file": "detail/fdic-659.json",
+   "branches": 48,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-34598",
+   "file": "detail/fdic-34598.json",
+   "branches": 41,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-10248",
+   "file": "detail/fdic-10248.json",
+   "branches": 28,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-4382",
+   "file": "detail/fdic-4382.json",
+   "branches": 83,
+   "lineage": 30
+  },
+  {
+   "id": "fdic-90183",
+   "file": "detail/fdic-90183.json",
+   "branches": 35,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-4832",
+   "file": "detail/fdic-4832.json",
+   "branches": 40,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-34294",
+   "file": "detail/fdic-34294.json",
+   "branches": 3,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-58463",
+   "file": "detail/fdic-58463.json",
+   "branches": 44,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-21265",
+   "file": "detail/fdic-21265.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-18983",
+   "file": "detail/fdic-18983.json",
+   "branches": 9,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-57815",
+   "file": "detail/fdic-57815.json",
+   "branches": 6,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-26962",
+   "file": "detail/fdic-26962.json",
+   "branches": 32,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-19222",
+   "file": "detail/fdic-19222.json",
+   "branches": 23,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-5304",
+   "file": "detail/fdic-5304.json",
+   "branches": 38,
+   "lineage": 22
+  },
+  {
+   "id": "fdic-19416",
+   "file": "detail/fdic-19416.json",
+   "branches": 20,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-1331",
+   "file": "detail/fdic-1331.json",
+   "branches": 34,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-3430",
+   "file": "detail/fdic-3430.json",
+   "branches": 75,
+   "lineage": 35
+  },
+  {
+   "id": "fdic-57083",
+   "file": "detail/fdic-57083.json",
+   "branches": 7,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-27811",
+   "file": "detail/fdic-27811.json",
+   "branches": 59,
+   "lineage": 17
+  },
+  {
+   "id": "fdic-26647",
+   "file": "detail/fdic-26647.json",
+   "branches": 18,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-23287",
+   "file": "detail/fdic-23287.json",
+   "branches": 22,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-713",
+   "file": "detail/fdic-713.json",
+   "branches": 43,
+   "lineage": 10
+  },
+  {
+   "id": "fdic-90250",
+   "file": "detail/fdic-90250.json",
+   "branches": 13,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-34607",
+   "file": "detail/fdic-34607.json",
+   "branches": 2,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-29546",
+   "file": "detail/fdic-29546.json",
+   "branches": 108,
+   "lineage": 18
+  },
+  {
+   "id": "fdic-23474",
+   "file": "detail/fdic-23474.json",
+   "branches": 28,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-34403",
+   "file": "detail/fdic-34403.json",
+   "branches": 14,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-22653",
+   "file": "detail/fdic-22653.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-7514",
+   "file": "detail/fdic-7514.json",
+   "branches": 40,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-15797",
+   "file": "detail/fdic-15797.json",
+   "branches": 31,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-4091",
+   "file": "detail/fdic-4091.json",
+   "branches": 10,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-6985",
+   "file": "detail/fdic-6985.json",
+   "branches": 28,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-25103",
+   "file": "detail/fdic-25103.json",
+   "branches": 36,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-58210",
+   "file": "detail/fdic-58210.json",
+   "branches": 10,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-35361",
+   "file": "detail/fdic-35361.json",
+   "branches": 10,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-18429",
+   "file": "detail/fdic-18429.json",
+   "branches": 49,
+   "lineage": 19
+  },
+  {
+   "id": "fdic-57056",
+   "file": "detail/fdic-57056.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-27210",
+   "file": "detail/fdic-27210.json",
+   "branches": 47,
+   "lineage": 24
+  },
+  {
+   "id": "fdic-15359",
+   "file": "detail/fdic-15359.json",
+   "branches": 57,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-57134",
+   "file": "detail/fdic-57134.json",
+   "branches": 8,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-3931",
+   "file": "detail/fdic-3931.json",
+   "branches": 26,
+   "lineage": 17
+  },
+  {
+   "id": "fdic-19690",
+   "file": "detail/fdic-19690.json",
+   "branches": 9,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-28332",
+   "file": "detail/fdic-28332.json",
+   "branches": 69,
+   "lineage": 28
+  },
+  {
+   "id": "fdic-34395",
+   "file": "detail/fdic-34395.json",
+   "branches": 9,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-3405",
+   "file": "detail/fdic-3405.json",
+   "branches": 23,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-16130",
+   "file": "detail/fdic-16130.json",
+   "branches": 27,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-8879",
+   "file": "detail/fdic-8879.json",
+   "branches": 57,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-23030",
+   "file": "detail/fdic-23030.json",
+   "branches": 42,
+   "lineage": 10
+  },
+  {
+   "id": "fdic-1536",
+   "file": "detail/fdic-1536.json",
+   "branches": 21,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-35237",
+   "file": "detail/fdic-35237.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-17437",
+   "file": "detail/fdic-17437.json",
+   "branches": 32,
+   "lineage": 17
+  },
+  {
+   "id": "fdic-58596",
+   "file": "detail/fdic-58596.json",
+   "branches": 66,
+   "lineage": 12
+  },
+  {
+   "id": "fdic-14650",
+   "file": "detail/fdic-14650.json",
+   "branches": 21,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-33803",
+   "file": "detail/fdic-33803.json",
+   "branches": 8,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-3973",
+   "file": "detail/fdic-3973.json",
+   "branches": 22,
+   "lineage": 11
+  },
+  {
+   "id": "fdic-11971",
+   "file": "detail/fdic-11971.json",
+   "branches": 62,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-34717",
+   "file": "detail/fdic-34717.json",
+   "branches": 25,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-35295",
+   "file": "detail/fdic-35295.json",
+   "branches": 12,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-59378",
+   "file": "detail/fdic-59378.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-11507",
+   "file": "detail/fdic-11507.json",
+   "branches": 58,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-3285",
+   "file": "detail/fdic-3285.json",
+   "branches": 357,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-90213",
+   "file": "detail/fdic-90213.json",
+   "branches": 21,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-3250",
+   "file": "detail/fdic-3250.json",
+   "branches": 43,
+   "lineage": 12
+  },
+  {
+   "id": "fdic-25679",
+   "file": "detail/fdic-25679.json",
+   "branches": 41,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-90211",
+   "file": "detail/fdic-90211.json",
+   "branches": 9,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-17323",
+   "file": "detail/fdic-17323.json",
+   "branches": 53,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-20099",
+   "file": "detail/fdic-20099.json",
+   "branches": 2,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-31313",
+   "file": "detail/fdic-31313.json",
+   "branches": 29,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-58181",
+   "file": "detail/fdic-58181.json",
+   "branches": 27,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-7074",
+   "file": "detail/fdic-7074.json",
+   "branches": 56,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-1014",
+   "file": "detail/fdic-1014.json",
+   "branches": 50,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-9622",
+   "file": "detail/fdic-9622.json",
+   "branches": 67,
+   "lineage": 16
+  },
+  {
+   "id": "fdic-27677",
+   "file": "detail/fdic-27677.json",
+   "branches": 33,
+   "lineage": 12
+  },
+  {
+   "id": "fdic-34788",
+   "file": "detail/fdic-34788.json",
+   "branches": 10,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-15229",
+   "file": "detail/fdic-15229.json",
+   "branches": 5,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-20164",
+   "file": "detail/fdic-20164.json",
+   "branches": 12,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-17842",
+   "file": "detail/fdic-17842.json",
+   "branches": 22,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-57968",
+   "file": "detail/fdic-57968.json",
+   "branches": 28,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-32612",
+   "file": "detail/fdic-32612.json",
+   "branches": 1,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-33664",
+   "file": "detail/fdic-33664.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-12982",
+   "file": "detail/fdic-12982.json",
+   "branches": 42,
+   "lineage": 11
+  },
+  {
+   "id": "fdic-22918",
+   "file": "detail/fdic-22918.json",
+   "branches": 35,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-58816",
+   "file": "detail/fdic-58816.json",
+   "branches": 25,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-19080",
+   "file": "detail/fdic-19080.json",
+   "branches": 12,
+   "lineage": 12
+  },
+  {
+   "id": "fdic-1617",
+   "file": "detail/fdic-1617.json",
+   "branches": 32,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-21868",
+   "file": "detail/fdic-21868.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-19459",
+   "file": "detail/fdic-19459.json",
+   "branches": 48,
+   "lineage": 28
+  },
+  {
+   "id": "fdic-24920",
+   "file": "detail/fdic-24920.json",
+   "branches": 22,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-58481",
+   "file": "detail/fdic-58481.json",
+   "branches": 26,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-27774",
+   "file": "detail/fdic-27774.json",
+   "branches": 46,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-30076",
+   "file": "detail/fdic-30076.json",
+   "branches": 28,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-15614",
+   "file": "detail/fdic-15614.json",
+   "branches": 12,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-57044",
+   "file": "detail/fdic-57044.json",
+   "branches": 14,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-32296",
+   "file": "detail/fdic-32296.json",
+   "branches": 39,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-58255",
+   "file": "detail/fdic-58255.json",
+   "branches": 25,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-15815",
+   "file": "detail/fdic-15815.json",
+   "branches": 29,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-14065",
+   "file": "detail/fdic-14065.json",
+   "branches": 36,
+   "lineage": 13
+  },
+  {
+   "id": "fdic-15399",
+   "file": "detail/fdic-15399.json",
+   "branches": 62,
+   "lineage": 19
+  },
+  {
+   "id": "fdic-57417",
+   "file": "detail/fdic-57417.json",
+   "branches": 10,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-27054",
+   "file": "detail/fdic-27054.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-14028",
+   "file": "detail/fdic-14028.json",
+   "branches": 25,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-12383",
+   "file": "detail/fdic-12383.json",
+   "branches": 13,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-4705",
+   "file": "detail/fdic-4705.json",
+   "branches": 34,
+   "lineage": 21
+  },
+  {
+   "id": "fdic-32974",
+   "file": "detail/fdic-32974.json",
+   "branches": 40,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-32779",
+   "file": "detail/fdic-32779.json",
+   "branches": 29,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-58316",
+   "file": "detail/fdic-58316.json",
+   "branches": 38,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-35278",
+   "file": "detail/fdic-35278.json",
+   "branches": 8,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-8136",
+   "file": "detail/fdic-8136.json",
+   "branches": 26,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-22559",
+   "file": "detail/fdic-22559.json",
+   "branches": 35,
+   "lineage": 15
+  },
+  {
+   "id": "fdic-17159",
+   "file": "detail/fdic-17159.json",
+   "branches": 20,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-22597",
+   "file": "detail/fdic-22597.json",
+   "branches": 35,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-34562",
+   "file": "detail/fdic-34562.json",
+   "branches": 17,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-11666",
+   "file": "detail/fdic-11666.json",
+   "branches": 41,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-34618",
+   "file": "detail/fdic-34618.json",
+   "branches": 27,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-27052",
+   "file": "detail/fdic-27052.json",
+   "branches": 10,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-1213",
+   "file": "detail/fdic-1213.json",
+   "branches": 19,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-33646",
+   "file": "detail/fdic-33646.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-1399",
+   "file": "detail/fdic-1399.json",
+   "branches": 40,
+   "lineage": 31
+  },
+  {
+   "id": "fdic-19008",
+   "file": "detail/fdic-19008.json",
+   "branches": 27,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-6085",
+   "file": "detail/fdic-6085.json",
+   "branches": 13,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-34533",
+   "file": "detail/fdic-34533.json",
+   "branches": 35,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-34011",
+   "file": "detail/fdic-34011.json",
+   "branches": 8,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-22257",
+   "file": "detail/fdic-22257.json",
+   "branches": 33,
+   "lineage": 13
+  },
+  {
+   "id": "fdic-13012",
+   "file": "detail/fdic-13012.json",
+   "branches": 67,
+   "lineage": 31
+  },
+  {
+   "id": "fdic-28094",
+   "file": "detail/fdic-28094.json",
+   "branches": 44,
+   "lineage": 13
+  },
+  {
+   "id": "fdic-30470",
+   "file": "detail/fdic-30470.json",
+   "branches": 15,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-57348",
+   "file": "detail/fdic-57348.json",
+   "branches": 15,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-58314",
+   "file": "detail/fdic-58314.json",
+   "branches": 18,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-34603",
+   "file": "detail/fdic-34603.json",
+   "branches": 7,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-34120",
+   "file": "detail/fdic-34120.json",
+   "branches": 18,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-12839",
+   "file": "detail/fdic-12839.json",
+   "branches": 37,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-5969",
+   "file": "detail/fdic-5969.json",
+   "branches": 39,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-22134",
+   "file": "detail/fdic-22134.json",
+   "branches": 25,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-31189",
+   "file": "detail/fdic-31189.json",
+   "branches": 14,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-26725",
+   "file": "detail/fdic-26725.json",
+   "branches": 4,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-57463",
+   "file": "detail/fdic-57463.json",
+   "branches": 19,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-57368",
+   "file": "detail/fdic-57368.json",
+   "branches": 11,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-35530",
+   "file": "detail/fdic-35530.json",
+   "branches": 9,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-33216",
+   "file": "detail/fdic-33216.json",
+   "branches": 21,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-4028",
+   "file": "detail/fdic-4028.json",
+   "branches": 17,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-18266",
+   "file": "detail/fdic-18266.json",
+   "branches": 14,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-17514",
+   "file": "detail/fdic-17514.json",
+   "branches": 43,
+   "lineage": 13
+  },
+  {
+   "id": "fdic-15091",
+   "file": "detail/fdic-15091.json",
+   "branches": 20,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-34073",
+   "file": "detail/fdic-34073.json",
+   "branches": 8,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-3276",
+   "file": "detail/fdic-3276.json",
+   "branches": 39,
+   "lineage": 12
+  },
+  {
+   "id": "fdic-34980",
+   "file": "detail/fdic-34980.json",
+   "branches": 28,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-8870",
+   "file": "detail/fdic-8870.json",
+   "branches": 51,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-7506",
+   "file": "detail/fdic-7506.json",
+   "branches": 33,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-18190",
+   "file": "detail/fdic-18190.json",
+   "branches": 26,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-30895",
+   "file": "detail/fdic-30895.json",
+   "branches": 16,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-58115",
+   "file": "detail/fdic-58115.json",
+   "branches": 27,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-24347",
+   "file": "detail/fdic-24347.json",
+   "branches": 36,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-32941",
+   "file": "detail/fdic-32941.json",
+   "branches": 14,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-10988",
+   "file": "detail/fdic-10988.json",
+   "branches": 8,
+   "lineage": 12
+  },
+  {
+   "id": "fdic-23622",
+   "file": "detail/fdic-23622.json",
+   "branches": 18,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-57071",
+   "file": "detail/fdic-57071.json",
+   "branches": 10,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-57607",
+   "file": "detail/fdic-57607.json",
+   "branches": 15,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-20884",
+   "file": "detail/fdic-20884.json",
+   "branches": 16,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-27235",
+   "file": "detail/fdic-27235.json",
+   "branches": 37,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-19600",
+   "file": "detail/fdic-19600.json",
+   "branches": 80,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-29708",
+   "file": "detail/fdic-29708.json",
+   "branches": 10,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-7593",
+   "file": "detail/fdic-7593.json",
+   "branches": 44,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-8468",
+   "file": "detail/fdic-8468.json",
+   "branches": 21,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-21591",
+   "file": "detail/fdic-21591.json",
+   "branches": 20,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-33503",
+   "file": "detail/fdic-33503.json",
+   "branches": 22,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-4256",
+   "file": "detail/fdic-4256.json",
+   "branches": 18,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-57633",
+   "file": "detail/fdic-57633.json",
+   "branches": 34,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-32574",
+   "file": "detail/fdic-32574.json",
+   "branches": 6,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-1291",
+   "file": "detail/fdic-1291.json",
+   "branches": 38,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-17764",
+   "file": "detail/fdic-17764.json",
+   "branches": 23,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-7799",
+   "file": "detail/fdic-7799.json",
+   "branches": 35,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-6423",
+   "file": "detail/fdic-6423.json",
+   "branches": 23,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-35541",
+   "file": "detail/fdic-35541.json",
+   "branches": 27,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-90290",
+   "file": "detail/fdic-90290.json",
+   "branches": 15,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-30401",
+   "file": "detail/fdic-30401.json",
+   "branches": 22,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-15310",
+   "file": "detail/fdic-15310.json",
+   "branches": 58,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-1058",
+   "file": "detail/fdic-1058.json",
+   "branches": 18,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-15953",
+   "file": "detail/fdic-15953.json",
+   "branches": 42,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-18129",
+   "file": "detail/fdic-18129.json",
+   "branches": 20,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-22451",
+   "file": "detail/fdic-22451.json",
+   "branches": 31,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-33860",
+   "file": "detail/fdic-33860.json",
+   "branches": 13,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-18013",
+   "file": "detail/fdic-18013.json",
+   "branches": 26,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-21031",
+   "file": "detail/fdic-21031.json",
+   "branches": 13,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-57369",
+   "file": "detail/fdic-57369.json",
+   "branches": 9,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-1528",
+   "file": "detail/fdic-1528.json",
+   "branches": 56,
+   "lineage": 14
+  },
+  {
+   "id": "fdic-32647",
+   "file": "detail/fdic-32647.json",
+   "branches": 22,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-59205",
+   "file": "detail/fdic-59205.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-34885",
+   "file": "detail/fdic-34885.json",
+   "branches": 11,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-17741",
+   "file": "detail/fdic-17741.json",
+   "branches": 23,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-23473",
+   "file": "detail/fdic-23473.json",
+   "branches": 28,
+   "lineage": 16,
+   "failed": "1987-10-16"
+  },
+  {
+   "id": "fdic-11868",
+   "file": "detail/fdic-11868.json",
+   "branches": 23,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-23647",
+   "file": "detail/fdic-23647.json",
+   "branches": 5,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-26906",
+   "file": "detail/fdic-26906.json",
+   "branches": 39,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-57591",
+   "file": "detail/fdic-57591.json",
+   "branches": 11,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-29488",
+   "file": "detail/fdic-29488.json",
+   "branches": 21,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-16958",
+   "file": "detail/fdic-16958.json",
+   "branches": 36,
+   "lineage": 23
+  },
+  {
+   "id": "fdic-57997",
+   "file": "detail/fdic-57997.json",
+   "branches": 19,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-7900",
+   "file": "detail/fdic-7900.json",
+   "branches": 37,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-698",
+   "file": "detail/fdic-698.json",
+   "branches": 33,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-57244",
+   "file": "detail/fdic-57244.json",
+   "branches": 9,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-10044",
+   "file": "detail/fdic-10044.json",
+   "branches": 34,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-34656",
+   "file": "detail/fdic-34656.json",
+   "branches": 20,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-8866",
+   "file": "detail/fdic-8866.json",
+   "branches": 22,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-22957",
+   "file": "detail/fdic-22957.json",
+   "branches": 13,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-16470",
+   "file": "detail/fdic-16470.json",
+   "branches": 13,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-90196",
+   "file": "detail/fdic-90196.json",
+   "branches": 26,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-34404",
+   "file": "detail/fdic-34404.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-16604",
+   "file": "detail/fdic-16604.json",
+   "branches": 34,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-24387",
+   "file": "detail/fdic-24387.json",
+   "branches": 14,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-19220",
+   "file": "detail/fdic-19220.json",
+   "branches": 32,
+   "lineage": 22
+  },
+  {
+   "id": "fdic-19573",
+   "file": "detail/fdic-19573.json",
+   "branches": 11,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-58309",
+   "file": "detail/fdic-58309.json",
+   "branches": 31,
+   "lineage": 10
+  },
+  {
+   "id": "fdic-2315",
+   "file": "detail/fdic-2315.json",
+   "branches": 30,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-25093",
+   "file": "detail/fdic-25093.json",
+   "branches": 6,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-57449",
+   "file": "detail/fdic-57449.json",
+   "branches": 1,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-4789",
+   "file": "detail/fdic-4789.json",
+   "branches": 32,
+   "lineage": 16
+  },
+  {
+   "id": "fdic-597",
+   "file": "detail/fdic-597.json",
+   "branches": 30,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-5744",
+   "file": "detail/fdic-5744.json",
+   "branches": 10,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-18012",
+   "file": "detail/fdic-18012.json",
+   "branches": 21,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-12944",
+   "file": "detail/fdic-12944.json",
+   "branches": 16,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-10363",
+   "file": "detail/fdic-10363.json",
+   "branches": 32,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-18198",
+   "file": "detail/fdic-18198.json",
+   "branches": 37,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-18561",
+   "file": "detail/fdic-18561.json",
+   "branches": 5,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-33867",
+   "file": "detail/fdic-33867.json",
+   "branches": 5,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-90215",
+   "file": "detail/fdic-90215.json",
+   "branches": 10,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-8283",
+   "file": "detail/fdic-8283.json",
+   "branches": 2,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-57944",
+   "file": "detail/fdic-57944.json",
+   "branches": 17,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-17964",
+   "file": "detail/fdic-17964.json",
+   "branches": 17,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-5496",
+   "file": "detail/fdic-5496.json",
+   "branches": 50,
+   "lineage": 26
+  },
+  {
+   "id": "fdic-90300",
+   "file": "detail/fdic-90300.json",
+   "branches": 27,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-29683",
+   "file": "detail/fdic-29683.json",
+   "branches": 23,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-20231",
+   "file": "detail/fdic-20231.json",
+   "branches": 28,
+   "lineage": 3
+  },
+  {
+   "id": "fdic-58057",
+   "file": "detail/fdic-58057.json",
+   "branches": 4,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-8235",
+   "file": "detail/fdic-8235.json",
+   "branches": 32,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-58291",
+   "file": "detail/fdic-58291.json",
+   "branches": 7,
+   "lineage": 2
+  },
+  {
+   "id": "fdic-57701",
+   "file": "detail/fdic-57701.json",
+   "branches": 8,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-3664",
+   "file": "detail/fdic-3664.json",
+   "branches": 14,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-24516",
+   "file": "detail/fdic-24516.json",
+   "branches": 2,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-19531",
+   "file": "detail/fdic-19531.json",
+   "branches": 16,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-57510",
+   "file": "detail/fdic-57510.json",
+   "branches": 3,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-33005",
+   "file": "detail/fdic-33005.json",
+   "branches": 20,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-22334",
+   "file": "detail/fdic-22334.json",
+   "branches": 20,
+   "lineage": 6
+  },
+  {
+   "id": "fdic-19333",
+   "file": "detail/fdic-19333.json",
+   "branches": 20,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-28679",
+   "file": "detail/fdic-28679.json",
+   "branches": 44,
+   "lineage": 8
+  },
+  {
+   "id": "fdic-14382",
+   "file": "detail/fdic-14382.json",
+   "branches": 36,
+   "lineage": 19
+  },
+  {
+   "id": "fdic-23620",
+   "file": "detail/fdic-23620.json",
+   "branches": 15,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-19899",
+   "file": "detail/fdic-19899.json",
+   "branches": 6,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-57777",
+   "file": "detail/fdic-57777.json",
+   "branches": 7,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-5146",
+   "file": "detail/fdic-5146.json",
+   "branches": 1,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-27074",
+   "file": "detail/fdic-27074.json",
+   "branches": 7,
+   "lineage": 7
+  },
+  {
+   "id": "fdic-3887",
+   "file": "detail/fdic-3887.json",
+   "branches": 23,
+   "lineage": 5
+  },
+  {
+   "id": "fdic-5551",
+   "file": "detail/fdic-5551.json",
+   "branches": 16,
+   "lineage": 9
+  },
+  {
+   "id": "fdic-90282",
+   "file": "detail/fdic-90282.json",
+   "branches": 17,
+   "lineage": 4
+  },
+  {
+   "id": "fdic-57716",
+   "file": "detail/fdic-57716.json",
+   "branches": 34,
+   "lineage": 17
+  },
+  {
+   "id": "fdic-57103",
+   "file": "detail/fdic-57103.json",
+   "branches": 7,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-3256",
+   "file": "detail/fdic-3256.json",
+   "branches": 7,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-24897",
+   "file": "detail/fdic-24897.json",
+   "branches": 13,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-22373",
+   "file": "detail/fdic-22373.json",
+   "branches": 14,
+   "lineage": 1
+  },
+  {
+   "id": "fdic-12517",
+   "file": "detail/fdic-12517.json",
+   "branches": 19,
+   "lineage": 0
+  },
+  {
+   "id": "fdic-27046",
+   "file": "detail/fdic-27046.json",
+   "branches": 44,
+   "lineage": 11
+  },
+  {
+   "id": "fdic-14228",
+   "file": "detail/fdic-14228.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2000-01-14"
+  },
+  {
+   "id": "fdic-27886",
+   "file": "detail/fdic-27886.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2000-03-10"
+  },
+  {
+   "id": "fdic-25056",
+   "file": "detail/fdic-25056.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2000-06-02"
+  },
+  {
+   "id": "fdic-10985",
+   "file": "detail/fdic-10985.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2000-07-14"
+  },
+  {
+   "id": "fdic-338",
+   "file": "detail/fdic-338.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2000-09-29"
+  },
+  {
+   "id": "fdic-21029",
+   "file": "detail/fdic-21029.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2000-10-13"
+  },
+  {
+   "id": "fdic-3815",
+   "file": "detail/fdic-3815.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2000-12-14"
+  },
+  {
+   "id": "fdic-34264",
+   "file": "detail/fdic-34264.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2001-02-02"
+  },
+  {
+   "id": "fdic-6629",
+   "file": "detail/fdic-6629.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2001-05-03"
+  },
+  {
+   "id": "fdic-32646",
+   "file": "detail/fdic-32646.json",
+   "branches": 0,
+   "lineage": 3,
+   "failed": "2001-07-27"
+  },
+  {
+   "id": "fdic-34248",
+   "file": "detail/fdic-34248.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2001-09-07"
+  },
+  {
+   "id": "fdic-24382",
+   "file": "detail/fdic-24382.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2002-01-11"
+  },
+  {
+   "id": "fdic-22002",
+   "file": "detail/fdic-22002.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2002-01-18"
+  },
+  {
+   "id": "fdic-8966",
+   "file": "detail/fdic-8966.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2002-02-01"
+  },
+  {
+   "id": "fdic-22314",
+   "file": "detail/fdic-22314.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2002-02-07"
+  },
+  {
+   "id": "fdic-26652",
+   "file": "detail/fdic-26652.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2002-03-01"
+  },
+  {
+   "id": "fdic-34979",
+   "file": "detail/fdic-34979.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2002-03-28"
+  },
+  {
+   "id": "fdic-19183",
+   "file": "detail/fdic-19183.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2002-06-26"
+  },
+  {
+   "id": "fdic-29355",
+   "file": "detail/fdic-29355.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2002-06-27"
+  },
+  {
+   "id": "fdic-33784",
+   "file": "detail/fdic-33784.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2002-09-30"
+  },
+  {
+   "id": "fdic-9961",
+   "file": "detail/fdic-9961.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2002-11-08"
+  },
+  {
+   "id": "fdic-16445",
+   "file": "detail/fdic-16445.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2002-12-17"
+  },
+  {
+   "id": "fdic-27094",
+   "file": "detail/fdic-27094.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2003-02-07"
+  },
+  {
+   "id": "fdic-11639",
+   "file": "detail/fdic-11639.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2003-05-09"
+  },
+  {
+   "id": "fdic-27203",
+   "file": "detail/fdic-27203.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2003-11-14"
+  },
+  {
+   "id": "fdic-31330",
+   "file": "detail/fdic-31330.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2004-02-14"
+  },
+  {
+   "id": "fdic-26838",
+   "file": "detail/fdic-26838.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2004-03-12"
+  },
+  {
+   "id": "fdic-26778",
+   "file": "detail/fdic-26778.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2004-03-19"
+  },
+  {
+   "id": "fdic-1249",
+   "file": "detail/fdic-1249.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2004-06-25"
+  },
+  {
+   "id": "fdic-35353",
+   "file": "detail/fdic-35353.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2007-02-02"
+  },
+  {
+   "id": "fdic-32575",
+   "file": "detail/fdic-32575.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2007-09-28"
+  },
+  {
+   "id": "fdic-16848",
+   "file": "detail/fdic-16848.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2007-10-04"
+  },
+  {
+   "id": "fdic-24660",
+   "file": "detail/fdic-24660.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2008-01-25"
+  },
+  {
+   "id": "fdic-1971",
+   "file": "detail/fdic-1971.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-03-07"
+  },
+  {
+   "id": "fdic-33901",
+   "file": "detail/fdic-33901.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-05-09"
+  },
+  {
+   "id": "fdic-12736",
+   "file": "detail/fdic-12736.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2008-05-30"
+  },
+  {
+   "id": "fdic-29730",
+   "file": "detail/fdic-29730.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-07-11"
+  },
+  {
+   "id": "fdic-27011",
+   "file": "detail/fdic-27011.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2008-07-25"
+  },
+  {
+   "id": "fdic-57961",
+   "file": "detail/fdic-57961.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-07-25"
+  },
+  {
+   "id": "fdic-57523",
+   "file": "detail/fdic-57523.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-08-01"
+  },
+  {
+   "id": "fdic-22728",
+   "file": "detail/fdic-22728.json",
+   "branches": 0,
+   "lineage": 3,
+   "failed": "2008-08-22"
+  },
+  {
+   "id": "fdic-35469",
+   "file": "detail/fdic-35469.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-08-29"
+  },
+  {
+   "id": "fdic-34194",
+   "file": "detail/fdic-34194.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2008-09-05"
+  },
+  {
+   "id": "fdic-6782",
+   "file": "detail/fdic-6782.json",
+   "branches": 0,
+   "lineage": 4,
+   "failed": "2008-09-19"
+  },
+  {
+   "id": "fdic-32633",
+   "file": "detail/fdic-32633.json",
+   "branches": 0,
+   "lineage": 122,
+   "failed": "2008-09-25"
+  },
+  {
+   "id": "fdic-13789",
+   "file": "detail/fdic-13789.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-10-10"
+  },
+  {
+   "id": "fdic-57654",
+   "file": "detail/fdic-57654.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-10-10"
+  },
+  {
+   "id": "fdic-58241",
+   "file": "detail/fdic-58241.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-10-24"
+  },
+  {
+   "id": "fdic-57930",
+   "file": "detail/fdic-57930.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-10-31"
+  },
+  {
+   "id": "fdic-23595",
+   "file": "detail/fdic-23595.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-11-07"
+  },
+  {
+   "id": "fdic-26870",
+   "file": "detail/fdic-26870.json",
+   "branches": 0,
+   "lineage": 12,
+   "failed": "2008-11-07"
+  },
+  {
+   "id": "fdic-16490",
+   "file": "detail/fdic-16490.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-11-21"
+  },
+  {
+   "id": "fdic-28344",
+   "file": "detail/fdic-28344.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-11-21"
+  },
+  {
+   "id": "fdic-30968",
+   "file": "detail/fdic-30968.json",
+   "branches": 0,
+   "lineage": 4,
+   "failed": "2008-11-21"
+  },
+  {
+   "id": "fdic-18708",
+   "file": "detail/fdic-18708.json",
+   "branches": 0,
+   "lineage": 5,
+   "failed": "2008-11-23"
+  },
+  {
+   "id": "fdic-18923",
+   "file": "detail/fdic-18923.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2008-11-23"
+  },
+  {
+   "id": "fdic-23360",
+   "file": "detail/fdic-23360.json",
+   "branches": 0,
+   "lineage": 7,
+   "failed": "2008-11-23"
+  },
+  {
+   "id": "fdic-58180",
+   "file": "detail/fdic-58180.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-11-23"
+  },
+  {
+   "id": "fdic-34301",
+   "file": "detail/fdic-34301.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-12-05"
+  },
+  {
+   "id": "fdic-11568",
+   "file": "detail/fdic-11568.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-12-12"
+  },
+  {
+   "id": "fdic-35379",
+   "file": "detail/fdic-35379.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2008-12-12"
+  },
+  {
+   "id": "fdic-19733",
+   "file": "detail/fdic-19733.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-01-16"
+  },
+  {
+   "id": "fdic-27374",
+   "file": "detail/fdic-27374.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-01-16"
+  },
+  {
+   "id": "fdic-33143",
+   "file": "detail/fdic-33143.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-01-16"
+  },
+  {
+   "id": "fdic-33318",
+   "file": "detail/fdic-33318.json",
+   "branches": 0,
+   "lineage": 9,
+   "failed": "2009-01-16"
+  },
+  {
+   "id": "fdic-34571",
+   "file": "detail/fdic-34571.json",
+   "branches": 0,
+   "lineage": 15,
+   "failed": "2009-01-16"
+  },
+  {
+   "id": "fdic-34959",
+   "file": "detail/fdic-34959.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-01-16"
+  },
+  {
+   "id": "fdic-35453",
+   "file": "detail/fdic-35453.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-01-16"
+  },
+  {
+   "id": "fdic-58032",
+   "file": "detail/fdic-58032.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-01-16"
+  },
+  {
+   "id": "fdic-33025",
+   "file": "detail/fdic-33025.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-01-23"
+  },
+  {
+   "id": "fdic-26538",
+   "file": "detail/fdic-26538.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-01-30"
+  },
+  {
+   "id": "fdic-30763",
+   "file": "detail/fdic-30763.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-01-30"
+  },
+  {
+   "id": "fdic-58001",
+   "file": "detail/fdic-58001.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-01-30"
+  },
+  {
+   "id": "fdic-22574",
+   "file": "detail/fdic-22574.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-02-06"
+  },
+  {
+   "id": "fdic-23124",
+   "file": "detail/fdic-23124.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-02-06"
+  },
+  {
+   "id": "fdic-57017",
+   "file": "detail/fdic-57017.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-02-06"
+  },
+  {
+   "id": "fdic-5431",
+   "file": "detail/fdic-5431.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-02-13"
+  },
+  {
+   "id": "fdic-16500",
+   "file": "detail/fdic-16500.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-02-13"
+  },
+  {
+   "id": "fdic-34563",
+   "file": "detail/fdic-34563.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-02-13"
+  },
+  {
+   "id": "fdic-57342",
+   "file": "detail/fdic-57342.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-02-13"
+  },
+  {
+   "id": "fdic-35399",
+   "file": "detail/fdic-35399.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-02-20"
+  },
+  {
+   "id": "fdic-20078",
+   "file": "detail/fdic-20078.json",
+   "branches": 0,
+   "lineage": 3,
+   "failed": "2009-02-27"
+  },
+  {
+   "id": "fdic-34820",
+   "file": "detail/fdic-34820.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-02-27"
+  },
+  {
+   "id": "fdic-57558",
+   "file": "detail/fdic-57558.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-03-06"
+  },
+  {
+   "id": "fdic-4754",
+   "file": "detail/fdic-4754.json",
+   "branches": 0,
+   "lineage": 6,
+   "failed": "2009-03-20"
+  },
+  {
+   "id": "fdic-18243",
+   "file": "detail/fdic-18243.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-03-20"
+  },
+  {
+   "id": "fdic-18896",
+   "file": "detail/fdic-18896.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-03-20"
+  },
+  {
+   "id": "fdic-22238",
+   "file": "detail/fdic-22238.json",
+   "branches": 0,
+   "lineage": 3,
+   "failed": "2009-03-27"
+  },
+  {
+   "id": "fdic-34639",
+   "file": "detail/fdic-34639.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-04-10"
+  },
+  {
+   "id": "fdic-34881",
+   "file": "detail/fdic-34881.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-04-10"
+  },
+  {
+   "id": "fdic-8266",
+   "file": "detail/fdic-8266.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-04-17"
+  },
+  {
+   "id": "fdic-33824",
+   "file": "detail/fdic-33824.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-04-17"
+  },
+  {
+   "id": "fdic-32069",
+   "file": "detail/fdic-32069.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-04-24"
+  },
+  {
+   "id": "fdic-34369",
+   "file": "detail/fdic-34369.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-04-24"
+  },
+  {
+   "id": "fdic-34396",
+   "file": "detail/fdic-34396.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-04-24"
+  },
+  {
+   "id": "fdic-57943",
+   "file": "detail/fdic-57943.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-04-24"
+  },
+  {
+   "id": "fdic-26535",
+   "file": "detail/fdic-26535.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-05-01"
+  },
+  {
+   "id": "fdic-35461",
+   "file": "detail/fdic-35461.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-05-01"
+  },
+  {
+   "id": "fdic-57563",
+   "file": "detail/fdic-57563.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-05-01"
+  },
+  {
+   "id": "fdic-34843",
+   "file": "detail/fdic-34843.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-05-08"
+  },
+  {
+   "id": "fdic-32247",
+   "file": "detail/fdic-32247.json",
+   "branches": 0,
+   "lineage": 4,
+   "failed": "2009-05-21"
+  },
+  {
+   "id": "fdic-5757",
+   "file": "detail/fdic-5757.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-05-22"
+  },
+  {
+   "id": "fdic-35175",
+   "file": "detail/fdic-35175.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-05-22"
+  },
+  {
+   "id": "fdic-17309",
+   "file": "detail/fdic-17309.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-06-05"
+  },
+  {
+   "id": "fdic-4614",
+   "file": "detail/fdic-4614.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-06-19"
+  },
+  {
+   "id": "fdic-27837",
+   "file": "detail/fdic-27837.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-06-19"
+  },
+  {
+   "id": "fdic-35251",
+   "file": "detail/fdic-35251.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-06-19"
+  },
+  {
+   "id": "fdic-9744",
+   "file": "detail/fdic-9744.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-06-26"
+  },
+  {
+   "id": "fdic-35285",
+   "file": "detail/fdic-35285.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-06-26"
+  },
+  {
+   "id": "fdic-57332",
+   "file": "detail/fdic-57332.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-06-26"
+  },
+  {
+   "id": "fdic-57436",
+   "file": "detail/fdic-57436.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-06-26"
+  },
+  {
+   "id": "fdic-57893",
+   "file": "detail/fdic-57893.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-06-26"
+  },
+  {
+   "id": "fdic-3644",
+   "file": "detail/fdic-3644.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2009-07-02"
+  },
+  {
+   "id": "fdic-9262",
+   "file": "detail/fdic-9262.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-07-02"
+  },
+  {
+   "id": "fdic-11710",
+   "file": "detail/fdic-11710.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-07-02"
+  },
+  {
+   "id": "fdic-12093",
+   "file": "detail/fdic-12093.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-07-02"
+  },
+  {
+   "id": "fdic-15302",
+   "file": "detail/fdic-15302.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-07-02"
+  },
+  {
+   "id": "fdic-18390",
+   "file": "detail/fdic-18390.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2009-07-02"
+  },
+  {
+   "id": "fdic-57667",
+   "file": "detail/fdic-57667.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-07-02"
+  },
+  {
+   "id": "fdic-22754",
+   "file": "detail/fdic-22754.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-07-10"
+  },
+  {
+   "id": "fdic-23556",
+   "file": "detail/fdic-23556.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2009-07-17"
+  },
+  {
+   "id": "fdic-34103",
+   "file": "detail/fdic-34103.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2009-07-17"
+  },
+  {
+   "id": "fdic-34341",
+   "file": "detail/fdic-34341.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-07-17"
+  },
+  {
+   "id": "fdic-34594",
+   "file": "detail/fdic-34594.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-07-17"
+  },
+  {
+   "id": "fdic-8486",
+   "file": "detail/fdic-8486.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-07-24"
+  },
+  {
+   "id": "fdic-27048",
+   "file": "detail/fdic-27048.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2009-07-24"
+  },
+  {
+   "id": "fdic-27367",
+   "file": "detail/fdic-27367.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-07-24"
+  },
+  {
+   "id": "fdic-57105",
+   "file": "detail/fdic-57105.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-07-24"
+  },
+  {
+   "id": "fdic-57346",
+   "file": "detail/fdic-57346.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-07-24"
+  },
+  {
+   "id": "fdic-57430",
+   "file": "detail/fdic-57430.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-07-24"
+  },
+  {
+   "id": "fdic-58065",
+   "file": "detail/fdic-58065.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-07-24"
+  },
+  {
+   "id": "fdic-9873",
+   "file": "detail/fdic-9873.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-07-31"
+  },
+  {
+   "id": "fdic-18659",
+   "file": "detail/fdic-18659.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-07-31"
+  },
+  {
+   "id": "fdic-32288",
+   "file": "detail/fdic-32288.json",
+   "branches": 0,
+   "lineage": 8,
+   "failed": "2009-07-31"
+  },
+  {
+   "id": "fdic-34270",
+   "file": "detail/fdic-34270.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-07-31"
+  },
+  {
+   "id": "fdic-57604",
+   "file": "detail/fdic-57604.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-07-31"
+  },
+  {
+   "id": "fdic-23268",
+   "file": "detail/fdic-23268.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-08-07"
+  },
+  {
+   "id": "fdic-27183",
+   "file": "detail/fdic-27183.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-08-07"
+  },
+  {
+   "id": "fdic-27364",
+   "file": "detail/fdic-27364.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-08-07"
+  },
+  {
+   "id": "fdic-9609",
+   "file": "detail/fdic-9609.json",
+   "branches": 0,
+   "lineage": 77,
+   "failed": "2009-08-14"
+  },
+  {
+   "id": "fdic-31559",
+   "file": "detail/fdic-31559.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-08-14"
+  },
+  {
+   "id": "fdic-34043",
+   "file": "detail/fdic-34043.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2009-08-14"
+  },
+  {
+   "id": "fdic-34485",
+   "file": "detail/fdic-34485.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-08-14"
+  },
+  {
+   "id": "fdic-57645",
+   "file": "detail/fdic-57645.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-08-14"
+  },
+  {
+   "id": "fdic-22130",
+   "file": "detail/fdic-22130.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2009-08-21"
+  },
+  {
+   "id": "fdic-32618",
+   "file": "detail/fdic-32618.json",
+   "branches": 0,
+   "lineage": 54,
+   "failed": "2009-08-21"
+  },
+  {
+   "id": "fdic-34682",
+   "file": "detail/fdic-34682.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-08-21"
+  },
+  {
+   "id": "fdic-57702",
+   "file": "detail/fdic-57702.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-08-21"
+  },
+  {
+   "id": "fdic-1909",
+   "file": "detail/fdic-1909.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2009-08-28"
+  },
+  {
+   "id": "fdic-27197",
+   "file": "detail/fdic-27197.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2009-08-28"
+  },
+  {
+   "id": "fdic-28312",
+   "file": "detail/fdic-28312.json",
+   "branches": 0,
+   "lineage": 5,
+   "failed": "2009-08-28"
+  },
+  {
+   "id": "fdic-20203",
+   "file": "detail/fdic-20203.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-09-04"
+  },
+  {
+   "id": "fdic-25231",
+   "file": "detail/fdic-25231.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-09-04"
+  },
+  {
+   "id": "fdic-27732",
+   "file": "detail/fdic-27732.json",
+   "branches": 0,
+   "lineage": 3,
+   "failed": "2009-09-04"
+  },
+  {
+   "id": "fdic-34875",
+   "file": "detail/fdic-34875.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-09-04"
+  },
+  {
+   "id": "fdic-35030",
+   "file": "detail/fdic-35030.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-09-04"
+  },
+  {
+   "id": "fdic-13693",
+   "file": "detail/fdic-13693.json",
+   "branches": 0,
+   "lineage": 8,
+   "failed": "2009-09-11"
+  },
+  {
+   "id": "fdic-22868",
+   "file": "detail/fdic-22868.json",
+   "branches": 0,
+   "lineage": 5,
+   "failed": "2009-09-11"
+  },
+  {
+   "id": "fdic-57736",
+   "file": "detail/fdic-57736.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-09-11"
+  },
+  {
+   "id": "fdic-10100",
+   "file": "detail/fdic-10100.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-09-18"
+  },
+  {
+   "id": "fdic-57068",
+   "file": "detail/fdic-57068.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-09-18"
+  },
+  {
+   "id": "fdic-57151",
+   "file": "detail/fdic-57151.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-09-25"
+  },
+  {
+   "id": "fdic-11416",
+   "file": "detail/fdic-11416.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-02"
+  },
+  {
+   "id": "fdic-34824",
+   "file": "detail/fdic-34824.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-02"
+  },
+  {
+   "id": "fdic-57263",
+   "file": "detail/fdic-57263.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-02"
+  },
+  {
+   "id": "fdic-23266",
+   "file": "detail/fdic-23266.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-16"
+  },
+  {
+   "id": "fdic-18321",
+   "file": "detail/fdic-18321.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-23"
+  },
+  {
+   "id": "fdic-35038",
+   "file": "detail/fdic-35038.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-23"
+  },
+  {
+   "id": "fdic-35044",
+   "file": "detail/fdic-35044.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-23"
+  },
+  {
+   "id": "fdic-57525",
+   "file": "detail/fdic-57525.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-23"
+  },
+  {
+   "id": "fdic-57794",
+   "file": "detail/fdic-57794.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-23"
+  },
+  {
+   "id": "fdic-57959",
+   "file": "detail/fdic-57959.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-23"
+  },
+  {
+   "id": "fdic-58336",
+   "file": "detail/fdic-58336.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-23"
+  },
+  {
+   "id": "fdic-11677",
+   "file": "detail/fdic-11677.json",
+   "branches": 0,
+   "lineage": 22,
+   "failed": "2009-10-30"
+  },
+  {
+   "id": "fdic-18776",
+   "file": "detail/fdic-18776.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-30"
+  },
+  {
+   "id": "fdic-23594",
+   "file": "detail/fdic-23594.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-30"
+  },
+  {
+   "id": "fdic-25222",
+   "file": "detail/fdic-25222.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-30"
+  },
+  {
+   "id": "fdic-30006",
+   "file": "detail/fdic-30006.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-30"
+  },
+  {
+   "id": "fdic-32218",
+   "file": "detail/fdic-32218.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-30"
+  },
+  {
+   "id": "fdic-33782",
+   "file": "detail/fdic-33782.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2009-10-30"
+  },
+  {
+   "id": "fdic-34659",
+   "file": "detail/fdic-34659.json",
+   "branches": 0,
+   "lineage": 10,
+   "failed": "2009-10-30"
+  },
+  {
+   "id": "fdic-35291",
+   "file": "detail/fdic-35291.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-10-30"
+  },
+  {
+   "id": "fdic-19450",
+   "file": "detail/fdic-19450.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-11-06"
+  },
+  {
+   "id": "fdic-22286",
+   "file": "detail/fdic-22286.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-11-06"
+  },
+  {
+   "id": "fdic-30329",
+   "file": "detail/fdic-30329.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-11-06"
+  },
+  {
+   "id": "fdic-32469",
+   "file": "detail/fdic-32469.json",
+   "branches": 0,
+   "lineage": 13,
+   "failed": "2009-11-06"
+  },
+  {
+   "id": "fdic-35074",
+   "file": "detail/fdic-35074.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-11-06"
+  },
+  {
+   "id": "fdic-22427",
+   "file": "detail/fdic-22427.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-11-13"
+  },
+  {
+   "id": "fdic-32267",
+   "file": "detail/fdic-32267.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-11-13"
+  },
+  {
+   "id": "fdic-57914",
+   "file": "detail/fdic-57914.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-11-13"
+  },
+  {
+   "id": "fdic-58016",
+   "file": "detail/fdic-58016.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-11-20"
+  },
+  {
+   "id": "fdic-10440",
+   "file": "detail/fdic-10440.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-12-04"
+  },
+  {
+   "id": "fdic-12080",
+   "file": "detail/fdic-12080.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-12-04"
+  },
+  {
+   "id": "fdic-26290",
+   "file": "detail/fdic-26290.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-12-04"
+  },
+  {
+   "id": "fdic-29776",
+   "file": "detail/fdic-29776.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2009-12-04"
+  },
+  {
+   "id": "fdic-32583",
+   "file": "detail/fdic-32583.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-12-04"
+  },
+  {
+   "id": "fdic-34663",
+   "file": "detail/fdic-34663.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-12-04"
+  },
+  {
+   "id": "fdic-4731",
+   "file": "detail/fdic-4731.json",
+   "branches": 0,
+   "lineage": 4,
+   "failed": "2009-12-11"
+  },
+  {
+   "id": "fdic-22846",
+   "file": "detail/fdic-22846.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-12-11"
+  },
+  {
+   "id": "fdic-58399",
+   "file": "detail/fdic-58399.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-12-11"
+  },
+  {
+   "id": "fdic-1006",
+   "file": "detail/fdic-1006.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-12-18"
+  },
+  {
+   "id": "fdic-26348",
+   "file": "detail/fdic-26348.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2009-12-18"
+  },
+  {
+   "id": "fdic-26820",
+   "file": "detail/fdic-26820.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-12-18"
+  },
+  {
+   "id": "fdic-28536",
+   "file": "detail/fdic-28536.json",
+   "branches": 0,
+   "lineage": 3,
+   "failed": "2009-12-18"
+  },
+  {
+   "id": "fdic-32167",
+   "file": "detail/fdic-32167.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-12-18"
+  },
+  {
+   "id": "fdic-32276",
+   "file": "detail/fdic-32276.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-12-18"
+  },
+  {
+   "id": "fdic-58315",
+   "file": "detail/fdic-58315.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2009-12-18"
+  },
+  {
+   "id": "fdic-22977",
+   "file": "detail/fdic-22977.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-01-08"
+  },
+  {
+   "id": "fdic-1252",
+   "file": "detail/fdic-1252.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-01-15"
+  },
+  {
+   "id": "fdic-17522",
+   "file": "detail/fdic-17522.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-01-15"
+  },
+  {
+   "id": "fdic-34705",
+   "file": "detail/fdic-34705.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-01-15"
+  },
+  {
+   "id": "fdic-8265",
+   "file": "detail/fdic-8265.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-01-22"
+  },
+  {
+   "id": "fdic-20501",
+   "file": "detail/fdic-20501.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-01-22"
+  },
+  {
+   "id": "fdic-22469",
+   "file": "detail/fdic-22469.json",
+   "branches": 0,
+   "lineage": 3,
+   "failed": "2010-01-22"
+  },
+  {
+   "id": "fdic-32498",
+   "file": "detail/fdic-32498.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-01-22"
+  },
+  {
+   "id": "fdic-57147",
+   "file": "detail/fdic-57147.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-01-22"
+  },
+  {
+   "id": "fdic-5672",
+   "file": "detail/fdic-5672.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2010-01-29"
+  },
+  {
+   "id": "fdic-5702",
+   "file": "detail/fdic-5702.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-01-29"
+  },
+  {
+   "id": "fdic-16133",
+   "file": "detail/fdic-16133.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-01-29"
+  },
+  {
+   "id": "fdic-16480",
+   "file": "detail/fdic-16480.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2010-01-29"
+  },
+  {
+   "id": "fdic-16730",
+   "file": "detail/fdic-16730.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-01-29"
+  },
+  {
+   "id": "fdic-23011",
+   "file": "detail/fdic-23011.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-01-29"
+  },
+  {
+   "id": "fdic-15448",
+   "file": "detail/fdic-15448.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-02-05"
+  },
+  {
+   "id": "fdic-3287",
+   "file": "detail/fdic-3287.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-02-19"
+  },
+  {
+   "id": "fdic-29952",
+   "file": "detail/fdic-29952.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-02-19"
+  },
+  {
+   "id": "fdic-32423",
+   "file": "detail/fdic-32423.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-02-19"
+  },
+  {
+   "id": "fdic-57586",
+   "file": "detail/fdic-57586.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-02-19"
+  },
+  {
+   "id": "fdic-38129",
+   "file": "detail/fdic-38129.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-02-26"
+  },
+  {
+   "id": "fdic-58352",
+   "file": "detail/fdic-58352.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-02-26"
+  },
+  {
+   "id": "fdic-9268",
+   "file": "detail/fdic-9268.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-05"
+  },
+  {
+   "id": "fdic-27126",
+   "file": "detail/fdic-27126.json",
+   "branches": 0,
+   "lineage": 3,
+   "failed": "2010-03-05"
+  },
+  {
+   "id": "fdic-34430",
+   "file": "detail/fdic-34430.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-05"
+  },
+  {
+   "id": "fdic-34976",
+   "file": "detail/fdic-34976.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-05"
+  },
+  {
+   "id": "fdic-58071",
+   "file": "detail/fdic-58071.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-11"
+  },
+  {
+   "id": "fdic-27096",
+   "file": "detail/fdic-27096.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-12"
+  },
+  {
+   "id": "fdic-29561",
+   "file": "detail/fdic-29561.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2010-03-12"
+  },
+  {
+   "id": "fdic-58182",
+   "file": "detail/fdic-58182.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-12"
+  },
+  {
+   "id": "fdic-18806",
+   "file": "detail/fdic-18806.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-19"
+  },
+  {
+   "id": "fdic-8221",
+   "file": "detail/fdic-8221.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-19"
+  },
+  {
+   "id": "fdic-10054",
+   "file": "detail/fdic-10054.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-19"
+  },
+  {
+   "id": "fdic-24957",
+   "file": "detail/fdic-24957.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-19"
+  },
+  {
+   "id": "fdic-33535",
+   "file": "detail/fdic-33535.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-19"
+  },
+  {
+   "id": "fdic-33989",
+   "file": "detail/fdic-33989.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-03-19"
+  },
+  {
+   "id": "fdic-58104",
+   "file": "detail/fdic-58104.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-19"
+  },
+  {
+   "id": "fdic-34678",
+   "file": "detail/fdic-34678.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-26"
+  },
+  {
+   "id": "fdic-34684",
+   "file": "detail/fdic-34684.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-26"
+  },
+  {
+   "id": "fdic-57060",
+   "file": "detail/fdic-57060.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-26"
+  },
+  {
+   "id": "fdic-57399",
+   "file": "detail/fdic-57399.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-03-26"
+  },
+  {
+   "id": "fdic-34242",
+   "file": "detail/fdic-34242.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-04-09"
+  },
+  {
+   "id": "fdic-21521",
+   "file": "detail/fdic-21521.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-04-16"
+  },
+  {
+   "id": "fdic-23876",
+   "file": "detail/fdic-23876.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-04-16"
+  },
+  {
+   "id": "fdic-24067",
+   "file": "detail/fdic-24067.json",
+   "branches": 0,
+   "lineage": 4,
+   "failed": "2010-04-16"
+  },
+  {
+   "id": "fdic-26619",
+   "file": "detail/fdic-26619.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-04-16"
+  },
+  {
+   "id": "fdic-28886",
+   "file": "detail/fdic-28886.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-04-16"
+  },
+  {
+   "id": "fdic-33493",
+   "file": "detail/fdic-33493.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-04-16"
+  },
+  {
+   "id": "fdic-34878",
+   "file": "detail/fdic-34878.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-04-16"
+  },
+  {
+   "id": "fdic-57724",
+   "file": "detail/fdic-57724.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-04-16"
+  },
+  {
+   "id": "fdic-3735",
+   "file": "detail/fdic-3735.json",
+   "branches": 0,
+   "lineage": 24,
+   "failed": "2010-04-23"
+  },
+  {
+   "id": "fdic-10888",
+   "file": "detail/fdic-10888.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-04-23"
+  },
+  {
+   "id": "fdic-22853",
+   "file": "detail/fdic-22853.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-04-23"
+  },
+  {
+   "id": "fdic-30600",
+   "file": "detail/fdic-30600.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-04-23"
+  },
+  {
+   "id": "fdic-34658",
+   "file": "detail/fdic-34658.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-04-23"
+  },
+  {
+   "id": "fdic-34821",
+   "file": "detail/fdic-34821.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-04-23"
+  },
+  {
+   "id": "fdic-58429",
+   "file": "detail/fdic-58429.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-04-23"
+  },
+  {
+   "id": "fdic-17792",
+   "file": "detail/fdic-17792.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2010-04-30"
+  },
+  {
+   "id": "fdic-22710",
+   "file": "detail/fdic-22710.json",
+   "branches": 0,
+   "lineage": 9,
+   "failed": "2010-04-30"
+  },
+  {
+   "id": "fdic-27150",
+   "file": "detail/fdic-27150.json",
+   "branches": 0,
+   "lineage": 4,
+   "failed": "2010-04-30"
+  },
+  {
+   "id": "fdic-30005",
+   "file": "detail/fdic-30005.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-04-30"
+  },
+  {
+   "id": "fdic-31027",
+   "file": "detail/fdic-31027.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-04-30"
+  },
+  {
+   "id": "fdic-32185",
+   "file": "detail/fdic-32185.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2010-04-30"
+  },
+  {
+   "id": "fdic-58362",
+   "file": "detail/fdic-58362.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-04-30"
+  },
+  {
+   "id": "fdic-14246",
+   "file": "detail/fdic-14246.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-05-07"
+  },
+  {
+   "id": "fdic-16476",
+   "file": "detail/fdic-16476.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-05-07"
+  },
+  {
+   "id": "fdic-35517",
+   "file": "detail/fdic-35517.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2010-05-07"
+  },
+  {
+   "id": "fdic-57697",
+   "file": "detail/fdic-57697.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-05-07"
+  },
+  {
+   "id": "fdic-18117",
+   "file": "detail/fdic-18117.json",
+   "branches": 0,
+   "lineage": 7,
+   "failed": "2010-05-14"
+  },
+  {
+   "id": "fdic-34255",
+   "file": "detail/fdic-34255.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-05-14"
+  },
+  {
+   "id": "fdic-35114",
+   "file": "detail/fdic-35114.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-05-14"
+  },
+  {
+   "id": "fdic-35586",
+   "file": "detail/fdic-35586.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-05-14"
+  },
+  {
+   "id": "fdic-57735",
+   "file": "detail/fdic-57735.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-05-21"
+  },
+  {
+   "id": "fdic-34785",
+   "file": "detail/fdic-34785.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-05-28"
+  },
+  {
+   "id": "fdic-35106",
+   "file": "detail/fdic-35106.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-05-28"
+  },
+  {
+   "id": "fdic-57315",
+   "file": "detail/fdic-57315.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-05-28"
+  },
+  {
+   "id": "fdic-57360",
+   "file": "detail/fdic-57360.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-05-28"
+  },
+  {
+   "id": "fdic-57814",
+   "file": "detail/fdic-57814.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-05-28"
+  },
+  {
+   "id": "fdic-15814",
+   "file": "detail/fdic-15814.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-06-04"
+  },
+  {
+   "id": "fdic-29341",
+   "file": "detail/fdic-29341.json",
+   "branches": 0,
+   "lineage": 15,
+   "failed": "2010-06-04"
+  },
+  {
+   "id": "fdic-31813",
+   "file": "detail/fdic-31813.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-06-04"
+  },
+  {
+   "id": "fdic-32955",
+   "file": "detail/fdic-32955.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-06-11"
+  },
+  {
+   "id": "fdic-57110",
+   "file": "detail/fdic-57110.json",
+   "branches": 0,
+   "lineage": 3,
+   "failed": "2010-06-18"
+  },
+  {
+   "id": "fdic-26563",
+   "file": "detail/fdic-26563.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-06-25"
+  },
+  {
+   "id": "fdic-34152",
+   "file": "detail/fdic-34152.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-06-25"
+  },
+  {
+   "id": "fdic-35279",
+   "file": "detail/fdic-35279.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-06-25"
+  },
+  {
+   "id": "fdic-11636",
+   "file": "detail/fdic-11636.json",
+   "branches": 0,
+   "lineage": 3,
+   "failed": "2010-07-09"
+  },
+  {
+   "id": "fdic-32456",
+   "file": "detail/fdic-32456.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-09"
+  },
+  {
+   "id": "fdic-35462",
+   "file": "detail/fdic-35462.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-09"
+  },
+  {
+   "id": "fdic-58072",
+   "file": "detail/fdic-58072.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-09"
+  },
+  {
+   "id": "fdic-25172",
+   "file": "detail/fdic-25172.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-16"
+  },
+  {
+   "id": "fdic-28136",
+   "file": "detail/fdic-28136.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-16"
+  },
+  {
+   "id": "fdic-28864",
+   "file": "detail/fdic-28864.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-16"
+  },
+  {
+   "id": "fdic-32280",
+   "file": "detail/fdic-32280.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-16"
+  },
+  {
+   "id": "fdic-32571",
+   "file": "detail/fdic-32571.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-07-16"
+  },
+  {
+   "id": "fdic-35383",
+   "file": "detail/fdic-35383.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-07-16"
+  },
+  {
+   "id": "fdic-10506",
+   "file": "detail/fdic-10506.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-23"
+  },
+  {
+   "id": "fdic-17837",
+   "file": "detail/fdic-17837.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-23"
+  },
+  {
+   "id": "fdic-23181",
+   "file": "detail/fdic-23181.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-23"
+  },
+  {
+   "id": "fdic-27559",
+   "file": "detail/fdic-27559.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-07-23"
+  },
+  {
+   "id": "fdic-32536",
+   "file": "detail/fdic-32536.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-23"
+  },
+  {
+   "id": "fdic-34486",
+   "file": "detail/fdic-34486.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-23"
+  },
+  {
+   "id": "fdic-35434",
+   "file": "detail/fdic-35434.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-23"
+  },
+  {
+   "id": "fdic-9619",
+   "file": "detail/fdic-9619.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-30"
+  },
+  {
+   "id": "fdic-22643",
+   "file": "detail/fdic-22643.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2010-07-30"
+  },
+  {
+   "id": "fdic-31964",
+   "file": "detail/fdic-31964.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-30"
+  },
+  {
+   "id": "fdic-57658",
+   "file": "detail/fdic-57658.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-30"
+  },
+  {
+   "id": "fdic-57669",
+   "file": "detail/fdic-57669.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-07-30"
+  },
+  {
+   "id": "fdic-34231",
+   "file": "detail/fdic-34231.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-08-06"
+  },
+  {
+   "id": "fdic-17599",
+   "file": "detail/fdic-17599.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-08-13"
+  },
+  {
+   "id": "fdic-15640",
+   "file": "detail/fdic-15640.json",
+   "branches": 0,
+   "lineage": 9,
+   "failed": "2010-08-20"
+  },
+  {
+   "id": "fdic-25266",
+   "file": "detail/fdic-25266.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-08-20"
+  },
+  {
+   "id": "fdic-27090",
+   "file": "detail/fdic-27090.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-08-20"
+  },
+  {
+   "id": "fdic-27259",
+   "file": "detail/fdic-27259.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-08-20"
+  },
+  {
+   "id": "fdic-27344",
+   "file": "detail/fdic-27344.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-08-20"
+  },
+  {
+   "id": "fdic-31623",
+   "file": "detail/fdic-31623.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-08-20"
+  },
+  {
+   "id": "fdic-32165",
+   "file": "detail/fdic-32165.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-08-20"
+  },
+  {
+   "id": "fdic-33219",
+   "file": "detail/fdic-33219.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-08-20"
+  },
+  {
+   "id": "fdic-35061",
+   "file": "detail/fdic-35061.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-09-10"
+  },
+  {
+   "id": "fdic-182",
+   "file": "detail/fdic-182.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-09-17"
+  },
+  {
+   "id": "fdic-27808",
+   "file": "detail/fdic-27808.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-09-17"
+  },
+  {
+   "id": "fdic-28612",
+   "file": "detail/fdic-28612.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-09-17"
+  },
+  {
+   "id": "fdic-57107",
+   "file": "detail/fdic-57107.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-09-17"
+  },
+  {
+   "id": "fdic-57448",
+   "file": "detail/fdic-57448.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-09-17"
+  },
+  {
+   "id": "fdic-58197",
+   "file": "detail/fdic-58197.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-09-17"
+  },
+  {
+   "id": "fdic-35053",
+   "file": "detail/fdic-35053.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-09-24"
+  },
+  {
+   "id": "fdic-58308",
+   "file": "detail/fdic-58308.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-09-24"
+  },
+  {
+   "id": "fdic-21777",
+   "file": "detail/fdic-21777.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-10-01"
+  },
+  {
+   "id": "fdic-35250",
+   "file": "detail/fdic-35250.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-10-01"
+  },
+  {
+   "id": "fdic-30898",
+   "file": "detail/fdic-30898.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2010-10-15"
+  },
+  {
+   "id": "fdic-34016",
+   "file": "detail/fdic-34016.json",
+   "branches": 0,
+   "lineage": 3,
+   "failed": "2010-10-15"
+  },
+  {
+   "id": "fdic-58205",
+   "file": "detail/fdic-58205.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-10-15"
+  },
+  {
+   "id": "fdic-2119",
+   "file": "detail/fdic-2119.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-10-22"
+  },
+  {
+   "id": "fdic-16089",
+   "file": "detail/fdic-16089.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-10-22"
+  },
+  {
+   "id": "fdic-22173",
+   "file": "detail/fdic-22173.json",
+   "branches": 0,
+   "lineage": 10,
+   "failed": "2010-10-22"
+  },
+  {
+   "id": "fdic-27573",
+   "file": "detail/fdic-27573.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-10-22"
+  },
+  {
+   "id": "fdic-32251",
+   "file": "detail/fdic-32251.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-10-22"
+  },
+  {
+   "id": "fdic-32582",
+   "file": "detail/fdic-32582.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2010-10-22"
+  },
+  {
+   "id": "fdic-33904",
+   "file": "detail/fdic-33904.json",
+   "branches": 0,
+   "lineage": 4,
+   "failed": "2010-10-22"
+  },
+  {
+   "id": "fdic-31263",
+   "file": "detail/fdic-31263.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-11-05"
+  },
+  {
+   "id": "fdic-34411",
+   "file": "detail/fdic-34411.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-11-05"
+  },
+  {
+   "id": "fdic-57885",
+   "file": "detail/fdic-57885.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-11-05"
+  },
+  {
+   "id": "fdic-58087",
+   "file": "detail/fdic-58087.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-11-05"
+  },
+  {
+   "id": "fdic-14580",
+   "file": "detail/fdic-14580.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-11-12"
+  },
+  {
+   "id": "fdic-35463",
+   "file": "detail/fdic-35463.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-11-12"
+  },
+  {
+   "id": "fdic-57831",
+   "file": "detail/fdic-57831.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-11-12"
+  },
+  {
+   "id": "fdic-5287",
+   "file": "detail/fdic-5287.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-11-19"
+  },
+  {
+   "id": "fdic-20340",
+   "file": "detail/fdic-20340.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-11-19"
+  },
+  {
+   "id": "fdic-35078",
+   "file": "detail/fdic-35078.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-11-19"
+  },
+  {
+   "id": "fdic-34673",
+   "file": "detail/fdic-34673.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-12-10"
+  },
+  {
+   "id": "fdic-35561",
+   "file": "detail/fdic-35561.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2010-12-10"
+  },
+  {
+   "id": "fdic-19040",
+   "file": "detail/fdic-19040.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-12-17"
+  },
+  {
+   "id": "fdic-23306",
+   "file": "detail/fdic-23306.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2010-12-17"
+  },
+  {
+   "id": "fdic-34578",
+   "file": "detail/fdic-34578.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-12-17"
+  },
+  {
+   "id": "fdic-35065",
+   "file": "detail/fdic-35065.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-12-17"
+  },
+  {
+   "id": "fdic-58052",
+   "file": "detail/fdic-58052.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-12-17"
+  },
+  {
+   "id": "fdic-58495",
+   "file": "detail/fdic-58495.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2010-12-17"
+  },
+  {
+   "id": "fdic-34965",
+   "file": "detail/fdic-34965.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-01-07"
+  },
+  {
+   "id": "fdic-57820",
+   "file": "detail/fdic-57820.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-01-07"
+  },
+  {
+   "id": "fdic-57440",
+   "file": "detail/fdic-57440.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-01-14"
+  },
+  {
+   "id": "fdic-19758",
+   "file": "detail/fdic-19758.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-01-21"
+  },
+  {
+   "id": "fdic-31293",
+   "file": "detail/fdic-31293.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-01-21"
+  },
+  {
+   "id": "fdic-34516",
+   "file": "detail/fdic-34516.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-01-21"
+  },
+  {
+   "id": "fdic-57868",
+   "file": "detail/fdic-57868.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-01-21"
+  },
+  {
+   "id": "fdic-2303",
+   "file": "detail/fdic-2303.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-01-28"
+  },
+  {
+   "id": "fdic-5328",
+   "file": "detail/fdic-5328.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-01-28"
+  },
+  {
+   "id": "fdic-12261",
+   "file": "detail/fdic-12261.json",
+   "branches": 0,
+   "lineage": 28,
+   "failed": "2011-01-28"
+  },
+  {
+   "id": "fdic-57646",
+   "file": "detail/fdic-57646.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-01-28"
+  },
+  {
+   "id": "fdic-35242",
+   "file": "detail/fdic-35242.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-02-04"
+  },
+  {
+   "id": "fdic-57432",
+   "file": "detail/fdic-57432.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-02-04"
+  },
+  {
+   "id": "fdic-57948",
+   "file": "detail/fdic-57948.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-02-04"
+  },
+  {
+   "id": "fdic-13272",
+   "file": "detail/fdic-13272.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-02-11"
+  },
+  {
+   "id": "fdic-14939",
+   "file": "detail/fdic-14939.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2011-02-11"
+  },
+  {
+   "id": "fdic-34692",
+   "file": "detail/fdic-34692.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-02-11"
+  },
+  {
+   "id": "fdic-35478",
+   "file": "detail/fdic-35478.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-02-11"
+  },
+  {
+   "id": "fdic-151",
+   "file": "detail/fdic-151.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2011-02-18"
+  },
+  {
+   "id": "fdic-34601",
+   "file": "detail/fdic-34601.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-02-18"
+  },
+  {
+   "id": "fdic-34783",
+   "file": "detail/fdic-34783.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-02-18"
+  },
+  {
+   "id": "fdic-57855",
+   "file": "detail/fdic-57855.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-02-18"
+  },
+  {
+   "id": "fdic-34187",
+   "file": "detail/fdic-34187.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-02-25"
+  },
+  {
+   "id": "fdic-4077",
+   "file": "detail/fdic-4077.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-03-11"
+  },
+  {
+   "id": "fdic-34818",
+   "file": "detail/fdic-34818.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-03-11"
+  },
+  {
+   "id": "fdic-34292",
+   "file": "detail/fdic-34292.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-03-25"
+  },
+  {
+   "id": "fdic-10086",
+   "file": "detail/fdic-10086.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-04-08"
+  },
+  {
+   "id": "fdic-35418",
+   "file": "detail/fdic-35418.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-04-08"
+  },
+  {
+   "id": "fdic-14273",
+   "file": "detail/fdic-14273.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-04-15"
+  },
+  {
+   "id": "fdic-17750",
+   "file": "detail/fdic-17750.json",
+   "branches": 0,
+   "lineage": 15,
+   "failed": "2011-04-15"
+  },
+  {
+   "id": "fdic-19794",
+   "file": "detail/fdic-19794.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-04-15"
+  },
+  {
+   "id": "fdic-21495",
+   "file": "detail/fdic-21495.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-04-15"
+  },
+  {
+   "id": "fdic-24099",
+   "file": "detail/fdic-24099.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-04-15"
+  },
+  {
+   "id": "fdic-57705",
+   "file": "detail/fdic-57705.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-04-15"
+  },
+  {
+   "id": "fdic-19797",
+   "file": "detail/fdic-19797.json",
+   "branches": 0,
+   "lineage": 6,
+   "failed": "2011-04-29"
+  },
+  {
+   "id": "fdic-26297",
+   "file": "detail/fdic-26297.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-04-29"
+  },
+  {
+   "id": "fdic-34234",
+   "file": "detail/fdic-34234.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-04-29"
+  },
+  {
+   "id": "fdic-57625",
+   "file": "detail/fdic-57625.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-04-29"
+  },
+  {
+   "id": "fdic-58539",
+   "file": "detail/fdic-58539.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2011-04-29"
+  },
+  {
+   "id": "fdic-34898",
+   "file": "detail/fdic-34898.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-05-06"
+  },
+  {
+   "id": "fdic-513",
+   "file": "detail/fdic-513.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-05-20"
+  },
+  {
+   "id": "fdic-57213",
+   "file": "detail/fdic-57213.json",
+   "branches": 0,
+   "lineage": 3,
+   "failed": "2011-05-20"
+  },
+  {
+   "id": "fdic-57647",
+   "file": "detail/fdic-57647.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-05-20"
+  },
+  {
+   "id": "fdic-23626",
+   "file": "detail/fdic-23626.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-05-27"
+  },
+  {
+   "id": "fdic-58420",
+   "file": "detail/fdic-58420.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-06-03"
+  },
+  {
+   "id": "fdic-19237",
+   "file": "detail/fdic-19237.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-06-17"
+  },
+  {
+   "id": "fdic-27583",
+   "file": "detail/fdic-27583.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-06-17"
+  },
+  {
+   "id": "fdic-57593",
+   "file": "detail/fdic-57593.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-06-24"
+  },
+  {
+   "id": "fdic-27935",
+   "file": "detail/fdic-27935.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2011-07-08"
+  },
+  {
+   "id": "fdic-34522",
+   "file": "detail/fdic-34522.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-07-08"
+  },
+  {
+   "id": "fdic-57835",
+   "file": "detail/fdic-57835.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-07-08"
+  },
+  {
+   "id": "fdic-19554",
+   "file": "detail/fdic-19554.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-07-15"
+  },
+  {
+   "id": "fdic-34870",
+   "file": "detail/fdic-34870.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-07-15"
+  },
+  {
+   "id": "fdic-57442",
+   "file": "detail/fdic-57442.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-07-15"
+  },
+  {
+   "id": "fdic-58238",
+   "file": "detail/fdic-58238.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-07-15"
+  },
+  {
+   "id": "fdic-2994",
+   "file": "detail/fdic-2994.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-07-22"
+  },
+  {
+   "id": "fdic-35244",
+   "file": "detail/fdic-35244.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-07-22"
+  },
+  {
+   "id": "fdic-58056",
+   "file": "detail/fdic-58056.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-07-22"
+  },
+  {
+   "id": "fdic-4392",
+   "file": "detail/fdic-4392.json",
+   "branches": 0,
+   "lineage": 40,
+   "failed": "2011-07-29"
+  },
+  {
+   "id": "fdic-58222",
+   "file": "detail/fdic-58222.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-07-29"
+  },
+  {
+   "id": "fdic-58283",
+   "file": "detail/fdic-58283.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-07-29"
+  },
+  {
+   "id": "fdic-22528",
+   "file": "detail/fdic-22528.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-08-05"
+  },
+  {
+   "id": "fdic-22637",
+   "file": "detail/fdic-22637.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-08-05"
+  },
+  {
+   "id": "fdic-4744",
+   "file": "detail/fdic-4744.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-08-12"
+  },
+  {
+   "id": "fdic-34130",
+   "file": "detail/fdic-34130.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-08-18"
+  },
+  {
+   "id": "fdic-35356",
+   "file": "detail/fdic-35356.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-08-19"
+  },
+  {
+   "id": "fdic-57212",
+   "file": "detail/fdic-57212.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-08-19"
+  },
+  {
+   "id": "fdic-57239",
+   "file": "detail/fdic-57239.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-08-19"
+  },
+  {
+   "id": "fdic-58226",
+   "file": "detail/fdic-58226.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-09-02"
+  },
+  {
+   "id": "fdic-58273",
+   "file": "detail/fdic-58273.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-09-02"
+  },
+  {
+   "id": "fdic-25155",
+   "file": "detail/fdic-25155.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-09-09"
+  },
+  {
+   "id": "fdic-20408",
+   "file": "detail/fdic-20408.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-09-23"
+  },
+  {
+   "id": "fdic-33983",
+   "file": "detail/fdic-33983.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-09-23"
+  },
+  {
+   "id": "fdic-33513",
+   "file": "detail/fdic-33513.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2011-09-30"
+  },
+  {
+   "id": "fdic-10216",
+   "file": "detail/fdic-10216.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2011-10-07"
+  },
+  {
+   "id": "fdic-20115",
+   "file": "detail/fdic-20115.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-10-07"
+  },
+  {
+   "id": "fdic-32347",
+   "file": "detail/fdic-32347.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-10-14"
+  },
+  {
+   "id": "fdic-35395",
+   "file": "detail/fdic-35395.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-10-14"
+  },
+  {
+   "id": "fdic-57256",
+   "file": "detail/fdic-57256.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-10-14"
+  },
+  {
+   "id": "fdic-58046",
+   "file": "detail/fdic-58046.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-10-14"
+  },
+  {
+   "id": "fdic-21132",
+   "file": "detail/fdic-21132.json",
+   "branches": 0,
+   "lineage": 9,
+   "failed": "2011-10-21"
+  },
+  {
+   "id": "fdic-34392",
+   "file": "detail/fdic-34392.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-10-21"
+  },
+  {
+   "id": "fdic-57036",
+   "file": "detail/fdic-57036.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-10-21"
+  },
+  {
+   "id": "fdic-57537",
+   "file": "detail/fdic-57537.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-10-21"
+  },
+  {
+   "id": "fdic-57759",
+   "file": "detail/fdic-57759.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-10-28"
+  },
+  {
+   "id": "fdic-19397",
+   "file": "detail/fdic-19397.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2011-11-04"
+  },
+  {
+   "id": "fdic-57087",
+   "file": "detail/fdic-57087.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-11-04"
+  },
+  {
+   "id": "fdic-57860",
+   "file": "detail/fdic-57860.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-11-10"
+  },
+  {
+   "id": "fdic-14194",
+   "file": "detail/fdic-14194.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-11-18"
+  },
+  {
+   "id": "fdic-19657",
+   "file": "detail/fdic-19657.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-11-18"
+  },
+  {
+   "id": "fdic-57917",
+   "file": "detail/fdic-57917.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-12-16"
+  },
+  {
+   "id": "fdic-58343",
+   "file": "detail/fdic-58343.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2011-12-16"
+  },
+  {
+   "id": "fdic-19252",
+   "file": "detail/fdic-19252.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-01-20"
+  },
+  {
+   "id": "fdic-31581",
+   "file": "detail/fdic-31581.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-01-20"
+  },
+  {
+   "id": "fdic-57186",
+   "file": "detail/fdic-57186.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-01-20"
+  },
+  {
+   "id": "fdic-16579",
+   "file": "detail/fdic-16579.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2012-01-27"
+  },
+  {
+   "id": "fdic-19869",
+   "file": "detail/fdic-19869.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-01-27"
+  },
+  {
+   "id": "fdic-34823",
+   "file": "detail/fdic-34823.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-01-27"
+  },
+  {
+   "id": "fdic-35296",
+   "file": "detail/fdic-35296.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-01-27"
+  },
+  {
+   "id": "fdic-23187",
+   "file": "detail/fdic-23187.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2012-02-10"
+  },
+  {
+   "id": "fdic-29761",
+   "file": "detail/fdic-29761.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-02-10"
+  },
+  {
+   "id": "fdic-5687",
+   "file": "detail/fdic-5687.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-02-24"
+  },
+  {
+   "id": "fdic-29178",
+   "file": "detail/fdic-29178.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-02-24"
+  },
+  {
+   "id": "fdic-34046",
+   "file": "detail/fdic-34046.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-03-02"
+  },
+  {
+   "id": "fdic-57597",
+   "file": "detail/fdic-57597.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-03-09"
+  },
+  {
+   "id": "fdic-35419",
+   "file": "detail/fdic-35419.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-03-23"
+  },
+  {
+   "id": "fdic-58068",
+   "file": "detail/fdic-58068.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-03-23"
+  },
+  {
+   "id": "fdic-33883",
+   "file": "detail/fdic-33883.json",
+   "branches": 0,
+   "lineage": 6,
+   "failed": "2012-03-30"
+  },
+  {
+   "id": "fdic-35527",
+   "file": "detail/fdic-35527.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-04-20"
+  },
+  {
+   "id": "fdic-23632",
+   "file": "detail/fdic-23632.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-04-27"
+  },
+  {
+   "id": "fdic-26759",
+   "file": "detail/fdic-26759.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-04-27"
+  },
+  {
+   "id": "fdic-31495",
+   "file": "detail/fdic-31495.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-04-27"
+  },
+  {
+   "id": "fdic-32503",
+   "file": "detail/fdic-32503.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2012-04-27"
+  },
+  {
+   "id": "fdic-57766",
+   "file": "detail/fdic-57766.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-04-27"
+  },
+  {
+   "id": "fdic-23156",
+   "file": "detail/fdic-23156.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-05-04"
+  },
+  {
+   "id": "fdic-35224",
+   "file": "detail/fdic-35224.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-05-18"
+  },
+  {
+   "id": "fdic-416",
+   "file": "detail/fdic-416.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-06-08"
+  },
+  {
+   "id": "fdic-9257",
+   "file": "detail/fdic-9257.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-06-08"
+  },
+  {
+   "id": "fdic-34515",
+   "file": "detail/fdic-34515.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2012-06-08"
+  },
+  {
+   "id": "fdic-35372",
+   "file": "detail/fdic-35372.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2012-06-08"
+  },
+  {
+   "id": "fdic-1690",
+   "file": "detail/fdic-1690.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2012-06-15"
+  },
+  {
+   "id": "fdic-27405",
+   "file": "detail/fdic-27405.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-06-15"
+  },
+  {
+   "id": "fdic-35299",
+   "file": "detail/fdic-35299.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-06-15"
+  },
+  {
+   "id": "fdic-19498",
+   "file": "detail/fdic-19498.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-07-06"
+  },
+  {
+   "id": "fdic-1056",
+   "file": "detail/fdic-1056.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-07-13"
+  },
+  {
+   "id": "fdic-1361",
+   "file": "detail/fdic-1361.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2012-07-20"
+  },
+  {
+   "id": "fdic-27986",
+   "file": "detail/fdic-27986.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-07-20"
+  },
+  {
+   "id": "fdic-32711",
+   "file": "detail/fdic-32711.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-07-20"
+  },
+  {
+   "id": "fdic-57096",
+   "file": "detail/fdic-57096.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-07-20"
+  },
+  {
+   "id": "fdic-57847",
+   "file": "detail/fdic-57847.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-07-20"
+  },
+  {
+   "id": "fdic-16240",
+   "file": "detail/fdic-16240.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-07-27"
+  },
+  {
+   "id": "fdic-28243",
+   "file": "detail/fdic-28243.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-08-03"
+  },
+  {
+   "id": "fdic-35246",
+   "file": "detail/fdic-35246.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-09-07"
+  },
+  {
+   "id": "fdic-27316",
+   "file": "detail/fdic-27316.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-09-14"
+  },
+  {
+   "id": "fdic-20685",
+   "file": "detail/fdic-20685.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-09-28"
+  },
+  {
+   "id": "fdic-19189",
+   "file": "detail/fdic-19189.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2012-10-19"
+  },
+  {
+   "id": "fdic-28144",
+   "file": "detail/fdic-28144.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-10-19"
+  },
+  {
+   "id": "fdic-58073",
+   "file": "detail/fdic-58073.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-10-19"
+  },
+  {
+   "id": "fdic-27148",
+   "file": "detail/fdic-27148.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2012-10-26"
+  },
+  {
+   "id": "fdic-3731",
+   "file": "detail/fdic-3731.json",
+   "branches": 0,
+   "lineage": 9,
+   "failed": "2012-11-02"
+  },
+  {
+   "id": "fdic-35009",
+   "file": "detail/fdic-35009.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-11-02"
+  },
+  {
+   "id": "fdic-57928",
+   "file": "detail/fdic-57928.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2012-11-16"
+  },
+  {
+   "id": "fdic-27331",
+   "file": "detail/fdic-27331.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2012-12-14"
+  },
+  {
+   "id": "fdic-33997",
+   "file": "detail/fdic-33997.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-01-11"
+  },
+  {
+   "id": "fdic-57157",
+   "file": "detail/fdic-57157.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-01-18"
+  },
+  {
+   "id": "fdic-22476",
+   "file": "detail/fdic-22476.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-02-15"
+  },
+  {
+   "id": "fdic-16431",
+   "file": "detail/fdic-16431.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2013-03-08"
+  },
+  {
+   "id": "fdic-58066",
+   "file": "detail/fdic-58066.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-04-05"
+  },
+  {
+   "id": "fdic-26680",
+   "file": "detail/fdic-26680.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-04-19"
+  },
+  {
+   "id": "fdic-29594",
+   "file": "detail/fdic-29594.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-04-19"
+  },
+  {
+   "id": "fdic-58034",
+   "file": "detail/fdic-58034.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-04-19"
+  },
+  {
+   "id": "fdic-21649",
+   "file": "detail/fdic-21649.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-04-26"
+  },
+  {
+   "id": "fdic-57158",
+   "file": "detail/fdic-57158.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-04-26"
+  },
+  {
+   "id": "fdic-58185",
+   "file": "detail/fdic-58185.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2013-05-10"
+  },
+  {
+   "id": "fdic-58701",
+   "file": "detail/fdic-58701.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-05-10"
+  },
+  {
+   "id": "fdic-34527",
+   "file": "detail/fdic-34527.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-05-14"
+  },
+  {
+   "id": "fdic-35386",
+   "file": "detail/fdic-35386.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-05-31"
+  },
+  {
+   "id": "fdic-58358",
+   "file": "detail/fdic-58358.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-06-06"
+  },
+  {
+   "id": "fdic-34789",
+   "file": "detail/fdic-34789.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-06-07"
+  },
+  {
+   "id": "fdic-34943",
+   "file": "detail/fdic-34943.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2013-08-02"
+  },
+  {
+   "id": "fdic-35016",
+   "file": "detail/fdic-35016.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-08-09"
+  },
+  {
+   "id": "fdic-19849",
+   "file": "detail/fdic-19849.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2013-08-23"
+  },
+  {
+   "id": "fdic-34707",
+   "file": "detail/fdic-34707.json",
+   "branches": 0,
+   "lineage": 6,
+   "failed": "2013-08-23"
+  },
+  {
+   "id": "fdic-14318",
+   "file": "detail/fdic-14318.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2013-09-13"
+  },
+  {
+   "id": "fdic-57041",
+   "file": "detail/fdic-57041.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-09-13"
+  },
+  {
+   "id": "fdic-14794",
+   "file": "detail/fdic-14794.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-10-30"
+  },
+  {
+   "id": "fdic-57431",
+   "file": "detail/fdic-57431.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2013-12-13"
+  },
+  {
+   "id": "fdic-5732",
+   "file": "detail/fdic-5732.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-01-17"
+  },
+  {
+   "id": "fdic-17967",
+   "file": "detail/fdic-17967.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-01-24"
+  },
+  {
+   "id": "fdic-34296",
+   "file": "detail/fdic-34296.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-01-31"
+  },
+  {
+   "id": "fdic-35096",
+   "file": "detail/fdic-35096.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-02-28"
+  },
+  {
+   "id": "fdic-58531",
+   "file": "detail/fdic-58531.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-02-28"
+  },
+  {
+   "id": "fdic-15062",
+   "file": "detail/fdic-15062.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-04-25"
+  },
+  {
+   "id": "fdic-57866",
+   "file": "detail/fdic-57866.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-05-16"
+  },
+  {
+   "id": "fdic-32284",
+   "file": "detail/fdic-32284.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-05-23"
+  },
+  {
+   "id": "fdic-32368",
+   "file": "detail/fdic-32368.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-05-30"
+  },
+  {
+   "id": "fdic-10450",
+   "file": "detail/fdic-10450.json",
+   "branches": 0,
+   "lineage": 2,
+   "failed": "2014-06-20"
+  },
+  {
+   "id": "fdic-21793",
+   "file": "detail/fdic-21793.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-06-20"
+  },
+  {
+   "id": "fdic-12483",
+   "file": "detail/fdic-12483.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-06-27"
+  },
+  {
+   "id": "fdic-58125",
+   "file": "detail/fdic-58125.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-07-18"
+  },
+  {
+   "id": "fdic-28462",
+   "file": "detail/fdic-28462.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-07-25"
+  },
+  {
+   "id": "fdic-4862",
+   "file": "detail/fdic-4862.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-10-17"
+  },
+  {
+   "id": "fdic-916",
+   "file": "detail/fdic-916.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-10-24"
+  },
+  {
+   "id": "fdic-34738",
+   "file": "detail/fdic-34738.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-11-07"
+  },
+  {
+   "id": "fdic-34983",
+   "file": "detail/fdic-34983.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2014-12-19"
+  },
+  {
+   "id": "fdic-17557",
+   "file": "detail/fdic-17557.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2015-01-16"
+  },
+  {
+   "id": "fdic-20290",
+   "file": "detail/fdic-20290.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2015-01-23"
+  },
+  {
+   "id": "fdic-33938",
+   "file": "detail/fdic-33938.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2015-02-13"
+  },
+  {
+   "id": "fdic-32102",
+   "file": "detail/fdic-32102.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2015-02-27"
+  },
+  {
+   "id": "fdic-57772",
+   "file": "detail/fdic-57772.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2015-05-08"
+  },
+  {
+   "id": "fdic-34112",
+   "file": "detail/fdic-34112.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2015-07-10"
+  },
+  {
+   "id": "fdic-35156",
+   "file": "detail/fdic-35156.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2015-10-02"
+  },
+  {
+   "id": "fdic-35259",
+   "file": "detail/fdic-35259.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2015-10-02"
+  },
+  {
+   "id": "fdic-20364",
+   "file": "detail/fdic-20364.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2016-03-11"
+  },
+  {
+   "id": "fdic-9956",
+   "file": "detail/fdic-9956.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2016-04-29"
+  },
+  {
+   "id": "fdic-35312",
+   "file": "detail/fdic-35312.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2016-05-06"
+  },
+  {
+   "id": "fdic-11297",
+   "file": "detail/fdic-11297.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2016-08-19"
+  },
+  {
+   "id": "fdic-91",
+   "file": "detail/fdic-91.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2016-09-23"
+  },
+  {
+   "id": "fdic-34951",
+   "file": "detail/fdic-34951.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2017-01-13"
+  },
+  {
+   "id": "fdic-19328",
+   "file": "detail/fdic-19328.json",
+   "branches": 0,
+   "lineage": 3,
+   "failed": "2017-01-27"
+  },
+  {
+   "id": "fdic-35495",
+   "file": "detail/fdic-35495.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2017-03-03"
+  },
+  {
+   "id": "fdic-58302",
+   "file": "detail/fdic-58302.json",
+   "branches": 0,
+   "lineage": 7,
+   "failed": "2017-04-28"
+  },
+  {
+   "id": "fdic-30003",
+   "file": "detail/fdic-30003.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2017-05-05"
+  },
+  {
+   "id": "fdic-1802",
+   "file": "detail/fdic-1802.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2017-05-26"
+  },
+  {
+   "id": "fdic-17719",
+   "file": "detail/fdic-17719.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2017-10-13"
+  },
+  {
+   "id": "fdic-30570",
+   "file": "detail/fdic-30570.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2017-12-15"
+  },
+  {
+   "id": "fdic-10716",
+   "file": "detail/fdic-10716.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2019-05-31"
+  },
+  {
+   "id": "fdic-58112",
+   "file": "detail/fdic-58112.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2019-10-25"
+  },
+  {
+   "id": "fdic-58317",
+   "file": "detail/fdic-58317.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2019-10-25"
+  },
+  {
+   "id": "fdic-21111",
+   "file": "detail/fdic-21111.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2019-11-01"
+  },
+  {
+   "id": "fdic-18265",
+   "file": "detail/fdic-18265.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2020-02-14"
+  },
+  {
+   "id": "fdic-14361",
+   "file": "detail/fdic-14361.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2020-04-03"
+  },
+  {
+   "id": "fdic-16748",
+   "file": "detail/fdic-16748.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2020-10-16"
+  },
+  {
+   "id": "fdic-15426",
+   "file": "detail/fdic-15426.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2020-10-23"
+  },
+  {
+   "id": "fdic-24735",
+   "file": "detail/fdic-24735.json",
+   "branches": 0,
+   "lineage": 6,
+   "failed": "2023-03-10"
+  },
+  {
+   "id": "fdic-57053",
+   "file": "detail/fdic-57053.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2023-03-12"
+  },
+  {
+   "id": "fdic-59017",
+   "file": "detail/fdic-59017.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2023-05-01"
+  },
+  {
+   "id": "fdic-25851",
+   "file": "detail/fdic-25851.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2023-07-28"
+  },
+  {
+   "id": "fdic-8758",
+   "file": "detail/fdic-8758.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2023-11-03"
+  },
+  {
+   "id": "fdic-27332",
+   "file": "detail/fdic-27332.json",
+   "branches": 0,
+   "lineage": 1,
+   "failed": "2024-04-26"
+  },
+  {
+   "id": "fdic-4134",
+   "file": "detail/fdic-4134.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2024-10-18"
+  },
+  {
+   "id": "fdic-28611",
+   "file": "detail/fdic-28611.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2025-01-17"
+  },
+  {
+   "id": "fdic-5520",
+   "file": "detail/fdic-5520.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2025-06-27"
+  },
+  {
+   "id": "fdic-57488",
+   "file": "detail/fdic-57488.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2026-01-30"
+  },
+  {
+   "id": "fdic-25796",
+   "file": "detail/fdic-25796.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2026-05-01"
+  },
+  {
+   "id": "fdic-28722",
+   "file": "detail/fdic-28722.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2026-07-10"
+  },
+  {
+   "id": "fdic-25744",
+   "file": "detail/fdic-25744.json",
+   "branches": 0,
+   "lineage": 0,
+   "failed": "2026-07-17"
+  }
+ ],
+ "endingsFile": "endings.json",
+ "chainsFile": "chains.json",
+ "failuresFile": "failures.json",
+ "cuSuccessorsFile": "cu-successors.json"
+}

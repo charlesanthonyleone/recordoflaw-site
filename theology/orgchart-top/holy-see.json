@@ -1,0 +1,2304 @@
+[
+{
+"id": "va-curia",
+"name": "Roman Curia",
+"tier": "holy-see",
+"parentId": "holy-see",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en.html",
+"tags": [
+"Bodies listed on vatican.va (Roman Curia index)"
+]
+},
+{
+"id": "va-curia~secretariat-of-state",
+"name": "Secretariat of State",
+"tier": "holy-see",
+"parentId": "va-curia",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en.html"
+},
+{
+"id": "va-segreteria-di-stato",
+"name": "Secretariat of State",
+"tier": "holy-see",
+"parentId": "va-curia~secretariat-of-state",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/segreteria-di-stato/segreteria-di-stato.index.html"
+},
+{
+"id": "va-curia~dicasteries",
+"name": "Dicasteries",
+"tier": "holy-see",
+"parentId": "va-curia",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en.html"
+},
+{
+"id": "va-dicastero-evangelizzazione",
+"name": "Dicastery for Evangelization",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-evangelizzazione.index.html"
+},
+{
+"id": "va-dicastero-dottrina-fede",
+"name": "Dicastery for the Doctrine of the Faith",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-dottrina-fede.index.html"
+},
+{
+"id": "va-elemosineria-apostolica",
+"name": "Dicastery for the Service of Charity",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/elemosineria-apostolica.index.html"
+},
+{
+"id": "va-dicastero-chiese-orientali",
+"name": "Dicastery for the Eastern Churches",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-chiese-orientali.index.html"
+},
+{
+"id": "va-dicastero-culto-divino-e-disciplina-sacramenti",
+"name": "Dicastery for Divine Worship and the Discipline of the Sacraments",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-culto-divino-e-disciplina-sacramenti.index.html"
+},
+{
+"id": "va-dicastero-cause-santi",
+"name": "Dicastery for the Causes of Saints",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-cause-santi.index.html"
+},
+{
+"id": "va-dicastero-vescovi",
+"name": "Dicastery for Bishops",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-vescovi.index.html"
+},
+{
+"id": "va-dicastero-clero",
+"name": "Dicastery for the Clergy",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-clero.index.html"
+},
+{
+"id": "va-dicastero-vita-consacrata",
+"name": "Dicastery for Institutes of Consecrated Life and Societies of Apostolic Life",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-vita-consacrata.index.html"
+},
+{
+"id": "va-dicastero-per-i-laici--la-famiglia-e-la-vita",
+"name": "Dicastery for the Laity, the Family and Life",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-per-i-laici--la-famiglia-e-la-vita.index.html"
+},
+{
+"id": "va-dicastero-promozione-unita-cristiani",
+"name": "Dicastery for Promoting Christian Unity",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-promozione-unita-cristiani.index.html"
+},
+{
+"id": "va-dicastero-dialogo-interreligioso",
+"name": "Dicastery for Interreligious Dialogue",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-dialogo-interreligioso.index.html"
+},
+{
+"id": "va-dicastero-cultura-educazione",
+"name": "Dicastery for Culture and Education",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-cultura-educazione.index.html"
+},
+{
+"id": "va-dicastero-per-il-servizio-dello-sviluppo-umano-integrale",
+"name": "Dicastery for promoting Integral Human Development",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-per-il-servizio-dello-sviluppo-umano-integrale.index.html"
+},
+{
+"id": "va-dicastero-testi-legislativi",
+"name": "Dicastery for Legislative Texts",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-testi-legislativi.index.html"
+},
+{
+"id": "va-dicastero-per-la-comunicazione",
+"name": "Dicastery for Communication",
+"tier": "holy-see",
+"parentId": "va-curia~dicasteries",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-per-la-comunicazione.index.html"
+},
+{
+"id": "va-curia~institutions-of-justice",
+"name": "Institutions of Justice",
+"tier": "holy-see",
+"parentId": "va-curia",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en.html"
+},
+{
+"id": "va-penitenzieria-apostolica",
+"name": "Apostolic Penitentiary",
+"tier": "holy-see",
+"parentId": "va-curia~institutions-of-justice",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/organismi-di-giustizia/penitenzieria-apostolica.index.html"
+},
+{
+"id": "va-supremo-tribunale-della-segnatura-apostolica",
+"name": "Supreme Tribunal of the Apostolic Signatura",
+"tier": "holy-see",
+"parentId": "va-curia~institutions-of-justice",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/organismi-di-giustizia/supremo-tribunale-della-segnatura-apostolica.index.html"
+},
+{
+"id": "va-tribunale-della-rota-romana",
+"name": "Tribunal of the Roman Rota",
+"tier": "holy-see",
+"parentId": "va-curia~institutions-of-justice",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/organismi-di-giustizia/tribunale-della-rota-romana.index.html"
+},
+{
+"id": "va-curia~institutions-of-finance",
+"name": "Institutions of Finance",
+"tier": "holy-see",
+"parentId": "va-curia",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en.html"
+},
+{
+"id": "va-consiglio-per-l_economia",
+"name": "Council for the Economy",
+"tier": "holy-see",
+"parentId": "va-curia~institutions-of-finance",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/organismi-economici/consiglio-per-l_economia.index.html"
+},
+{
+"id": "va-segreteria-per-leconomia",
+"name": "Secretariat for the Economy",
+"tier": "holy-see",
+"parentId": "va-curia~institutions-of-finance",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/organismi-economici/segreteria-per-leconomia.index.html"
+},
+{
+"id": "va-amministrazione-del-patrimonio-della-sede-apostolica",
+"name": "Administration of the Patrimony of the Apostolic See (A.P.S.A.)",
+"tier": "holy-see",
+"parentId": "va-curia~institutions-of-finance",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/organismi-economici/amministrazione-del-patrimonio-della-sede-apostolica.index.html"
+},
+{
+"id": "va-ufficio-del-revisore-generale",
+"name": "Office of the Auditor General",
+"tier": "holy-see",
+"parentId": "va-curia~institutions-of-finance",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/organismi-economici/ufficio-del-revisore-generale.index.html"
+},
+{
+"id": "va-curia~offices",
+"name": "Offices",
+"tier": "holy-see",
+"parentId": "va-curia",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en.html"
+},
+{
+"id": "va-prefettura-della-casa-pontificia",
+"name": "Prefecture of the Papal Household",
+"tier": "holy-see",
+"parentId": "va-curia~offices",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/uffici/prefettura-della-casa-pontificia.index.html"
+},
+{
+"id": "va-curia~other-bodies-listed",
+"name": "Other bodies listed",
+"tier": "holy-see",
+"parentId": "va-curia",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en.html"
+},
+{
+"id": "va-camera-apostolica",
+"name": "Apostolic Camera",
+"tier": "holy-see",
+"parentId": "va-curia~other-bodies-listed",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/uffici/camera-apostolica.index.html"
+},
+{
+"id": "va-curia~pontifical-commissions",
+"name": "Pontifical Commissions",
+"tier": "holy-see",
+"parentId": "va-curia",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en.html"
+},
+{
+"id": "va-pontificia-commissione-per-la-tutela-dei-minori",
+"name": "Pontifical Commission for the Protection of Minors",
+"tier": "holy-see",
+"parentId": "va-curia~pontifical-commissions",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/pontificie-commissioni/pontificia-commissione-per-la-tutela-dei-minori.index.html"
+},
+{
+"id": "va-pontificia-commissione-biblica",
+"name": "Pontifical Biblical Commission",
+"tier": "holy-see",
+"parentId": "va-curia~pontifical-commissions",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/pontificie-commissioni/pontificia-commissione-biblica.index.html"
+},
+{
+"id": "va-commissione-teologica-internazionale",
+"name": "International Theological Commission",
+"tier": "holy-see",
+"parentId": "va-curia~pontifical-commissions",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/pontificie-commissioni/commissione-teologica-internazionale.index.html"
+},
+{
+"id": "va-curia~institutions-associated-with-the-holy-see",
+"name": "Institutions Associated with the Holy See",
+"tier": "holy-see",
+"parentId": "va-curia",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en.html"
+},
+{
+"id": "va-pontificia-commissione-di-archeologia-sacra",
+"name": "Pontifical Commission for Sacred Archaeology",
+"tier": "holy-see",
+"parentId": "va-curia~institutions-associated-with-the-holy-see",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/istituzioni-collegate-con-la-santa-sede/pontificia-commissione-di-archeologia-sacra.index.html"
+},
+{
+"id": "va-pontificia-accademia-scienze",
+"name": "Pontifical Academy of Sciences",
+"tier": "holy-see",
+"parentId": "va-curia~institutions-associated-with-the-holy-see",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/istituzioni-collegate-con-la-santa-sede/pontificia-accademia-scienze.index.html"
+},
+{
+"id": "va-pontificia-accademia-scienze-sociali",
+"name": "Pontifical Academy of Social Sciences",
+"tier": "holy-see",
+"parentId": "va-curia~institutions-associated-with-the-holy-see",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/istituzioni-collegate-con-la-santa-sede/pontificia-accademia-scienze-sociali.index.html"
+},
+{
+"id": "va-pontificia-academia-provita",
+"name": "Pontifical Academy For Life",
+"tier": "holy-see",
+"parentId": "va-curia~institutions-associated-with-the-holy-see",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/istituzioni-collegate-con-la-santa-sede/pontificia-academia-provita.index.html"
+},
+{
+"id": "va-pontificia-accademia-virtuosi-pantheon",
+"name": "Pontifical Academy of Fine Arts and Letters of the Virtuosi at the Pantheon",
+"tier": "holy-see",
+"parentId": "va-curia~other-bodies-listed",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/pontificie-accademie/pontificia-accademia-virtuosi-pantheon.index.html"
+},
+{
+"id": "va-curia~pontifical-academies",
+"name": "Pontifical Academies",
+"tier": "holy-see",
+"parentId": "va-curia",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en.html"
+},
+{
+"id": "va-pontificia-accademia-archeologia",
+"name": "Pontifical Roman Academy of Archaeology",
+"tier": "holy-see",
+"parentId": "va-curia~pontifical-academies",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/pontificie-accademie/pontificia-accademia-archeologia.index.html"
+},
+{
+"id": "va-pontificia-academia-theologica",
+"name": "Pontifical Theological Academy",
+"tier": "holy-see",
+"parentId": "va-curia~other-bodies-listed",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/pontificie-accademie/pontificia-academia-theologica.index.html"
+},
+{
+"id": "va-curia~other-commissions-and-committees",
+"name": "Other Commissions and Committees",
+"tier": "holy-see",
+"parentId": "va-curia",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en.html"
+},
+{
+"id": "va-pontificio-comitato-per-i-congressi-eucaristici-internazionali",
+"name": "Pontifical Committee for International Eucharistic Congresses",
+"tier": "holy-see",
+"parentId": "va-curia~other-commissions-and-committees",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/altre-commissioni-e-comitati/pontificio-comitato-per-i-congressi-eucaristici-internazionali.index.html"
+},
+{
+"id": "va-pontificio-comitato-di-scienze-storiche",
+"name": "Pontifical Committee of Historical Sciences",
+"tier": "holy-see",
+"parentId": "va-curia~other-bodies-listed",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/altre-commissioni-e-comitati/pontificio-comitato-di-scienze-storiche.index.html"
+},
+{
+"id": "va-corpo-della-guardia-svizzera-pontificia",
+"name": "Swiss Guard",
+"tier": "holy-see",
+"parentId": "va-curia~other-bodies-listed",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/guardia-svizzera-pontificia/corpo-della-guardia-svizzera-pontificia.index.html"
+},
+{
+"id": "va-avepro",
+"name": "AVEPRO",
+"tier": "holy-see",
+"parentId": "va-curia~institutions-associated-with-the-holy-see",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/istituzioni-collegate-con-la-santa-sede/avepro.index.html"
+},
+{
+"id": "va-autorita-di-informazione-finanziaria",
+"name": "Supervisory and Financial Information Authority",
+"tier": "holy-see",
+"parentId": "va-curia~institutions-associated-with-the-holy-see",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/istituzioni-collegate-con-la-santa-sede/autorita-di-informazione-finanziaria.index.html"
+},
+{
+"id": "va-curia~pontifical-equestrian-orders",
+"name": "Pontifical Equestrian Orders",
+"tier": "holy-see",
+"parentId": "va-curia",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en.html"
+},
+{
+"id": "va-ordine-equestre-del-santo-sepolcro-di-gerusalemme",
+"name": "Order of the Holy Sepulchre of Jerusalem",
+"tier": "holy-see",
+"parentId": "va-curia~pontifical-equestrian-orders",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/ordini-equestri-pontifici/ordine-equestre-del-santo-sepolcro-di-gerusalemme.index.html"
+},
+{
+"id": "va-pontificia-accademia-santommasodaquino",
+"name": "Pontifical Academy of St. Thomas Aquinas",
+"tier": "holy-see",
+"parentId": "va-curia~pontifical-academies",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/pontificie-accademie/pontificia-accademia-santommasodaquino.index.html"
+},
+{
+"id": "va-pontificia-accademia-mariana",
+"name": "Pontifical International Marian Academy",
+"tier": "holy-see",
+"parentId": "va-curia~pontifical-academies",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/pontificie-accademie/pontificia-accademia-mariana.index.html"
+},
+{
+"id": "va-pontificia-academia-cultorum-martyrum",
+"name": "Pontifical Academy «Cultorum Martyrum»",
+"tier": "holy-see",
+"parentId": "va-curia~other-bodies-listed",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/pontificie-accademie/pontificia-academia-cultorum-martyrum.index.html"
+},
+{
+"id": "va-pontificia-academia-latinitatis",
+"name": "Pontifical Academy for Latin",
+"tier": "holy-see",
+"parentId": "va-curia~pontifical-academies",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/pontificie-accademie/pontificia-academia-latinitatis.index.html"
+},
+{
+"id": "va-pontificia-accademia-ecclesiastica",
+"name": "Pontifical Ecclesiastical Academy",
+"tier": "holy-see",
+"parentId": "va-curia~pontifical-academies",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/pontificie-accademie/pontificia-accademia-ecclesiastica.index.html"
+},
+{
+"id": "va-pontificia-america-latina",
+"name": "Pontifical Commission for Latin America",
+"tier": "holy-see",
+"parentId": "va-curia~pontifical-commissions",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/pontificie-commissioni/pontificia-america-latina.index.html"
+},
+{
+"id": "va-curia~ulsa",
+"name": "ULSA",
+"tier": "holy-see",
+"parentId": "va-curia",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en.html"
+},
+{
+"id": "va-ufficio-del-lavoro-della-sede-apostolica",
+"name": "Labour Office of the Apostolic See",
+"tier": "holy-see",
+"parentId": "va-curia~ulsa",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/ulsa/ufficio-del-lavoro-della-sede-apostolica.index.html"
+},
+{
+"id": "va-curia~fas",
+"name": "FAS",
+"tier": "holy-see",
+"parentId": "va-curia",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en.html"
+},
+{
+"id": "va-fondo-assistenza-sanitaria",
+"name": "Health Insurance Fund (FAS)",
+"tier": "holy-see",
+"parentId": "va-curia~fas",
+"positions": [],
+"src": "https://www.vatican.va/content/romancuria/en/fas/fondo-assistenza-sanitaria.index.html"
+},
+{
+"id": "va-cardinals",
+"name": "College of Cardinals",
+"tier": "holy-see",
+"parentId": "holy-see",
+"src": "https://press.vatican.va/content/salastampa/it/documentation/cardinali---statistiche/elenco_per_eta.html",
+"tags": [
+"241 cardinals listed by the Holy See Press Office (116 electors)",
+"Country and continent as published (Italian)"
+],
+"positions": []
+},
+{
+"id": "va-cardinals~europa",
+"name": "Europa",
+"tier": "holy-see",
+"parentId": "va-cardinals",
+"positions": [],
+"tags": [
+"108 listed"
+]
+},
+{
+"id": "va-cardinals~europa~italia",
+"name": "Italia",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "ACERBI Card. Angelo",
+"born": "1925-09-23",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_acerbi_a.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "DE GIORGI Card. Salvatore",
+"born": "1930-09-06",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_de-giorgi_s.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "FARINA Card. Raffaele, S.D.B.",
+"born": "1933-09-24",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_farina_r.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "RE Card. Giovanni Battista",
+"born": "1934-01-30",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_re_gb.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "MONTERISI Card. Francesco",
+"born": "1934-05-28",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_monterisi_f.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "CANTALAMESSA Card. Raniero, O.F.M. Cap.",
+"born": "1934-07-22",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_cantalamessa_r.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "BERTONE Card. Tarcisio, S.D.B.",
+"born": "1934-12-02",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_bertone_t.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "LAJOLO Card. Giovanni",
+"born": "1935-01-03",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_lajolo_g.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "ANTONELLI Card. Ennio",
+"born": "1936-11-18",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_antonelli_e.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "VEGLIÒ Card. Antonio Maria",
+"born": "1938-02-03",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_veglio_am.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "ROMEO Card. Paolo",
+"born": "1938-02-20",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_romeo_p.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "COCCOPALMERIO Card. Francesco",
+"born": "1938-03-06",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_coccopalmerio_f.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "VALLINI Card. Agostino",
+"born": "1940-04-17",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_vallini_a.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "FEROCI Card. Enrico",
+"born": "1940-08-27",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_feroci_e.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "MARCHETTO Card. Agostino",
+"born": "1940-08-28",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_marchetto_a.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "BALDISSERI Card. Lorenzo",
+"born": "1940-09-29",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_baldisseri_l.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "TOMASI Card. Silvano Maria, C.S.",
+"born": "1940-10-12",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_tomasi_sm.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "STELLA Card. Beniamino",
+"born": "1941-08-18",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_stella_b.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "SCOLA Card. Angelo",
+"born": "1941-11-07",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_scola_a.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "FREZZA Card. Fortunato",
+"born": "1942-02-06",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_frezza_f.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "BASSETTI Card. Gualtiero",
+"born": "1942-04-07",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_bassetti_g.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "GHIRLANDA Card. Gianfranco, S.I.",
+"born": "1942-07-05",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_ghirlanda_g.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "MIGLIO Card. Arrigo",
+"born": "1942-07-18",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_miglio_a.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "BERTELLO Card. Giuseppe",
+"born": "1942-10-01",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_bertello_g.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "RAVASI Card. Gianfranco",
+"born": "1942-10-18",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_ravasi_g.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "BAGNASCO Card. Angelo",
+"born": "1943-01-14",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_bagnasco_a.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "CALCAGNO Card. Domenico",
+"born": "1943-02-03",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_calcagno_d.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "SEPE Card. Crescenzio",
+"born": "1943-06-02",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_sepe_c.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "VERSALDI Card. Giuseppe",
+"born": "1943-07-30",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_versaldi_g.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "COMASTRI Card. Angelo",
+"born": "1943-09-17",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_comastri_a.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "PIACENZA Card. Mauro",
+"born": "1944-09-15",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_piacenza_m.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "ZENARI Card. Mario",
+"born": "1946-01-05",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_zenari_m.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "FILONI Card. Fernando",
+"born": "1946-04-15",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_filoni_f.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "MONTENEGRO Card. Francesco",
+"born": "1946-05-22",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_montenegro_f.html"
+},
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "BETORI Card. Giuseppe",
+"born": "1947-02-25",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_betori_g.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "SEMERARO Card. Marcello",
+"born": "1947-12-22",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_semeraro_m.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "BECCIU Card. Giovanni Angelo",
+"born": "1948-06-02",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_becciu_ga.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "PETROCCHI Card. Giuseppe",
+"born": "1948-08-19",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_petrocchi_g.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "CANTONI Card. Oscar",
+"born": "1950-09-01",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_cantoni_o.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "DE DONATIS Card. Angelo",
+"born": "1954-01-04",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_de-donatis_a.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "PAROLIN Card. Pietro",
+"born": "1955-01-17",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_parolin_p.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "GUGEROTTI Card. Claudio",
+"born": "1955-10-07",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_gugerotti_c.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "ZUPPI Card. Matteo Maria",
+"born": "1955-10-11",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_zuppi_mm.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "BATTAGLIA Card. Domenico",
+"born": "1963-01-20",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_battaglia_d.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "LOJUDICE Card. Augusto Paolo",
+"born": "1964-07-01",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_lojudice_ap.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "BAGGIO Card. Fabio, C.S.",
+"born": "1965-01-15",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_baggio_f.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "GAMBETTI Card. Mauro, O.F.M. Conv.",
+"born": "1965-10-27",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_gambetti_m.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "REPOLE Card. Roberto",
+"born": "1967-01-29",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_repole_r.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "REINA Card. Baldassare",
+"born": "1970-11-26",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_reina_b.html"
+}
+],
+"tags": [
+"49 listed"
+]
+},
+{
+"id": "va-cardinals~europa~spagna",
+"name": "Spagna",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "HERRANZ Card. Julián",
+"born": "1930-03-31",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_herranz_j.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "ABRIL y CASTELLÓ Card. Santos",
+"born": "1935-09-21",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_abril-y-castello_s.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "ROUCO VARELA Card. Antonio María",
+"born": "1936-08-20",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_rouco-varela_am.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "MARTÍNEZ SISTACH Card. Lluís",
+"born": "1937-04-29",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_martinez-sistach_l.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "BOCOS MERINO Card. Aquilino, C.M.F",
+"born": "1938-05-17",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_bocosmerino_a.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "BLÁZQUEZ PÉREZ Card. Ricardo",
+"born": "1942-04-13",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_blazquez-perez_r.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "LADARIA FERRER Card. Luis Francisco, S.I.",
+"born": "1944-04-19",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_ladaria_l.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "VÉRGEZ ALZAGA Card. Fernando, L.C.",
+"born": "1945-03-01",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_vergezalzaga_.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "OSORO SIERRA Card. Carlos",
+"born": "1945-05-16",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_osoro_sierra_c.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "CAÑIZARES LLOVERA Card. Antonio",
+"born": "1945-10-15",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_canizares-llovera_a.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "OMELLA OMELLA_Card. Juan José",
+"born": "1946-04-21",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_omella_jj.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "FERNÁNDEZ ARTIME Card. Ángel, S.D.B.",
+"born": "1960-08-21",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_fernandezartime_a.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "COBO CANO Card. José",
+"born": "1965-09-20",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_cobocano_j.html"
+}
+],
+"tags": [
+"13 listed"
+]
+},
+{
+"id": "va-cardinals~europa~francia",
+"name": "Francia",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "POUPARD Card. Paul",
+"born": "1930-08-30",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_poupard_p.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "RICARD Card. Jean-Pierre",
+"born": "1944-09-25",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_ricard_jp.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "PIERRE Christophe Louis Yves Georges",
+"born": "1946-01-30",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_pierre_clyg.html"
+},
+{
+"title": "Cardinal · Elettore · created by S. Giovanni Paolo II",
+"name": "BARBARIN Card. Philippe",
+"born": "1950-10-17",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_barbarin_p.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "MAMBERTI Card. Dominique",
+"born": "1952-03-07",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_mamberti_d.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "AVELINE Card. Jean-Marc",
+"born": "1958-12-26",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_aveline_jm.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "BUSTILLO Card. François-Xavier, O.F.M. Conv.",
+"born": "1968-11-23",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_bustillo_fx.html"
+}
+],
+"tags": [
+"7 listed"
+]
+},
+{
+"id": "va-cardinals~europa~germania",
+"name": "Germania",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "WETTER Card. Friedrich",
+"born": "1928-02-20",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_wetter_f.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "BRANDMÜLLER Card. Walter",
+"born": "1929-01-05",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_brandmuller_w.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "KASPER Card. Walter",
+"born": "1933-03-05",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_kasper_w.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "MÜLLER Card. Gerhard Ludwig",
+"born": "1947-12-31",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_muller_gl.html"
+},
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "MARX Card. Reinhard",
+"born": "1953-09-21",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_marx_r.html"
+},
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "WOELKI Card. Rainer Maria",
+"born": "1956-08-18",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_woelki_rm.html"
+}
+],
+"tags": [
+"6 listed"
+]
+},
+{
+"id": "va-cardinals~europa~portogallo",
+"name": "Portogallo",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "SARAIVA MARTINS Card. José, C.M.F.",
+"born": "1932-01-06",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_saraiva-martins_j.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "MONTEIRO de CASTRO Card. Manuel",
+"born": "1938-03-29",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_monteiro-de-castro_m.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "MARTO Card. António Augusto dos Santos",
+"born": "1947-05-05",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_marto_aa.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "CLEMENTE Card. Manuel",
+"born": "1948-07-16",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_clemente_m.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "MENDONÇA Card. José Tolentino de",
+"born": "1965-12-15",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_mendoncacalacade_jt.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "AGUIAR ALVES Card. Américo Manuel",
+"born": "1973-12-12",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_aguiar-alves_am.html"
+}
+],
+"tags": [
+"6 listed"
+]
+},
+{
+"id": "va-cardinals~europa~polonia",
+"name": "Polonia",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "DZIWISZ Card. Stanisław",
+"born": "1939-04-27",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_dziwisz_s.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "RYŁKO Card. Stanisław",
+"born": "1945-07-04",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_rylko_s.html"
+},
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "NYCZ Card. Kazimierz",
+"born": "1950-02-01",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_nycz_k.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "KRAJEWSKI Card. Konrad",
+"born": "1963-11-25",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_krajewski_k.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "RYŚ Card. Grzegorz",
+"born": "1964-02-09",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_rys_g.html"
+}
+],
+"tags": [
+"5 listed"
+]
+},
+{
+"id": "va-cardinals~europa~regno-unito",
+"name": "Regno Unito",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "FITZGERALD Card. Michale Louis, M. Afr.",
+"born": "1937-08-17",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_fitzgerald_ml.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "RADCLIFFE Card. Timothy Peter Joseph, O.P.",
+"born": "1945-08-22",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_radcliffe_t.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "NICHOLS Card. Gerard Vincent",
+"born": "1945-11-08",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_nichols_gv.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "ROCHE Card. Arthur",
+"born": "1950-03-06",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_roche_a.html"
+}
+],
+"tags": [
+"4 listed"
+]
+},
+{
+"id": "va-cardinals~europa~lituania",
+"name": "Lituania",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "BAČKIS Card. Audrys Juozas",
+"born": "1937-02-01",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_backis_aj.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "TAMKEVIČIUS Card. Sigitas, S.I.",
+"born": "1938-11-07",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_tamkevicius_s0.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "MAKRICKAS Card. Rolandas",
+"born": "1972-01-31",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_makrickas_r.html"
+}
+],
+"tags": [
+"3 listed"
+]
+},
+{
+"id": "va-cardinals~europa~albania",
+"name": "Albania",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "SIMONI Card. Ernest",
+"born": "1928-10-18",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_simoni_e.html"
+}
+],
+"tags": [
+"1 listed"
+]
+},
+{
+"id": "va-cardinals~europa~austria",
+"name": "Austria",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "SCHÖNBORN Card. Christoph, O.P.",
+"born": "1945-01-22",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_schonborn_c.html"
+}
+],
+"tags": [
+"1 listed"
+]
+},
+{
+"id": "va-cardinals~europa~belgio",
+"name": "Belgio",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "DE KESEL Card. Jozef",
+"born": "1947-06-17",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_de-kesel_j.html"
+}
+],
+"tags": [
+"1 listed"
+]
+},
+{
+"id": "va-cardinals~europa~bosnia-ed-erzegovina",
+"name": "Bosnia ed Erzegovina",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "PULJIĆ Card. Vinko",
+"born": "1945-09-08",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_puljic_v.html"
+}
+],
+"tags": [
+"1 listed"
+]
+},
+{
+"id": "va-cardinals~europa~croazia",
+"name": "Croazia",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Elettore · created by S. Giovanni Paolo II",
+"name": "BOZANIĆ Card. Josip",
+"born": "1949-03-20",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_bozanic_j.html"
+}
+],
+"tags": [
+"1 listed"
+]
+},
+{
+"id": "va-cardinals~europa~irlanda",
+"name": "Irlanda",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "BRADY Card. Seán Baptist",
+"born": "1939-08-16",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_brady_sb.html"
+}
+],
+"tags": [
+"1 listed"
+]
+},
+{
+"id": "va-cardinals~europa~lettonia",
+"name": "Lettonia",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "PUJATS Card. Jānis",
+"born": "1930-11-14",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_pujats_j.html"
+}
+],
+"tags": [
+"1 listed"
+]
+},
+{
+"id": "va-cardinals~europa~lussemburgo",
+"name": "Lussemburgo",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "HOLLERICH Card. Jean-Claude, S.I.",
+"born": "1958-08-09",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_hollerich_jc.html"
+}
+],
+"tags": [
+"1 listed"
+]
+},
+{
+"id": "va-cardinals~europa~malta",
+"name": "Malta",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "GRECH Card. Mario",
+"born": "1957-02-20",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_grech_m.html"
+}
+],
+"tags": [
+"1 listed"
+]
+},
+{
+"id": "va-cardinals~europa~paesi-bassi",
+"name": "Paesi Bassi",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "EIJK Card. Willem Jacobus",
+"born": "1953-06-22",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_eijk_wj.html"
+}
+],
+"tags": [
+"1 listed"
+]
+},
+{
+"id": "va-cardinals~europa~serbia",
+"name": "Serbia",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "NEMET Card. Ladislav, S.V.D.",
+"born": "1956-09-07",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_nemet_l.html"
+}
+],
+"tags": [
+"1 listed"
+]
+},
+{
+"id": "va-cardinals~europa~slovenia",
+"name": "Slovenia",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "RODÉ Card. Franc, C.M.",
+"born": "1934-09-23",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_rode_f.html"
+}
+],
+"tags": [
+"1 listed"
+]
+},
+{
+"id": "va-cardinals~europa~svezia",
+"name": "Svezia",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "ARBORELIUS Card. Anders, O.C.D.",
+"born": "1949-09-24",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_arborelius_a.html"
+}
+],
+"tags": [
+"1 listed"
+]
+},
+{
+"id": "va-cardinals~europa~svizzera",
+"name": "Svizzera",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "KOCH Card. Kurt",
+"born": "1950-03-15",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_koch_k.html"
+}
+],
+"tags": [
+"1 listed"
+]
+},
+{
+"id": "va-cardinals~europa~ungheria",
+"name": "Ungheria",
+"tier": "holy-see",
+"parentId": "va-cardinals~europa",
+"positions": [
+{
+"title": "Cardinal · Elettore · created by S. Giovanni Paolo II",
+"name": "ERDŐ Card. Péter",
+"born": "1952-06-25",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_erdo_p.html"
+}
+],
+"tags": [
+"1 listed"
+]
+},
+{
+"id": "va-cardinals~asia",
+"name": "Asia",
+"tier": "holy-see",
+"parentId": "va-cardinals",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "KITBUNCHU Card. Michael Michai",
+"born": "1929-01-25",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_kitbunchu_mm.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "ZEN ZE-KIUN Card. Joseph, S.D.B.",
+"born": "1932-01-13",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_zen-se-kiun_j.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "ROSALES Card. Gaudencio Borbon",
+"born": "1932-08-10",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_rosales_gb.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "DARMAATMADJA Card. Julius Riyadi, S.I.",
+"born": "1934-12-20",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_darmaatmadja_jr.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "NGUYÊN VĂN NHON Card. Pierre",
+"born": "1938-04-01",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_nguyen-van-nohn_p.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "QUEVEDO Card. Orlando B., O.M.I.",
+"born": "1939-03-11",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_quevedo_ob.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "TONG HON Card. John",
+"born": "1939-07-31",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_tong-hon_j.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "RAÏ Card. Béchara Boutros, O.M.M.",
+"born": "1940-02-25",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_rai_bb.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "D’ROZARIO Card. Patrick, C.S.C.",
+"born": "1943-10-01",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_d-rozario_p.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "YEOM SOO JUNG Card. Andrew",
+"born": "1943-12-05",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_yeom-soo-jung_a.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "MANGKHANEKHOUN Card. Louis-Marie Ling, I.V.D.",
+"born": "1944-04-05",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_mangkhanekhoun_lml.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "GRACIAS Card. Oswald",
+"born": "1944-12-24",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_gracias_o.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "ALENCHERRY Card. George",
+"born": "1945-04-19",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_alencherry_g.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "COUTTS Card. Joseph",
+"born": "1945-07-21",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_coutts_j.html"
+},
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "PATABENDIGE DON Card. Albert Malcolm Ranjith",
+"born": "1947-11-15",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_patabendige-don_amr.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "SAKO Card. Louis Raphaël",
+"born": "1948-07-04",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_sako_l.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "BO Card. Charles Maung, S.D.B.",
+"born": "1948-10-29",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_bo_cm_c.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "MAEDA Card. Thomas Aquino Manyo",
+"born": "1949-03-03",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_maeda_tam.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "KOVITHAVANIJ Card. Francis Xavier Kriengsak",
+"born": "1949-06-27",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_kovithavanij_fxk.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "SUHARYO HARDJOATMODJO Card. Ignatius",
+"born": "1950-07-09",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_suharyohardjomatmodjo_i.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "FRANCIS Card. Sebastian",
+"born": "1951-11-11",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_francis_s.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "YOU HEUNG-SIK Card. Lazzaro",
+"born": "1951-11-17",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_youheung-sik_l.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "ADVINCULA Card. Jose Fuerte",
+"born": "1952-03-30",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_advincula_jf.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "FERRÃO Card. Filipe Neri António Sebastião do Rosário",
+"born": "1953-01-20",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_ferrao_f.html"
+},
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "TAGLE Card. Luis Antonio Gokim",
+"born": "1957-06-21",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_tagle_la.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "GOH Card. William Seng Chye",
+"born": "1957-06-25",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_goh_w.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "KIKUCHI Card. Tarcisio Isao, S.V.D.",
+"born": "1958-11-01",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_kikuchi_i.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "DAVID Card. Pablo Virgilio S.",
+"born": "1959-03-02",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_david_s.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "CHOW SAU-YAN Card. Stephen, S.I.",
+"born": "1959-08-07",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_chowsauyan_s.html"
+},
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "BASELIOS Card. Cleemis",
+"born": "1960-05-25",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_baselios_c.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "POOLA Card. Anthony",
+"born": "1961-11-15",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_poola_a.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "MATHIEU Card. Dominique Joseph, O.F.M. Conv.",
+"born": "1963-06-13",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_mathieu_j.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "PIZZABALLA Card. Pierbattista, O.F.M.",
+"born": "1965-04-21",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_pizzaballa_p.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "DO CARMO DA SILVA Card. Virgilio, S.D.B.",
+"born": "1967-11-27",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_docarmodasilva_v.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "KOOVAKAD Card. George Jacob",
+"born": "1973-08-11",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_koovakad_g.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "MARENGO Card. Giorgio, I.M.C.",
+"born": "1974-06-07",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_marengo_g.html"
+}
+],
+"tags": [
+"36 listed"
+]
+},
+{
+"id": "va-cardinals~america-del-sud",
+"name": "America del Sud",
+"tier": "holy-see",
+"parentId": "va-cardinals",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "ERRÁZURIZ OSSA Card. Francisco Javier",
+"born": "1933-09-05",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_errazuriz-ossa_fj.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "VILLALBA Card. Luis Héctor",
+"born": "1934-10-11",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_villalba_lh.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "ASSIS Card. Raymundo DAMASCENO",
+"born": "1937-02-15",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_assis-damasceno_r.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "PORCO TICONA Card.Toribio",
+"born": "1937-04-25",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_porcoticona_t.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "PADRÓN SÁNCHEZ Card. Diego Rafael",
+"born": "1939-05-17",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_padronsanchez_dr.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "EZZATI ANDRELLO Card. Ricardo, S.D.B.",
+"born": "1942-01-07",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_ezzati-andrello_r.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "JIMÉNEZ CARVAJAL Card. Jorge Enrique, C.I.M.",
+"born": "1942-03-29",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_jimenezcarvajal_jr.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "SALAZAR GÓMEZ Card. Rubén",
+"born": "1942-09-22",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_salazar-gomez_r.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "SANDRI Card. Leonardo",
+"born": "1943-11-18",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_sandri_l.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "CIPRIANI THORNE Card. Juan Luis",
+"born": "1943-12-28",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_cipriani-thorne_jl.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "BARRETO JIMENO Card. Pedro Ricardo, S.I.",
+"born": "1944-02-12",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_barreto_p.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "PORRAS CARDOZO Card. Baltazar Enrique",
+"born": "1944-10-10",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_porras-cardozo_b.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "AÓS BRACO Card. Celestino, O.F.M. Cap.",
+"born": "1945-04-06",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_aosbraco_c.html"
+},
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "AVIZ Card. João Braz de",
+"born": "1947-04-24",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_aviz-braz-de_j.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "POLI Card. Mario Aurelio",
+"born": "1947-11-29",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_poli_ma.html"
+},
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "SCHERER Card. Odilo Pedro",
+"born": "1949-09-21",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_scherer_op.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "CASTILLO MATTASOGLIO Card. Carlos Gustavo",
+"born": "1950-02-02",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_castillo_cg.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "TEMPESTA Card. Orani João, O.Cist.",
+"born": "1950-06-22",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_tempesta_oj.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "STEINER Card. Leonardo Ulrich, O.F.M.",
+"born": "1950-11-06",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_steiner_l.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "MARTÍNEZ FLORES Card. Adalberto",
+"born": "1951-07-08",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_martinezflores_a.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "BOKALIC IGLIC Card. Vicente, C.M.",
+"born": "1952-06-11",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_bokalic_v.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "CABRERA HERRERA Card. Luis Gerardo, O.F.M.",
+"born": "1955-10-11",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_cabrera_g.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "CHOMALÍ GARIB Card. Fernando Natalio",
+"born": "1957-03-09",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_chomali_fn.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "ROSSI Card. Ángel Sixto, S.I.",
+"born": "1958-08-11",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_rossi_as.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "STURLA BERHOUET Card. Daniel Fernando, S.D.B.",
+"born": "1959-07-04",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_sturla-berhouet_df.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "ROCHA Card. Sérgio da",
+"born": "1959-10-21",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_rocha-da_s.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "SPENGLER Card. Jaime, O.F.M.",
+"born": "1960-09-06",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_spengler_j.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "RUEDA APARICIO Card. Luis José",
+"born": "1962-03-03",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_ruedaaparicio_lj.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "FERNÁNDEZ Card. Víctor Manuel",
+"born": "1962-07-18",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_fernandez_vm.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "COSTA Card. Paulo Cezar",
+"born": "1967-07-20",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_costa_pc.html"
+}
+],
+"tags": [
+"30 listed"
+]
+},
+{
+"id": "va-cardinals~africa",
+"name": "Africa",
+"tier": "holy-see",
+"parentId": "va-cardinals",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "WAMALA Card. Emmanuel",
+"born": "1926-12-15",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_wamala_e.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "LANGA Card. Júlio Duarte",
+"born": "1927-10-27",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_langa_jd.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "ARINZE Card. Francis",
+"born": "1932-11-01",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_arinze_f.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "OKOGIE Card. Anthony Olubunmi",
+"born": "1936-06-16",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_okogie_ao.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "SARR Card. Théodore-Adrien",
+"born": "1936-11-28",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_sarr_ta.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "ZUBEIR WAKO Card. Gabriel",
+"born": "1941-02-27",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_zubeir-wako_g.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "NAPIER Card. Wilfrid Fox, O.F.M.",
+"born": "1941-03-08",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_napier_wf.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "PIAT Card. Maurice, C.S. Sp.",
+"born": "1941-07-19",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_piat_m.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "ZERBO Card. Jean",
+"born": "1943-12-27",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_zerbo_j.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "ONAIYEKAN Card. John Olorunfemi",
+"born": "1944-01-29",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_onaiyekan_jo.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "SARAH Card. Robert",
+"born": "1945-06-15",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_sarah_r.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "KUTWA Card. Jean-Pierre",
+"born": "1945-12-22",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_kutwa_jp.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "OUÉDRAOGO Card. Nakellentuba Philippe",
+"born": "1945-12-31",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_ouedraogo_pn.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "NJUE Card. John",
+"born": "1946-01-01",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_njue_j.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "SOURAPHIEL Card. Berhaneyesus Demerew, C.M.",
+"born": "1948-07-14",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_souraphiel_bd.html"
+},
+{
+"title": "Cardinal · Elettore · created by S. Giovanni Paolo II",
+"name": "TURKSON Card. Peter Kodwo Appiah",
+"born": "1948-10-11",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_turkson_pka.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "FURTADO Card. Arlindo GOMES",
+"born": "1949-11-15",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_furtado-gomes_a.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "LÓPEZ ROMERO Card. Cristóbal, S.D.B.",
+"born": "1952-05-19",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_lopezromero_c.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "TSARAHAZANA Card. Désiré",
+"born": "1954-06-13",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_tsarahazana_d.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "BRISLIN Card. Stephen",
+"born": "1956-09-24",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_brislin_s.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "KAMBANDA Card. Antoine",
+"born": "1958-11-10",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_kambanda_a.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "AMBONGO BESUNGU_Card. Fridolin, O.F.M. Cap.",
+"born": "1960-01-24",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_ambongo.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "RUGAMBWA Card. Protase",
+"born": "1960-05-31",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_rugambwa_p.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "BESSI DOGBO Card. Ignace",
+"born": "1961-08-17",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_bessi_i.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "VESCO Card. Jean-Paul, O.P.",
+"born": "1962-03-10",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_vesco_j.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "OKPALEKE Card. Peter Ebere",
+"born": "1963-03-01",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_okpaleke_p.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "MULLA Card. Stephen Ameyu Martin",
+"born": "1964-01-10",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_mulla_sam.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "NZAPALAINGA Card. Dieudonné, C.S.Sp.",
+"born": "1967-03-14",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_nzapalainga_d.html"
+}
+],
+"tags": [
+"28 listed"
+]
+},
+{
+"id": "va-cardinals~america-del-nord",
+"name": "America del Nord",
+"tier": "holy-see",
+"parentId": "va-cardinals",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "MAIDA Card. Adam Joseph",
+"born": "1930-03-18",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_maida_aj.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "STAFFORD Card. James Francis",
+"born": "1932-07-26",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_stafford_jf.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "SANDOVAL ÍÑIGUEZ Card. Juan",
+"born": "1933-03-28",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_sandoval-iniguez_j.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "RIGALI Card. Justin Francis",
+"born": "1935-04-19",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_rigali_jf.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "MAHONY Card. Roger Michael",
+"born": "1936-02-27",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_mahony_rm.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "SUÁREZ INDA Card. Alberto",
+"born": "1939-01-30",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_suarez-inda_a.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "O'BRIEN Card. Edwin Frederick",
+"born": "1939-04-08",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_obrien_ef.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "ARIZMENDI ESQUIVEL Card. Felipe",
+"born": "1940-05-01",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_arizmendiesquivel_f.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "WUERL Card. Donald William",
+"born": "1940-11-12",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_wuerl_dw.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "RIVERA CARRERA Card. Norberto",
+"born": "1942-06-06",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_rivera-carrera_n.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "OUELLET Card. Marc, P.S.S.",
+"born": "1944-06-08",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_ouellet_m.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Benedetto XVI",
+"name": "O'MALLEY Card. Seán Patrick, O.F.M. Cap.",
+"born": "1944-06-29",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_omalley_sp.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "CZERNY Card. Michael, S.I.",
+"born": "1946-07-18",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_czeny_m.html"
+},
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "COLLINS Card. Thomas Christopher",
+"born": "1947-01-16",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_collins_tc.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "FARRELL Card. Kevin Joseph",
+"born": "1947-09-02",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_farrell_k.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "GREGORY Card. Wilton Daniel",
+"born": "1947-12-07",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_gregory_wd.html"
+},
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "BURKE Card. Raymond Leo",
+"born": "1948-06-30",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_burke_rl.html"
+},
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "ROBLES ORTEGA Card. Francisco",
+"born": "1949-03-02",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_robles-ortega_f.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "CUPICH Card. Blase J.",
+"born": "1949-03-19",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_cupich_b.html"
+},
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "DiNARDO Card. Daniel Nicholas",
+"born": "1949-05-23",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_dinardo_dn.html"
+},
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "HARVEY Card. James Michael",
+"born": "1949-10-20",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_harvey_jm.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "AGUIAR RETES Card. Carlos",
+"born": "1950-01-09",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_aguiar-retes_c.html"
+},
+{
+"title": "Cardinal · Elettore · created by Benedetto XVI",
+"name": "DOLAN Card. Timothy Michael",
+"born": "1950-02-06",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_dolan_tm.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "TOBIN Card. Joseph William, C.SS.R.",
+"born": "1952-05-03",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_tobin_j.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "McELROY Card. Robert Walter",
+"born": "1954-02-05",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_mcelroy_rw.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "LACROIX Card. Gérald Cyprien",
+"born": "1957-07-27",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_lacroix_gc.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "LEO Card. Frank",
+"born": "1971-06-30",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_leo_f.html"
+}
+],
+"tags": [
+"27 listed"
+]
+},
+{
+"id": "va-cardinals~america-centrale",
+"name": "America Centrale",
+"tier": "holy-see",
+"parentId": "va-cardinals",
+"positions": [
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "LÓPEZ RODRÍGUEZ Card. Nicolás de Jesús",
+"born": "1936-10-31",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_lopez-rodriguez_ndj.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "ROSA CHÁVEZ Card. Gregorio",
+"born": "1942-09-03",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_rosachavez_g.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by S. Giovanni Paolo II",
+"name": "RODRÍGUEZ MARADIAGA Card. Óscar Andrés, S.D.B.",
+"born": "1942-12-29",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_rodriguez-mardiaga_oa.html"
+},
+{
+"title": "Cardinal · Non Elettore · created by Francesco",
+"name": "LACUNZA MAESTROJUÁN Card. José Luis, O.A.R.",
+"born": "1944-02-24",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_lacunza-maestrojuan_jl.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "RAMAZZINI IMERI Card. Álvaro Leonel",
+"born": "1947-07-16",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_ramazziniimeri_al.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "GARCÍA RODRÍGUEZ Card. Juan de la Caridad",
+"born": "1948-07-11",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_garciarodriguez_j.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "BRENES SOLÓRZANO Card. Leopoldo José",
+"born": "1949-03-07",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_brenes-solorzano_lj.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "LANGLOIS Card. Chibly",
+"born": "1958-11-29",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_langlois_c.html"
+}
+],
+"tags": [
+"8 listed"
+]
+},
+{
+"id": "va-cardinals~oceania",
+"name": "Oceania",
+"tier": "holy-see",
+"parentId": "va-cardinals",
+"positions": [
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "DEW Card. John Atcherley",
+"born": "1948-05-05",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_dew_ja.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "RIBAT Card. John, M.S.C.",
+"born": "1957-02-09",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_ribat_j.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "MAFI Card. Soane Patita Paini",
+"born": "1961-12-19",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_mafi_spp.html"
+},
+{
+"title": "Cardinal · Elettore · created by Francesco",
+"name": "BYCHOK Card. Mykola, C.SS.R.",
+"born": "1980-02-13",
+"src": "https://press.vatican.va/content/salastampa/en/documentation/cardinali_biografie/cardinali_bio_bychok_m.html"
+}
+],
+"tags": [
+"4 listed"
+]
+}
+]

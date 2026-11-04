@@ -1,0 +1,1 @@
+[{"id":"fdic-28845","kind":"body","title":"First Federal Savings Bank of Twin Falls","place":"Twin Falls, ID","src":"https://api.fdic.gov/banks/docs/","tags":["Primary federal regulator: OCC (FDIC BankFind REGAGNT)"],"finance":[{"metric":"Total assets","value":1420568000,"unit":"USD","asOf":"2026-06-30","src":"https://api.fdic.gov/banks/docs/"}],"parent":"reg-occ~id"}]

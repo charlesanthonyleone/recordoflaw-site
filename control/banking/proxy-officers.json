@@ -1,0 +1,1046 @@
+{
+"source": "SEC EDGAR DEF 14A proxy statements and 10-K Item 11 (Summary Compensation Table)",
+"firms": [
+{
+"id": "cik-2012383",
+"name": "BlackRock, Inc.",
+"form": "DEF 14A",
+"filed": "2026-04-10",
+"src": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000262/ny-20260410.htm"
+},
+{
+"id": "cik-93751",
+"name": "State Street Corporation",
+"form": "DEF 14A",
+"filed": "2026-04-08",
+"src": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm"
+},
+{
+"id": "cik-1113169",
+"name": "T. Rowe Price Group, Inc.",
+"form": "DEF 14A",
+"filed": "2026-03-17",
+"src": "https://www.sec.gov/Archives/edgar/data/1113169/000110465926028876/tm268615d3_def14a.htm"
+},
+{
+"id": "cik-38777",
+"name": "Franklin Templeton Inc. (SEC registrant name)",
+"form": "DEF 14A",
+"filed": "2025-12-22",
+"src": "https://www.sec.gov/Archives/edgar/data/38777/000114036125046314/ny20055304x771_def14a.htm"
+},
+{
+"id": "cik-914208",
+"name": "Invesco Ltd.",
+"form": "DEF 14A",
+"filed": "2026-04-02",
+"src": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm"
+},
+{
+"id": "cik-73124",
+"name": "Northern Trust Corporation",
+"form": "DEF 14A",
+"filed": "2026-03-11",
+"src": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000022/ntrs-20260311.htm"
+},
+{
+"id": "cik-1390777",
+"name": "The Bank of New York Mellon Corporation (BNY)",
+"form": "DEF 14A",
+"filed": "2026-03-05",
+"src": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526092500/d52987ddef14a.htm"
+},
+{
+"id": "cik-316709",
+"name": "The Charles Schwab Corporation",
+"form": "DEF 14A",
+"filed": "2026-04-06",
+"src": "https://www.sec.gov/Archives/edgar/data/316709/000119312526142826/d930509ddef14a.htm"
+},
+{
+"id": "cik-1404912",
+"name": "KKR & Co. Inc.",
+"form": "10-K (Part III, Item 11)",
+"filed": "2026-02-27",
+"src": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm"
+},
+{
+"id": "cik-1393818",
+"name": "Blackstone Inc.",
+"form": "10-K (Part III, Item 11)",
+"filed": "2026-02-27",
+"src": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm"
+},
+{
+"id": "cik-1858681",
+"name": "Apollo Global Management, Inc.",
+"form": "DEF 14A",
+"filed": "2026-04-24",
+"src": "https://www.sec.gov/Archives/edgar/data/1858681/000119312526177321/d948913ddef14a.htm"
+}
+],
+"retrieved": "2026-11-02",
+"note": "Seats keyed to the 13F filer CIK (f13-*.json). Proxy gives no term dates; filing date in tags only.",
+"nodes": [
+{
+"id": "cik-2012383-neo-1",
+"parent": "cik-2012383",
+"kind": "seat",
+"title": "Chairman and Chief Executive Officer",
+"holder": [
+{
+"name": "Laurence D. Fink",
+"src": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000262/ny-20260410.htm"
+}
+],
+"tags": [
+"Named executive officer, BlackRock, Inc. DEF 14A filed 2026-04-10 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000262/ny-20260410.htm"
+},
+{
+"id": "cik-2012383-neo-2",
+"parent": "cik-2012383",
+"kind": "seat",
+"title": "President",
+"holder": [
+{
+"name": "Robert S. Kapito",
+"src": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000262/ny-20260410.htm"
+}
+],
+"tags": [
+"Named executive officer, BlackRock, Inc. DEF 14A filed 2026-04-10 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000262/ny-20260410.htm"
+},
+{
+"id": "cik-2012383-neo-3",
+"parent": "cik-2012383",
+"kind": "seat",
+"title": "Senior Managing Director and Chief Operating Officer",
+"holder": [
+{
+"name": "Robert L. Goldstein",
+"src": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000262/ny-20260410.htm"
+}
+],
+"tags": [
+"Named executive officer, BlackRock, Inc. DEF 14A filed 2026-04-10 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000262/ny-20260410.htm"
+},
+{
+"id": "cik-2012383-neo-4",
+"parent": "cik-2012383",
+"kind": "seat",
+"title": "Senior Managing Director, Chief Financial Officer and Global Head of Corporate Strategy",
+"holder": [
+{
+"name": "Martin S. Small",
+"src": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000262/ny-20260410.htm"
+}
+],
+"tags": [
+"Named executive officer, BlackRock, Inc. DEF 14A filed 2026-04-10 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000262/ny-20260410.htm"
+},
+{
+"id": "cik-2012383-neo-5",
+"parent": "cik-2012383",
+"kind": "seat",
+"title": "Senior Managing Director and Head of the Portfolio Management Group",
+"holder": [
+{
+"name": "J. Richard Kushel",
+"src": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000262/ny-20260410.htm"
+}
+],
+"tags": [
+"Named executive officer, BlackRock, Inc. DEF 14A filed 2026-04-10 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000262/ny-20260410.htm"
+},
+{
+"id": "cik-93751-neo-1",
+"parent": "cik-93751",
+"kind": "seat",
+"title": "Chairman, CEO and President",
+"holder": [
+{
+"name": "Ronald P. O’Hanley",
+"src": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, State Street Corporation DEF 14A filed 2026-04-08 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm"
+},
+{
+"id": "cik-93751-neo-2",
+"parent": "cik-93751",
+"kind": "seat",
+"title": "Executive Vice President and CFO",
+"holder": [
+{
+"name": "John F. Woods",
+"src": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, State Street Corporation DEF 14A filed 2026-04-08 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm"
+},
+{
+"id": "cik-93751-neo-3",
+"parent": "cik-93751",
+"kind": "seat",
+"title": "Executive Vice President and Global Head of Strategic Finance and former Interim CFO",
+"holder": [
+{
+"name": "Mark R. Keating",
+"src": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, State Street Corporation DEF 14A filed 2026-04-08 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm"
+},
+{
+"id": "cik-93751-neo-4",
+"parent": "cik-93751",
+"kind": "seat",
+"title": "Former Vice Chairman and CFO",
+"holder": [
+{
+"name": "Eric W. Aboaf",
+"src": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, State Street Corporation DEF 14A filed 2026-04-08 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm"
+},
+{
+"id": "cik-93751-neo-5",
+"parent": "cik-93751",
+"kind": "seat",
+"title": "Executive Vice President and President of Investment Services",
+"holder": [
+{
+"name": "Joerg Ambrosius",
+"src": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, State Street Corporation DEF 14A filed 2026-04-08 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm"
+},
+{
+"id": "cik-93751-neo-6",
+"parent": "cik-93751",
+"kind": "seat",
+"title": "President and CEO of State Street Investment Management",
+"holder": [
+{
+"name": "Yie-Hsin Hung",
+"src": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, State Street Corporation DEF 14A filed 2026-04-08 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm"
+},
+{
+"id": "cik-93751-neo-7",
+"parent": "cik-93751",
+"kind": "seat",
+"title": "Executive Vice President and Chief Operating Officer",
+"holder": [
+{
+"name": "Mostapha Tahiri",
+"src": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, State Street Corporation DEF 14A filed 2026-04-08 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm"
+},
+{
+"id": "cik-1113169-neo-1",
+"parent": "cik-1113169",
+"kind": "seat",
+"title": "Chair, Chief Executive Officer, and President",
+"holder": [
+{
+"name": "Robert W. Sharps",
+"src": "https://www.sec.gov/Archives/edgar/data/1113169/000110465926028876/tm268615d3_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, T. Rowe Price Group, Inc. DEF 14A filed 2026-03-17 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1113169/000110465926028876/tm268615d3_def14a.htm"
+},
+{
+"id": "cik-1113169-neo-2",
+"parent": "cik-1113169",
+"kind": "seat",
+"title": "Chief Financial Officer and Treasurer",
+"holder": [
+{
+"name": "Jennifer B. Dardis",
+"src": "https://www.sec.gov/Archives/edgar/data/1113169/000110465926028876/tm268615d3_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, T. Rowe Price Group, Inc. DEF 14A filed 2026-03-17 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1113169/000110465926028876/tm268615d3_def14a.htm"
+},
+{
+"id": "cik-1113169-neo-3",
+"parent": "cik-1113169",
+"kind": "seat",
+"title": "Chief Executive Officer of Oak Hill Advisors L.P.",
+"holder": [
+{
+"name": "Glenn R. August",
+"src": "https://www.sec.gov/Archives/edgar/data/1113169/000110465926028876/tm268615d3_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, T. Rowe Price Group, Inc. DEF 14A filed 2026-03-17 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1113169/000110465926028876/tm268615d3_def14a.htm"
+},
+{
+"id": "cik-1113169-neo-4",
+"parent": "cik-1113169",
+"kind": "seat",
+"title": "Head of Global Multi-Asset and Chief Investment Officer",
+"holder": [
+{
+"name": "Sébastien Page",
+"src": "https://www.sec.gov/Archives/edgar/data/1113169/000110465926028876/tm268615d3_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, T. Rowe Price Group, Inc. DEF 14A filed 2026-03-17 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1113169/000110465926028876/tm268615d3_def14a.htm"
+},
+{
+"id": "cik-1113169-neo-5",
+"parent": "cik-1113169",
+"kind": "seat",
+"title": "Head of Global Investments and Chief Investment Officer",
+"holder": [
+{
+"name": "Eric L. Veiel",
+"src": "https://www.sec.gov/Archives/edgar/data/1113169/000110465926028876/tm268615d3_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, T. Rowe Price Group, Inc. DEF 14A filed 2026-03-17 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1113169/000110465926028876/tm268615d3_def14a.htm"
+},
+{
+"id": "cik-38777-neo-1",
+"parent": "cik-38777",
+"kind": "seat",
+"title": "Chief Executive Officer",
+"holder": [
+{
+"name": "Jennifer M. Johnson",
+"src": "https://www.sec.gov/Archives/edgar/data/38777/000114036125046314/ny20055304x771_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Franklin Templeton Inc. (SEC registrant name) DEF 14A filed 2025-12-22 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/38777/000114036125046314/ny20055304x771_def14a.htm"
+},
+{
+"id": "cik-38777-neo-2",
+"parent": "cik-38777",
+"kind": "seat",
+"title": "Co-President, Chief Financial Officer and Chief Operating Officer",
+"holder": [
+{
+"name": "Matthew Nicholls",
+"src": "https://www.sec.gov/Archives/edgar/data/38777/000114036125046314/ny20055304x771_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Franklin Templeton Inc. (SEC registrant name) DEF 14A filed 2025-12-22 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/38777/000114036125046314/ny20055304x771_def14a.htm"
+},
+{
+"id": "cik-38777-neo-3",
+"parent": "cik-38777",
+"kind": "seat",
+"title": "Executive Chairman and Chairman of the Board",
+"holder": [
+{
+"name": "Gregory E. Johnson",
+"src": "https://www.sec.gov/Archives/edgar/data/38777/000114036125046314/ny20055304x771_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Franklin Templeton Inc. (SEC registrant name) DEF 14A filed 2025-12-22 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/38777/000114036125046314/ny20055304x771_def14a.htm"
+},
+{
+"id": "cik-38777-neo-4",
+"parent": "cik-38777",
+"kind": "seat",
+"title": "Co-President and Head of Public Market Investments",
+"holder": [
+{
+"name": "Terrence J. Murphy",
+"src": "https://www.sec.gov/Archives/edgar/data/38777/000114036125046314/ny20055304x771_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Franklin Templeton Inc. (SEC registrant name) DEF 14A filed 2025-12-22 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/38777/000114036125046314/ny20055304x771_def14a.htm"
+},
+{
+"id": "cik-38777-neo-5",
+"parent": "cik-38777",
+"kind": "seat",
+"title": "Former Executive Vice President",
+"holder": [
+{
+"name": "Adam B. Spector",
+"src": "https://www.sec.gov/Archives/edgar/data/38777/000114036125046314/ny20055304x771_def14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Franklin Templeton Inc. (SEC registrant name) DEF 14A filed 2025-12-22 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/38777/000114036125046314/ny20055304x771_def14a.htm"
+},
+{
+"id": "cik-914208-neo-1",
+"parent": "cik-914208",
+"kind": "seat",
+"title": "President and Chief Executive Officer",
+"holder": [
+{
+"name": "Andrew R. Schlossberg",
+"src": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Invesco Ltd. DEF 14A filed 2026-04-02 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm"
+},
+{
+"id": "cik-914208-neo-2",
+"parent": "cik-914208",
+"kind": "seat",
+"title": "Senior Managing Director, Chief Financial Officer",
+"holder": [
+{
+"name": "L. Allison Dukes",
+"src": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Invesco Ltd. DEF 14A filed 2026-04-02 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm"
+},
+{
+"id": "cik-914208-neo-3",
+"parent": "cik-914208",
+"kind": "seat",
+"title": "Senior Managing Director, Co-Head of Investments",
+"holder": [
+{
+"name": "Stephanie C. Butcher",
+"src": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Invesco Ltd. DEF 14A filed 2026-04-02 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm"
+},
+{
+"id": "cik-914208-neo-4",
+"parent": "cik-914208",
+"kind": "seat",
+"title": "Senior Managing Director and Chief Executive Officer, Invesco Asia-Pacific",
+"holder": [
+{
+"name": "Andrew T.S. Lo",
+"src": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Invesco Ltd. DEF 14A filed 2026-04-02 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm"
+},
+{
+"id": "cik-914208-neo-5",
+"parent": "cik-914208",
+"kind": "seat",
+"title": "Senior Managing Director, Head of the Americas and EMEA",
+"holder": [
+{
+"name": "Douglas J. Sharp",
+"src": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Invesco Ltd. DEF 14A filed 2026-04-02 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm"
+},
+{
+"id": "cik-914208-neo-6",
+"parent": "cik-914208",
+"kind": "seat",
+"title": "Senior Managing Director, Co-Head of Investments",
+"holder": [
+{
+"name": "Tony L. Wong",
+"src": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Invesco Ltd. DEF 14A filed 2026-04-02 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm"
+},
+{
+"id": "cik-73124-neo-1",
+"parent": "cik-73124",
+"kind": "seat",
+"title": "Chairman and Chief Executive Officer",
+"holder": [
+{
+"name": "Michael G. O’Grady",
+"src": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000022/ntrs-20260311.htm"
+}
+],
+"tags": [
+"Named executive officer, Northern Trust Corporation DEF 14A filed 2026-03-11 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000022/ntrs-20260311.htm"
+},
+{
+"id": "cik-73124-neo-2",
+"parent": "cik-73124",
+"kind": "seat",
+"title": "Chief Financial Officer",
+"holder": [
+{
+"name": "David W. Fox, Jr.",
+"src": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000022/ntrs-20260311.htm"
+}
+],
+"tags": [
+"Named executive officer, Northern Trust Corporation DEF 14A filed 2026-03-11 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000022/ntrs-20260311.htm"
+},
+{
+"id": "cik-73124-neo-3",
+"parent": "cik-73124",
+"kind": "seat",
+"title": "Chief Operating Officer",
+"holder": [
+{
+"name": "Peter B. Cherecwich",
+"src": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000022/ntrs-20260311.htm"
+}
+],
+"tags": [
+"Named executive officer, Northern Trust Corporation DEF 14A filed 2026-03-11 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000022/ntrs-20260311.htm"
+},
+{
+"id": "cik-73124-neo-4",
+"parent": "cik-73124",
+"kind": "seat",
+"title": "President, Wealth Management",
+"holder": [
+{
+"name": "Jason J. Tyler",
+"src": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000022/ntrs-20260311.htm"
+}
+],
+"tags": [
+"Named executive officer, Northern Trust Corporation DEF 14A filed 2026-03-11 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000022/ntrs-20260311.htm"
+},
+{
+"id": "cik-73124-neo-5",
+"parent": "cik-73124",
+"kind": "seat",
+"title": "Chief Information Officer",
+"holder": [
+{
+"name": "Thomas A. South",
+"src": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000022/ntrs-20260311.htm"
+}
+],
+"tags": [
+"Named executive officer, Northern Trust Corporation DEF 14A filed 2026-03-11 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000022/ntrs-20260311.htm"
+},
+{
+"id": "cik-1390777-neo-1",
+"parent": "cik-1390777",
+"kind": "seat",
+"title": "Chairman and Chief Executive Officer",
+"holder": [
+{
+"name": "Robin Vince",
+"src": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526092500/d52987ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, The Bank of New York Mellon Corporation (BNY) DEF 14A filed 2026-03-05 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526092500/d52987ddef14a.htm"
+},
+{
+"id": "cik-1390777-neo-2",
+"parent": "cik-1390777",
+"kind": "seat",
+"title": "Senior Executive Vice President and Chief Financial Officer",
+"holder": [
+{
+"name": "Dermot McDonogh",
+"src": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526092500/d52987ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, The Bank of New York Mellon Corporation (BNY) DEF 14A filed 2026-03-05 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526092500/d52987ddef14a.htm"
+},
+{
+"id": "cik-1390777-neo-3",
+"parent": "cik-1390777",
+"kind": "seat",
+"title": "Senior Executive Vice President and Global Head of BNY Investments and Wealth",
+"holder": [
+{
+"name": "Jose Minaya",
+"src": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526092500/d52987ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, The Bank of New York Mellon Corporation (BNY) DEF 14A filed 2026-03-05 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526092500/d52987ddef14a.htm"
+},
+{
+"id": "cik-1390777-neo-4",
+"parent": "cik-1390777",
+"kind": "seat",
+"title": "Senior Executive Vice President and General Counsel",
+"holder": [
+{
+"name": "Kevin McCarthy",
+"src": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526092500/d52987ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, The Bank of New York Mellon Corporation (BNY) DEF 14A filed 2026-03-05 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526092500/d52987ddef14a.htm"
+},
+{
+"id": "cik-1390777-neo-5",
+"parent": "cik-1390777",
+"kind": "seat",
+"title": "Senior Executive Vice President and Chief Global Affairs Officer",
+"holder": [
+{
+"name": "Jayee Koffey",
+"src": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526092500/d52987ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, The Bank of New York Mellon Corporation (BNY) DEF 14A filed 2026-03-05 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526092500/d52987ddef14a.htm"
+},
+{
+"id": "cik-1390777-neo-6",
+"parent": "cik-1390777",
+"kind": "seat",
+"title": "Former Senior Executive Vice President and Chief Risk Officer",
+"holder": [
+{
+"name": "Senthil Kumar",
+"src": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526092500/d52987ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, The Bank of New York Mellon Corporation (BNY) DEF 14A filed 2026-03-05 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526092500/d52987ddef14a.htm"
+},
+{
+"id": "cik-316709-neo-1",
+"parent": "cik-316709",
+"kind": "seat",
+"title": "President and Chief Executive Officer",
+"holder": [
+{
+"name": "Richard A. Wurster",
+"src": "https://www.sec.gov/Archives/edgar/data/316709/000119312526142826/d930509ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, The Charles Schwab Corporation DEF 14A filed 2026-04-06 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/316709/000119312526142826/d930509ddef14a.htm"
+},
+{
+"id": "cik-316709-neo-2",
+"parent": "cik-316709",
+"kind": "seat",
+"title": "Managing Director and Chief Financial Officer",
+"holder": [
+{
+"name": "Michael D. Verdeschi",
+"src": "https://www.sec.gov/Archives/edgar/data/316709/000119312526142826/d930509ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, The Charles Schwab Corporation DEF 14A filed 2026-04-06 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/316709/000119312526142826/d930509ddef14a.htm"
+},
+{
+"id": "cik-316709-neo-3",
+"parent": "cik-316709",
+"kind": "seat",
+"title": "Co-Chairman",
+"holder": [
+{
+"name": "Walter W. Bettinger II",
+"src": "https://www.sec.gov/Archives/edgar/data/316709/000119312526142826/d930509ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, The Charles Schwab Corporation DEF 14A filed 2026-04-06 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/316709/000119312526142826/d930509ddef14a.htm"
+},
+{
+"id": "cik-316709-neo-4",
+"parent": "cik-316709",
+"kind": "seat",
+"title": "Co-Chairman",
+"holder": [
+{
+"name": "Charles R. Schwab",
+"src": "https://www.sec.gov/Archives/edgar/data/316709/000119312526142826/d930509ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, The Charles Schwab Corporation DEF 14A filed 2026-04-06 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/316709/000119312526142826/d930509ddef14a.htm"
+},
+{
+"id": "cik-316709-neo-5",
+"parent": "cik-316709",
+"kind": "seat",
+"title": "Managing Director and Head of Investor Services",
+"holder": [
+{
+"name": "Jonathan M. Craig",
+"src": "https://www.sec.gov/Archives/edgar/data/316709/000119312526142826/d930509ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, The Charles Schwab Corporation DEF 14A filed 2026-04-06 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/316709/000119312526142826/d930509ddef14a.htm"
+},
+{
+"id": "cik-1404912-neo-1",
+"parent": "cik-1404912",
+"kind": "seat",
+"title": "Co-Executive Chairman",
+"holder": [
+{
+"name": "Henry R. Kravis",
+"src": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm"
+}
+],
+"tags": [
+"Named executive officer, KKR & Co. Inc. 10-K (Part III, Item 11) filed 2026-02-27 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm"
+},
+{
+"id": "cik-1404912-neo-2",
+"parent": "cik-1404912",
+"kind": "seat",
+"title": "Co-Executive Chairman",
+"holder": [
+{
+"name": "George R. Roberts",
+"src": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm"
+}
+],
+"tags": [
+"Named executive officer, KKR & Co. Inc. 10-K (Part III, Item 11) filed 2026-02-27 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm"
+},
+{
+"id": "cik-1404912-neo-3",
+"parent": "cik-1404912",
+"kind": "seat",
+"title": "Co-Chief Executive Officer",
+"holder": [
+{
+"name": "Joseph Y. Bae",
+"src": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm"
+}
+],
+"tags": [
+"Named executive officer, KKR & Co. Inc. 10-K (Part III, Item 11) filed 2026-02-27 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm"
+},
+{
+"id": "cik-1404912-neo-4",
+"parent": "cik-1404912",
+"kind": "seat",
+"title": "Co-Chief Executive Officer",
+"holder": [
+{
+"name": "Scott C. Nuttall",
+"src": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm"
+}
+],
+"tags": [
+"Named executive officer, KKR & Co. Inc. 10-K (Part III, Item 11) filed 2026-02-27 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm"
+},
+{
+"id": "cik-1404912-neo-5",
+"parent": "cik-1404912",
+"kind": "seat",
+"title": "Chief Financial Officer",
+"holder": [
+{
+"name": "Robert H. Lewin",
+"src": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm"
+}
+],
+"tags": [
+"Named executive officer, KKR & Co. Inc. 10-K (Part III, Item 11) filed 2026-02-27 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm"
+},
+{
+"id": "cik-1404912-neo-6",
+"parent": "cik-1404912",
+"kind": "seat",
+"title": "Chief Legal Officer and General Counsel",
+"holder": [
+{
+"name": "Kathryn K. Sudol",
+"src": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm"
+}
+],
+"tags": [
+"Named executive officer, KKR & Co. Inc. 10-K (Part III, Item 11) filed 2026-02-27 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm"
+},
+{
+"id": "cik-1393818-neo-1",
+"parent": "cik-1393818",
+"kind": "seat",
+"title": "Chairman and Chief Executive Officer",
+"holder": [
+{
+"name": "Stephen A. Schwarzman",
+"src": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm"
+}
+],
+"tags": [
+"Named executive officer, Blackstone Inc. 10-K (Part III, Item 11) filed 2026-02-27 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm"
+},
+{
+"id": "cik-1393818-neo-2",
+"parent": "cik-1393818",
+"kind": "seat",
+"title": "President and Chief Operating Officer",
+"holder": [
+{
+"name": "Jonathan D. Gray",
+"src": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm"
+}
+],
+"tags": [
+"Named executive officer, Blackstone Inc. 10-K (Part III, Item 11) filed 2026-02-27 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm"
+},
+{
+"id": "cik-1393818-neo-3",
+"parent": "cik-1393818",
+"kind": "seat",
+"title": "Vice Chairman and Chief Financial Officer",
+"holder": [
+{
+"name": "Michael S. Chae",
+"src": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm"
+}
+],
+"tags": [
+"Named executive officer, Blackstone Inc. 10-K (Part III, Item 11) filed 2026-02-27 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm"
+},
+{
+"id": "cik-1393818-neo-4",
+"parent": "cik-1393818",
+"kind": "seat",
+"title": "Chief Legal Officer",
+"holder": [
+{
+"name": "John G. Finley",
+"src": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm"
+}
+],
+"tags": [
+"Named executive officer, Blackstone Inc. 10-K (Part III, Item 11) filed 2026-02-27 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm"
+},
+{
+"id": "cik-1393818-neo-5",
+"parent": "cik-1393818",
+"kind": "seat",
+"title": "Chief Administrative Officer and Global Head of Institutional Client Solutions",
+"holder": [
+{
+"name": "Vikrant Sawhney",
+"src": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm"
+}
+],
+"tags": [
+"Named executive officer, Blackstone Inc. 10-K (Part III, Item 11) filed 2026-02-27 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm"
+},
+{
+"id": "cik-1858681-neo-1",
+"parent": "cik-1858681",
+"kind": "seat",
+"title": "Chief Executive Officer",
+"holder": [
+{
+"name": "Marc Rowan",
+"src": "https://www.sec.gov/Archives/edgar/data/1858681/000119312526177321/d948913ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Apollo Global Management, Inc. DEF 14A filed 2026-04-24 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1858681/000119312526177321/d948913ddef14a.htm"
+},
+{
+"id": "cik-1858681-neo-2",
+"parent": "cik-1858681",
+"kind": "seat",
+"title": "Chief Financial Officer",
+"holder": [
+{
+"name": "Martin Kelly",
+"src": "https://www.sec.gov/Archives/edgar/data/1858681/000119312526177321/d948913ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Apollo Global Management, Inc. DEF 14A filed 2026-04-24 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1858681/000119312526177321/d948913ddef14a.htm"
+},
+{
+"id": "cik-1858681-neo-3",
+"parent": "cik-1858681",
+"kind": "seat",
+"title": "Executive Chairman and Chief Investment Officer of AHL",
+"holder": [
+{
+"name": "James Belardi",
+"src": "https://www.sec.gov/Archives/edgar/data/1858681/000119312526177321/d948913ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Apollo Global Management, Inc. DEF 14A filed 2026-04-24 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1858681/000119312526177321/d948913ddef14a.htm"
+},
+{
+"id": "cik-1858681-neo-4",
+"parent": "cik-1858681",
+"kind": "seat",
+"title": "Co-President of AAM",
+"holder": [
+{
+"name": "John Zito",
+"src": "https://www.sec.gov/Archives/edgar/data/1858681/000119312526177321/d948913ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Apollo Global Management, Inc. DEF 14A filed 2026-04-24 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1858681/000119312526177321/d948913ddef14a.htm"
+},
+{
+"id": "cik-1858681-neo-5",
+"parent": "cik-1858681",
+"kind": "seat",
+"title": "Chief Legal Officer",
+"holder": [
+{
+"name": "Whitney Chatterjee",
+"src": "https://www.sec.gov/Archives/edgar/data/1858681/000119312526177321/d948913ddef14a.htm"
+}
+],
+"tags": [
+"Named executive officer, Apollo Global Management, Inc. DEF 14A filed 2026-04-24 (Summary Compensation Table)"
+],
+"src": "https://www.sec.gov/Archives/edgar/data/1858681/000119312526177321/d948913ddef14a.htm"
+}
+]
+}

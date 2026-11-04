@@ -1,0 +1,1 @@
+{"note": "Latest FDIC structure-change event per departing institution (OUT_CERT) naming a different acquiring institution (ACQ_CERT): mergers, purchase & assumptions, branch purchases.", "cols": ["outCert", "acqCert", "acqName", "date", "code", "event"], "source": "https://api.fdic.gov/banks/docs/#/Structure%20Change%20Events", "events": 49492, "retrieved": "2026-11-02"}

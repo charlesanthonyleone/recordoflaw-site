@@ -1,0 +1,1 @@
+[{"id":"fdic-26539","kind":"body","title":"Bank of the Federated States of Micronesia","place":"Kolonia, FM","src":"https://api.fdic.gov/banks/docs/","tags":["Primary federal regulator: FDIC (FDIC BankFind REGAGNT)"],"finance":[{"metric":"Total assets","value":278417000,"unit":"USD","asOf":"2026-06-30","src":"https://api.fdic.gov/banks/docs/"}],"parent":"reg-fdic~fm"}]

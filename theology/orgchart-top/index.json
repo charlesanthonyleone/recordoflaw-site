@@ -1,0 +1,87 @@
+{
+ "source": "Official church sites, Catholic-Hierarchy.org, ProPublica/IRS, GovInfo, Federal Register",
+ "url": "https://recordoflaw.com/",
+ "asOf": "2026-11-02",
+ "tiers": [
+  {
+   "id": "root",
+   "label": "Federal legal framework",
+   "count": 1
+  },
+  {
+   "id": "international",
+   "label": "Authorities outside the U.S. (sourced only)",
+   "count": 1
+  },
+  {
+   "id": "holy-see",
+   "label": "Holy See: Roman Curia & College of Cardinals (vatican.va)",
+   "count": 95
+  },
+  {
+   "id": "national",
+   "label": "National bodies",
+   "count": 26
+  },
+  {
+   "id": "lds-area",
+   "label": "LDS area presidencies",
+   "count": 24
+  },
+  {
+   "id": "elca-synod",
+   "label": "ELCA synods (65)",
+   "count": 65
+  },
+  {
+   "id": "ame-district",
+   "label": "AME episcopal districts",
+   "count": 20
+  },
+  {
+   "id": "sbc-entity",
+   "label": "SBC entities & seminaries",
+   "count": 12
+  },
+  {
+   "id": "catholic-agency",
+   "label": "Catholic national agencies",
+   "count": 1
+  },
+  {
+   "id": "cogic-branch",
+   "label": "COGIC branches",
+   "count": 1
+  },
+  {
+   "id": "orthodox-diocese",
+   "label": "Orthodox dioceses (Antiochian, ROCOR, GOARCH, OCA)",
+   "count": 39
+  },
+  {
+   "id": "lcms-district",
+   "label": "LCMS districts",
+   "count": 35
+  },
+  {
+   "id": "lcms-board",
+   "label": "LCMS synod-level boards",
+   "count": 3
+  },
+  {
+   "id": "scientology-corp",
+   "label": "Scientology corporations (court records)",
+   "count": 7
+  },
+  {
+   "id": "catholic-metropolitan",
+   "label": "Catholic metropolitan sees & national jurisdictions",
+   "count": 47
+  },
+  {
+   "id": "catholic-see",
+   "label": "Catholic suffragan sees",
+   "count": 149
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Live 2026 Midterm Results · Record of Law</title>
+<style>
+:root{--d:#3b82f6;--r:#ef4444;--o:#a3a3a3}
+body{margin:0;color:#e6edf7;font:15px/1.4 system-ui,sans-serif;background:#02050b url(/sky/milkyway.webp) center top/cover fixed;min-height:100vh}
+body:before{content:"";position:fixed;inset:0;background:linear-gradient(180deg,rgba(2,5,11,.55),rgba(2,8,20,.85) 70%,#02101e);z-index:-1}
+header{padding:24px 20px 8px;max-width:1200px;margin:auto}h1{margin:0;font-weight:600;letter-spacing:.5px}a{color:#9cc3ff}
+.note{color:#9fb0c8;font-size:13px}.live{display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-right:6px;animation:p 1.5s infinite}@keyframes p{50%{opacity:.3}}
+main{max-width:1200px;margin:auto;padding:0 20px 40px}h2{margin:28px 0 8px;font-weight:500}
+.tally{display:flex;gap:12px;flex-wrap:wrap;font-size:14px}.pill{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:6px 12px;backdrop-filter:blur(6px)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px;margin-top:10px}
+.card{background:rgba(10,20,40,.55);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:12px;backdrop-filter:blur(8px)}
+.card h3{margin:0 0 6px;font-size:15px;display:flex;justify-content:space-between}.rep{color:#9fb0c8;font-weight:400;font-size:12px}
+.c{display:grid;grid-template-columns:1fr auto auto;gap:8px;font-size:13px;padding:3px 0;border-top:1px solid rgba(255,255,255,.06)}
+.bar{height:4px;border-radius:2px;margin:2px 0 4px;grid-column:1/-1;background:rgba(255,255,255,.08)}.bar i{display:block;height:100%;border-radius:2px}
+.D{color:#8ab4ff}.R{color:#ff8a8a}.st{font-size:11px;color:#9fb0c8}
+</style></head><body>
+<header><h1>2026 Midterms — Live Results</h1>
+<div class="note"><span class="live"></span>Auto-updating every 5 s · <span id="upd">loading…</span></div>
+<p class="note">Vote counts are the official state election offices' own unofficial counts, relayed by the free public <a href="https://openamerica.io/elections/api/">Open America results feed</a>. Only states whose official feed is machine-readable are included (absent ≠ zero). <b>No race is called here</b>: this source does not project winners; "leading" is not a call. Numbers are unofficial until certified. <a href="/">← Record of Law</a></p></header>
+<main id="m"></main>
+<script>
+const OFF=["Senate","Governor","House"],LBL={Senate:"U.S. Senate",Governor:"Governors",House:"U.S. House"},F="https://openamerica.io/elections/results.json?year=2026&office=";
+const S={};const fmt=n=>n==null?"–":n.toLocaleString("en-US");
+const col=p=>p=="D"?"var(--d)":p=="R"?"var(--r)":"var(--o)";
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function render(){let h="";for(const o of OFF){const d=S[o];if(!d)continue;const rs=Object.entries(d.races||{}).sort();
+let lead={D:0,R:0,O:0},rep=0;for(const[,r]of rs){if(r.total>0){rep++;lead[r.leader=="D"?"D":r.leader=="R"?"R":"O"]++}}
+h+=`<h2>${LBL[o]}</h2><div class="tally"><span class="pill">${rs.length} races in feed</span><span class="pill">${rep} with votes counted</span><span class="pill"><span class=D>D leading ${lead.D}</span> · <span class=R>R leading ${lead.R}</span>${lead.O?` · other ${lead.O}`:""}</span><span class="pill">Called: ${Object.keys(d.counts?.called||{}).length} (source makes no calls)</span><span class="pill st">feed as of ${d.as_of?new Date(d.as_of).toLocaleTimeString("en-US",{timeZone:"America/New_York"})+" ET":"–"}</span></div><div class="grid">`;
+for(const[k,r]of rs){const cs=[...(r.cands||[])].sort((a,b)=>(b.v||0)-(a.v||0));
+h+=`<div class="card"><h3>${esc(k)}<span class="rep">${r.uncontested?"uncontested · ":""}${(r.pct_in??0).toFixed(1)}% reporting · ${r.called?"CALLED":"not called"}</span></h3>`;
+for(const c of cs){h+=`<div class="c"><span>${esc(c.n)} <span class=st>(${esc(c.p)})${c.inc?" inc.":""}</span></span><span>${fmt(c.v)}</span><b>${c.pct==null?"–":c.pct.toFixed(1)+"%"}</b><div class="bar"><i style="width:${c.pct||0}%;background:${col(c.p)}"></i></div></div>`}
+h+=`<div class=st>Total ${fmt(r.total)}</div></div>`}h+="</div>"}
+document.getElementById("m").innerHTML=h||'<p class=note>Waiting for feed…</p>'}
+async function poll(o){try{const r=await fetch(F+o,{cache:"no-cache"});if(r.ok){S[o]=await r.json();render();
+document.getElementById("upd").textContent="last checked "+new Date().toLocaleTimeString("en-US",{timeZone:"America/New_York"})+" ET"}}catch(e){document.getElementById("upd").textContent="feed unreachable, retrying…"}}
+function tick(){OFF.forEach(poll)}tick();setInterval(tick,5000);
+</script></body></html>

@@ -1,0 +1,1 @@
+[{"id":"fdic-58184","kind":"body","title":"Merchants Commercial Bank","place":"St Thomas, VI","src":"https://api.fdic.gov/banks/docs/","tags":["Primary federal regulator: FDIC (FDIC BankFind REGAGNT)"],"finance":[{"metric":"Total assets","value":505964000,"unit":"USD","asOf":"2026-06-30","src":"https://api.fdic.gov/banks/docs/"}],"parent":"reg-fdic~vi"}]

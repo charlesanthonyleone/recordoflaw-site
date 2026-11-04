@@ -1,0 +1,1 @@
+[{"id":"fdic-28837","kind":"body","title":"The Brattleboro Savings and Loan Association","place":"Brattleboro, VT","src":"https://api.fdic.gov/banks/docs/","tags":["Primary federal regulator: FED (FDIC BankFind REGAGNT)"],"finance":[{"metric":"Total assets","value":296376000,"unit":"USD","asOf":"2026-06-30","src":"https://api.fdic.gov/banks/docs/"}],"parent":"reg-frb-board~vt"}]
