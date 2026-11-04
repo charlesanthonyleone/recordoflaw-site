@@ -17,22 +17,29 @@ main{max-width:1200px;margin:auto;padding:0 20px 40px}h2{margin:28px 0 8px;font-
 </style></head><body>
 <header><h1>2026 Midterms — Live Results</h1>
 <div class="note"><span class="live"></span>Auto-updating every 5 s · <span id="upd">loading…</span></div>
-<p class="note">Vote counts are the official state election offices' own unofficial counts, relayed by the free public <a href="https://openamerica.io/elections/api/">Open America results feed</a>. Only states whose official feed is machine-readable are included (absent ≠ zero). <b>No race is called here</b>: this source does not project winners; "leading" is not a call. Numbers are unofficial until certified. <a href="/">← Record of Law</a></p></header>
+<p class="note">Vote counts are the official state election offices' own unofficial counts, relayed by the free public <a href="https://openamerica.io/elections/api/">Open America results feed</a>. Only states whose official feed is machine-readable are included (absent ≠ zero). California comes directly from the <a href="https://api.sos.ca.gov/returns/governor">CA Secretary of State API</a> (polls close 11 PM ET). A race shows CALLED only when <a href="https://thepeoplestally.com/open-data/">The People&#39;s Tally open data</a> (CC BY 4.0) lists a winner with a named calling source (AP or certification); otherwise "not called". "Leading" is never a call. Numbers are unofficial until certified. <a href="/">← Record of Law</a></p></header>
 <main id="m"></main>
 <script>
 const OFF=["Senate","Governor","House"],LBL={Senate:"U.S. Senate",Governor:"Governors",House:"U.S. House"},F="https://openamerica.io/elections/results.json?year=2026&office=";
-const S={};const fmt=n=>n==null?"–":n.toLocaleString("en-US");
+const S={},CA={},CALLS={};const PTY={Dem:"D",Rep:"R",Grn:"G",Lib:"L",NPP:"I"};
+const OASRC='<a href="https://openamerica.io/elections/api/">Open America</a> (official state counts)',CASRC='<a href="https://api.sos.ca.gov/returns/governor">California Secretary of State API</a> (official)';
+function caRace(x){const m=(x.Reporting||"").match(/^([\d.]+)%/);const cands=(x.candidates||[]).map(c=>({n:c.Name,p:PTY[c.Party]||c.Party,v:+String(c.Votes).replace(/,/g,""),pct:+c.Percent,inc:!!c.incumbent}));const t=cands.reduce((a,c)=>a+c.v,0);
+cands.forEach(c=>{if(!t)c.pct=null});const top=[...cands].sort((a,b)=>b.v-a.v)[0];return{leader:t&&top?top.p:"",called:false,pct_in:m?+m[1]:0,total:t,cands,src:CASRC,asof:x.ReportingTime+" PT"}}
+async function pollCA(){try{const[g,h]=await Promise.all(["governor","us-rep/district/all"].map(u=>fetch("https://api.sos.ca.gov/returns/"+u,{cache:"no-cache"}).then(r=>r.json())));
+CA.Governor={CA:caRace(g)};CA.House={};for(const x of h){const m=x.raceTitle.match(/District (\d+)/);if(m)CA.House["CA-"+m[1].padStart(2,"0")]=caRace(x)}render()}catch(e){}}
+async function pollCalls(){try{const d=await(await fetch("https://thepeoplestally.com/data/results.json",{cache:"no-cache"})).json();for(const k in CALLS)delete CALLS[k];
+for(const[id,r]of Object.entries(d.races||{})){if(!r.winner_name||!r.called_by)continue;const p=id.split("-");const o={S:"Senate",G:"Governor",H:"House"}[p[0]];if(!o||p[2]=="sp")continue;CALLS[o+"|"+(p[0]=="H"?p[1]+"-"+p[2]:p[1])]={w:r.winner_name,by:r.called_by}}render()}catch(e){}}const fmt=n=>n==null?"–":n.toLocaleString("en-US");
 const col=p=>p=="D"?"var(--d)":p=="R"?"var(--r)":"var(--o)";
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
-function render(){let h="";for(const o of OFF){const d=S[o];if(!d)continue;const rs=Object.entries(d.races||{}).sort();
+function render(){let h="";for(const o of OFF){const d=S[o];if(!d)continue;const rs=Object.entries({...(d.races||{}),...(CA[o]||{})}).sort();
 let lead={D:0,R:0,O:0},rep=0;for(const[,r]of rs){if(r.total>0){rep++;lead[r.leader=="D"?"D":r.leader=="R"?"R":"O"]++}}
-h+=`<h2>${LBL[o]}</h2><div class="tally"><span class="pill">${rs.length} races in feed</span><span class="pill">${rep} with votes counted</span><span class="pill"><span class=D>D leading ${lead.D}</span> · <span class=R>R leading ${lead.R}</span>${lead.O?` · other ${lead.O}`:""}</span><span class="pill">Called: ${Object.keys(d.counts?.called||{}).length} (source makes no calls)</span><span class="pill st">feed as of ${d.as_of?new Date(d.as_of).toLocaleTimeString("en-US",{timeZone:"America/New_York"})+" ET":"–"}</span></div><div class="grid">`;
+h+=`<h2>${LBL[o]}</h2><div class="tally"><span class="pill">${rs.length} races in feed</span><span class="pill">${rep} with votes counted</span><span class="pill"><span class=D>D leading ${lead.D}</span> · <span class=R>R leading ${lead.R}</span>${lead.O?` · other ${lead.O}`:""}</span><span class="pill">Called: ${rs.filter(([k])=>CALLS[o+"|"+k]).length}</span><span class="pill st">feed as of ${d.as_of?new Date(d.as_of).toLocaleTimeString("en-US",{timeZone:"America/New_York"})+" ET":"–"}</span></div><div class="grid">`;
 for(const[k,r]of rs){const cs=[...(r.cands||[])].sort((a,b)=>(b.v||0)-(a.v||0));
-h+=`<div class="card"><h3>${esc(k)}<span class="rep">${r.uncontested?"uncontested · ":""}${(r.pct_in??0).toFixed(1)}% reporting · ${r.called?"CALLED":"not called"}</span></h3>`;
+h+=`<div class="card"><h3>${esc(k)}<span class="rep">${r.uncontested?"uncontested · ":""}${(r.pct_in??0).toFixed(1)}% reporting · ${CALLS[o+"|"+k]?"CALLED":"not called"}</span></h3>`;const cl=CALLS[o+"|"+k];
 for(const c of cs){h+=`<div class="c"><span>${esc(c.n)} <span class=st>(${esc(c.p)})${c.inc?" inc.":""}</span></span><span>${fmt(c.v)}</span><b>${c.pct==null?"–":c.pct.toFixed(1)+"%"}</b><div class="bar"><i style="width:${c.pct||0}%;background:${col(c.p)}"></i></div></div>`}
-h+=`<div class=st>Total ${fmt(r.total)}</div></div>`}h+="</div>"}
+h+=`${cl?`<div class=st style="color:#fde68a">Called for ${esc(cl.w)} by ${esc(cl.by)} (via The People&#39;s Tally)</div>`:""}<div class=st>Total ${fmt(r.total)} · Source: ${r.src||OASRC}${r.asof?" · as of "+esc(r.asof):""}</div></div>`}h+="</div>"}
 document.getElementById("m").innerHTML=h||'<p class=note>Waiting for feed…</p>'}
 async function poll(o){try{const r=await fetch(F+o,{cache:"no-cache"});if(r.ok){S[o]=await r.json();render();
 document.getElementById("upd").textContent="last checked "+new Date().toLocaleTimeString("en-US",{timeZone:"America/New_York"})+" ET"}}catch(e){document.getElementById("upd").textContent="feed unreachable, retrying…"}}
-function tick(){OFF.forEach(poll)}tick();setInterval(tick,5000);
+let n=0;function tick(){OFF.forEach(poll);if(n%3==0)pollCA();if(n%6==0)pollCalls();n++}tick();setInterval(tick,5000);
 </script></body></html>
