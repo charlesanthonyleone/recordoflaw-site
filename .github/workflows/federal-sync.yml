@@ -1,0 +1,48 @@
+name: Federal ledger sync
+
+# Merges official federal records into the ledger four times a day.
+# Historical laws and executive orders are updated in place by official id.
+# Nothing in this workflow deletes past rows.
+on:
+  schedule:
+    - cron: "20 1,7,13,19 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: federal-ledger-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ingest federal sources
+        id: ingest
+        continue-on-error: true
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+        run: python3 scripts/federal_sync/sync.py
+
+      - name: Commit ledger updates
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- ledger/federal-live.json ledger/meta.json ledger/eos.json ledger/laws.json
+          if git diff --cached --quiet; then
+            echo "No federal ledger changes."
+          else
+            git commit -m "Sync federal ledger from official sources"
+            git push
+          fi
+
+      - name: Report ingest failure
+        if: steps.ingest.outcome == 'failure'
+        run: exit 1
