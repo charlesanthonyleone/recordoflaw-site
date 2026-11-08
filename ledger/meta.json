@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "federal": {
+    "lastChecked": "2026-11-07T04:35:11Z",
+    "lastChanged": "2026-11-07T04:35:11Z",
+    "recordCount": 1780,
+    "inserted": 0,
+    "updated": 1417,
+    "lawsAdded": 0,
+    "executiveOrdersChanged": 0,
+    "byBranch": {
+      "legislative": 239,
+      "executive": 1466,
+      "judicial": 75
+    },
+    "byKind": {
+      "bill": 100,
+      "notice": 1188,
+      "rule": 146,
+      "proposed-rule": 83,
+      "presidential-document": 9,
+      "proclamation": 6,
+      "executive-order": 34,
+      "public-law": 97,
+      "slip-opinion": 75,
+      "house-vote": 40,
+      "private-law": 2
+    },
+    "workflow": "https://github.com/charlesanthonyleone/recordoflaw-site/actions/workflows/federal-sync.yml",
+    "sources": [
+      {
+        "id": "federal-register",
+        "label": "Federal Register API",
+        "url": "https://www.federalregister.gov/developers/documentation/api/v1",
+        "ok": true,
+        "skipped": false,
+        "checked": "2026-11-07T04:35:11Z",
+        "fetched": 1471,
+        "upserted": 1466,
+        "error": null,
+        "note": "Rules, proposed rules, notices, and presidential documents published on or after 2026-10-17. Executive orders published on or after 2026-05-11 are also merged into ledger/eos.json by EO number."
+      },
+      {
+        "id": "congress-gov",
+        "label": "Congress.gov API",
+        "url": "https://api.congress.gov/",
+        "ok": true,
+        "skipped": true,
+        "checked": "2026-11-07T04:35:11Z",
+        "fetched": 0,
+        "upserted": 0,
+        "error": null,
+        "note": "CONGRESS_API_KEY is not set. Bills come from GovInfo and House votes come from the Clerk. Senate roll calls are not fetched without this key."
+      },
+      {
+        "id": "govinfo-bills",
+        "label": "GovInfo congressional bills",
+        "url": "https://www.govinfo.gov/rss/bills.xml",
+        "ok": true,
+        "skipped": false,
+        "checked": "2026-11-07T04:35:11Z",
+        "fetched": 100,
+        "upserted": 100,
+        "error": null,
+        "note": "Newest bill versions posted to GovInfo. The date is when GovInfo published that version, not the date of introduction."
+      },
+      {
+        "id": "govinfo-plaw",
+        "label": "GovInfo public and private laws",
+        "url": "https://www.govinfo.gov/rss/plaw.xml",
+        "ok": true,
+        "skipped": false,
+        "checked": "2026-11-07T04:35:11Z",
+        "fetched": 99,
+        "upserted": 99,
+        "error": null,
+        "note": "Newest slip laws on the GovInfo public-and-private-law RSS. Enactment dates come from the existing ledger or from GovInfo MODS dateIssued. RSS publication time is not used as the enactment date."
+      },
+      {
+        "id": "supremecourt-gov",
+        "label": "Supreme Court slip opinions",
+        "url": "https://www.supremecourt.gov/opinions/opinions.aspx",
+        "ok": true,
+        "skipped": false,
+        "checked": "2026-11-07T04:35:11Z",
+        "fetched": 75,
+        "upserted": 75,
+        "error": null,
+        "note": "Official slip-opinion tables for October Terms 2026 and 2025. The summary text is the Court's own listing, stored only when the page provides it."
+      },
+      {
+        "id": "courtlistener",
+        "label": "CourtListener",
+        "url": "https://www.courtlistener.com/help/api/rest/",
+        "ok": true,
+        "skipped": true,
+        "checked": "2026-11-07T04:35:11Z",
+        "fetched": 0,
+        "upserted": 0,
+        "error": null,
+        "note": "COURTLISTENER_TOKEN is not set. Supreme Court slip opinions still sync from supremecourt.gov. Set the token to add federal appellate opinions."
+      },
+      {
+        "id": "house-clerk",
+        "label": "Office of the Clerk, U.S. House of Representatives",
+        "url": "https://clerk.house.gov/Votes",
+        "ok": true,
+        "skipped": false,
+        "checked": "2026-11-07T04:35:11Z",
+        "fetched": 314,
+        "upserted": 40,
+        "error": null,
+        "note": "Latest House roll calls from the Clerk's roll-call XML. Totals are the Clerk's yea/nay totals. Checked calendar year 2026; latest roll call was 314."
+      }
+    ],
+    "health": "ok",
+    "failedSources": []
+  },
+  "state": {
+    "lastChecked": "2026-11-07T04:34:29Z",
+    "recordCount": 8832,
+    "coveredCount": 8,
+    "failed": [],
+    "unconfiguredCount": 42,
+    "workflow": "https://github.com/charlesanthonyleone/recordoflaw-site/actions/workflows/state-ledger.yml",
+    "index": "/ledger/states-meta.json",
+    "health": "ok",
+    "openStates": {
+      "used": false,
+      "note": "Set the OPENSTATES_API_KEY repository secret to refresh states that do not yet have a direct legislature parser. Each kept bill still links to the official source URL Open States recorded."
+    }
+  }
+}
