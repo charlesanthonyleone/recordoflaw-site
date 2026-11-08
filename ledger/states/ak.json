@@ -1,0 +1,5765 @@
+{
+  "state": "AK",
+  "name": "Alaska",
+  "officialUrl": "https://www.akleg.gov/",
+  "adapter": "ak-basis",
+  "sessions": [
+    {
+      "id": "32",
+      "name": "32nd Legislature",
+      "source": "https://www.akleg.gov/basis/Bill/Range/32"
+    },
+    {
+      "id": "33",
+      "name": "33rd Legislature",
+      "source": "https://www.akleg.gov/basis/Bill/Range/33"
+    },
+    {
+      "id": "34",
+      "name": "34th Legislature",
+      "source": "https://www.akleg.gov/basis/Bill/Range/34"
+    }
+  ],
+  "records": [
+    {
+      "id": "AK:34:SB 9",
+      "state": "AK",
+      "identifier": "SB 9",
+      "session": "34",
+      "title": "SURRENDER OF INFANTS; INF. SAFETY DEVICE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 61 SLA 26",
+      "date": "2026-09-09",
+      "dateKind": "status",
+      "chapter": "61",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%20%209",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%20%209",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 143",
+      "state": "AK",
+      "identifier": "SB 143",
+      "session": "34",
+      "title": "SCHOOL BD TERMS, TRAINING; CITY COUNCILS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 59 SLA 26",
+      "date": "2026-08-12",
+      "dateKind": "status",
+      "chapter": "59",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20143",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20143",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 208",
+      "state": "AK",
+      "identifier": "SB 208",
+      "session": "34",
+      "title": "AGRICULTURAL LAND; HEMP; STATE VEGETABLE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 60 SLA 26",
+      "date": "2026-08-10",
+      "dateKind": "status",
+      "chapter": "60",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20208",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20208",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 249",
+      "state": "AK",
+      "identifier": "HB 249",
+      "session": "34",
+      "title": "TRANSFER VEHICLE TITLE TO INSURER",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 58 SLA 26",
+      "date": "2026-07-20",
+      "dateKind": "status",
+      "chapter": "58",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20249",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20249",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 14",
+      "state": "AK",
+      "identifier": "HB 14",
+      "session": "34",
+      "title": "MED ASSIST;INSURANCE;DISABILITY/WORK COMP",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 57 SLA 26",
+      "date": "2026-07-13",
+      "dateKind": "status",
+      "chapter": "57",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2014",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2014",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 282",
+      "state": "AK",
+      "identifier": "SB 282",
+      "session": "34",
+      "title": "MILITARY: JT ARMED SVCS COMMITTEE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 56 SLA 26",
+      "date": "2026-07-06",
+      "dateKind": "status",
+      "chapter": "56",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20282",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20282",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 237",
+      "state": "AK",
+      "identifier": "SB 237",
+      "session": "34",
+      "title": "ELECTRONIC DRIVER'S LICENSES/DATA SHARING",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 55 SLA 26",
+      "date": "2026-07-06",
+      "dateKind": "status",
+      "chapter": "55",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20237",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20237",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 181",
+      "state": "AK",
+      "identifier": "SB 181",
+      "session": "34",
+      "title": "EMPLOYMENT INFORMATION DISCLOSURE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 54 SLA 26",
+      "date": "2026-07-06",
+      "dateKind": "status",
+      "chapter": "54",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20181",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20181",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 163",
+      "state": "AK",
+      "identifier": "SB 163",
+      "session": "34",
+      "title": "REPEAL CERTAIN INACTIVE FUNDS/ACCOUNTS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 53 SLA 26",
+      "date": "2026-07-03",
+      "dateKind": "status",
+      "chapter": "53",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20163",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20163",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 302",
+      "state": "AK",
+      "identifier": "HB 302",
+      "session": "34",
+      "title": "TRAVEL INSURANCE; UNEMPLOYMENT BENEFITS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 52 SLA 26",
+      "date": "2026-07-03",
+      "dateKind": "status",
+      "chapter": "52",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20302",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20302",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 221",
+      "state": "AK",
+      "identifier": "HB 221",
+      "session": "34",
+      "title": "ARTS AND CULTURE DAY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 51 SLA 26",
+      "date": "2026-07-03",
+      "dateKind": "status",
+      "chapter": "51",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20221",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20221",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 86",
+      "state": "AK",
+      "identifier": "SB 86",
+      "session": "34",
+      "title": "MONEY TRANSMISSION; VIRTUAL CURRENCY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 48 SLA 26",
+      "date": "2026-07-02",
+      "dateKind": "status",
+      "chapter": "48",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2086",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2086",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 252",
+      "state": "AK",
+      "identifier": "SB 252",
+      "session": "34",
+      "title": "UCC: SECURED TRANS.; ELECTRONIC RECORDS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 49 SLA 26",
+      "date": "2026-07-02",
+      "dateKind": "status",
+      "chapter": "49",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20252",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20252",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 249",
+      "state": "AK",
+      "identifier": "SB 249",
+      "session": "34",
+      "title": "VIRTUAL CURRENCY KIOSKS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 50 SLA 26",
+      "date": "2026-07-02",
+      "dateKind": "status",
+      "chapter": "50",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20249",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20249",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 388",
+      "state": "AK",
+      "identifier": "HB 388",
+      "session": "34",
+      "title": "BULK FUEL LOAN CAP",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 47 SLA 26",
+      "date": "2026-07-02",
+      "dateKind": "status",
+      "chapter": "47",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20388",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20388",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 262",
+      "state": "AK",
+      "identifier": "HB 262",
+      "session": "34",
+      "title": "NUMBER OF SUPERIOR COURT JUDGES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 46 SLA 26",
+      "date": "2026-07-02",
+      "dateKind": "status",
+      "chapter": "46",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20262",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20262",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 246",
+      "state": "AK",
+      "identifier": "HB 246",
+      "session": "34",
+      "title": "SPECIAL EDUCATION SERVICE AGENCY FUNDING",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 45 SLA 26",
+      "date": "2026-07-02",
+      "dateKind": "status",
+      "chapter": "45",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20246",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20246",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 244",
+      "state": "AK",
+      "identifier": "HB 244",
+      "session": "34",
+      "title": "CNA TRAINING",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 44 SLA 26",
+      "date": "2026-07-02",
+      "dateKind": "status",
+      "chapter": "44",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20244",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20244",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 243",
+      "state": "AK",
+      "identifier": "HB 243",
+      "session": "34",
+      "title": "BARBERS & HAIRDRESSERS BD LICENSING",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 43 SLA 26",
+      "date": "2026-07-02",
+      "dateKind": "status",
+      "chapter": "43",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20243",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20243",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 216",
+      "state": "AK",
+      "identifier": "HB 216",
+      "session": "34",
+      "title": "TRANSFER OF RAILROAD LAND TO WHITTIER",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 42 SLA 26",
+      "date": "2026-07-02",
+      "dateKind": "status",
+      "chapter": "42",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20216",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20216",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 173",
+      "state": "AK",
+      "identifier": "HB 173",
+      "session": "34",
+      "title": "LIC.: OCCUP/PHYS THERAPY;SPEECH;AUDIOLOGY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 41 SLA 26",
+      "date": "2026-07-02",
+      "dateKind": "status",
+      "chapter": "41",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20173",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20173",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 29",
+      "state": "AK",
+      "identifier": "SB 29",
+      "session": "34",
+      "title": "BIG GAME COMM. SVS BD/BD DENTAL EXAMINERS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 31 SLA 26",
+      "date": "2026-06-25",
+      "dateKind": "status",
+      "chapter": "31",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2029",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2029",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 200",
+      "state": "AK",
+      "identifier": "SB 200",
+      "session": "34",
+      "title": "MUNI: SVC AREAS; FARM & AGRICULTURAL LAND",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 33 SLA 26",
+      "date": "2026-06-25",
+      "dateKind": "status",
+      "chapter": "33",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20200",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20200",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 130",
+      "state": "AK",
+      "identifier": "SB 130",
+      "session": "34",
+      "title": "FISHERIES PROD DEVELOPMENT TAX CREDIT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 32 SLA 26",
+      "date": "2026-06-25",
+      "dateKind": "status",
+      "chapter": "32",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20130",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20130",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 239",
+      "state": "AK",
+      "identifier": "SB 239",
+      "session": "34",
+      "title": "MOTOR VEHICLES: REG/COMM EXAM/INSURANCE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 39 SLA 26",
+      "date": "2026-06-24",
+      "dateKind": "status",
+      "chapter": "39",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20239",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20239",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 230",
+      "state": "AK",
+      "identifier": "SB 230",
+      "session": "34",
+      "title": "REFUGES/HABITAT AREAS/PUBLIC USE AREA",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 40 SLA 26",
+      "date": "2026-06-24",
+      "dateKind": "status",
+      "chapter": "40",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20230",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20230",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 214",
+      "state": "AK",
+      "identifier": "SB 214",
+      "session": "34",
+      "title": "APPROP: CAPITAL/FUNDS/SUPP/REAPPROP/AMEND",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 35 SLA 26",
+      "date": "2026-06-24",
+      "dateKind": "status",
+      "chapter": "35",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20214",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20214",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 73",
+      "state": "AK",
+      "identifier": "HB 73",
+      "session": "34",
+      "title": "COMPLEX CARE RESIDENTIAL HOMES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 38 SLA 26",
+      "date": "2026-06-24",
+      "dateKind": "status",
+      "chapter": "38",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2073",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2073",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 265",
+      "state": "AK",
+      "identifier": "HB 265",
+      "session": "34",
+      "title": "APPROP: MENTAL HEALTH BUDGET",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 36 SLA 26",
+      "date": "2026-06-24",
+      "dateKind": "status",
+      "chapter": "36",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20265",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20265",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 263",
+      "state": "AK",
+      "identifier": "HB 263",
+      "session": "34",
+      "title": "APPROP: OPERATING BUDGET;FUNDS;SUPP",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 34 SLA 26",
+      "date": "2026-06-24",
+      "dateKind": "status",
+      "chapter": "34",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20263",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20263",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 126",
+      "state": "AK",
+      "identifier": "HB 126",
+      "session": "34",
+      "title": "REINSTATEMENT NATIVE CORPS/ANCSA REPORTS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 37 SLA 26",
+      "date": "2026-06-24",
+      "dateKind": "status",
+      "chapter": "37",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20126",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20126",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 50",
+      "state": "AK",
+      "identifier": "HB 50",
+      "session": "34",
+      "title": "SNOW CLASSICS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 30 SLA 26",
+      "date": "2026-06-23",
+      "dateKind": "status",
+      "chapter": "30",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2050",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2050",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 298",
+      "state": "AK",
+      "identifier": "HB 298",
+      "session": "34",
+      "title": "LEGISLATIVE ETHICS CMTE & PROCEEDINGS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 29 SLA 26",
+      "date": "2026-06-23",
+      "dateKind": "status",
+      "chapter": "29",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20298",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20298",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 110",
+      "state": "AK",
+      "identifier": "HB 110",
+      "session": "34",
+      "title": "HEALTH CARE/LICENSURE COMPACTS/SOCIAL WRK",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 28 SLA 26",
+      "date": "2026-06-23",
+      "dateKind": "status",
+      "chapter": "28",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20110",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20110",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 39",
+      "state": "AK",
+      "identifier": "HB 39",
+      "session": "34",
+      "title": "EDUCATION FOR DEAF & HARD OF HEARING",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 27 SLA 26",
+      "date": "2026-06-22",
+      "dateKind": "status",
+      "chapter": "27",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2039",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2039",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 36",
+      "state": "AK",
+      "identifier": "HB 36",
+      "session": "34",
+      "title": "FOSTER CHILDREN: PSYCH. TREATMENT/HOMES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 26 SLA 26",
+      "date": "2026-06-22",
+      "dateKind": "status",
+      "chapter": "26",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2036",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2036",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 13",
+      "state": "AK",
+      "identifier": "HB 13",
+      "session": "34",
+      "title": "MUNICIPAL PROPERTY TAX EXEMPTIONS; REFUND",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 25 SLA 26",
+      "date": "2026-06-22",
+      "dateKind": "status",
+      "chapter": "25",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2013",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2013",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 314",
+      "state": "AK",
+      "identifier": "HB 314",
+      "session": "34",
+      "title": "ARCH, ENG, SURVEYORS; REG INT DESIGN",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 23 SLA 26",
+      "date": "2026-06-19",
+      "dateKind": "status",
+      "chapter": "23",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20314",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20314",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 195",
+      "state": "AK",
+      "identifier": "HB 195",
+      "session": "34",
+      "title": "PHARMACISTS; PHYSICIAN ASSOCIATES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 24 SLA 26",
+      "date": "2026-06-19",
+      "dateKind": "status",
+      "chapter": "24",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20195",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20195",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 89",
+      "state": "AK",
+      "identifier": "SB 89",
+      "session": "34",
+      "title": "PHYSICIAN ASSISTANT SCOPE OF PRACTICE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 21 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "21",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2089",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2089",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 79",
+      "state": "AK",
+      "identifier": "SB 79",
+      "session": "34",
+      "title": "PAYMENT OF WAGES; PAYROLL CARD ACCOUNT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 20 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "20",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2079",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2079",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 272",
+      "state": "AK",
+      "identifier": "SB 272",
+      "session": "34",
+      "title": "HEALTH INFORMATION EXCHANGE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 19 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "19",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20272",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20272",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 23",
+      "state": "AK",
+      "identifier": "SB 23",
+      "session": "34",
+      "title": "CIVICS EDUCATION",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 18 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "18",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2023",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2023",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 187",
+      "state": "AK",
+      "identifier": "SB 187",
+      "session": "34",
+      "title": "SCHOOL NUTRITION/MEAL: PROHIBIT FOOD DYES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 17 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "17",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20187",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20187",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 178",
+      "state": "AK",
+      "identifier": "SB 178",
+      "session": "34",
+      "title": "EXPAND EARLY INTERVENTION SERVICES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 16 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "16",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20178",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20178",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 167",
+      "state": "AK",
+      "identifier": "SB 167",
+      "session": "34",
+      "title": "PFD ELIGIBILITY; PFD FOR OVERTURN CONVIC.",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 15 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "15",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20167",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20167",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 164",
+      "state": "AK",
+      "identifier": "SB 164",
+      "session": "34",
+      "title": "ELIMINATE TAX DISCOUNTS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 14 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "14",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20164",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20164",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 146",
+      "state": "AK",
+      "identifier": "SB 146",
+      "session": "34",
+      "title": "REAA & SMALL MUNI FUND: MT. EDGECUMBE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 13 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "13",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20146",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20146",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 104",
+      "state": "AK",
+      "identifier": "SB 104",
+      "session": "34",
+      "title": "VEHICLES/BOATS: TRANSFER ON DEATH TITLE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 12 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "12",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20104",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20104",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 363",
+      "state": "AK",
+      "identifier": "HB 363",
+      "session": "34",
+      "title": "ALCOHOL: PATRIOTIC ORGS; CLUB LICENSES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 11 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "11",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20363",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20363",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 28",
+      "state": "AK",
+      "identifier": "HB 28",
+      "session": "34",
+      "title": "EDU: SCHOOLS/TEACHERS/SCHOOL BD/LOAN PRGM",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 22 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "22",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2028",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2028",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 27",
+      "state": "AK",
+      "identifier": "HB 27",
+      "session": "34",
+      "title": "MEDICAL MAJOR EMERGENCIES; CPR CURRICULUM",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 10 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "10",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2027",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2027",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 239",
+      "state": "AK",
+      "identifier": "HB 239",
+      "session": "34",
+      "title": "CRIME/CNTRL SUBST/ADDRESS CONFIDENTIALITY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 9 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "9",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20239",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20239",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 184",
+      "state": "AK",
+      "identifier": "HB 184",
+      "session": "34",
+      "title": "AIDEA: WORKFORCE HOUSING DEV.; MUNI TAX",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 8 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "8",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20184",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20184",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 117",
+      "state": "AK",
+      "identifier": "HB 117",
+      "session": "34",
+      "title": "ELEC MONITOR TRAWL FISHERY/SET NET PERMIT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 7 SLA 26",
+      "date": "2026-06-18",
+      "dateKind": "status",
+      "chapter": "7",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20117",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20117",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 1",
+      "state": "AK",
+      "identifier": "HB 1",
+      "session": "34",
+      "title": "SPECIE AS LEGAL TENDER",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 6 SLA 26",
+      "date": "2026-05-30",
+      "dateKind": "status",
+      "chapter": "6",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%20%201",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%20%201",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 48",
+      "state": "AK",
+      "identifier": "HB 48",
+      "session": "34",
+      "title": "CIVIL LEGAL SERVICES FUND",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 5 SLA 26",
+      "date": "2026-05-25",
+      "dateKind": "status",
+      "chapter": "5",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2048",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2048",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 192",
+      "state": "AK",
+      "identifier": "SB 192",
+      "session": "34",
+      "title": "EVACUATION DESIGNATION LEVELS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 4 SLA 26",
+      "date": "2026-05-20",
+      "dateKind": "status",
+      "chapter": "4",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20192",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20192",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 40",
+      "state": "AK",
+      "identifier": "SB 40",
+      "session": "34",
+      "title": "HISPANIC HERITAGE MONTH",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 3 SLA 26",
+      "date": "2026-05-08",
+      "dateKind": "status",
+      "chapter": "3",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2040",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2040",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 33",
+      "state": "AK",
+      "identifier": "HB 33",
+      "session": "34",
+      "title": "CONFLICT OF INTEREST: BDS FISHERIES/GAME",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 2 SLA 26",
+      "date": "2026-04-29",
+      "dateKind": "status",
+      "chapter": "2",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2033",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2033",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 289",
+      "state": "AK",
+      "identifier": "HB 289",
+      "session": "34",
+      "title": "APPROP: SUPPLEMENTAL",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 1 SLA 26",
+      "date": "2026-04-02",
+      "dateKind": "status",
+      "chapter": "1",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20289",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20289",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 35",
+      "state": "AK",
+      "identifier": "HB 35",
+      "session": "34",
+      "title": "PRISONERS: ELECTRONIC DEVICES, ID CARDS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 25 SLA 25",
+      "date": "2025-08-07",
+      "dateKind": "status",
+      "chapter": "25",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2035",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2035",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 31",
+      "state": "AK",
+      "identifier": "HB 31",
+      "session": "34",
+      "title": "VESSELS: REGISTRATION/DERELICT FUND",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 23 SLA 25",
+      "date": "2025-07-24",
+      "dateKind": "status",
+      "chapter": "23",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2031",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2031",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 116",
+      "state": "AK",
+      "identifier": "HB 116",
+      "session": "34",
+      "title": "COMMERCIAL FISHING INSURANCE CO-OP",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 24 SLA 25",
+      "date": "2025-07-24",
+      "dateKind": "status",
+      "chapter": "24",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20116",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20116",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 121",
+      "state": "AK",
+      "identifier": "HB 121",
+      "session": "34",
+      "title": "ACCOUNTING; PRIVATE PRO. CONSERVATORS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 22 SLA 25",
+      "date": "2025-07-23",
+      "dateKind": "status",
+      "chapter": "22",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20121",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20121",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 60",
+      "state": "AK",
+      "identifier": "SB 60",
+      "session": "34",
+      "title": "ESTABLISH ME/CHRONIC FATIGUE SYNDROME DAY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 20 SLA 25",
+      "date": "2025-07-16",
+      "dateKind": "status",
+      "chapter": "20",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2060",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2060",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 50",
+      "state": "AK",
+      "identifier": "SB 50",
+      "session": "34",
+      "title": "MUNICIPAL COMPREHENSIVE PLANS: HOUSING",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 19 SLA 25",
+      "date": "2025-07-16",
+      "dateKind": "status",
+      "chapter": "19",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2050",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2050",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 133",
+      "state": "AK",
+      "identifier": "SB 133",
+      "session": "34",
+      "title": "INSURANCE; PRIOR AUTHORIZATIONS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 21 SLA 25",
+      "date": "2025-07-16",
+      "dateKind": "status",
+      "chapter": "21",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20133",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20133",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 123",
+      "state": "AK",
+      "identifier": "HB 123",
+      "session": "34",
+      "title": "TAXATION: VEHICLE RENTALS, SUBPOENAS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 18 SLA 25",
+      "date": "2025-07-10",
+      "dateKind": "status",
+      "chapter": "18",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20123",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20123",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 80",
+      "state": "AK",
+      "identifier": "SB 80",
+      "session": "34",
+      "title": "EXTEND BOARDS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 9 SLA 25",
+      "date": "2025-07-03",
+      "dateKind": "status",
+      "chapter": "9",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2080",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2080",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 137",
+      "state": "AK",
+      "identifier": "SB 137",
+      "session": "34",
+      "title": "EXTND BDS:MIDWIVE/NURSING/VET EXAM/PAROLE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 13 SLA 25",
+      "date": "2025-07-03",
+      "dateKind": "status",
+      "chapter": "13",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20137",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20137",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 97",
+      "state": "AK",
+      "identifier": "SB 97",
+      "session": "34",
+      "title": "BIG GAME GUIDE PERMIT PROGRAM",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 16 SLA 25",
+      "date": "2025-06-24",
+      "dateKind": "status",
+      "chapter": "16",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2097",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2097",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 96",
+      "state": "AK",
+      "identifier": "SB 96",
+      "session": "34",
+      "title": "CHILD CARE: TAX CREDITS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 15 SLA 25",
+      "date": "2025-06-24",
+      "dateKind": "status",
+      "chapter": "15",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2096",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2096",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 95",
+      "state": "AK",
+      "identifier": "SB 95",
+      "session": "34",
+      "title": "CHILD CARE: ASSISTANCE/GRANTS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 14 SLA 25",
+      "date": "2025-06-24",
+      "dateKind": "status",
+      "chapter": "14",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2095",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2095",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 132",
+      "state": "AK",
+      "identifier": "SB 132",
+      "session": "34",
+      "title": "OMNIBUS INSURANCE BILL",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 17 SLA 25",
+      "date": "2025-06-24",
+      "dateKind": "status",
+      "chapter": "17",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20132",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20132",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 57",
+      "state": "AK",
+      "identifier": "SB 57",
+      "session": "34",
+      "title": "APPROP: CAPITAL/FUNDS/SUPP/AMEND/REAPPROP",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 12 SLA 25",
+      "date": "2025-06-12",
+      "dateKind": "status",
+      "chapter": "12",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2057",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2057",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 55",
+      "state": "AK",
+      "identifier": "HB 55",
+      "session": "34",
+      "title": "APPROP: MENTAL HEALTH BUDGET",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 11 SLA 25",
+      "date": "2025-06-12",
+      "dateKind": "status",
+      "chapter": "11",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2055",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2055",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 53",
+      "state": "AK",
+      "identifier": "HB 53",
+      "session": "34",
+      "title": "APPROP: OPERATING BUDGET; CAP; SUPP",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 10 SLA 25",
+      "date": "2025-06-12",
+      "dateKind": "status",
+      "chapter": "10",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2053",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2053",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 152",
+      "state": "AK",
+      "identifier": "SB 152",
+      "session": "34",
+      "title": "HAROLD ESMAILKA AIRPORT AT RUBY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 8 SLA 25",
+      "date": "2025-06-11",
+      "dateKind": "status",
+      "chapter": "8",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20152",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20152",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 75",
+      "state": "AK",
+      "identifier": "HB 75",
+      "session": "34",
+      "title": "PERM FUND; EMPLOYMENT; ELIGIBILITY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 7 SLA 25",
+      "date": "2025-06-11",
+      "dateKind": "status",
+      "chapter": "7",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2075",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2075",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 47",
+      "state": "AK",
+      "identifier": "SB 47",
+      "session": "34",
+      "title": "CHUGACH STATE PARK EASEMENTS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 6 SLA 25",
+      "date": "2025-06-07",
+      "dateKind": "status",
+      "chapter": "6",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2047",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2047",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 57",
+      "state": "AK",
+      "identifier": "HB 57",
+      "session": "34",
+      "title": "SCHOOLS: COMM. DEVICES/CLASS SIZE/FUNDING",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 5 SLA 25",
+      "date": "2025-05-20",
+      "dateKind": "status",
+      "chapter": "5",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2057",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2057",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 183",
+      "state": "AK",
+      "identifier": "SB 183",
+      "session": "34",
+      "title": "POWERS: LB&A COMMITTEE; LEGISLATIVE AUDIT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 1 FSSLA 25",
+      "date": "2025-05-12",
+      "dateKind": "status",
+      "chapter": "1",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20183",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20183",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 15",
+      "state": "AK",
+      "identifier": "SB 15",
+      "session": "34",
+      "title": "ALCOHOL: SALE, WARNING SIGNS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 4 SLA 25",
+      "date": "2025-04-26",
+      "dateKind": "status",
+      "chapter": "4",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2015",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2015",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 43",
+      "state": "AK",
+      "identifier": "SB 43",
+      "session": "34",
+      "title": "WOMEN'S HISTORY MONTH",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 3 SLA 25",
+      "date": "2025-04-03",
+      "dateKind": "status",
+      "chapter": "3",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2043",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2043",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:SB 87",
+      "state": "AK",
+      "identifier": "SB 87",
+      "session": "34",
+      "title": "REJECT COMP COMMISSION RECOMMENDATIONS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 2 SLA 25",
+      "date": "2025-03-06",
+      "dateKind": "status",
+      "chapter": "2",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2087",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%2087",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:34:HB 65",
+      "state": "AK",
+      "identifier": "HB 65",
+      "session": "34",
+      "title": "RAILROAD CORP. FINANCING",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 1 SLA 25",
+      "date": "2025-03-06",
+      "dateKind": "status",
+      "chapter": "1",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2065",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20%2065",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 226",
+      "state": "AK",
+      "identifier": "HB 226",
+      "session": "33",
+      "title": "PHARMACIES/PHARMACISTS/BENEFITS MANAGERS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 61 SLA 24",
+      "date": "2024-09-23",
+      "dateKind": "status",
+      "chapter": "61",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20226",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20226",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 228",
+      "state": "AK",
+      "identifier": "HB 228",
+      "session": "33",
+      "title": "MENTAL HEALTH/PSYCHEDELIC MED. TASK FORCE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 60 SLA 24",
+      "date": "2024-09-19",
+      "dateKind": "status",
+      "chapter": "60",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20228",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20228",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 159",
+      "state": "AK",
+      "identifier": "SB 159",
+      "session": "33",
+      "title": "ALASKA VETERANS' POPPY DAY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 59 SLA 24",
+      "date": "2024-09-11",
+      "dateKind": "status",
+      "chapter": "59",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20159",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20159",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 13",
+      "state": "AK",
+      "identifier": "SB 13",
+      "session": "33",
+      "title": "UNIVERSITY: TEXTBOOKS/MATERIALS COST",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 58 SLA 24",
+      "date": "2024-09-05",
+      "dateKind": "status",
+      "chapter": "58",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2013",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2013",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 103",
+      "state": "AK",
+      "identifier": "SB 103",
+      "session": "33",
+      "title": "PEER SUPPORT COUNSELING PROGRAM",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 54 SLA 24",
+      "date": "2024-09-05",
+      "dateKind": "status",
+      "chapter": "54",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20103",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20103",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 395",
+      "state": "AK",
+      "identifier": "HB 395",
+      "session": "33",
+      "title": "TRANSFER OF RAILROAD PROPERTY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 57 SLA 24",
+      "date": "2024-09-05",
+      "dateKind": "status",
+      "chapter": "57",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20395",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20395",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 272",
+      "state": "AK",
+      "identifier": "HB 272",
+      "session": "33",
+      "title": "BIG GAME HUNTING BY PERSON W/ DISABILITY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 56 SLA 24",
+      "date": "2024-09-05",
+      "dateKind": "status",
+      "chapter": "56",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20272",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20272",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 125",
+      "state": "AK",
+      "identifier": "HB 125",
+      "session": "33",
+      "title": "STATE LAND;TRAPPING CABINS;MUNI PLATTING",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 55 SLA 24",
+      "date": "2024-09-05",
+      "dateKind": "status",
+      "chapter": "55",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20125",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20125",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 151",
+      "state": "AK",
+      "identifier": "SB 151",
+      "session": "33",
+      "title": "MISSING/MURDERED INDIGENOUS PEOPLE;REPORT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 53 SLA 24",
+      "date": "2024-09-03",
+      "dateKind": "status",
+      "chapter": "53",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20151",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20151",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 238",
+      "state": "AK",
+      "identifier": "HB 238",
+      "session": "33",
+      "title": "CRIMINAL MISCHIEF 3RD DEGREE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 51 SLA 24",
+      "date": "2024-09-03",
+      "dateKind": "status",
+      "chapter": "51",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20238",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20238",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 219",
+      "state": "AK",
+      "identifier": "HB 219",
+      "session": "33",
+      "title": "REPEAL ASSISTIVE TECHNOLOGY LOAN PROGRAM",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 52 SLA 24",
+      "date": "2024-09-03",
+      "dateKind": "status",
+      "chapter": "52",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20219",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20219",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 95",
+      "state": "AK",
+      "identifier": "SB 95",
+      "session": "33",
+      "title": "LICENSE PLATES; COMM. DRIVER LICENSES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 46 SLA 24",
+      "date": "2024-08-30",
+      "dateKind": "status",
+      "chapter": "46",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2095",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2095",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 75",
+      "state": "AK",
+      "identifier": "SB 75",
+      "session": "33",
+      "title": "AUD. & SPEECH-LANG INTERSTATE COMPACT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 43 SLA 24",
+      "date": "2024-08-30",
+      "dateKind": "status",
+      "chapter": "43",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2075",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2075",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 74",
+      "state": "AK",
+      "identifier": "SB 74",
+      "session": "33",
+      "title": "PHYSICAL THERAPY LICENSURE COMPACT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 42 SLA 24",
+      "date": "2024-08-30",
+      "dateKind": "status",
+      "chapter": "42",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2074",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2074",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 45",
+      "state": "AK",
+      "identifier": "SB 45",
+      "session": "33",
+      "title": "DIRECT HEALTH AGREEMENT: NOT INSURANCE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 41 SLA 24",
+      "date": "2024-08-30",
+      "dateKind": "status",
+      "chapter": "41",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2045",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2045",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 118",
+      "state": "AK",
+      "identifier": "SB 118",
+      "session": "33",
+      "title": "CRITICAL NATURAL RESOURCES; REPORTS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 45 SLA 24",
+      "date": "2024-08-30",
+      "dateKind": "status",
+      "chapter": "45",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20118",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20118",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 345",
+      "state": "AK",
+      "identifier": "HB 345",
+      "session": "33",
+      "title": "DISASTER RELIEF GRANTS; HARBOR FACILITIES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 50 SLA 24",
+      "date": "2024-08-30",
+      "dateKind": "status",
+      "chapter": "50",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20345",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20345",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 344",
+      "state": "AK",
+      "identifier": "HB 344",
+      "session": "33",
+      "title": "MEDICAL ASSISTANCE; FOOD STAMP PROGRAM",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 49 SLA 24",
+      "date": "2024-08-30",
+      "dateKind": "status",
+      "chapter": "49",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20344",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20344",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 26",
+      "state": "AK",
+      "identifier": "HB 26",
+      "session": "33",
+      "title": "OFFICIAL LANG; COUNCIL FOR AK NATIVE LANG",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 48 SLA 24",
+      "date": "2024-08-30",
+      "dateKind": "status",
+      "chapter": "48",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2026",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2026",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 202",
+      "state": "AK",
+      "identifier": "HB 202",
+      "session": "33",
+      "title": "SCHOOLS:OVERDOSE DRUGS, CORRESPOND PRGRMS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 47 SLA 24",
+      "date": "2024-08-30",
+      "dateKind": "status",
+      "chapter": "47",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20202",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20202",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 126",
+      "state": "AK",
+      "identifier": "HB 126",
+      "session": "33",
+      "title": "COUNSELORS/THERAPISTS/REVIEW ORGS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 44 SLA 24",
+      "date": "2024-08-30",
+      "dateKind": "status",
+      "chapter": "44",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20126",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20126",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 34",
+      "state": "AK",
+      "identifier": "SB 34",
+      "session": "33",
+      "title": "CITIZEN ADVISORY COMM ON FEDERAL AREAS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 40 SLA 24",
+      "date": "2024-08-29",
+      "dateKind": "status",
+      "chapter": "40",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2034",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2034",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 134",
+      "state": "AK",
+      "identifier": "SB 134",
+      "session": "33",
+      "title": "INS. DATA SECURITY; INFO. SECURITY PRGRMS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 39 SLA 24",
+      "date": "2024-08-29",
+      "dateKind": "status",
+      "chapter": "39",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20134",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20134",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 371",
+      "state": "AK",
+      "identifier": "HB 371",
+      "session": "33",
+      "title": "MEDICAL REVIEW ORGANIZATIONS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 38 SLA 24",
+      "date": "2024-08-28",
+      "dateKind": "status",
+      "chapter": "38",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20371",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20371",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 309",
+      "state": "AK",
+      "identifier": "HB 309",
+      "session": "33",
+      "title": "DELEGATION OF ROUTINE OPTOMETRY SERVICES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 37 SLA 24",
+      "date": "2024-08-28",
+      "dateKind": "status",
+      "chapter": "37",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20309",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20309",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 230",
+      "state": "AK",
+      "identifier": "HB 230",
+      "session": "33",
+      "title": "TEACHERS:OUT-OF-STATE EXPERIENCE, RETIRED",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 36 SLA 24",
+      "date": "2024-08-26",
+      "dateKind": "status",
+      "chapter": "36",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20230",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20230",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 337",
+      "state": "AK",
+      "identifier": "HB 337",
+      "session": "33",
+      "title": "ESTABLISHING 4-H DAY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 35 SLA 24",
+      "date": "2024-08-24",
+      "dateKind": "status",
+      "chapter": "35",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20337",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20337",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 251",
+      "state": "AK",
+      "identifier": "HB 251",
+      "session": "33",
+      "title": "HOMEMADE FOODS; AGRICULTURAL LOANS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 34 SLA 24",
+      "date": "2024-08-24",
+      "dateKind": "status",
+      "chapter": "34",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20251",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20251",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 146",
+      "state": "AK",
+      "identifier": "HB 146",
+      "session": "33",
+      "title": "REGULATION OF FIREWORKS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 33 SLA 24",
+      "date": "2024-08-24",
+      "dateKind": "status",
+      "chapter": "33",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20146",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20146",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 329",
+      "state": "AK",
+      "identifier": "HB 329",
+      "session": "33",
+      "title": "AQUATIC FARMS AND HATCHERIES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 31 SLA 24",
+      "date": "2024-08-22",
+      "dateKind": "status",
+      "chapter": "31",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20329",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20329",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 295",
+      "state": "AK",
+      "identifier": "HB 295",
+      "session": "33",
+      "title": "SALMON HATCHERY PERMITS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 32 SLA 24",
+      "date": "2024-08-22",
+      "dateKind": "status",
+      "chapter": "32",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20295",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20295",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 205",
+      "state": "AK",
+      "identifier": "SB 205",
+      "session": "33",
+      "title": "AHFC AUTHORITY TO ACQUIRE BUILDING",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 30 SLA 24",
+      "date": "2024-08-16",
+      "dateKind": "status",
+      "chapter": "30",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20205",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20205",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 179",
+      "state": "AK",
+      "identifier": "SB 179",
+      "session": "33",
+      "title": "MUNI PROPERTY TAX/TELECOMM TAX; XFER TAX",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 28 SLA 24",
+      "date": "2024-08-13",
+      "dateKind": "status",
+      "chapter": "28",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20179",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20179",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 174",
+      "state": "AK",
+      "identifier": "SB 174",
+      "session": "33",
+      "title": "HONOR & REMEMBER/HONOR & SACRIFICE FLAGS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 27 SLA 24",
+      "date": "2024-08-13",
+      "dateKind": "status",
+      "chapter": "27",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20174",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20174",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 152",
+      "state": "AK",
+      "identifier": "SB 152",
+      "session": "33",
+      "title": "COMMUNITY ENERGY FACILITIES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 29 SLA 24",
+      "date": "2024-08-13",
+      "dateKind": "status",
+      "chapter": "29",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20152",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20152",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 154",
+      "state": "AK",
+      "identifier": "SB 154",
+      "session": "33",
+      "title": "MILITARY: BIDDER PREF PROGRAM, HELP DESK",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 26 SLA 24",
+      "date": "2024-08-01",
+      "dateKind": "status",
+      "chapter": "26",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20154",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20154",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 50",
+      "state": "AK",
+      "identifier": "HB 50",
+      "session": "33",
+      "title": "CARBON STORAGE; COOK INLET OIL AND GAS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 23 SLA 24",
+      "date": "2024-07-31",
+      "dateKind": "status",
+      "chapter": "23",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2050",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2050",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 307",
+      "state": "AK",
+      "identifier": "HB 307",
+      "session": "33",
+      "title": "UTILITY REGULATION; RCA; AEA; ENERGY LOAN",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 24 SLA 24",
+      "date": "2024-07-31",
+      "dateKind": "status",
+      "chapter": "24",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20307",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20307",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 273",
+      "state": "AK",
+      "identifier": "HB 273",
+      "session": "33",
+      "title": "AHFC MORTGAGE LOANS; COMM. FISHING LOANS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 25 SLA 24",
+      "date": "2024-07-31",
+      "dateKind": "status",
+      "chapter": "25",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20273",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20273",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 204",
+      "state": "AK",
+      "identifier": "SB 204",
+      "session": "33",
+      "title": "CERT. OF FITNESS: PLUMBERS/ELECTRICIANS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 21 SLA 24",
+      "date": "2024-07-30",
+      "dateKind": "status",
+      "chapter": "21",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20204",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20204",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 196",
+      "state": "AK",
+      "identifier": "SB 196",
+      "session": "33",
+      "title": "EMPLOYER DRUG AND ALCOHOL TESTING",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 22 SLA 24",
+      "date": "2024-07-30",
+      "dateKind": "status",
+      "chapter": "22",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20196",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20196",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 237",
+      "state": "AK",
+      "identifier": "HB 237",
+      "session": "33",
+      "title": "TEMPORARY PERMIT FOR LAPSED NURSE LICENSE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 19 SLA 24",
+      "date": "2024-07-29",
+      "dateKind": "status",
+      "chapter": "19",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20237",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20237",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 233",
+      "state": "AK",
+      "identifier": "HB 233",
+      "session": "33",
+      "title": "RATES: MOTOR VEHICLE WARRANTY WORK",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 20 SLA 24",
+      "date": "2024-07-29",
+      "dateKind": "status",
+      "chapter": "20",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20233",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20233",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 155",
+      "state": "AK",
+      "identifier": "HB 155",
+      "session": "33",
+      "title": "ESTABLISH AK MILITARY AFFAIRS COMMISSION",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 18 SLA 24",
+      "date": "2024-07-29",
+      "dateKind": "status",
+      "chapter": "18",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20155",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20155",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 104",
+      "state": "AK",
+      "identifier": "HB 104",
+      "session": "33",
+      "title": "TIMBER SALE: EXPEDITED/SALVAGE/NEGOTIATED",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 17 SLA 24",
+      "date": "2024-07-29",
+      "dateKind": "status",
+      "chapter": "17",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20104",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20104",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 256",
+      "state": "AK",
+      "identifier": "SB 256",
+      "session": "33",
+      "title": "ESTABLISH ALS AWARENESS MONTH",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 16 SLA 24",
+      "date": "2024-07-24",
+      "dateKind": "status",
+      "chapter": "16",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20256",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20256",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 67",
+      "state": "AK",
+      "identifier": "SB 67",
+      "session": "33",
+      "title": "PFAS: USE FOR FIREFIGHTING, DISPOSAL",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 14 SLA 24",
+      "date": "2024-07-22",
+      "dateKind": "status",
+      "chapter": "14",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2067",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2067",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 189",
+      "state": "AK",
+      "identifier": "SB 189",
+      "session": "33",
+      "title": "XTND BOARDS;GAME PERMITS;TAXES;CHILD CARE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 15 SLA 24",
+      "date": "2024-07-22",
+      "dateKind": "status",
+      "chapter": "15",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20189",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20189",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 91",
+      "state": "AK",
+      "identifier": "SB 91",
+      "session": "33",
+      "title": "TELEHEALTH: MULTIDISCIPLINARY CARE TEAM",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 13 SLA 24",
+      "date": "2024-07-19",
+      "dateKind": "status",
+      "chapter": "13",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2091",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2091",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 147",
+      "state": "AK",
+      "identifier": "SB 147",
+      "session": "33",
+      "title": "WORKERS' COMP.; EXTND SR BENEFITS PAYMENT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 12 SLA 24",
+      "date": "2024-07-11",
+      "dateKind": "status",
+      "chapter": "12",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20147",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20147",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 66",
+      "state": "AK",
+      "identifier": "HB 66",
+      "session": "33",
+      "title": "OMNIBUS CRIM LAW/PROCEDURE;CIV COMMITMENT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 11 SLA 24",
+      "date": "2024-07-11",
+      "dateKind": "status",
+      "chapter": "11",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2066",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2066",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 22",
+      "state": "AK",
+      "identifier": "SB 22",
+      "session": "33",
+      "title": "PROCLAIM JUNETEENTH DAY A HOLIDAY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 10 SLA 24",
+      "date": "2024-06-27",
+      "dateKind": "status",
+      "chapter": "10",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2022",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2022",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 187",
+      "state": "AK",
+      "identifier": "SB 187",
+      "session": "33",
+      "title": "APPROP: CAP; REAPPROP; SUPP; FUNDS; AMEND",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 8 SLA 24",
+      "date": "2024-06-27",
+      "dateKind": "status",
+      "chapter": "8",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20187",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20187",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 270",
+      "state": "AK",
+      "identifier": "HB 270",
+      "session": "33",
+      "title": "APPROP: MENTAL HEALTH BUDGET",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 9 SLA 24",
+      "date": "2024-06-27",
+      "dateKind": "status",
+      "chapter": "9",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20270",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20270",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 268",
+      "state": "AK",
+      "identifier": "HB 268",
+      "session": "33",
+      "title": "APPROP: OPERATING BUDGET; CAP; SUPP; AM",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 7 SLA 24",
+      "date": "2024-06-27",
+      "dateKind": "status",
+      "chapter": "7",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20268",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20268",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 259",
+      "state": "AK",
+      "identifier": "SB 259",
+      "session": "33",
+      "title": "COMPENSATION FOR CERTAIN STATE EMPLOYEES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 5 SLA 24",
+      "date": "2024-06-26",
+      "dateKind": "status",
+      "chapter": "5",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20259",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20259",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 129",
+      "state": "AK",
+      "identifier": "SB 129",
+      "session": "33",
+      "title": "MATT GLOVER BIKE PATH",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 6 SLA 24",
+      "date": "2024-06-26",
+      "dateKind": "status",
+      "chapter": "6",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20129",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20129",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 148",
+      "state": "AK",
+      "identifier": "HB 148",
+      "session": "33",
+      "title": "AK PERFORM. SCHOLARSHIP; EDU TAX CREDITS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 4 SLA 24",
+      "date": "2024-06-26",
+      "dateKind": "status",
+      "chapter": "4",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20148",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20148",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 93",
+      "state": "AK",
+      "identifier": "SB 93",
+      "session": "33",
+      "title": "FISHERMEN'S FUND: VESSEL OWNER CLAIMS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 3 SLA 24",
+      "date": "2024-04-23",
+      "dateKind": "status",
+      "chapter": "3",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2093",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2093",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 46",
+      "state": "AK",
+      "identifier": "SB 46",
+      "session": "33",
+      "title": "BRAIN INJURY AWARENESS MONTH",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 2 SLA 24",
+      "date": "2024-04-23",
+      "dateKind": "status",
+      "chapter": "2",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2046",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2046",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 193",
+      "state": "AK",
+      "identifier": "HB 193",
+      "session": "33",
+      "title": "INTERNET FOR SCHOOLS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 1 SLA 24",
+      "date": "2024-03-27",
+      "dateKind": "status",
+      "chapter": "1",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20193",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20193",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 39",
+      "state": "AK",
+      "identifier": "HB 39",
+      "session": "33",
+      "title": "APPROP: OPERATING BUDGET; CAP; SUPP",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 1 FSSLA 23",
+      "date": "2024-01-18",
+      "dateKind": "status",
+      "chapter": "1",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2039",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2039",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 87",
+      "state": "AK",
+      "identifier": "SB 87",
+      "session": "33",
+      "title": "LUMBER GRADING PROGRAM",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 26 SLA 23",
+      "date": "2023-08-30",
+      "dateKind": "status",
+      "chapter": "26",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2087",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2087",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 123",
+      "state": "AK",
+      "identifier": "HB 123",
+      "session": "33",
+      "title": "ARTICLES OF INCORPORATION FOR ANCSA CORPS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 25 SLA 23",
+      "date": "2023-08-28",
+      "dateKind": "status",
+      "chapter": "25",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20123",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20123",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 141",
+      "state": "AK",
+      "identifier": "HB 141",
+      "session": "33",
+      "title": "ESTABLISHING DON YOUNG DAY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 24 SLA 23",
+      "date": "2023-08-26",
+      "dateKind": "status",
+      "chapter": "24",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20141",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20141",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 119",
+      "state": "AK",
+      "identifier": "SB 119",
+      "session": "33",
+      "title": "STATE IDENTIFICATION CARD FOR PRISONERS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 23 SLA 23",
+      "date": "2023-08-05",
+      "dateKind": "status",
+      "chapter": "23",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20119",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20119",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 57",
+      "state": "AK",
+      "identifier": "SB 57",
+      "session": "33",
+      "title": "ADULT HOME CARE; MED ASSIST.; HEALTH INFO",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 22 SLA 23",
+      "date": "2023-07-29",
+      "dateKind": "status",
+      "chapter": "22",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2057",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2057",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 123",
+      "state": "AK",
+      "identifier": "SB 123",
+      "session": "33",
+      "title": "LICENSE REQUIREMENTS: COMM. DRIVERS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 20 SLA 23",
+      "date": "2023-07-29",
+      "dateKind": "status",
+      "chapter": "20",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20123",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20123",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 61",
+      "state": "AK",
+      "identifier": "HB 61",
+      "session": "33",
+      "title": "LIMITATIONS ON FIREARMS RESTRICTIONS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 21 SLA 23",
+      "date": "2023-07-29",
+      "dateKind": "status",
+      "chapter": "21",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2061",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2061",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 38",
+      "state": "AK",
+      "identifier": "SB 38",
+      "session": "33",
+      "title": "INTERFERENCE WITH EMERGENCY SERVICES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 19 SLA 23",
+      "date": "2023-07-20",
+      "dateKind": "status",
+      "chapter": "19",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2038",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2038",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 78",
+      "state": "AK",
+      "identifier": "HB 78",
+      "session": "33",
+      "title": "AK COMMUNITY HEALTH AIDE APPRECIATION DAY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 17 SLA 23",
+      "date": "2023-07-20",
+      "dateKind": "status",
+      "chapter": "17",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2078",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2078",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 23",
+      "state": "AK",
+      "identifier": "HB 23",
+      "session": "33",
+      "title": "FILIPINO AMERICAN HISTORY MONTH",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 18 SLA 23",
+      "date": "2023-07-20",
+      "dateKind": "status",
+      "chapter": "18",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2023",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2023",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 58",
+      "state": "AK",
+      "identifier": "SB 58",
+      "session": "33",
+      "title": "MEDICAID ELIGIBILITY: POSTPARTUM MOTHERS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 16 SLA 23",
+      "date": "2023-07-19",
+      "dateKind": "status",
+      "chapter": "16",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2058",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2058",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 56",
+      "state": "AK",
+      "identifier": "HB 56",
+      "session": "33",
+      "title": "VETERINARIANS; CONTROLLED SUBSTANCE DATA",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 14 SLA 23",
+      "date": "2023-07-06",
+      "dateKind": "status",
+      "chapter": "14",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2056",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2056",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 112",
+      "state": "AK",
+      "identifier": "HB 112",
+      "session": "33",
+      "title": "PROFESSION OF PHARMACY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 15 SLA 23",
+      "date": "2023-07-06",
+      "dateKind": "status",
+      "chapter": "15",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20112",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20112",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 126",
+      "state": "AK",
+      "identifier": "SB 126",
+      "session": "33",
+      "title": "ARCHITECT/ENGINEER REGISTRATION BOARD",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 13 SLA 23",
+      "date": "2023-06-27",
+      "dateKind": "status",
+      "chapter": "13",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20126",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20126",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 98",
+      "state": "AK",
+      "identifier": "SB 98",
+      "session": "33",
+      "title": "AK PERM FUND CORP. & PCE ENDOWMENT FUND",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 12 SLA 23",
+      "date": "2023-06-23",
+      "dateKind": "status",
+      "chapter": "12",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2098",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2098",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 69",
+      "state": "AK",
+      "identifier": "HB 69",
+      "session": "33",
+      "title": "RECLASSIFICATION OF FIRST CLASS CITIES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 10 SLA 23",
+      "date": "2023-06-21",
+      "dateKind": "status",
+      "chapter": "10",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2069",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2069",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 103",
+      "state": "AK",
+      "identifier": "HB 103",
+      "session": "33",
+      "title": "EXTEND ALASKA MINERALS COMMISSION",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 11 SLA 23",
+      "date": "2023-06-21",
+      "dateKind": "status",
+      "chapter": "11",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20103",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20103",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 41",
+      "state": "AK",
+      "identifier": "HB 41",
+      "session": "33",
+      "title": "APPROP: MENTAL HEALTH BUDGET",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 2 FSSLA 23",
+      "date": "2023-06-18",
+      "dateKind": "status",
+      "chapter": "2",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2041",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2041",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 55",
+      "state": "AK",
+      "identifier": "SB 55",
+      "session": "33",
+      "title": "EXTND BDS: MEDICAL, DIRECT-ENTRY MIDWIVES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 9 SLA 23",
+      "date": "2023-06-14",
+      "dateKind": "status",
+      "chapter": "9",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2055",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2055",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 81",
+      "state": "AK",
+      "identifier": "SB 81",
+      "session": "33",
+      "title": "OFFICE VICTIMS' RIGHTS: COMP, APPTMT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 8 SLA 23",
+      "date": "2023-06-13",
+      "dateKind": "status",
+      "chapter": "8",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2081",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2081",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 80",
+      "state": "AK",
+      "identifier": "SB 80",
+      "session": "33",
+      "title": "2023 REVISOR'S BILL",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 7 SLA 23",
+      "date": "2023-06-13",
+      "dateKind": "status",
+      "chapter": "7",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2080",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2080",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 25",
+      "state": "AK",
+      "identifier": "SB 25",
+      "session": "33",
+      "title": "REPEALING FUNDS, ACCOUNTS, AND PROGRAMS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 6 SLA 23",
+      "date": "2023-06-13",
+      "dateKind": "status",
+      "chapter": "6",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2025",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2025",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 62",
+      "state": "AK",
+      "identifier": "HB 62",
+      "session": "33",
+      "title": "RENEWABLE ENERGY GRANT FUND",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 5 SLA 23",
+      "date": "2023-05-25",
+      "dateKind": "status",
+      "chapter": "5",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2062",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2062",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 10",
+      "state": "AK",
+      "identifier": "SB 10",
+      "session": "33",
+      "title": "HUNTING/TRAPPING/FISHING: DISABLED VETS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 4 SLA 23",
+      "date": "2023-05-24",
+      "dateKind": "status",
+      "chapter": "4",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2010",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2010",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 128",
+      "state": "AK",
+      "identifier": "HB 128",
+      "session": "33",
+      "title": "OIL TERMINAL FACILITY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 3 SLA 23",
+      "date": "2023-05-24",
+      "dateKind": "status",
+      "chapter": "3",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20128",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20128",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:SB 48",
+      "state": "AK",
+      "identifier": "SB 48",
+      "session": "33",
+      "title": "CARBON OFFSET PROGRAM; CARBON STORAGE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 2 SLA 23",
+      "date": "2023-05-23",
+      "dateKind": "status",
+      "chapter": "2",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2048",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=SB%20%2048",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:33:HB 79",
+      "state": "AK",
+      "identifier": "HB 79",
+      "session": "33",
+      "title": "APPROP: SUPPLEMENTAL",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 1 SLA 23",
+      "date": "2023-03-31",
+      "dateKind": "status",
+      "chapter": "1",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2079",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB%20%2079",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 185",
+      "state": "AK",
+      "identifier": "SB 185",
+      "session": "32",
+      "title": "MINIMUM WAGE EXEMPTIONS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 74 SLA 22",
+      "date": "2022-09-13",
+      "dateKind": "status",
+      "chapter": "74",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20185",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20185",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 161",
+      "state": "AK",
+      "identifier": "SB 161",
+      "session": "32",
+      "title": "POLITICAL PARTY DEFINITION",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 72 SLA 22",
+      "date": "2022-09-12",
+      "dateKind": "status",
+      "chapter": "72",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20161",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20161",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 19",
+      "state": "AK",
+      "identifier": "HB 19",
+      "session": "32",
+      "title": "LIMITED TEACHER CERTIFICATES; LANGUAGES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 73 SLA 22",
+      "date": "2022-09-12",
+      "dateKind": "status",
+      "chapter": "73",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2019",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2019",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 174",
+      "state": "AK",
+      "identifier": "SB 174",
+      "session": "32",
+      "title": "STUDENTS: ALLOW NAT HAIRSTYLE, DRESS CODE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 71 SLA 22",
+      "date": "2022-09-08",
+      "dateKind": "status",
+      "chapter": "71",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20174",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20174",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 20",
+      "state": "AK",
+      "identifier": "SB 20",
+      "session": "32",
+      "title": "OUT OF STATE TEACHER RECIPROCITY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 69 SLA 22",
+      "date": "2022-09-04",
+      "dateKind": "status",
+      "chapter": "69",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2020",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2020",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 308",
+      "state": "AK",
+      "identifier": "HB 308",
+      "session": "32",
+      "title": "DEMENTIA AWARENESS & HEALTHCARE CAPACITY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 70 SLA 22",
+      "date": "2022-09-04",
+      "dateKind": "status",
+      "chapter": "70",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20308",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20308",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 25",
+      "state": "AK",
+      "identifier": "SB 25",
+      "session": "32",
+      "title": "STATE GOV'T FINANCES: WEBSITE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 68 SLA 22",
+      "date": "2022-09-02",
+      "dateKind": "status",
+      "chapter": "68",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2025",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2025",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 99",
+      "state": "AK",
+      "identifier": "HB 99",
+      "session": "32",
+      "title": "PHYSICAL/OCCUPATIONAL THERAPY BD/PRACTICE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 66 SLA 22",
+      "date": "2022-09-01",
+      "dateKind": "status",
+      "chapter": "66",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2099",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2099",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 62",
+      "state": "AK",
+      "identifier": "HB 62",
+      "session": "32",
+      "title": "MARRIAGE: WITNESSES/SOLEMNIZATION/CONSENT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 67 SLA 22",
+      "date": "2022-09-01",
+      "dateKind": "status",
+      "chapter": "67",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2062",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2062",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 347",
+      "state": "AK",
+      "identifier": "HB 347",
+      "session": "32",
+      "title": "CONFIDENTIALITY OF ANIMAL RECORDS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 65 SLA 22",
+      "date": "2022-08-26",
+      "dateKind": "status",
+      "chapter": "65",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20347",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20347",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 298",
+      "state": "AK",
+      "identifier": "HB 298",
+      "session": "32",
+      "title": "FOOD STRATEGY TASK FORCE; LOAN PROGRAMS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 64 SLA 22",
+      "date": "2022-08-26",
+      "dateKind": "status",
+      "chapter": "64",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20298",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20298",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 187",
+      "state": "AK",
+      "identifier": "HB 187",
+      "session": "32",
+      "title": "STATE AGENCY PUBLICATIONS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 63 SLA 22",
+      "date": "2022-08-25",
+      "dateKind": "status",
+      "chapter": "63",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20187",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20187",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 168",
+      "state": "AK",
+      "identifier": "SB 168",
+      "session": "32",
+      "title": "DONATIONS/GIFTS FOR DOT&PF SIGNAGE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 62 SLA 22",
+      "date": "2022-08-23",
+      "dateKind": "status",
+      "chapter": "62",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20168",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20168",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 95",
+      "state": "AK",
+      "identifier": "SB 95",
+      "session": "32",
+      "title": "SEARCH AND RESCUE SURPLUS STATE PROPERTY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 60 SLA 22",
+      "date": "2022-08-10",
+      "dateKind": "status",
+      "chapter": "60",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2095",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2095",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 173",
+      "state": "AK",
+      "identifier": "SB 173",
+      "session": "32",
+      "title": "DENTISTS/DENTAL HYGIENIST/RADIOLOG EQUIP",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 56 SLA 22",
+      "date": "2022-08-10",
+      "dateKind": "status",
+      "chapter": "56",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20173",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20173",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 11",
+      "state": "AK",
+      "identifier": "SB 11",
+      "session": "32",
+      "title": "COMMUNITY PROPERTY TRUSTS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 59 SLA 22",
+      "date": "2022-08-10",
+      "dateKind": "status",
+      "chapter": "59",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2011",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2011",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 402",
+      "state": "AK",
+      "identifier": "HB 402",
+      "session": "32",
+      "title": "IDENTIFICATION OF CONTRACTOR IN ADS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 57 SLA 22",
+      "date": "2022-08-10",
+      "dateKind": "status",
+      "chapter": "57",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20402",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20402",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 392",
+      "state": "AK",
+      "identifier": "HB 392",
+      "session": "32",
+      "title": "EXPAND ADV PRC REG NURSE, PHYS ASSIS AUTH",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 58 SLA 22",
+      "date": "2022-08-10",
+      "dateKind": "status",
+      "chapter": "58",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20392",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20392",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 163",
+      "state": "AK",
+      "identifier": "HB 163",
+      "session": "32",
+      "title": "VEHICLE TITLE & PLATES; DRIVER'S LICENSES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 61 SLA 22",
+      "date": "2022-08-10",
+      "dateKind": "status",
+      "chapter": "61",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20163",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20163",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 203",
+      "state": "AK",
+      "identifier": "SB 203",
+      "session": "32",
+      "title": "PURPLE HEART TRAIL; INSOOK BAIK BRIDGE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 53 SLA 22",
+      "date": "2022-08-09",
+      "dateKind": "status",
+      "chapter": "53",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20203",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20203",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 363",
+      "state": "AK",
+      "identifier": "HB 363",
+      "session": "32",
+      "title": "BROADBAND: OFFICE, GRANTS, PARITY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 52 SLA 22",
+      "date": "2022-08-09",
+      "dateKind": "status",
+      "chapter": "52",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20363",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20363",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 148",
+      "state": "AK",
+      "identifier": "HB 148",
+      "session": "32",
+      "title": "ALASKA COORDINATE SYSTEM OF 2022",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 55 SLA 22",
+      "date": "2022-08-09",
+      "dateKind": "status",
+      "chapter": "55",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20148",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20148",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 125",
+      "state": "AK",
+      "identifier": "HB 125",
+      "session": "32",
+      "title": "MILITARY AND FAMILY EMPLOYMENT PREFERENCE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 54 SLA 22",
+      "date": "2022-08-09",
+      "dateKind": "status",
+      "chapter": "54",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20125",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20125",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 184",
+      "state": "AK",
+      "identifier": "HB 184",
+      "session": "32",
+      "title": "TRIBAL CHILD WELFARE COMPACT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 51 SLA 22",
+      "date": "2022-08-05",
+      "dateKind": "status",
+      "chapter": "51",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20184",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20184",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 226",
+      "state": "AK",
+      "identifier": "HB 226",
+      "session": "32",
+      "title": "PAY INCREASES FOR CERTAIN STATE EMPLOYEES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 50 SLA 22",
+      "date": "2022-08-01",
+      "dateKind": "status",
+      "chapter": "50",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20226",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20226",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 131",
+      "state": "AK",
+      "identifier": "SB 131",
+      "session": "32",
+      "title": "WORKERS' COMPENSATION",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 48 SLA 22",
+      "date": "2022-07-30",
+      "dateKind": "status",
+      "chapter": "48",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20131",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20131",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 304",
+      "state": "AK",
+      "identifier": "HB 304",
+      "session": "32",
+      "title": "CHUGACH STATE PARK/EAGLE RIVER LIONS CLUB",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 49 SLA 22",
+      "date": "2022-07-30",
+      "dateKind": "status",
+      "chapter": "49",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20304",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20304",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 133",
+      "state": "AK",
+      "identifier": "HB 133",
+      "session": "32",
+      "title": "AK ED SAVINGS PROGRAMS/ELIGIBILITY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 47 SLA 22",
+      "date": "2022-07-29",
+      "dateKind": "status",
+      "chapter": "47",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20133",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20133",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 7",
+      "state": "AK",
+      "identifier": "SB 7",
+      "session": "32",
+      "title": "STATE TROOPER POLICIES: PUBLIC ACCESS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 45 SLA 22",
+      "date": "2022-07-28",
+      "dateKind": "status",
+      "chapter": "45",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%20%207",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%20%207",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 34",
+      "state": "AK",
+      "identifier": "SB 34",
+      "session": "32",
+      "title": "STATE-TRIBAL EDUCATION COMPACT SCHOOLS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 43 SLA 22",
+      "date": "2022-07-28",
+      "dateKind": "status",
+      "chapter": "43",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2034",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2034",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 325",
+      "state": "AK",
+      "identifier": "HB 325",
+      "session": "32",
+      "title": "DOMESTIC VIOLENCE/SEXUAL OFFENSES/CONSENT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 44 SLA 22",
+      "date": "2022-07-28",
+      "dateKind": "status",
+      "chapter": "44",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20325",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20325",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 123",
+      "state": "AK",
+      "identifier": "HB 123",
+      "session": "32",
+      "title": "STATE RECOGNITION OF TRIBES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 42 SLA 22",
+      "date": "2022-07-28",
+      "dateKind": "status",
+      "chapter": "42",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20123",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20123",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 106",
+      "state": "AK",
+      "identifier": "HB 106",
+      "session": "32",
+      "title": "MISSING PERSONS UNDER 21 YEARS OLD",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 46 SLA 22",
+      "date": "2022-07-28",
+      "dateKind": "status",
+      "chapter": "46",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20106",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20106",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 243",
+      "state": "AK",
+      "identifier": "SB 243",
+      "session": "32",
+      "title": "PWR COST EQ: RAISE, ENDOW FUND INVESTMENT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 39 SLA 22",
+      "date": "2022-07-15",
+      "dateKind": "status",
+      "chapter": "39",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20243",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20243",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 172",
+      "state": "AK",
+      "identifier": "HB 172",
+      "session": "32",
+      "title": "MENTAL HEALTH FACILITIES; MEDS; PATIENTS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 41 SLA 22",
+      "date": "2022-07-15",
+      "dateKind": "status",
+      "chapter": "41",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20172",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20172",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 114",
+      "state": "AK",
+      "identifier": "HB 114",
+      "session": "32",
+      "title": "EDUCATION: SCHOOLS; FUNDING; PROGRAMS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 40 SLA 22",
+      "date": "2022-07-15",
+      "dateKind": "status",
+      "chapter": "40",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20114",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20114",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 265",
+      "state": "AK",
+      "identifier": "HB 265",
+      "session": "32",
+      "title": "HEALTH CARE SERVICES BY TELEHEALTH",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 38 SLA 22",
+      "date": "2022-07-13",
+      "dateKind": "status",
+      "chapter": "38",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20265",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20265",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 411",
+      "state": "AK",
+      "identifier": "HB 411",
+      "session": "32",
+      "title": "MUNI TAX EXEMPT/DEFER; ECON DEVELOPMENT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 37 SLA 22",
+      "date": "2022-07-11",
+      "dateKind": "status",
+      "chapter": "37",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20411",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20411",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 143",
+      "state": "AK",
+      "identifier": "SB 143",
+      "session": "32",
+      "title": "COMMON INTEREST COMMUNITIES; LIENS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 36 SLA 22",
+      "date": "2022-07-08",
+      "dateKind": "status",
+      "chapter": "36",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20143",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20143",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 416",
+      "state": "AK",
+      "identifier": "HB 416",
+      "session": "32",
+      "title": "BONUSES FOR NONUNION PUBLIC EMPLOYEES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 35 SLA 22",
+      "date": "2022-07-08",
+      "dateKind": "status",
+      "chapter": "35",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20416",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20416",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 41",
+      "state": "AK",
+      "identifier": "HB 41",
+      "session": "32",
+      "title": "SHELLFISH PROJECTS; HATCHERIES; FEES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 32 SLA 22",
+      "date": "2022-07-08",
+      "dateKind": "status",
+      "chapter": "32",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2041",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2041",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 307",
+      "state": "AK",
+      "identifier": "HB 307",
+      "session": "32",
+      "title": "EXTEND BOND AUTH FOR INTERIOR ENERGY PROJ",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 34 SLA 22",
+      "date": "2022-07-08",
+      "dateKind": "status",
+      "chapter": "34",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20307",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20307",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 297",
+      "state": "AK",
+      "identifier": "HB 297",
+      "session": "32",
+      "title": "MILITARY MEMBER CHILD PROTECT; ADOPTION",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 33 SLA 22",
+      "date": "2022-07-08",
+      "dateKind": "status",
+      "chapter": "33",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20297",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20297",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 33",
+      "state": "AK",
+      "identifier": "SB 33",
+      "session": "32",
+      "title": "SEAFOOD PRODUCT DEVELOPMENT TAX CREDIT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 31 SLA 22",
+      "date": "2022-07-07",
+      "dateKind": "status",
+      "chapter": "31",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2033",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2033",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 127",
+      "state": "AK",
+      "identifier": "HB 127",
+      "session": "32",
+      "title": "MUNI BOND BANK & RAILROAD CORP: FINANCING",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 30 SLA 22",
+      "date": "2022-07-03",
+      "dateKind": "status",
+      "chapter": "30",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20127",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20127",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 227",
+      "state": "AK",
+      "identifier": "HB 227",
+      "session": "32",
+      "title": "MUNI ENERGY IMPROVEMNT; PLANNING COMM",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 28 SLA 22",
+      "date": "2022-06-30",
+      "dateKind": "status",
+      "chapter": "28",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20227",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20227",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 145",
+      "state": "AK",
+      "identifier": "HB 145",
+      "session": "32",
+      "title": "EXPAND PHARMACIST AUTHORITY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 29 SLA 22",
+      "date": "2022-06-30",
+      "dateKind": "status",
+      "chapter": "29",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20145",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20145",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 81",
+      "state": "AK",
+      "identifier": "SB 81",
+      "session": "32",
+      "title": "VILLAGE PUBLIC SAFETY OFFICERS, GRANTS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 16 SLA 22",
+      "date": "2022-06-29",
+      "dateKind": "status",
+      "chapter": "16",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2081",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2081",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 71",
+      "state": "AK",
+      "identifier": "SB 71",
+      "session": "32",
+      "title": "COUNCIL ON ARTS: PLATES & MANAGE ART",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 18 SLA 22",
+      "date": "2022-06-29",
+      "dateKind": "status",
+      "chapter": "18",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2071",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2071",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 222",
+      "state": "AK",
+      "identifier": "SB 222",
+      "session": "32",
+      "title": "EXTEND PT & OCCUPATIONAL THERAPY BOARD",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 26 SLA 22",
+      "date": "2022-06-29",
+      "dateKind": "status",
+      "chapter": "26",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20222",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20222",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 204",
+      "state": "AK",
+      "identifier": "SB 204",
+      "session": "32",
+      "title": "HUNTING LICENSE/PERMIT; CHARITABLE GAMING",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 14 SLA 22",
+      "date": "2022-06-29",
+      "dateKind": "status",
+      "chapter": "14",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20204",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20204",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 193",
+      "state": "AK",
+      "identifier": "SB 193",
+      "session": "32",
+      "title": "EXTEND BD CHIROPRACTIC EXAMINERS; AUDIT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 17 SLA 22",
+      "date": "2022-06-29",
+      "dateKind": "status",
+      "chapter": "17",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20193",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20193",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 190",
+      "state": "AK",
+      "identifier": "SB 190",
+      "session": "32",
+      "title": "REGULATORY COMMN AK; LEG AUDIT DIVISION",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 25 SLA 22",
+      "date": "2022-06-29",
+      "dateKind": "status",
+      "chapter": "25",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20190",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20190",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 186",
+      "state": "AK",
+      "identifier": "SB 186",
+      "session": "32",
+      "title": "EXTEND BOARD OF EXAMINERS IN OPTOMETRY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 27 SLA 22",
+      "date": "2022-06-29",
+      "dateKind": "status",
+      "chapter": "27",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20186",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20186",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 85",
+      "state": "AK",
+      "identifier": "HB 85",
+      "session": "32",
+      "title": "FINANCIAL INSTITUTIONS; LIABILITY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 20 SLA 22",
+      "date": "2022-06-29",
+      "dateKind": "status",
+      "chapter": "20",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2085",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2085",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 349",
+      "state": "AK",
+      "identifier": "HB 349",
+      "session": "32",
+      "title": "O&G UNITS/SPACING; CABIN PERMITS; LAND",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 13 SLA 22",
+      "date": "2022-06-29",
+      "dateKind": "status",
+      "chapter": "13",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20349",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20349",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 322",
+      "state": "AK",
+      "identifier": "HB 322",
+      "session": "32",
+      "title": "AK MARINE HWY FUNDS, HIGHER ED INVES FUND",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 15 SLA 22",
+      "date": "2022-06-29",
+      "dateKind": "status",
+      "chapter": "15",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20322",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20322",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 306",
+      "state": "AK",
+      "identifier": "HB 306",
+      "session": "32",
+      "title": "EXTND BDS OF PHARM/ALCOHOLIC BEV CONTROL",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 24 SLA 22",
+      "date": "2022-06-29",
+      "dateKind": "status",
+      "chapter": "24",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20306",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20306",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 291",
+      "state": "AK",
+      "identifier": "HB 291",
+      "session": "32",
+      "title": "DV COUNCIL;AK CRIM JUST DATA ANALYS COMM",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 23 SLA 22",
+      "date": "2022-06-29",
+      "dateKind": "status",
+      "chapter": "23",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20291",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20291",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 168",
+      "state": "AK",
+      "identifier": "HB 168",
+      "session": "32",
+      "title": "ELECTRONIC APPLICATION FOR STATE BENEFITS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 19 SLA 22",
+      "date": "2022-06-29",
+      "dateKind": "status",
+      "chapter": "19",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20168",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20168",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 155",
+      "state": "AK",
+      "identifier": "HB 155",
+      "session": "32",
+      "title": "COURT SYSTEM PROVIDE VISITORS & EXPERTS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 21 SLA 22",
+      "date": "2022-06-29",
+      "dateKind": "status",
+      "chapter": "21",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20155",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20155",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 102",
+      "state": "AK",
+      "identifier": "HB 102",
+      "session": "32",
+      "title": "STATE INSUR. CATASTROPHE RESERVE ACCT.",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 22 SLA 22",
+      "date": "2022-06-29",
+      "dateKind": "status",
+      "chapter": "22",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20102",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20102",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 282",
+      "state": "AK",
+      "identifier": "HB 282",
+      "session": "32",
+      "title": "APPROP: MENTAL HEALTH BUDGET",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 12 SLA 22",
+      "date": "2022-06-28",
+      "dateKind": "status",
+      "chapter": "12",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20282",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20282",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 281",
+      "state": "AK",
+      "identifier": "HB 281",
+      "session": "32",
+      "title": "APPROP: OPERATING BUDGET; CAP; SUPP",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 11 SLA 22",
+      "date": "2022-06-28",
+      "dateKind": "status",
+      "chapter": "11",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20281",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20281",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 198",
+      "state": "AK",
+      "identifier": "SB 198",
+      "session": "32",
+      "title": "RAMPART SCHOOL: YUKON-KOYUKUK DISTRICT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 9 SLA 22",
+      "date": "2022-06-20",
+      "dateKind": "status",
+      "chapter": "9",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20198",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20198",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 209",
+      "state": "AK",
+      "identifier": "HB 209",
+      "session": "32",
+      "title": "EMERGENCY FIREFIGHTERS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 10 SLA 22",
+      "date": "2022-06-20",
+      "dateKind": "status",
+      "chapter": "10",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20209",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20209",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 9",
+      "state": "AK",
+      "identifier": "SB 9",
+      "session": "32",
+      "title": "ALCOHOLIC BEVERAGE CONTROL; ALCOHOL REG",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 8 SLA 22",
+      "date": "2022-06-16",
+      "dateKind": "status",
+      "chapter": "8",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%20%209",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%20%209",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 53",
+      "state": "AK",
+      "identifier": "HB 53",
+      "session": "32",
+      "title": "MILITARY CHILDREN SCHOOL RESIDENCY WAIVER",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 7 SLA 22",
+      "date": "2022-06-16",
+      "dateKind": "status",
+      "chapter": "7",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2053",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2053",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 3",
+      "state": "AK",
+      "identifier": "HB 3",
+      "session": "32",
+      "title": "DEFINITION OF \"DISASTER\": CYBERSECURITY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 6 SLA 22",
+      "date": "2022-06-15",
+      "dateKind": "status",
+      "chapter": "6",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%20%203",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%20%203",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 44",
+      "state": "AK",
+      "identifier": "HB 44",
+      "session": "32",
+      "title": "PRACTICE OF ACCOUNTING; LICENSURE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 5 SLA 22",
+      "date": "2022-06-09",
+      "dateKind": "status",
+      "chapter": "5",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2044",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2044",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 177",
+      "state": "AK",
+      "identifier": "SB 177",
+      "session": "32",
+      "title": "MICROREACTORS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 4 SLA 22",
+      "date": "2022-05-24",
+      "dateKind": "status",
+      "chapter": "4",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20177",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20177",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 240",
+      "state": "AK",
+      "identifier": "SB 240",
+      "session": "32",
+      "title": "APPROVE MARATHON PETRO ROYALTY OIL SALE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 3 SLA 22",
+      "date": "2022-04-19",
+      "dateKind": "status",
+      "chapter": "3",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20240",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20240",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 239",
+      "state": "AK",
+      "identifier": "SB 239",
+      "session": "32",
+      "title": "APPROVE PETRO STAR INC. ROYALTY OIL SALE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 2 SLA 22",
+      "date": "2022-04-19",
+      "dateKind": "status",
+      "chapter": "2",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20239",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20239",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 171",
+      "state": "AK",
+      "identifier": "SB 171",
+      "session": "32",
+      "title": "REJECT OFFICERS COMP. COMMISSION REPORT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 1 SLA 22",
+      "date": "2022-02-15",
+      "dateKind": "status",
+      "chapter": "1",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20171",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20171",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB3003",
+      "state": "AK",
+      "identifier": "HB3003",
+      "session": "32",
+      "title": "APPROP: OPERATING; PERM FUND; EDUCATION",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 1 TSSLA 21",
+      "date": "2021-09-15",
+      "dateKind": "status",
+      "chapter": "1",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB3003",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB3003",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 12",
+      "state": "AK",
+      "identifier": "SB 12",
+      "session": "32",
+      "title": "MILITARY SPOUSE COURTESY LICENSE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 34 SLA 21",
+      "date": "2021-09-14",
+      "dateKind": "status",
+      "chapter": "34",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2012",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2012",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 28",
+      "state": "AK",
+      "identifier": "SB 28",
+      "session": "32",
+      "title": "EST. APRIL 24 ALASKA CONSTITUTION DAY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 33 SLA 21",
+      "date": "2021-08-30",
+      "dateKind": "status",
+      "chapter": "33",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2028",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2028",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 27",
+      "state": "AK",
+      "identifier": "SB 27",
+      "session": "32",
+      "title": "INDUSTRIAL HEMP PROGRAM;MANUFACTURING",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 32 SLA 21",
+      "date": "2021-08-29",
+      "dateKind": "status",
+      "chapter": "32",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2027",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2027",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 40",
+      "state": "AK",
+      "identifier": "SB 40",
+      "session": "32",
+      "title": "VETERANS' BENEFITS SERVICES; DISCLOSURE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 31 SLA 21",
+      "date": "2021-08-28",
+      "dateKind": "status",
+      "chapter": "31",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2040",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2040",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 34",
+      "state": "AK",
+      "identifier": "HB 34",
+      "session": "32",
+      "title": "NAMING VIETNAM HELI. PILOTS' MEM. BRIDGE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 30 SLA 21",
+      "date": "2021-08-28",
+      "dateKind": "status",
+      "chapter": "30",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2034",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2034",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 89",
+      "state": "AK",
+      "identifier": "SB 89",
+      "session": "32",
+      "title": "ASSISTED LIVING HOMES: HOUSE RULES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 27 SLA 21",
+      "date": "2021-08-25",
+      "dateKind": "status",
+      "chapter": "27",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2089",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2089",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 47",
+      "state": "AK",
+      "identifier": "SB 47",
+      "session": "32",
+      "title": "VEHICLE REGISTRATION/PERSONS W/DISABILITY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 28 SLA 21",
+      "date": "2021-08-25",
+      "dateKind": "status",
+      "chapter": "28",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2047",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2047",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 22",
+      "state": "AK",
+      "identifier": "SB 22",
+      "session": "32",
+      "title": "INTENSIVE MGMT SURCHARGE/REPEAL TERM DATE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 26 SLA 21",
+      "date": "2021-08-25",
+      "dateKind": "status",
+      "chapter": "26",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2022",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2022",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 21",
+      "state": "AK",
+      "identifier": "SB 21",
+      "session": "32",
+      "title": "LICENSE MOBILE INTENSIVE CARE PARAMEDICS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 29 SLA 21",
+      "date": "2021-08-25",
+      "dateKind": "status",
+      "chapter": "29",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2021",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2021",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 76",
+      "state": "AK",
+      "identifier": "SB 76",
+      "session": "32",
+      "title": "ABANDONED VEHICLES; PRIVATE PROPERTY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 25 SLA 21",
+      "date": "2021-08-16",
+      "dateKind": "status",
+      "chapter": "25",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2076",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2076",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 65",
+      "state": "AK",
+      "identifier": "SB 65",
+      "session": "32",
+      "title": "LIABILITY CONSULTING HEALTH CARE PROVIDER",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 24 SLA 21",
+      "date": "2021-08-16",
+      "dateKind": "status",
+      "chapter": "24",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2065",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2065",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 109",
+      "state": "AK",
+      "identifier": "HB 109",
+      "session": "32",
+      "title": "EXTEND BAR ASS'N BOARD OF GOVERNORS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 23 SLA 21",
+      "date": "2021-07-20",
+      "dateKind": "status",
+      "chapter": "23",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20109",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20109",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 160",
+      "state": "AK",
+      "identifier": "HB 160",
+      "session": "32",
+      "title": "PROCUREMENT; CONSTRUCTION; CONTRACTS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 22 SLA 21",
+      "date": "2021-07-14",
+      "dateKind": "status",
+      "chapter": "22",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20160",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20160",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 134",
+      "state": "AK",
+      "identifier": "SB 134",
+      "session": "32",
+      "title": "MASTER GUIDE-OUTFITTER REQUIREMENTS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 19 SLA 21",
+      "date": "2021-07-13",
+      "dateKind": "status",
+      "chapter": "19",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20134",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20134",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 125",
+      "state": "AK",
+      "identifier": "SB 125",
+      "session": "32",
+      "title": "HUNTING PERMITS: TRANSFERABILITY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 18 SLA 21",
+      "date": "2021-07-13",
+      "dateKind": "status",
+      "chapter": "18",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20125",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20125",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 63",
+      "state": "AK",
+      "identifier": "HB 63",
+      "session": "32",
+      "title": "ALASKA MARINE HIGHWAY OPERATIONS BOARD",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 20 SLA 21",
+      "date": "2021-07-13",
+      "dateKind": "status",
+      "chapter": "20",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2063",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2063",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 36",
+      "state": "AK",
+      "identifier": "HB 36",
+      "session": "32",
+      "title": "MOTOR VEHICLE DEALERS: APPLIC.; INSURANCE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 17 SLA 21",
+      "date": "2021-07-13",
+      "dateKind": "status",
+      "chapter": "17",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2036",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2036",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 27",
+      "state": "AK",
+      "identifier": "HB 27",
+      "session": "32",
+      "title": "NAMING IRENE WEBBER BRIDGE",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 21 SLA 21",
+      "date": "2021-07-13",
+      "dateKind": "status",
+      "chapter": "21",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2027",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2027",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 105",
+      "state": "AK",
+      "identifier": "HB 105",
+      "session": "32",
+      "title": "DETENTION OF MINORS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 16 SLA 21",
+      "date": "2021-07-08",
+      "dateKind": "status",
+      "chapter": "16",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20105",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20105",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 22",
+      "state": "AK",
+      "identifier": "HB 22",
+      "session": "32",
+      "title": "SHARED ANIMAL AND RAW MILK/PRODUCTS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 15 SLA 21",
+      "date": "2021-07-01",
+      "dateKind": "status",
+      "chapter": "15",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2022",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2022",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 71",
+      "state": "AK",
+      "identifier": "HB 71",
+      "session": "32",
+      "title": "APPROP: MENTAL HEALTH BUDGET",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 1 FSSLA 21",
+      "date": "2021-06-30",
+      "dateKind": "status",
+      "chapter": "1",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2071",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2071",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 69",
+      "state": "AK",
+      "identifier": "HB 69",
+      "session": "32",
+      "title": "APPROP: OPERATING BUDGET/LOANS/FUNDS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 1 SSSLA 21",
+      "date": "2021-06-30",
+      "dateKind": "status",
+      "chapter": "1",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2069",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2069",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 70",
+      "state": "AK",
+      "identifier": "SB 70",
+      "session": "32",
+      "title": "OPIOID OVERDOSE DRUGS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 14 SLA 21",
+      "date": "2021-06-29",
+      "dateKind": "status",
+      "chapter": "14",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2070",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2070",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 69",
+      "state": "AK",
+      "identifier": "SB 69",
+      "session": "32",
+      "title": "EXEMPT RENEWABLE ENERGY ELECTRIC PLANTS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 13 SLA 21",
+      "date": "2021-06-29",
+      "dateKind": "status",
+      "chapter": "13",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2069",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2069",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 19",
+      "state": "AK",
+      "identifier": "SB 19",
+      "session": "32",
+      "title": "EXTEND SPECIAL EDUCATION SERVICE AGENCY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 12 SLA 21",
+      "date": "2021-06-29",
+      "dateKind": "status",
+      "chapter": "12",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2019",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2019",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 87",
+      "state": "AK",
+      "identifier": "SB 87",
+      "session": "32",
+      "title": "REINSURANCE; CREDITS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 11 SLA 21",
+      "date": "2021-06-18",
+      "dateKind": "status",
+      "chapter": "11",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2087",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2087",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 115",
+      "state": "AK",
+      "identifier": "HB 115",
+      "session": "32",
+      "title": "AQUATIC FARMING & HATCHERY SITE LEASES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 10 SLA 21",
+      "date": "2021-06-15",
+      "dateKind": "status",
+      "chapter": "10",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20115",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20115",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 55",
+      "state": "AK",
+      "identifier": "SB 55",
+      "session": "32",
+      "title": "EMPLOYER CONTRIBUTIONS TO PERS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 9 SLA 21",
+      "date": "2021-06-09",
+      "dateKind": "status",
+      "chapter": "9",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2055",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2055",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 192",
+      "state": "AK",
+      "identifier": "HB 192",
+      "session": "32",
+      "title": "AK REG ECON ASSIST. PROGRAM; EXTEND",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 5 SLA 21",
+      "date": "2021-06-09",
+      "dateKind": "status",
+      "chapter": "5",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20192",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20192",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 182",
+      "state": "AK",
+      "identifier": "HB 182",
+      "session": "32",
+      "title": "EXTEND FISHERY RESOURCE LAND. TAX CREDIT",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 7 SLA 21",
+      "date": "2021-06-09",
+      "dateKind": "status",
+      "chapter": "7",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20182",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20182",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 126",
+      "state": "AK",
+      "identifier": "HB 126",
+      "session": "32",
+      "title": "EXTEND BOARD OF PUBLIC ACCOUNTANCY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 8 SLA 21",
+      "date": "2021-06-09",
+      "dateKind": "status",
+      "chapter": "8",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20126",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20126",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 117",
+      "state": "AK",
+      "identifier": "HB 117",
+      "session": "32",
+      "title": "EXTEND BOARD OF DIRECT-ENTRY MIDWIVES",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 6 SLA 21",
+      "date": "2021-06-09",
+      "dateKind": "status",
+      "chapter": "6",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20117",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20117",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 100",
+      "state": "AK",
+      "identifier": "HB 100",
+      "session": "32",
+      "title": "EXTEND WORKFORCE INVEST BOARD ALLOCATIONS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 4 SLA 21",
+      "date": "2021-06-09",
+      "dateKind": "status",
+      "chapter": "4",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20100",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20100",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 10",
+      "state": "AK",
+      "identifier": "HB 10",
+      "session": "32",
+      "title": "FUNTER BAY MARINE PARK: UNANGAN CEMETERY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 3 SLA 21",
+      "date": "2021-06-08",
+      "dateKind": "status",
+      "chapter": "3",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2010",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2010",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:HB 76",
+      "state": "AK",
+      "identifier": "HB 76",
+      "session": "32",
+      "title": "EXTENDING COVID 19 DISASTER EMERGENCY",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 2 SLA 21",
+      "date": "2021-04-30",
+      "dateKind": "status",
+      "chapter": "2",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2076",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=HB%20%2076",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    },
+    {
+      "id": "AK:32:SB 24",
+      "state": "AK",
+      "identifier": "SB 24",
+      "session": "32",
+      "title": "VIRTUAL MEETINGS FOR CORPORATIONS",
+      "status": "chaptered",
+      "statusLabel": "CHAPTER 1 SLA 21",
+      "date": "2021-03-31",
+      "dateKind": "status",
+      "chapter": "1",
+      "officialUrl": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2024",
+      "sources": [
+        {
+          "label": "Alaska Legislature BASIS bill",
+          "url": "https://www.akleg.gov/basis/Bill/Detail/32?Root=SB%20%2024",
+          "publisher": "Alaska State Legislature"
+        }
+      ]
+    }
+  ]
+}
