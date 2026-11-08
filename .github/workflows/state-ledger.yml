@@ -1,0 +1,59 @@
+name: State ledger ingest
+
+on:
+  schedule:
+    # A few states per run, so every state is revisited within a couple of days
+    # without pulling all 50 legislatures at once.
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      state:
+        description: "Postal code (WA) or ALL. Leave empty for the next incremental batch."
+        required: false
+        default: ""
+      batch:
+        description: "How many states to refresh when state is empty"
+        required: false
+        default: "8"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: state-ledger
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh state ledger
+        env:
+          OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
+          STATE_LEDGER_STATE: ${{ inputs.state }}
+          STATE_LEDGER_BATCH: ${{ inputs.batch }}
+        run: |
+          set -eu
+          args=()
+          if [ -n "$STATE_LEDGER_STATE" ]; then
+            args+=(--state "$STATE_LEDGER_STATE")
+          elif [ -n "$STATE_LEDGER_BATCH" ]; then
+            args+=(--batch "$STATE_LEDGER_BATCH")
+          fi
+          python3 scripts/state_ledger/ingest.py "${args[@]}"
+      - name: Commit state ledger updates
+        run: |
+          git config user.name "recordoflaw-state-ledger"
+          git config user.email "actions@recordoflaw.com"
+          git add ledger/states ledger/states-meta.json
+          if git diff --cached --quiet; then
+            echo "No state ledger changes"
+          else
+            git commit -m "Update state law ledger"
+            git push
+          fi
