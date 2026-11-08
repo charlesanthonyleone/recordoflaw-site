@@ -28,6 +28,7 @@ const CSS = `
 .desk-down .desk-pill,.desk-pill.down{background:#7f1d1d;color:#fecaca}
 .desk-pill.skipped,.desk-pill.unconfigured{background:rgba(255,255,255,.08);color:var(--muted)}
 .desk-actions{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin:0 0 8px}
+.desk-pulse{margin:8px 0 10px}
 .desk-actions button,.desk-textbtn{padding:6px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:transparent;color:inherit;cursor:pointer}
 .desk-actions button:disabled{opacity:.6;cursor:progress}
 .desk-alert{border-left:3px solid #f87171;background:#f871711c;padding:10px 14px;border-radius:8px;margin:8px 0}
@@ -207,6 +208,32 @@ function Ext({ href, children }) {
 function Alert({ status, message }) {
   if (!message || status === "live") return null;
   return e.jsx("div", { className: `desk-alert${status === "stale" ? " stale" : ""}`, role: "alert", children: message });
+}
+
+export function LedgerPulse({ href = "/wiki/ledger" } = {}) {
+  const model = useLedgerDesk();
+  if (model.loading || !model.desk) {
+    return e.jsx("p", { className: "small muted desk-pulse", children: "Reading the shared ledger…" });
+  }
+  const federal = model.desk.federal;
+  const tone = federal.status === "live" ? "live" : federal.status === "stale" ? "stale" : federal.status === "down" ? "down" : "skipped";
+  return e.jsxs("div", {
+    className: "desk-pulse",
+    children: [
+      e.jsxs("p", {
+        className: "small",
+        style: { margin: "4px 0" },
+        children: [
+          e.jsx("span", { className: `desk-pill ${tone}`, children: HEALTH_LABEL[federal.status] || federal.status }),
+          " Federal ledger, checked ",
+          e.jsx("time", { dateTime: federal.lastChecked || undefined, children: formatStamp(federal.lastChecked) }),
+          ". ",
+          e.jsx(Link, { to: href, children: "Open the law ledger" }),
+        ],
+      }),
+      e.jsx(Alert, { status: federal.status, message: federal.message }),
+    ],
+  });
 }
 
 export function LedgerStatus() {
